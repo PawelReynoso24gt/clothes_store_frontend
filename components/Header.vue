@@ -34,141 +34,141 @@
                 >
                   <nav>
                     <ul>
-                      <li class="has-dropdown">
-                        <a href="#">Home <i class="fa fa-angle-down"></i></a>
-                        <!-- Sub Menu -->
-                        <ul class="sub-menu">
-                          <li><nuxt-link to="/">Fashion</nuxt-link></li>
-                          <li>
-                            <nuxt-link to="/furniture">Furniture</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/electronics">Electronics</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/grocery">Grocery</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/pharmacy">Pharmacy</nuxt-link>
-                          </li>
-                        </ul>
-                      </li>
-
+                      <!-- aqui estaba el home-->
                       <li class="has-dropdown has-megaitem">
                         <a href="#">Shop <i class="fa fa-angle-down"></i></a>
                         <!-- Mega Menu -->
                         <div class="mega-menu">
                           <ul class="mega-menu-inner">
-                            <!-- Mega Menu Sub Link -->
+                            <!-- Hombres -->
                             <li class="mega-menu-item">
                               <a href="#" class="mega-menu-item-title"
-                                >Shop Layouts</a
+                                >HOMBRES</a
                               >
                               <ul class="mega-menu-sub">
                                 <li>
                                   <nuxt-link to="/shop"
-                                    >Shop Four Grid</nuxt-link
+                                    >Camisas</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/shop/shop-2"
-                                    >Shop Three Grid</nuxt-link
+                                    >Playeras</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/shop/shop-3"
-                                    >Shop List View</nuxt-link
+                                    >Pantalones</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/shop/shop-4"
-                                    >Shop Left Sidebar</nuxt-link
+                                    >Sueteres</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/shop/shop-5"
-                                    >Shop Right Sidebar</nuxt-link
+                                    >Pantalonetas</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/product/1"
-                                    >Product Single</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/product/product-single-2"
-                                    >Product Single Two</nuxt-link
+                                    >Trajes</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/product/product-single-3"
-                                    >Product Single Three</nuxt-link
+                                    >Jackets</nuxt-link
                                   >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/lookbook">Lookbook</nuxt-link>
                                 </li>
                               </ul>
                             </li>
-                            <!-- Mega Menu Sub Link -->
+                            <!-- Mujeres -->
                             <li class="mega-menu-item">
                               <a href="#" class="mega-menu-item-title"
-                                >Other Pages</a
+                                >MUJERES</a
                               >
                               <ul class="mega-menu-sub">
                                 <li>
                                   <nuxt-link to="/cart/"
-                                    >Cart View One</nuxt-link
+                                    >Blusas</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/cart/cart-2"
-                                    >Cart View Two
+                                    >Shorts
                                   </nuxt-link>
                                 </li>
                                 <li>
                                   <nuxt-link to="/cart/cart-3"
-                                    >Cart View Three
+                                    >Pantalones
                                   </nuxt-link>
                                 </li>
                                 <li>
                                   <nuxt-link to="/cart/cart-4"
-                                    >Cart View Four
+                                    >Tops
                                   </nuxt-link>
                                 </li>
                                 <li>
                                   <nuxt-link to="/cart/empty-cart"
-                                    >Empty Cart</nuxt-link
+                                    >Faldas</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/my-account/checkout-1"
-                                    >Checkout View One</nuxt-link
+                                    >Vestidos</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/my-account/checkout-2"
-                                    >Checkout View Two</nuxt-link
+                                    >Trajes</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/my-account/wishlist"
-                                    >Wishlist</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/compare"
-                                    >Compare</nuxt-link
+                                    >Sueteres</nuxt-link
                                   >
                                 </li>
                                 <li>
                                   <nuxt-link to="/my-account/order-tracking"
-                                    >Order Tracking</nuxt-link
+                                    >Jackets</nuxt-link
                                   >
                                 </li>
                               </ul>
                             </li>
-
+                            <!-- unisex-->
+                            <li class="mega-menu-item">
+                              <a href="#" class="mega-menu-item-title"
+                                >UNISEX</a
+                              >
+                              <ul class="mega-menu-sub">
+                                <li>
+                                  <nuxt-link to="/cart/"
+                                    >Camisas</nuxt-link
+                                  >
+                                </li>
+                                <li>
+                                  <nuxt-link to="/cart/cart-2"
+                                    >Playeras
+                                  </nuxt-link>
+                                </li>
+                                <li>
+                                  <nuxt-link to="/otras-paginas/pants"
+                                    >Pants
+                                  </nuxt-link>
+                                </li>
+                                <li>
+                                  <nuxt-link to="/otras-paginas/sueteres"
+                                    >Sueteres
+                                  </nuxt-link>
+                                </li>
+                                <li>
+                                  <nuxt-link to="/otras-paginas/jackets"
+                                    >Jackets</nuxt-link
+                                  >
+                                </li>
+                              </ul>
+                            </li>
                             <!-- Mega Menu Sub Link -->
                             <li class="mega-menu-item">
                               <div class="menu-banner">
@@ -186,8 +186,9 @@
                           </ul>
                         </div>
                       </li>
+                      <!-- descuentos-->
                       <li class="has-dropdown">
-                        <a href="#">Blog <i class="fa fa-angle-down"></i></a>
+                        <a href="#">DESCUENTOS <i class="fa fa-angle-down"></i></a>
                         <!-- Sub Menu -->
                         <ul class="sub-menu">
                           <li>
@@ -215,6 +216,7 @@
                           </li>
                         </ul>
                       </li>
+                      <!--paginas-->
                       <li class="has-dropdown">
                         <a href="#">Pages <i class="fa fa-angle-down"></i></a>
                         <!-- Sub Menu -->
@@ -256,6 +258,66 @@
                       </li>
                       <li>
                         <nuxt-link to="/about-us">About Us</nuxt-link>
+                      </li>
+                      <!-- cruds  -->
+                      <li class="has-dropdown">
+                        <a href="#">CRUD <i class="fa fa-angle-down"></i></a>
+                        <!-- Sub Menu -->
+                        <ul class="sub-menu">
+                          <li>
+                            <nuxt-link to="/crud/roles">Roles</nuxt-link>
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/usuarios"
+                              >Usuarios</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/clientes"
+                              >Clientes</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/empleados"
+                              >Empleados
+                            </nuxt-link>
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/productos"
+                              >Productos</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/inventario"
+                              >Inventario</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/cupones"
+                              >Cupones</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/descuentos"
+                              >Descuentos</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/tallas"
+                              >Tallas</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/temporadas"
+                              >Temporadas</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/crud/ocasiones"
+                              >Ocasiones</nuxt-link
+                            >
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </nav>
@@ -679,86 +741,109 @@ export default {
   data() {
     return {
       // Mobile Menu Item Data
-      menu: [
-        {
-          title: "Home",
-          child: [
-            {
-              href: "/",
-              title: "Fashion",
-            },
-            {
-              href: "/furniture",
-              title: "Furniture",
-            },
-            {
-              href: "/electronics",
-              title: "Electronics",
-            },
-          ],
-        },
+      menu: [    
         {
           title: "Shop",
           child: [
             {
+              //hombres
               title: "Shop Layout",
               child: [
                 {
                   href: "/shop",
-                  title: "Shop Four Grid",
+                  title: "Camisas",
                 },
                 {
                   href: "/shop/shop-2",
-                  title: "Shop Three Grid",
+                  title: "Playeras",
                 },
                 {
                   href: "/shop/shop-3",
-                  title: "Shop List View",
+                  title: "Pantalones",
                 },
                 {
                   href: "/shop/shop-4",
-                  title: "Shop Left Sidebar",
+                  title: "Sueteres",
                 },
                 {
                   href: "/shop/shop-5",
-                  title: "Shop Right Sidebar",
+                  title: "Pantalonetas",
+                },
+                {
+                  href: "/product/1",
+                  title: "Trajes",
+                },
+                {
+                  href: "/product/product-single-3",
+                  title: "Jackets",
                 },
               ],
             },
             {
+              //Mujeres
               title: "Shop Pages",
               child: [
                 {
                   href: "/cart/",
-                  title: "Cart View One",
+                  title: "Blusas",
                 },
                 {
                   href: "/cart/cart-2",
-                  title: "Cart View Two",
+                  title: "Shorts",
+                },
+                {
+                  href: "/cart/cart-3",
+                  title: "Pantalones",
+                },
+                {
+                  href: "/cart/cart-4",
+                  title: "Tops",
                 },
                 {
                   href: "/cart/empty-cart",
-                  title: "Empty Cart",
+                  title: "Faldas",
                 },
                 {
                   href: "/my-account/checkout-1",
-                  title: "Checkout View One",
+                  title: "Vestidos",
                 },
                 {
                   href: "/my-account/checkout-2",
-                  title: "Checkout View Two",
+                  title: "Trajes",
                 },
                 {
                   href: "/my-account/wishlist",
-                  title: "Wishlist",
-                },
-                {
-                  href: "/my-account/compare",
-                  title: "Compare",
+                  title: "Sueteres",
                 },
                 {
                   href: "/my-account/order-tracking",
-                  title: "Order Tracking",
+                  title: "Jackets",
+                },
+              ],
+            },
+            {
+              //Unisex
+              title: "Unisex",
+              child: [
+                {
+                  href: "/blog/blog-single",
+                  title: "Camisas",
+                },
+                {
+                  href: "/blog/blog-single-2",
+                  title: "Playeras",
+                },
+                {
+                  href: "/otras-paginas/pants",
+                  title: "Pants",
+                },
+                {
+                  href: "/otras-paginas/sueteres",
+                  title: "Sueteres",
+                },
+                {
+                  href: "/otras-paginas/jackets",
+                  title: "Jackets",
                 },
               ],
             },
@@ -778,6 +863,7 @@ export default {
           ],
         },
         {
+         //Descuentos
           title: "Blogs",
           child: [
             {
@@ -791,14 +877,6 @@ export default {
             {
               href: "/blog/blog-3",
               title: "Blog List View",
-            },
-            {
-              href: "/blog/blog-single",
-              title: "Blog Single View One",
-            },
-            {
-              href: "/blog/blog-single-2",
-              title: "Blog Single View TWo",
             },
           ],
         },
@@ -841,11 +919,62 @@ export default {
               href: "/login",
               title: "Login",
             },
+          
           ],
         },
         {
           href: "/about-us",
           title: "About Us",
+        },
+        //cruds
+        {
+          title: "CRUD",
+          child: [
+          {
+              href: "/crud/roles",
+              title: "Roles",
+            },
+            {
+              href: "/crud/usuarios",
+              title: "Usuarios",
+            },
+            {
+              href: "/crud/clientes",
+              title: "Clientes",
+            },
+            {
+              href: "/crud/empleados",
+              title: "Empleados",
+            },
+            {
+              href: "/crud/productos",
+              title: "Productos",
+            },
+            {
+              href: "/crud/inventario",
+              title: "Inventario",
+            },
+            {
+              href: "/crud/cupones",
+              title: "Cupones",
+            },
+            {
+              href: "/crud/descuentos",
+              title: "Descuentos",
+            },
+            {
+              href: "/crud/temporadas",
+              title: "Temporadas",
+            },
+            {
+              href: "/crud/ocasiones",
+              title: "Ocasiones",
+            },
+            {
+              href: "/crud/tallas",
+              title: "Tallas",
+            },
+          ],
         },
       ],
       products: [],
