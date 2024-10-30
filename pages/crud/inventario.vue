@@ -21,11 +21,18 @@
             </div>
             <div class="form-group">
               <label for="estado">Estado:</label>
-              <input type="number" v-model="nuevoInventario.estado" id="estado" required />
+              <select v-model="nuevoInventario.estado" id="estado" required>
+                <option value="1">Activo</option>
+                <option value="0">Inactivo</option>
+              </select>
             </div>
             <div class="form-group">
-              <label for="idProducto">ID Producto:</label>
-              <input type="number" v-model="nuevoInventario.idProducto" id="idProducto" required />
+              <label for="idProducto">Producto:</label>
+              <select v-model="nuevoInventario.idProducto" id="idProducto" required>
+                <option v-for="producto in productos" :key="producto.idProducto" :value="producto.idProducto">
+                  {{ producto.nombre }}
+                </option>
+              </select>
             </div>
             <button type="submit" class="btn-enviar">Crear</button>
             <button type="button" class="btn-cerrar" @click="cerrarModal">Cancelar</button>
@@ -33,20 +40,49 @@
         </div>
       </div>
   
-      <!-- Tabla de inventario -->
+      <!-- Modal para actualizar inventario -->
+      <div v-if="mostrarModalActualizarInventario" class="modal">
+        <div class="modal-contenido">
+          <span class="cerrar" @click="cerrarModalActualizar">&times;</span>
+          <h2>Actualizar Inventario</h2>
+          <form @submit.prevent="actualizarInventario">
+            <div class="form-group">
+              <label for="fechaIngreso">Fecha de ingreso:</label>
+              <input type="date" v-model="InventarioSeleccionado.fechaIngreso" id="fechaIngreso" required />
+            </div>
+            <div class="form-group">
+              <label for="cantidad">Cantidad:</label>
+              <input type="number" v-model="InventarioSeleccionado.cantidad" id="cantidad" required />
+            </div>
+            <div class="form-group">
+              <label for="idProducto">Producto:</label>
+              <select v-model="InventarioSeleccionado.idProducto" id="idProducto" required>
+                <option v-for="producto in productos" :key="producto.idProducto" :value="producto.idProducto">
+                  {{ producto.nombre }}
+                </option>
+              </select>
+            </div>
+            <button type="submit" class="btn-enviar">Actualizar</button>
+            <button type="button" class="btn-cerrar" @click="cerrarModalActualizar">Cancelar</button>
+          </form>
+        </div>
+      </div>
+  
+      <!-- Tabla de inventario activo -->
       <div class="tabla-contenedor">
-        <table v-if="inventarios.length" class="inventarios-table">
+        <table v-if="inventariosActivos.length" class="inventarios-table">
           <thead>
             <tr>
               <th>ID Inventario</th>
               <th>Fecha Ingreso</th>
               <th>Cantidad</th>
               <th>Estado</th>
-              <th>ID Producto</th>
+              <th>Producto</th>
+              <th>Acciones</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="inventario in inventarios" :key="inventario.idInventario">
+            <tr v-for="inventario in inventariosActivos" :key="inventario.idInventario">
               <td>{{ inventario.idInventario }}</td>
               <td>{{ inventario.fechaIngreso }}</td>
               <td>{{ inventario.cantidad }}</td>
@@ -54,11 +90,53 @@
               <td>{{ inventario.idProducto }}</td>
               <td>
                 <button @click="mostrarModalActualizar(inventario)" class="btn-actualizar">Actualizar</button>
+                <button @click="desactivarInventario(inventario)" class="btn-desactivar">Desactivar</button>
               </td>
             </tr>
           </tbody>
         </table>
-        <p v-else>No hay inventarios disponibles.</p>
+        <p v-else>No hay inventarios activos disponibles.</p>
+      </div>
+  
+      <!-- Botón para ver inventarios inactivos -->
+      <div class="boton-inactivos-contenedor">
+        <button @click="mostrarModalInactivos" class="btn-ver-inactivos">Ver Inventarios Inactivos</button>
+      </div>
+  
+      <!-- Modal para ver inventarios inactivos -->
+      <div v-if="mostrarModalInventariosInactivos" class="modal">
+        <div class="modal-contenido modal-grande">
+          <span class="cerrar" @click="cerrarModalInactivos">&times;</span>
+          <h2>Inventarios Inactivos</h2>
+          <div class="tabla-contenedor">
+            <table v-if="inventariosInactivos.length" class="inventarios-table">
+              <thead>
+                <tr>
+                  <th>ID Inventario</th>
+                  <th>Fecha Ingreso</th>
+                  <th>Cantidad</th>
+                  <th>Estado</th>
+                  <th>Producto</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="inventario in inventariosInactivos" :key="inventario.idInventario">
+                  <td>{{ inventario.idInventario }}</td>
+                  <td>{{ inventario.fechaIngreso }}</td>
+                  <td>{{ inventario.cantidad }}</td>
+                  <td>{{ inventario.estado === 1 ? 'ACTIVO' : 'INACTIVO' }}</td>
+                  <td>{{ inventario.idProducto }}</td>
+                  <td>
+                    <button @click="activarInventario(inventario)" class="btn-activar">Activar</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p v-else>No hay inventarios inactivos disponibles.</p>
+            <button type="button" class="btn-cerrar" @click="cerrarModalInactivos">Cerrar</button>
+          </div>
+        </div>
       </div>
     </div>
   </template>
@@ -70,8 +148,10 @@
     data() {
       return {
         inventarios: [],
+        productos: [],
         mostrarModal: false,
         mostrarModalActualizarInventario: false,
+        mostrarModalInventariosInactivos: false,
         InventarioSeleccionado: {},
         nuevoInventario: {
           fechaIngreso: "",
@@ -81,8 +161,17 @@
         },
       };
     },
+    computed: {
+      inventariosActivos() {
+        return this.inventarios.filter((inventario) => inventario.estado === 1);
+      },
+      inventariosInactivos() {
+        return this.inventarios.filter((inventario) => inventario.estado === 0);
+      },
+    },
     created() {
       this.obtenerInventarios();
+      this.obtenerProductos();
     },
     methods: {
       async obtenerInventarios() {
@@ -91,6 +180,14 @@
           this.inventarios = response.data;
         } catch (error) {
           console.error("Error al obtener los inventarios:", error);
+        }
+      },
+      async obtenerProductos() {
+        try {
+          const response = await axios.get("http://localhost:5000/inventarios/productos");
+          this.productos = response.data;
+        } catch (error) {
+          console.error("Error al obtener los productos:", error);
         }
       },
       mostrarModalCrear() {
@@ -102,9 +199,10 @@
       },
       async crearInventario() {
         try {
-          const response = await axios.post("http://localhost:5000/inventarios", this.nuevoInventario);
+          const response = await axios.post("http://localhost:5000/inventarios/create", this.nuevoInventario);
           this.inventarios.push(response.data);
           this.cerrarModal();
+          this.obtenerInventarios();
         } catch (error) {
           console.error("Error al crear el inventario:", error);
         }
@@ -118,19 +216,42 @@
       },
       async actualizarInventario() {
         try {
-          const response = await axios.put(`http://localhost:5000/inventarios/${this.InventarioSeleccionado.idInventario}`, {
-            fechaIngreso: this.InventarioSeleccionado.fechaIngreso,
-            cantidad: this.InventarioSeleccionado.cantidad,
-            estado: this.InventarioSeleccionado.estado,
-            idProducto: this.InventarioSeleccionado.idProducto,
-          });
-          const index = this.inventarios.findIndex(i => i.idInventario === response.data.idInventario);
+          const response = await axios.put(
+            `http://localhost:5000/inventarios/update/${this.InventarioSeleccionado.idInventario}`,
+            this.InventarioSeleccionado
+          );
+          const index = this.inventarios.findIndex((i) => i.idInventario === response.data.idInventario);
           if (index !== -1) {
             this.inventarios.splice(index, 1, response.data);
           }
           this.cerrarModalActualizar();
+          this.obtenerInventarios();
         } catch (error) {
           console.error("Error al actualizar el inventario:", error);
+        }
+      },
+      async desactivarInventario(inventario) {
+        try {
+          inventario.estado = 0;
+          await axios.put(`http://localhost:5000/inventarios/update/${inventario.idInventario}`, inventario);
+          this.obtenerInventarios();
+        } catch (error) {
+          console.error("Error al desactivar el inventario:", error);
+        }
+      },
+      mostrarModalInactivos() {
+        this.mostrarModalInventariosInactivos = true;
+      },
+      cerrarModalInactivos() {
+        this.mostrarModalInventariosInactivos = false;
+      },
+      async activarInventario(inventario) {
+        try {
+          inventario.estado = 1;
+          await axios.put(`http://localhost:5000/inventarios/update/${inventario.idInventario}`, inventario);
+          this.obtenerInventarios();
+        } catch (error) {
+          console.error("Error al activar el inventario:", error);
         }
       },
       limpiarFormulario() {
@@ -144,6 +265,7 @@
     },
   };
   </script>
+  
   
   <style scoped>
   .contenedor-principal {
