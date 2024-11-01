@@ -140,7 +140,7 @@
     methods: {
       async obtenerTemporadas() {
         try {
-          const response = await axios.get("http://localhost:5000/temporada");
+          const response = await axios.get("http://localhost:5000/temporada"); //ruta get
           this.temporadas = response.data;
         } catch (error) {
           console.error("Error al obtener las temporadas:", error);
