@@ -54,14 +54,6 @@
               <label for="cantidad">Cantidad:</label>
               <input type="number" v-model="InventarioSeleccionado.cantidad" id="cantidad" required />
             </div>
-            <div class="form-group">
-              <label for="idProducto">Producto:</label>
-              <select v-model="InventarioSeleccionado.idProducto" id="idProducto" required>
-                <option v-for="producto in productos" :key="producto.idProducto" :value="producto.idProducto">
-                  {{ producto.nombre }}
-                </option>
-              </select>
-            </div>
             <button type="submit" class="btn-enviar">Actualizar</button>
             <button type="button" class="btn-cerrar" @click="cerrarModalActualizar">Cancelar</button>
           </form>
