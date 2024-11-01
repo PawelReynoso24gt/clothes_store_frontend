@@ -17,6 +17,10 @@ export { default as InstagramArea } from '../..\\components\\instagram\\Instagra
 export { default as InstagramAreaElectronics } from '../..\\components\\instagram\\InstagramAreaElectronics.vue'
 export { default as InstagramAreaFurniture } from '../..\\components\\instagram\\InstagramAreaFurniture.vue'
 export { default as InstagramSliderItem } from '../..\\components\\instagram\\InstagramSliderItem.vue'
+export { default as InstagramArea } from '../..\\components\\instagram\\InstagramArea.vue'
+export { default as InstagramAreaElectronics } from '../..\\components\\instagram\\InstagramAreaElectronics.vue'
+export { default as InstagramAreaFurniture } from '../..\\components\\instagram\\InstagramAreaFurniture.vue'
+export { default as InstagramSliderItem } from '../..\\components\\instagram\\InstagramSliderItem.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

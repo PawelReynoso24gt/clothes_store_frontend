@@ -25,3 +25,7 @@ You can directly use them in pages and other components without the need to impo
 - `<InstagramAreaElectronics>` | `<instagram-area-electronics>` (components/instagram/InstagramAreaElectronics.vue)
 - `<InstagramAreaFurniture>` | `<instagram-area-furniture>` (components/instagram/InstagramAreaFurniture.vue)
 - `<InstagramSliderItem>` | `<instagram-slider-item>` (components/instagram/InstagramSliderItem.vue)
+- `<InstagramArea>` | `<instagram-area>` (components/instagram/InstagramArea.vue)
+- `<InstagramAreaElectronics>` | `<instagram-area-electronics>` (components/instagram/InstagramAreaElectronics.vue)
+- `<InstagramAreaFurniture>` | `<instagram-area-furniture>` (components/instagram/InstagramAreaFurniture.vue)
+- `<InstagramSliderItem>` | `<instagram-slider-item>` (components/instagram/InstagramSliderItem.vue)
