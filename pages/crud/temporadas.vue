@@ -2,10 +2,8 @@
     <div class="contenedor-principal">
       <h1 class="titulo-centrado">Lista de Temporadas</h1>
   
-      <!-- Botón para crear temporada -->
       <button @click="mostrarModalCrear" class="btn-crear">Crear Temporada</button>
   
-      <!-- Modal para crear temporada -->
       <div v-if="mostrarModal" class="modal">
         <div class="modal-contenido">
           <span class="cerrar" @click="cerrarModal">&times;</span>
@@ -27,8 +25,7 @@
           </form>
         </div>
       </div>
-  
-      <!-- Modal para actualizar temporada -->
+
       <div v-if="isModalActualizarVisible" class="modal">
         <div class="modal-contenido">
           <span class="cerrar" @click="cerrarModalActualizar">&times;</span>
@@ -44,7 +41,6 @@
         </div>
       </div>
   
-      <!-- Tabla de temporadas activas -->
       <div class="tabla-contenedor">
         <table v-if="temporadasActivas.length" class="inventarios-table">
           <thead>
@@ -70,12 +66,10 @@
         <p v-else>No hay temporadas activas disponibles.</p>
       </div>
   
-      <!-- Botón para ver temporadas inactivas -->
       <div class="boton-inactivos-contenedor">
         <button @click="mostrarModalInactivos" class="btn-ver-inactivos">Ver Temporadas Inactivas</button>
       </div>
   
-      <!-- Modal para ver temporadas inactivas -->
       <div v-if="mostrarModalTemporadasInactivas" class="modal">
         <div class="modal-contenido modal-grande">
           <span class="cerrar" @click="cerrarModalInactivos">&times;</span>
@@ -94,7 +88,7 @@
                 <tr v-for="temporada in temporadasInactivas" :key="temporada.idTemporada">
                   <td>{{ temporada.idTemporada }}</td>
                   <td>{{ temporada.temporada }}</td>
-                  <td>{{ temporada.estado === 0 ? 'INACTIVO' : 'ACTIVO' }}</td>
+                  <td>{{ temporada.estado === 1 ? 'ACTIVO' : 'INACTIVO' }}</td>
                   <td>
                     <button @click="activarTemporada(temporada)" class="btn-activar">Activar</button>
                   </td>
@@ -116,8 +110,9 @@
     data() {
       return {
         temporadas: [],
+        temporadasInactivas: [],
         mostrarModal: false,
-        isModalActualizarVisible: false, // Renombrado de la propiedad
+        isModalActualizarVisible: false, 
         mostrarModalTemporadasInactivas: false,
         temporadaSeleccionada: {},
         nuevaTemporada: {
@@ -140,10 +135,18 @@
     methods: {
       async obtenerTemporadas() {
         try {
-          const response = await axios.get("http://localhost:5000/temporada"); //ruta get
+          const response = await axios.get("http://localhost:5000/temporada");
           this.temporadas = response.data;
         } catch (error) {
           console.error("Error al obtener las temporadas:", error);
+        }
+      },
+      async obtenerTemporadasInactivas() {
+        try {
+          const response = await axios.get("http://localhost:5000/temporada/inactivas");
+          this.temporadasInactivas = response.data;
+        } catch (error) {
+          console.error("Error al obtener las temporadas inactivas:", error);
         }
       },
       mostrarModalCrear() {
@@ -190,6 +193,7 @@
       },
       mostrarModalInactivos() {
         this.mostrarModalTemporadasInactivas = true;
+        this.obtenerTemporadasInactivas(); // Cargar temporadas inactivas al abrir el modal
       },
       cerrarModalInactivos() {
         this.mostrarModalTemporadasInactivas = false;
@@ -211,8 +215,7 @@
       },
     },
   };
-  </script>
-  
+  </script>  
   
   <style scoped>
   .contenedor-principal {
