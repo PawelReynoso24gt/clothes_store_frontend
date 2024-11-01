@@ -3,384 +3,448 @@
     "name": "404",
     "path": "/404",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\404.vue",
-    "chunkName": "pages/404"
+    "chunkName": "pages/404",
+    "_name": "_559a7ff5"
   },
   {
     "name": "about-us",
     "path": "/about-us",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us"
+    "chunkName": "pages/about-us",
+    "_name": "_7f9a611e"
   },
   {
     "name": "blog",
     "path": "/blog",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\blog\\\\index.vue",
-    "chunkName": "pages/blog/index"
+    "chunkName": "pages/blog/index",
+    "_name": "_0eb9892d"
   },
   {
     "name": "cart",
     "path": "/cart",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\cart\\\\index.vue",
-    "chunkName": "pages/cart/index"
+    "chunkName": "pages/cart/index",
+    "_name": "_38c87a22"
   },
   {
     "name": "coming-soon",
     "path": "/coming-soon",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\coming-soon.vue",
-    "chunkName": "pages/coming-soon"
+    "chunkName": "pages/coming-soon",
+    "_name": "_54e821f8"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\contact-us\\\\index.vue",
-    "chunkName": "pages/contact-us/index"
+    "chunkName": "pages/contact-us/index",
+    "_name": "_12ebe204"
   },
   {
     "name": "electronics",
     "path": "/electronics",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\electronics.vue",
-    "chunkName": "pages/electronics"
+    "chunkName": "pages/electronics",
+    "_name": "_1e9107b4"
   },
   {
     "name": "faq",
     "path": "/faq",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\faq.vue",
-    "chunkName": "pages/faq"
+    "chunkName": "pages/faq",
+    "_name": "_018b22d3"
   },
   {
     "name": "furniture",
     "path": "/furniture",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\furniture.vue",
-    "chunkName": "pages/furniture"
+    "chunkName": "pages/furniture",
+    "_name": "_0345b1ef"
   },
   {
     "name": "grocery",
     "path": "/grocery",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\grocery.vue",
-    "chunkName": "pages/grocery"
+    "chunkName": "pages/grocery",
+    "_name": "_632b9a6c"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_4657b066"
   },
   {
     "name": "lookbook",
     "path": "/lookbook",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\lookbook.vue",
-    "chunkName": "pages/lookbook"
+    "chunkName": "pages/lookbook",
+    "_name": "_249df79b"
   },
   {
     "name": "my-account",
     "path": "/my-account",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\index.vue",
-    "chunkName": "pages/my-account/index"
+    "chunkName": "pages/my-account/index",
+    "_name": "_92add87a"
   },
   {
     "name": "pharmacy",
     "path": "/pharmacy",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\pharmacy.vue",
-    "chunkName": "pages/pharmacy"
+    "chunkName": "pages/pharmacy",
+    "_name": "_615f54c6"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\privacy-policy.vue",
-    "chunkName": "pages/privacy-policy"
+    "chunkName": "pages/privacy-policy",
+    "_name": "_33af38ea"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "chunkName": "pages/register",
+    "_name": "_d66c7294"
   },
   {
     "name": "shop",
     "path": "/shop",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\shop\\\\index.vue",
-    "chunkName": "pages/shop/index"
+    "chunkName": "pages/shop/index",
+    "_name": "_77d97d4e"
   },
   {
     "name": "vendor-dashboard",
     "path": "/vendor-dashboard",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\index.vue",
-    "chunkName": "pages/vendor-dashboard/index"
+    "chunkName": "pages/vendor-dashboard/index",
+    "_name": "_110472e0"
   },
   {
     "name": "blog-blog-2",
     "path": "/blog/blog-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\blog\\\\blog-2.vue",
-    "chunkName": "pages/blog/blog-2"
+    "chunkName": "pages/blog/blog-2",
+    "_name": "_52823d7c"
   },
   {
     "name": "blog-blog-3",
     "path": "/blog/blog-3",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\blog\\\\blog-3.vue",
-    "chunkName": "pages/blog/blog-3"
+    "chunkName": "pages/blog/blog-3",
+    "_name": "_529054fd"
   },
   {
     "name": "blog-blog-single-2",
     "path": "/blog/blog-single-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\blog\\\\blog-single-2.vue",
-    "chunkName": "pages/blog/blog-single-2"
+    "chunkName": "pages/blog/blog-single-2",
+    "_name": "_873327da"
   },
   {
     "name": "cart-cart-2",
     "path": "/cart/cart-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\cart\\\\cart-2.vue",
-    "chunkName": "pages/cart/cart-2"
+    "chunkName": "pages/cart/cart-2",
+    "_name": "_d2d71e10"
   },
   {
     "name": "cart-cart-3",
     "path": "/cart/cart-3",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\cart\\\\cart-3.vue",
-    "chunkName": "pages/cart/cart-3"
+    "chunkName": "pages/cart/cart-3",
+    "_name": "_d2baef0e"
   },
   {
     "name": "cart-cart-4",
     "path": "/cart/cart-4",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\cart\\\\cart-4.vue",
-    "chunkName": "pages/cart/cart-4"
+    "chunkName": "pages/cart/cart-4",
+    "_name": "_d29ec00c"
   },
   {
     "name": "cart-empty-cart",
     "path": "/cart/empty-cart",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\cart\\\\empty-cart.vue",
-    "chunkName": "pages/cart/empty-cart"
+    "chunkName": "pages/cart/empty-cart",
+    "_name": "_0dfe2cd3"
   },
   {
     "name": "contact-us-contact-us-2",
     "path": "/contact-us/contact-us-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\contact-us\\\\contact-us-2.vue",
-    "chunkName": "pages/contact-us/contact-us-2"
+    "chunkName": "pages/contact-us/contact-us-2",
+    "_name": "_3c4fe00e"
   },
   {
     "name": "crud-clientes",
     "path": "/crud/clientes",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\clientes.vue",
-    "chunkName": "pages/crud/clientes"
+    "chunkName": "pages/crud/clientes",
+    "_name": "_25d6f0ca"
   },
   {
     "name": "crud-cupones",
     "path": "/crud/cupones",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\cupones.vue",
-    "chunkName": "pages/crud/cupones"
+    "chunkName": "pages/crud/cupones",
+    "_name": "_555609ec"
   },
   {
     "name": "crud-descuentos",
     "path": "/crud/descuentos",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\descuentos.vue",
-    "chunkName": "pages/crud/descuentos"
+    "chunkName": "pages/crud/descuentos",
+    "_name": "_58828b48"
   },
   {
     "name": "crud-empleados",
     "path": "/crud/empleados",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\empleados.vue",
-    "chunkName": "pages/crud/empleados"
+    "chunkName": "pages/crud/empleados",
+    "_name": "_15d59dc7"
   },
   {
     "name": "crud-inventario",
     "path": "/crud/inventario",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\inventario.vue",
-    "chunkName": "pages/crud/inventario"
+    "chunkName": "pages/crud/inventario",
+    "_name": "_27dc7442"
   },
   {
     "name": "crud-ocasiones",
     "path": "/crud/ocasiones",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\ocasiones.vue",
-    "chunkName": "pages/crud/ocasiones"
+    "chunkName": "pages/crud/ocasiones",
+    "_name": "_0def122f"
   },
   {
     "name": "crud-productos",
     "path": "/crud/productos",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\productos.vue",
-    "chunkName": "pages/crud/productos"
+    "chunkName": "pages/crud/productos",
+    "_name": "_b1a83b5c"
   },
   {
     "name": "crud-roles",
     "path": "/crud/roles",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\roles.vue",
-    "chunkName": "pages/crud/roles"
+    "chunkName": "pages/crud/roles",
+    "_name": "_78f95c7c"
   },
   {
     "name": "crud-tallas",
     "path": "/crud/tallas",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\tallas.vue",
-    "chunkName": "pages/crud/tallas"
+    "chunkName": "pages/crud/tallas",
+    "_name": "_6b71f020"
   },
   {
     "name": "crud-temporadas",
     "path": "/crud/temporadas",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\temporadas.vue",
-    "chunkName": "pages/crud/temporadas"
+    "chunkName": "pages/crud/temporadas",
+    "_name": "_7418b01d"
   },
   {
     "name": "crud-usuarios",
     "path": "/crud/usuarios",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\crud\\\\usuarios.vue",
-    "chunkName": "pages/crud/usuarios"
+    "chunkName": "pages/crud/usuarios",
+    "_name": "_4fa5a416"
   },
   {
     "name": "my-account-account-details",
     "path": "/my-account/account-details",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\account-details.vue",
-    "chunkName": "pages/my-account/account-details"
+    "chunkName": "pages/my-account/account-details",
+    "_name": "_65c44a53"
   },
   {
     "name": "my-account-account-info-edit",
     "path": "/my-account/account-info-edit",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\account-info-edit.vue",
-    "chunkName": "pages/my-account/account-info-edit"
+    "chunkName": "pages/my-account/account-info-edit",
+    "_name": "_42252bcc"
   },
   {
     "name": "my-account-addresses",
     "path": "/my-account/addresses",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\addresses.vue",
-    "chunkName": "pages/my-account/addresses"
+    "chunkName": "pages/my-account/addresses",
+    "_name": "_3cce2a13"
   },
   {
     "name": "my-account-checkout-1",
     "path": "/my-account/checkout-1",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\checkout-1.vue",
-    "chunkName": "pages/my-account/checkout-1"
+    "chunkName": "pages/my-account/checkout-1",
+    "_name": "_03870549"
   },
   {
     "name": "my-account-checkout-2",
     "path": "/my-account/checkout-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\checkout-2.vue",
-    "chunkName": "pages/my-account/checkout-2"
+    "chunkName": "pages/my-account/checkout-2",
+    "_name": "_03951cca"
   },
   {
     "name": "my-account-compare",
     "path": "/my-account/compare",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\compare.vue",
-    "chunkName": "pages/my-account/compare"
+    "chunkName": "pages/my-account/compare",
+    "_name": "_f20017d4"
   },
   {
     "name": "my-account-downloads",
     "path": "/my-account/downloads",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\downloads.vue",
-    "chunkName": "pages/my-account/downloads"
+    "chunkName": "pages/my-account/downloads",
+    "_name": "_4d422adc"
   },
   {
     "name": "my-account-order-tracking",
     "path": "/my-account/order-tracking",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\order-tracking.vue",
-    "chunkName": "pages/my-account/order-tracking"
+    "chunkName": "pages/my-account/order-tracking",
+    "_name": "_796d8cb5"
   },
   {
     "name": "my-account-orders",
     "path": "/my-account/orders",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\orders.vue",
-    "chunkName": "pages/my-account/orders"
+    "chunkName": "pages/my-account/orders",
+    "_name": "_22b254c4"
   },
   {
     "name": "my-account-wishlist",
     "path": "/my-account/wishlist",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\my-account\\\\wishlist.vue",
-    "chunkName": "pages/my-account/wishlist"
+    "chunkName": "pages/my-account/wishlist",
+    "_name": "_434ae1e4"
   },
   {
     "name": "otras-paginas-jackets",
     "path": "/otras-paginas/jackets",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\otras-paginas\\\\jackets.vue",
-    "chunkName": "pages/otras-paginas/jackets"
+    "chunkName": "pages/otras-paginas/jackets",
+    "_name": "_4e865e19"
   },
   {
     "name": "otras-paginas-pants",
     "path": "/otras-paginas/pants",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\otras-paginas\\\\pants.vue",
-    "chunkName": "pages/otras-paginas/pants"
+    "chunkName": "pages/otras-paginas/pants",
+    "_name": "_9d9227e0"
   },
   {
     "name": "otras-paginas-sueteres",
     "path": "/otras-paginas/sueteres",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\otras-paginas\\\\sueteres.vue",
-    "chunkName": "pages/otras-paginas/sueteres"
+    "chunkName": "pages/otras-paginas/sueteres",
+    "_name": "_0a5847a8"
   },
   {
     "name": "product-product-single-2",
     "path": "/product/product-single-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\product\\\\product-single-2.vue",
-    "chunkName": "pages/product/product-single-2"
+    "chunkName": "pages/product/product-single-2",
+    "_name": "_aa475c92"
   },
   {
     "name": "product-product-single-3",
     "path": "/product/product-single-3",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\product\\\\product-single-3.vue",
-    "chunkName": "pages/product/product-single-3"
+    "chunkName": "pages/product/product-single-3",
+    "_name": "_aa2b2d90"
   },
   {
     "name": "shop-shop-2",
     "path": "/shop/shop-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\shop\\\\shop-2.vue",
-    "chunkName": "pages/shop/shop-2"
+    "chunkName": "pages/shop/shop-2",
+    "_name": "_0c466724"
   },
   {
     "name": "shop-shop-3",
     "path": "/shop/shop-3",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\shop\\\\shop-3.vue",
-    "chunkName": "pages/shop/shop-3"
+    "chunkName": "pages/shop/shop-3",
+    "_name": "_0c547ea5"
   },
   {
     "name": "shop-shop-4",
     "path": "/shop/shop-4",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\shop\\\\shop-4.vue",
-    "chunkName": "pages/shop/shop-4"
+    "chunkName": "pages/shop/shop-4",
+    "_name": "_0c629626"
   },
   {
     "name": "shop-shop-5",
     "path": "/shop/shop-5",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\shop\\\\shop-5.vue",
-    "chunkName": "pages/shop/shop-5"
+    "chunkName": "pages/shop/shop-5",
+    "_name": "_0c70ada7"
   },
   {
     "name": "vendor-dashboard-add-product",
     "path": "/vendor-dashboard/add-product",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\add-product.vue",
-    "chunkName": "pages/vendor-dashboard/add-product"
+    "chunkName": "pages/vendor-dashboard/add-product",
+    "_name": "_03cfb0d1"
   },
   {
     "name": "vendor-dashboard-order",
     "path": "/vendor-dashboard/order",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\order.vue",
-    "chunkName": "pages/vendor-dashboard/order"
+    "chunkName": "pages/vendor-dashboard/order",
+    "_name": "_29cf335c"
   },
   {
     "name": "vendor-dashboard-product",
     "path": "/vendor-dashboard/product",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\product.vue",
-    "chunkName": "pages/vendor-dashboard/product"
+    "chunkName": "pages/vendor-dashboard/product",
+    "_name": "_77ab7afd"
   },
   {
     "name": "vendor-dashboard-profile",
     "path": "/vendor-dashboard/profile",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\profile.vue",
-    "chunkName": "pages/vendor-dashboard/profile"
+    "chunkName": "pages/vendor-dashboard/profile",
+    "_name": "_49a96a92"
   },
   {
     "name": "vendor-dashboard-setting",
     "path": "/vendor-dashboard/setting",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\setting.vue",
-    "chunkName": "pages/vendor-dashboard/setting"
+    "chunkName": "pages/vendor-dashboard/setting",
+    "_name": "_6d69b844"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_7cb00d4f"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\blog\\\\_slug.vue",
-    "chunkName": "pages/blog/_slug"
+    "chunkName": "pages/blog/_slug",
+    "_name": "_0d02e7e5"
   },
   {
     "name": "product-id",
     "path": "/product/:id?",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\product\\\\_id.vue",
-    "chunkName": "pages/product/_id"
+    "chunkName": "pages/product/_id",
+    "_name": "_805ff584"
   }
 ]
