@@ -3,448 +3,384 @@
     "name": "404",
     "path": "/404",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\404.vue",
-    "chunkName": "pages/404",
-    "_name": "_1b32c116"
+    "chunkName": "pages/404"
   },
   {
     "name": "about-us",
     "path": "/about-us",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us",
-    "_name": "_038e5ff1"
+    "chunkName": "pages/about-us"
   },
   {
     "name": "blog",
     "path": "/blog",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\blog\\\\index.vue",
-    "chunkName": "pages/blog/index",
-    "_name": "_e9a3aea6"
+    "chunkName": "pages/blog/index"
   },
   {
     "name": "cart",
     "path": "/cart",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\cart\\\\index.vue",
-    "chunkName": "pages/cart/index",
-    "_name": "_6010626f"
+    "chunkName": "pages/cart/index"
   },
   {
     "name": "coming-soon",
     "path": "/coming-soon",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\coming-soon.vue",
-    "chunkName": "pages/coming-soon",
-    "_name": "_52008e84"
+    "chunkName": "pages/coming-soon"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\contact-us\\\\index.vue",
-    "chunkName": "pages/contact-us/index",
-    "_name": "_4b6a3cf8"
+    "chunkName": "pages/contact-us/index"
   },
   {
     "name": "electronics",
     "path": "/electronics",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\electronics.vue",
-    "chunkName": "pages/electronics",
-    "_name": "_c9f4b198"
+    "chunkName": "pages/electronics"
   },
   {
     "name": "faq",
     "path": "/faq",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\faq.vue",
-    "chunkName": "pages/faq",
-    "_name": "_c3517b5a"
+    "chunkName": "pages/faq"
   },
   {
     "name": "furniture",
     "path": "/furniture",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\furniture.vue",
-    "chunkName": "pages/furniture",
-    "_name": "_2b5c316f"
+    "chunkName": "pages/furniture"
   },
   {
     "name": "grocery",
     "path": "/grocery",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\grocery.vue",
-    "chunkName": "pages/grocery",
-    "_name": "_3dcadb6c"
+    "chunkName": "pages/grocery"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_3ecc2034"
+    "chunkName": "pages/login"
   },
   {
     "name": "lookbook",
     "path": "/lookbook",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\lookbook.vue",
-    "chunkName": "pages/lookbook",
-    "_name": "_67f9881b"
+    "chunkName": "pages/lookbook"
   },
   {
     "name": "my-account",
     "path": "/my-account",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\index.vue",
-    "chunkName": "pages/my-account/index",
-    "_name": "_7e081343"
+    "chunkName": "pages/my-account/index"
   },
   {
     "name": "pharmacy",
     "path": "/pharmacy",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\pharmacy.vue",
-    "chunkName": "pages/pharmacy",
-    "_name": "_b68a3574"
+    "chunkName": "pages/pharmacy"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\privacy-policy.vue",
-    "chunkName": "pages/privacy-policy",
-    "_name": "_3b3c696a"
+    "chunkName": "pages/privacy-policy"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\register.vue",
-    "chunkName": "pages/register",
-    "_name": "_4fb55194"
+    "chunkName": "pages/register"
   },
   {
     "name": "shop",
     "path": "/shop",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\shop\\\\index.vue",
-    "chunkName": "pages/shop/index",
-    "_name": "_4087e0d9"
+    "chunkName": "pages/shop/index"
   },
   {
     "name": "vendor-dashboard",
     "path": "/vendor-dashboard",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\vendor-dashboard\\\\index.vue",
-    "chunkName": "pages/vendor-dashboard/index",
-    "_name": "_2205d260"
+    "chunkName": "pages/vendor-dashboard/index"
   },
   {
     "name": "blog-blog-2",
     "path": "/blog/blog-2",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\blog\\\\blog-2.vue",
-    "chunkName": "pages/blog/blog-2",
-    "_name": "_64a18dfc"
+    "chunkName": "pages/blog/blog-2"
   },
   {
     "name": "blog-blog-3",
     "path": "/blog/blog-3",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\blog\\\\blog-3.vue",
-    "chunkName": "pages/blog/blog-3",
-    "_name": "_64afa57d"
+    "chunkName": "pages/blog/blog-3"
   },
   {
     "name": "blog-blog-single-2",
     "path": "/blog/blog-single-2",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\blog\\\\blog-single-2.vue",
-    "chunkName": "pages/blog/blog-single-2",
-    "_name": "_28038b93"
+    "chunkName": "pages/blog/blog-single-2"
   },
   {
     "name": "cart-cart-2",
     "path": "/cart/cart-2",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\cart\\\\cart-2.vue",
-    "chunkName": "pages/cart/cart-2",
-    "_name": "_ae987d10"
+    "chunkName": "pages/cart/cart-2"
   },
   {
     "name": "cart-cart-3",
     "path": "/cart/cart-3",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\cart\\\\cart-3.vue",
-    "chunkName": "pages/cart/cart-3",
-    "_name": "_ae7c4e0e"
+    "chunkName": "pages/cart/cart-3"
   },
   {
     "name": "cart-cart-4",
     "path": "/cart/cart-4",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\cart\\\\cart-4.vue",
-    "chunkName": "pages/cart/cart-4",
-    "_name": "_ae601f0c"
+    "chunkName": "pages/cart/cart-4"
   },
   {
     "name": "cart-empty-cart",
     "path": "/cart/empty-cart",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\cart\\\\empty-cart.vue",
-    "chunkName": "pages/cart/empty-cart",
-    "_name": "_67013d53"
+    "chunkName": "pages/cart/empty-cart"
   },
   {
     "name": "contact-us-contact-us-2",
     "path": "/contact-us/contact-us-2",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\contact-us\\\\contact-us-2.vue",
-    "chunkName": "pages/contact-us/contact-us-2",
-    "_name": "_4b7a708e"
+    "chunkName": "pages/contact-us/contact-us-2"
   },
   {
     "name": "crud-clientes",
     "path": "/crud/clientes",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\clientes.vue",
-    "chunkName": "pages/crud/clientes",
-    "_name": "_2d64214a"
+    "chunkName": "pages/crud/clientes"
   },
   {
     "name": "crud-cupones",
     "path": "/crud/cupones",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\cupones.vue",
-    "chunkName": "pages/crud/cupones",
-    "_name": "_071fba8a"
+    "chunkName": "pages/crud/cupones"
   },
   {
     "name": "crud-descuentos",
     "path": "/crud/descuentos",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\descuentos.vue",
-    "chunkName": "pages/crud/descuentos",
-    "_name": "_2cc1cadc"
+    "chunkName": "pages/crud/descuentos"
   },
   {
     "name": "crud-empleados",
     "path": "/crud/empleados",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\empleados.vue",
-    "chunkName": "pages/crud/empleados",
-    "_name": "_00230572"
+    "chunkName": "pages/crud/empleados"
   },
   {
     "name": "crud-inventario",
     "path": "/crud/inventario",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\inventario.vue",
-    "chunkName": "pages/crud/inventario",
-    "_name": "_fe40f67c"
+    "chunkName": "pages/crud/inventario"
   },
   {
     "name": "crud-ocasiones",
     "path": "/crud/ocasiones",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\ocasiones.vue",
-    "chunkName": "pages/crud/ocasiones",
-    "_name": "_0ff01ca2"
+    "chunkName": "pages/crud/ocasiones"
   },
   {
     "name": "crud-productos",
     "path": "/crud/productos",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\productos.vue",
-    "chunkName": "pages/crud/productos",
-    "_name": "_dd767c5c"
+    "chunkName": "pages/crud/productos"
   },
   {
     "name": "crud-roles",
     "path": "/crud/roles",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\roles.vue",
-    "chunkName": "pages/crud/roles",
-    "_name": "_15240808"
+    "chunkName": "pages/crud/roles"
   },
   {
     "name": "crud-tallas",
     "path": "/crud/tallas",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\tallas.vue",
-    "chunkName": "pages/crud/tallas",
-    "_name": "_47334f20"
+    "chunkName": "pages/crud/tallas"
   },
   {
     "name": "crud-temporadas",
     "path": "/crud/temporadas",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\temporadas.vue",
-    "chunkName": "pages/crud/temporadas",
-    "_name": "_65c87ec6"
+    "chunkName": "pages/crud/temporadas"
   },
   {
     "name": "crud-usuarios",
     "path": "/crud/usuarios",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\crud\\\\usuarios.vue",
-    "chunkName": "pages/crud/usuarios",
-    "_name": "_5732d496"
+    "chunkName": "pages/crud/usuarios"
   },
   {
     "name": "my-account-account-details",
     "path": "/my-account/account-details",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\account-details.vue",
-    "chunkName": "pages/my-account/account-details",
-    "_name": "_5009e9d3"
+    "chunkName": "pages/my-account/account-details"
   },
   {
     "name": "my-account-account-info-edit",
     "path": "/my-account/account-info-edit",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\account-info-edit.vue",
-    "chunkName": "pages/my-account/account-info-edit",
-    "_name": "_4e49299a"
+    "chunkName": "pages/my-account/account-info-edit"
   },
   {
     "name": "my-account-addresses",
     "path": "/my-account/addresses",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\addresses.vue",
-    "chunkName": "pages/my-account/addresses",
-    "_name": "_35a16993"
+    "chunkName": "pages/my-account/addresses"
   },
   {
     "name": "my-account-checkout-1",
     "path": "/my-account/checkout-1",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\checkout-1.vue",
-    "chunkName": "pages/my-account/checkout-1",
-    "_name": "_251bb5c9"
+    "chunkName": "pages/my-account/checkout-1"
   },
   {
     "name": "my-account-checkout-2",
     "path": "/my-account/checkout-2",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\checkout-2.vue",
-    "chunkName": "pages/my-account/checkout-2",
-    "_name": "_2529cd4a"
+    "chunkName": "pages/my-account/checkout-2"
   },
   {
     "name": "my-account-compare",
     "path": "/my-account/compare",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\compare.vue",
-    "chunkName": "pages/my-account/compare",
-    "_name": "_1ac5d8d4"
+    "chunkName": "pages/my-account/compare"
   },
   {
     "name": "my-account-downloads",
     "path": "/my-account/downloads",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\downloads.vue",
-    "chunkName": "pages/my-account/downloads",
-    "_name": "_46156a5c"
+    "chunkName": "pages/my-account/downloads"
   },
   {
     "name": "my-account-order-tracking",
     "path": "/my-account/order-tracking",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\order-tracking.vue",
-    "chunkName": "pages/my-account/order-tracking",
-    "_name": "_6835fd35"
+    "chunkName": "pages/my-account/order-tracking"
   },
   {
     "name": "my-account-orders",
     "path": "/my-account/orders",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\orders.vue",
-    "chunkName": "pages/my-account/orders",
-    "_name": "_47334544"
+    "chunkName": "pages/my-account/orders"
   },
   {
     "name": "my-account-wishlist",
     "path": "/my-account/wishlist",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\my-account\\\\wishlist.vue",
-    "chunkName": "pages/my-account/wishlist",
-    "_name": "_4b51b264"
+    "chunkName": "pages/my-account/wishlist"
   },
   {
     "name": "otras-paginas-jackets",
     "path": "/otras-paginas/jackets",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\otras-paginas\\\\jackets.vue",
-    "chunkName": "pages/otras-paginas/jackets",
-    "_name": "_701b0e99"
+    "chunkName": "pages/otras-paginas/jackets"
   },
   {
     "name": "otras-paginas-pants",
     "path": "/otras-paginas/pants",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\otras-paginas\\\\pants.vue",
-    "chunkName": "pages/otras-paginas/pants",
-    "_name": "_8d8486e0"
+    "chunkName": "pages/otras-paginas/pants"
   },
   {
     "name": "otras-paginas-sueteres",
     "path": "/otras-paginas/sueteres",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\otras-paginas\\\\sueteres.vue",
-    "chunkName": "pages/otras-paginas/sueteres",
-    "_name": "_1b59a728"
+    "chunkName": "pages/otras-paginas/sueteres"
   },
   {
     "name": "product-product-single-2",
     "path": "/product/product-single-2",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\product\\\\product-single-2.vue",
-    "chunkName": "pages/product/product-single-2",
-    "_name": "_fdf85d92"
+    "chunkName": "pages/product/product-single-2"
   },
   {
     "name": "product-product-single-3",
     "path": "/product/product-single-3",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\product\\\\product-single-3.vue",
-    "chunkName": "pages/product/product-single-3",
-    "_name": "_fddc2e90"
+    "chunkName": "pages/product/product-single-3"
   },
   {
     "name": "shop-shop-2",
     "path": "/shop/shop-2",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\shop\\\\shop-2.vue",
-    "chunkName": "pages/shop/shop-2",
-    "_name": "_1e65b7a4"
+    "chunkName": "pages/shop/shop-2"
   },
   {
     "name": "shop-shop-3",
     "path": "/shop/shop-3",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\shop\\\\shop-3.vue",
-    "chunkName": "pages/shop/shop-3",
-    "_name": "_1e73cf25"
+    "chunkName": "pages/shop/shop-3"
   },
   {
     "name": "shop-shop-4",
     "path": "/shop/shop-4",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\shop\\\\shop-4.vue",
-    "chunkName": "pages/shop/shop-4",
-    "_name": "_1e81e6a6"
+    "chunkName": "pages/shop/shop-4"
   },
   {
     "name": "shop-shop-5",
     "path": "/shop/shop-5",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\shop\\\\shop-5.vue",
-    "chunkName": "pages/shop/shop-5",
-    "_name": "_1e8ffe27"
+    "chunkName": "pages/shop/shop-5"
   },
   {
     "name": "vendor-dashboard-add-product",
     "path": "/vendor-dashboard/add-product",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\vendor-dashboard\\\\add-product.vue",
-    "chunkName": "pages/vendor-dashboard/add-product",
-    "_name": "_732b7051"
+    "chunkName": "pages/vendor-dashboard/add-product"
   },
   {
     "name": "vendor-dashboard-order",
     "path": "/vendor-dashboard/order",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\vendor-dashboard\\\\order.vue",
-    "chunkName": "pages/vendor-dashboard/order",
-    "_name": "_3ad092dc"
+    "chunkName": "pages/vendor-dashboard/order"
   },
   {
     "name": "vendor-dashboard-product",
     "path": "/vendor-dashboard/product",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\vendor-dashboard\\\\product.vue",
-    "chunkName": "pages/vendor-dashboard/product",
-    "_name": "_4dd2fa7d"
+    "chunkName": "pages/vendor-dashboard/product"
   },
   {
     "name": "vendor-dashboard-profile",
     "path": "/vendor-dashboard/profile",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\vendor-dashboard\\\\profile.vue",
-    "chunkName": "pages/vendor-dashboard/profile",
-    "_name": "_9d5a6b92"
+    "chunkName": "pages/vendor-dashboard/profile"
   },
   {
     "name": "vendor-dashboard-setting",
     "path": "/vendor-dashboard/setting",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\vendor-dashboard\\\\setting.vue",
-    "chunkName": "pages/vendor-dashboard/setting",
-    "_name": "_c11ab944"
+    "chunkName": "pages/vendor-dashboard/setting"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_16f24ccf"
+    "chunkName": "pages/index"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\blog\\\\_slug.vue",
-    "chunkName": "pages/blog/_slug",
-    "_name": "_ed10f136"
+    "chunkName": "pages/blog/_slug"
   },
   {
     "name": "product-id",
     "path": "/product/:id?",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\product\\\\_id.vue",
-    "chunkName": "pages/product/_id",
-    "_name": "_5c215484"
+    "chunkName": "pages/product/_id"
   }
 ]

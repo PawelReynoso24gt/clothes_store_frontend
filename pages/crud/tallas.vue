@@ -1,135 +1,245 @@
 <template>
-  <div>
-    <!-- Sección de Listado de Tallas -->
-    <h2>Lista de Tallas</h2>
+  <div class="contenedor-principal">
+    <h1 class="titulo-centrado">Lista de Tallas</h1>
 
-    <!-- Campo de búsqueda -->
-    <div class="search-container">
-      <input
-        type="number"
-        v-model="searchId"
-        placeholder="Buscar talla por ID"
-      />
-      <button @click="buscarTalla">Buscar</button>
-      <button @click="obtenerTallas">Mostrar Todos</button>
+    <!-- Botón para abrir el modal de crear Talla -->
+    <button @click="mostrarModalCrearTalla" class="btn-crear">Crear Talla</button>
+
+    <!-- Modal para crear Talla -->
+    <div v-if="mostrarModalCrear" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar" @click="cerrarModalCrear">&times;</span>
+        <h2>Crear Talla</h2>
+        <form @submit.prevent="crearTalla">
+          <div class="form-group">
+            <label for="talla">Talla:</label>
+            <input type="text" v-model="nuevaTalla.talla" id="talla" required />
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select v-model="nuevaTalla.estado" id="estado" required>
+              <option value="1">Activo</option>
+              <option value="0">Inactivo</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-enviar">Crear</button>
+          <button type="button" class="btn-cerrar" @click="cerrarModalCrear">Cancelar</button>
+        </form>
+      </div>
     </div>
 
-    <!-- Formulario para crear una nueva talla -->
-    <div class="create-container">
-      <h2>Crear Nueva Talla</h2>
-      <form @submit.prevent="crearTalla">
-        <input type="text" v-model="nuevaTalla.talla" placeholder="Talla" required />
-        <select v-model="nuevaTalla.estado" required>
-          <option value="1">Activo</option>
-          <option value="0">Inactivo</option>
-        </select>
-        <button type="submit">Crear Talla</button>
-      </form>
+    <!-- Modal para actualizar Talla -->
+    <div v-if="mostrarModalActualizar" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar" @click="cerrarModalActualizar">&times;</span>
+        <h2>Actualizar Talla</h2>
+        <form @submit.prevent="actualizarTalla">
+          <div class="form-group">
+            <label for="talla">Talla:</label>
+            <input type="text" v-model="tallaSeleccionada.talla" id="talla" required />
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select v-model="tallaSeleccionada.estado" id="estado" required>
+              <option value="1">Activo</option>
+              <option value="0">Inactivo</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-enviar">Actualizar</button>
+          <button type="button" class="btn-cerrar" @click="cerrarModalActualizar">Cancelar</button>
+        </form>
+      </div>
     </div>
 
-    <!-- Formulario para actualizar una talla -->
-    <div class="update-container" v-if="tallaSeleccionada">
-      <h2>Actualizar Talla</h2>
-      <form @submit.prevent="actualizarTalla">
-        <input type="text" v-model="tallaSeleccionada.talla" placeholder="Talla" required />
-        <select v-model="tallaSeleccionada.estado" required>
-          <option value="1">Activo</option>
-          <option value="0">Inactivo</option>
-        </select>
-        <button type="submit">Actualizar Talla</button>
-      </form>
+    <!-- Tabla de Tallas Activas -->
+    <div class="tabla-contenedor">
+      <table v-if="tallasActivas.length" class="inventarios-table">
+        <thead>
+          <tr>
+            <th>ID Talla</th>
+            <th>Talla</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="talla in tallasActivas" :key="talla.idTalla">
+            <td>{{ talla.idTalla }}</td>
+            <td>{{ talla.talla }}</td>
+            <td>{{ talla.estado === 1 ? 'Activo' : 'Inactivo' }}</td>
+            <td>
+              <button @click="mostrarModalActualizarTalla(talla)" class="btn-actualizar">Actualizar</button>
+              <button @click="desactivarTalla(talla)" class="btn-desactivar">Desactivar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p v-else>No hay tallas activas disponibles.</p>
     </div>
 
-    <!-- Tabla de tallas -->
-    <table v-if="tallas.length" class="tallas-table">
-      <thead>
-        <tr>
-          <th>ID Talla</th>
-          <th>Talla</th>
-          <th>Estado</th>
-          <th>Acciones</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="talla in tallas" :key="talla.idTalla">
-          <td>{{ talla.idTalla }}</td>
-          <td>{{ talla.talla }}</td>
-          <td>{{ talla.estado === 1 ? 'Activo' : 'Inactivo' }}</td>
-          <td>
-            <button @click="cargarTalla(talla)">Editar</button>
-            <button @click="eliminarTalla(talla.idTalla)">Eliminar</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p v-else>No hay tallas disponibles.</p>
-    <br>
-    <!-- Sección para Asignar Talla a Producto -->
-    <h2>Asignar Talla a Producto</h2>
+    <button @click="abrirModalTallasInactivas" class="btn-ver-inactivos">Ver Tallas Inactivas</button>
 
-    <!-- Formulario de asignación -->
-    <form @submit.prevent="asignarTallaAProducto">
-      <select v-model="nuevaAsignacion.idProducto" required>
-        <option disabled value="">Selecciona un Producto</option>
-        <option v-for="producto in productos" :key="producto.idProducto" :value="producto.idProducto">
-          {{ producto.nombre }}
-        </option>
-      </select>
+    <!-- Modal para ver Tallas Inactivas -->
+    <div v-if="mostrarModalTallasInactivas" class="modal">
+      <div class="modal-contenido modal-grande">
+        <span class="cerrar" @click="cerrarModalTallasInactivas">&times;</span>
+        <h2>Tallas Inactivas</h2>
+        <table v-if="tallasInactivas.length" class="inventarios-table">
+          <thead>
+            <tr>
+              <th>ID Talla</th>
+              <th>Talla</th>
+              <th>Estado</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="talla in tallasInactivas" :key="talla.idTalla">
+              <td>{{ talla.idTalla }}</td>
+              <td>{{ talla.talla }}</td>
+              <td>{{ talla.estado === 1 ? 'Activo' : 'Inactivo' }}</td>
+              <td>
+                <button @click="activarTalla(talla)" class="btn-activar">Activar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p v-else>No hay tallas inactivas disponibles.</p>
+        <button @click="cerrarModalTallasInactivas" class="btn-cerrar">Cerrar</button>
+      </div>
+    </div>
 
-      <select v-model="nuevaAsignacion.idTalla" required>
-        <option disabled value="">Selecciona una Talla</option>
-        <option v-for="talla in tallas" :key="talla.idTalla" :value="talla.idTalla">
-          {{ talla.talla }}
-        </option>
-      </select>
+    <!-- CRUD de Detalle Tallas -->
+    <h1 class="titulo-centrado">Detalle de Talla</h1>
+    <button @click="mostrarModalCrearDetalle" class="btn-crear">Crear Detalle Talla</button>
 
-      <button type="submit">Asignar</button>
-    </form>
+    <!-- Modal para crear Detalle Talla -->
+    <div v-if="isModalCrearDetalleVisible" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar" @click="cerrarModalCrearDetalle">&times;</span>
+        <h2>Crear Detalle Talla</h2>
+        <form @submit.prevent="crearDetalleTalla">
+          <div class="form-group">
+            <label for="idTalla">Talla:</label>
+            <select v-model="nuevoDetalle.idTalla" id="idTalla" required>
+              <option v-for="talla in tallas" :key="talla.idTalla" :value="talla.idTalla">
+                {{ talla.talla }}
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="idProducto">Producto:</label>
+            <select v-model="nuevoDetalle.idProducto" id="idProducto" required>
+              <option v-for="producto in productos" :key="producto.idProducto" :value="producto.idProducto">
+                {{ producto.nombre }}
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select v-model="nuevoDetalle.estado" id="estado" required>
+              <option value="1">Activo</option>
+              <option value="0">Inactivo</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-enviar">Crear</button>
+          <button @click="cerrarModalCrearDetalle" class="btn-cerrar">Cancelar</button>
+        </form>
+      </div>
+    </div>
 
-    <!-- Tabla de asignaciones -->
-    <h2>Relación de Tallas y Productos</h2>
-    <table v-if="relaciones.length">
-      <thead>
-        <tr>
-          <th>Producto</th>
-          <th>Talla</th>
-          <th>Acciones</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="rel in relaciones" :key="rel.idDetalleTalla">
-          <td>{{ rel.productoNombre }}</td>
-          <td>{{ rel.tallaNombre }}</td>
-          <td>
-            <button @click="prepararEdicion(rel)">Editar</button>
-            <button @click="eliminarAsignacion(rel.idDetalleTalla)">Eliminar</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p v-else>No hay asignaciones de tallas a productos.</p>
+    <!-- Modal para actualizar Detalle Talla -->
+    <div v-if="isModalActualizarDetalleVisible" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar" @click="cerrarModalActualizarDetalle">&times;</span>
+        <h2>Actualizar Detalle Talla</h2>
+        <form @submit.prevent="actualizarDetalleTalla">
+          <div class="form-group">
+            <label for="idTalla">Talla:</label>
+            <select v-model="detalleSeleccionado.idTalla" id="idTalla" required>
+              <option v-for="talla in tallas" :key="talla.idTalla" :value="talla.idTalla">
+                {{ talla.talla }}
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="idProducto">Producto:</label>
+            <select v-model="detalleSeleccionado.idProducto" id="idProducto" required>
+              <option v-for="producto in productos" :key="producto.idProducto" :value="producto.idProducto">
+                {{ producto.nombre }}
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select v-model="detalleSeleccionado.estado" id="estado" required>
+              <option value="1">Activo</option>
+              <option value="0">Inactivo</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-enviar">Actualizar</button>
+          <button @click="cerrarModalActualizarDetalle" class="btn-cerrar">Cancelar</button>
+        </form>
+      </div>
+    </div>
+    <!-- Tabla de Detalle Tallas Activas -->
+    <div class="tabla-contenedor">
+      <table v-if="detallesTallasActivos.length" class="inventarios-table">
+        <thead>
+          <tr>
+            <th>ID Detalle</th>
+            <th>Producto</th>
+            <th>Talla</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="detalle in detallesTallasActivos" :key="detalle.idDetalleTalla">
+            <td>{{ detalle.idDetalleTalla }}</td>
+            <td>{{ detalle.productoNombre }}</td>
+            <td>{{ detalle.tallaNombre }}</td>
+            <td>{{ detalle.estado === 1 ? 'Activo' : 'Inactivo' }}</td>
+            <td>
+              <button @click="mostrarModalActualizarDetalle(detalle)" class="btn-actualizar">Actualizar</button>
+              <button @click="desactivarDetalleTalla(detalle)" class="btn-desactivar">Desactivar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p v-else>No hay detalles de tallas activos disponibles.</p>
+    </div>
 
-    <!-- Formulario de edición de asignación -->
-    <div v-if="asignacionEditando">
-      <h2>Editar Asignación</h2>
-      <form @submit.prevent="actualizarAsignacion">
-        <select v-model="asignacionEditando.idProducto" required>
-          <option disabled value="">Selecciona un Producto</option>
-          <option v-for="producto in productos" :key="producto.idProducto" :value="producto.idProducto">
-            {{ producto.nombre }}
-          </option>
-        </select>
+    <button @click="abrirModalDetallesInactivos" class="btn-ver-inactivos">Ver Detalles Tallas Inactivos</button>
 
-        <select v-model="asignacionEditando.idTalla" required>
-          <option disabled value="">Selecciona una Talla</option>
-          <option v-for="talla in tallas" :key="talla.idTalla" :value="talla.idTalla">
-            {{ talla.talla }}
-          </option>
-        </select>
-
-        <button type="submit">Actualizar</button>
-        <button type="button" @click="cancelarEdicion">Cancelar</button>
-      </form>
+    <!-- Modal para ver Detalles Tallas Inactivos -->
+    <div v-if="mostrarModalDetallesInactivos" class="modal">
+      <div class="modal-contenido modal-grande">
+        <span class="cerrar" @click="cerrarModalDetallesInactivos">&times;</span>
+        <h2>Detalles Tallas Inactivos</h2>
+        <table v-if="detallesTallasInactivos.length" class="inventarios-table">
+          <thead>
+            <tr>
+              <th>ID Detalle</th>
+              <th>Producto</th>
+              <th>Talla</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="detalle in detallesTallasInactivos" :key="detalle.idDetalleTalla">
+              <td>{{ detalle.idDetalleTalla }}</td>
+              <td>{{ detalle.productoNombre }}</td>
+              <td>{{ detalle.tallaNombre }}</td>
+              <td>
+                <button @click="activarDetalleTalla(detalle)" class="btn-activar">Activar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p v-else>No hay detalles de tallas inactivos disponibles.</p>
+        <button @click="cerrarModalDetallesInactivos" class="btn-cerrar">Cerrar</button>
+      </div>
     </div>
   </div>
 </template>
@@ -142,183 +252,308 @@ export default {
     return {
       tallas: [],
       productos: [],
-      relaciones: [],
-      searchId: "",
+      detallesTallas: [],
+      tallasInactivas: [],
+      detallesTallasInactivos: [],
+      mostrarModalCrear: false,
+      mostrarModalActualizar: false,
+      mostrarModalTallasInactivas: false,
+      isModalCrearDetalleVisible: false, // Renombrado
+      isModalActualizarDetalleVisible: false, // Renombrado
+      mostrarModalDetallesInactivos: false,
       nuevaTalla: { talla: "", estado: 1 },
-      tallaSeleccionada: null,
-      nuevaAsignacion: { idProducto: "", idTalla: "" },
-      asignacionEditando: null,
+      tallaSeleccionada: {},
+      nuevoDetalle: { idTalla: null, idProducto: null, estado: 1 },
+      detalleSeleccionado: {},
     };
+  },
+  computed: {
+    tallasActivas() {
+      return this.tallas.filter((talla) => talla.estado === 1);
+    },
+    detallesTallasActivos() {
+      return this.detallesTallas.filter((detalle) => detalle.estado === 1);
+    },
   },
   created() {
     this.obtenerTallas();
     this.obtenerProductos();
-    this.obtenerRelaciones();
+    this.obtenerDetallesTallas();
   },
   methods: {
     async obtenerTallas() {
-      try {
-        const response = await axios.get("http://localhost:5000/talla");
-        this.tallas = response.data;
-      } catch (error) {
-        console.error("Error al obtener las tallas:", error);
-      }
+      const response = await axios.get("http://localhost:5000/talla");
+      this.tallas = response.data;
     },
-    async buscarTalla() {
-      if (!this.searchId) {
-        alert("Por favor ingresa un ID de talla.");
-        return;
-      }
-      try {
-        const response = await axios.get(`http://localhost:5000/talla/${this.searchId}`);
-        this.tallas = response.data ? [response.data] : [];
-      } catch (error) {
-        console.error("Error al buscar la talla:", error);
-        this.tallas = [];
-      }
-    },
-    async crearTalla() {
-      try {
-        const response = await axios.post("http://localhost:5000/talla/create", this.nuevaTalla);
-        this.tallas.push(response.data);
-        this.limpiarFormulario();
-      } catch (error) {
-        console.error("Error al crear la talla:", error);
-      }
-    },
-    cargarTalla(talla) {
-      this.tallaSeleccionada = { ...talla };
-    },
-    async actualizarTalla() {
-      if (!this.tallaSeleccionada) return;
-      try {
-        const response = await axios.put(`http://localhost:5000/talla/update/${this.tallaSeleccionada.idTalla}`, this.tallaSeleccionada);
-        const index = this.tallas.findIndex(t => t.idTalla === response.data.idTalla);
-        if (index !== -1) this.tallas.splice(index, 1, response.data);
-        this.limpiarFormularioActualizacion();
-      } catch (error) {
-        console.error("Error al actualizar la talla:", error);
-      }
-    },
-    async eliminarTalla(idTalla) {
-      if (confirm("¿Estás seguro de que deseas eliminar esta talla?")) {
-        try {
-          await axios.delete(`http://localhost:5000/talla/delete/${idTalla}`);
-          this.tallas = this.tallas.filter(t => t.idTalla !== idTalla);
-        } catch (error) {
-          console.error("Error al eliminar la talla:", error);
-        }
-      }
-    },
-    limpiarFormulario() {
-      this.nuevaTalla = { talla: "", estado: 1 };
-    },
-    limpiarFormularioActualizacion() {
-      this.tallaSeleccionada = null;
+    async obtenerTallasInactivas() {
+      const response = await axios.get("http://localhost:5000/talla/inactivos");
+      this.tallasInactivas = response.data;
     },
     async obtenerProductos() {
-      try {
-        const response = await axios.get("http://localhost:5000/productos");
-        this.productos = response.data;
-      } catch (error) {
-        console.error("Error al obtener los productos:", error);
-      }
+      const response = await axios.get("http://localhost:5000/productos");
+      this.productos = response.data;
     },
-    async obtenerRelaciones() {
-      try {
-        const response = await axios.get("http://localhost:5000/detalleTallas");
-        const relaciones = response.data;
-        
-        // Mapeo para incluir nombre del producto y talla
-        this.relaciones = relaciones.map(rel => ({
-          ...rel,
-          productoNombre: this.obtenerNombreProducto(rel.idProducto),
-          tallaNombre: this.obtenerTalla(rel.idTalla),
-        }));
-      } catch (error) {
-        console.error("Error al obtener las relaciones:", error);
-      }
+    async obtenerDetallesTallas() {
+      const response = await axios.get("http://localhost:5000/detalleTallas");
+      this.detallesTallas = response.data.map(detalle => ({
+        ...detalle,
+        productoNombre: this.obtenerProductoNombre(detalle.idProducto),
+        tallaNombre: this.obtenerTallaNombre(detalle.idTalla)
+      }));
     },
-    async asignarTallaAProducto() {
-      try {
-        const response = await axios.post("http://localhost:5000/detalleTallas/create", this.nuevaAsignacion);
-        this.relaciones.push(response.data);
-        this.nuevaAsignacion = { idProducto: "", idTalla: "" }; // Limpiar después de asignar
-      } catch (error) {
-        console.error("Error al asignar la talla al producto:", error);
-      }
+    async obtenerDetallesTallasInactivos() {
+      const response = await axios.get("http://localhost:5000/detalleTallas/inactivos");
+      this.detallesTallasInactivos = response.data.map(detalle => ({
+        ...detalle,
+        productoNombre: this.obtenerProductoNombre(detalle.idProducto),
+        tallaNombre: this.obtenerTallaNombre(detalle.idTalla)
+      }));
     },
-    prepararEdicion(rel) {
-      this.asignacionEditando = { ...rel };
+    obtenerProductoNombre(id) {
+      const producto = this.productos.find(p => p.idProducto === id);
+      return producto ? producto.nombre : "Desconocido";
     },
-    async actualizarAsignacion() {
-      if (!this.asignacionEditando) return;
-      try {
-        const response = await axios.put(`http://localhost:5000/detalleTallas/update/${this.asignacionEditando.idDetalleTalla}`, this.asignacionEditando);
-        const index = this.relaciones.findIndex(r => r.idDetalleTalla === response.data.idDetalleTalla);
-        if (index !== -1) this.relaciones.splice(index, 1, response.data);
-        this.cancelarEdicion();
-      } catch (error) {
-        console.error("Error al actualizar la asignación:", error);
-      }
+    obtenerTallaNombre(id) {
+      const talla = this.tallas.find(t => t.idTalla === id);
+      return talla ? talla.talla : "Desconocido";
     },
-    async eliminarAsignacion(idDetalleTalla) {
-      if (confirm("¿Estás seguro de que deseas eliminar esta asignación?")) {
-        try {
-          await axios.delete(`http://localhost:5000/detalleTallas/delete/${idDetalleTalla}`);
-          this.relaciones = this.relaciones.filter(r => r.idDetalleTalla !== idDetalleTalla);
-        } catch (error) {
-          console.error("Error al eliminar la asignación:", error);
-        }
-      }
+    mostrarModalCrearTalla() {
+      this.mostrarModalCrear = true;
     },
-    cancelarEdicion() {
-      this.asignacionEditando = null;
+    cerrarModalCrear() {
+      this.mostrarModalCrear = false;
+      this.nuevaTalla = { talla: "", estado: 1 };
     },
-    obtenerNombreProducto(idProducto) {
-      const producto = this.productos.find(p => p.idProducto === idProducto);
-      return producto ? producto.nombre : "Desconocido"; // Retorna el nombre del producto
+    async crearTalla() {
+      await axios.post("http://localhost:5000/talla/create", this.nuevaTalla);
+      this.obtenerTallas();
+      this.cerrarModalCrear();
     },
-    obtenerTalla(idTalla) {
-      const talla = this.tallas.find(t => t.idTalla === idTalla);
-      return talla ? talla.talla : "Desconocido"; // Retorna la talla
+    mostrarModalActualizarTalla(talla) {
+      this.tallaSeleccionada = { ...talla };
+      this.mostrarModalActualizar = true;
+    },
+    cerrarModalActualizar() {
+      this.mostrarModalActualizar = false;
+      this.tallaSeleccionada = {};
+    },
+    async actualizarTalla() {
+      await axios.put(`http://localhost:5000/talla/update/${this.tallaSeleccionada.idTalla}`, this.tallaSeleccionada);
+      this.obtenerTallas();
+      this.cerrarModalActualizar();
+    },
+    async desactivarTalla(talla) {
+      talla.estado = 0;
+      await axios.put(`http://localhost:5000/talla/update/${talla.idTalla}`, talla);
+      this.obtenerTallas();
+    },
+    abrirModalTallasInactivas() {
+      this.obtenerTallasInactivas();
+      this.mostrarModalTallasInactivas = true;
+    },
+    cerrarModalTallasInactivas() {
+      this.mostrarModalTallasInactivas = false;
+    },
+    async activarTalla(talla) {
+      talla.estado = 1;
+      await axios.put(`http://localhost:5000/talla/update/${talla.idTalla}`, talla);
+      this.obtenerTallas();
+    },
+    mostrarModalCrearDetalle() {
+      this.isModalCrearDetalleVisible = true;
+    },
+    cerrarModalCrearDetalle() {
+      this.isModalCrearDetalleVisible = false;
+      this.nuevoDetalle = { idTalla: null, idProducto: null, estado: 1 };
+    },
+    async crearDetalleTalla() {
+      await axios.post("http://localhost:5000/detalleTallas/create", this.nuevoDetalle);
+      this.obtenerDetallesTallas();
+      this.cerrarModalCrearDetalle();
+    },
+    mostrarModalActualizarDetalle(detalle) {
+      this.detalleSeleccionado = { ...detalle };
+      this.isModalActualizarDetalleVisible = true;
+    },
+    cerrarModalActualizarDetalle() {
+      this.isModalActualizarDetalleVisible = false;
+      this.detalleSeleccionado = {};
+    },
+    async actualizarDetalleTalla() {
+      await axios.put(`http://localhost:5000/detalleTallas/update/${this.detalleSeleccionado.idDetalleTalla}`, this.detalleSeleccionado);
+      this.obtenerDetallesTallas();
+      this.cerrarModalActualizarDetalle();
+    },
+    async desactivarDetalleTalla(detalle) {
+      detalle.estado = 0;
+      await axios.put(`http://localhost:5000/detalleTallas/update/${detalle.idDetalleTalla}`, detalle);
+      this.obtenerDetallesTallas();
+    },
+    abrirModalDetallesInactivos() {
+      this.obtenerDetallesTallasInactivos();
+      this.mostrarModalDetallesInactivos = true;
+    },
+    cerrarModalDetallesInactivos() {
+      this.mostrarModalDetallesInactivos = false;
+    },
+    async activarDetalleTalla(detalle) {
+      detalle.estado = 1;
+      await axios.put(`http://localhost:5000/detalleTallas/update/${detalle.idDetalleTalla}`, detalle);
+      this.obtenerDetallesTallas();
     },
   },
 };
 </script>
 
 <style scoped>
-.search-container {
-  margin-bottom: 20px;
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
-.create-container,
-.update-container {
-  margin: 20px 0;
+
+.titulo-centrado {
+  text-align: center;
 }
-.tallas-table,
-table {
+
+.tabla-contenedor {
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.btn-crear,
+.btn-ver-inactivos {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-desactivar {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-activar {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-actualizar {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-cerrar {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #777;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contenido {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-grande {
+  width: 600px;
+}
+
+.cerrar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.btn-enviar {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.inventarios-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
-.tallas-table th,
-table th {
-  background-color: #f2f2f2;
-}
-.tallas-table th,
-table th,
-.tallas-table td,
-table td {
+
+.inventarios-table th,
+.inventarios-table td {
   border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
 }
-.tallas-table tr:hover,
-table tr:hover {
-  background-color: #f1f1f1;
+
+.inventarios-table th {
+  background-color: #f7f7f7;
+  color: #333;
+  font-weight: bold;
 }
-button {
-  margin-left: 5px;
+
+.inventarios-table td {
+  color: #555;
+}
+
+.inventarios-table tr:hover {
+  background-color: #ddd;
 }
 </style>
-
