@@ -420,7 +420,7 @@ export default {
       } catch (error) {
         console.error("Error al desactivar el detalle de temporada:", error);
       }
-    },
+    },//comentario
     mostrarModalInactivos() {
       this.mostrarModalDetalleTemporadasInactivos = true;
     },
