@@ -20,8 +20,13 @@ You can directly use them in pages and other components without the need to impo
 - `<WidgetsRelatedProducts>` | `<widgets-related-products>` (components/widgets/RelatedProducts.vue)
 - `<WidgetsShopSidebar>` | `<widgets-shop-sidebar>` (components/widgets/ShopSidebar.vue)
 - `<WidgetsTimer>` | `<widgets-timer>` (components/widgets/Timer.vue)
+- `<WidgetsRelatedProducts>` | `<widgets-related-products>` (components/widgets/RelatedProducts.vue)
+- `<WidgetsShopSidebar>` | `<widgets-shop-sidebar>` (components/widgets/ShopSidebar.vue)
+- `<WidgetsTimer>` | `<widgets-timer>` (components/widgets/Timer.vue)
 - `<ProductBox1>` | `<product-box1>` (components/product-box/ProductBox1.vue)
 - `<ProductBox2>` | `<product-box2>` (components/product-box/ProductBox2.vue)
 - `<ProductBox3>` | `<product-box3>` (components/product-box/ProductBox3.vue)
 - `<ProductBox4>` | `<product-box4>` (components/product-box/ProductBox4.vue)
 - `<ProductBox5>` | `<product-box5>` (components/product-box/ProductBox5.vue)
+
+
