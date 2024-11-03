@@ -1309,10 +1309,10 @@
         {
             "id": 15,
             "title": "Playera Skater",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Playera Oversize sin mangas, tela de algodón",
             "type": "fashion",
             "brand": "geox",
-            "collection": ["best sellers"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 375,
             "sale": true,
