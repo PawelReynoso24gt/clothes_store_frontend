@@ -20,6 +20,21 @@
   "BlogSidebar2": {
     "description": "Auto imported from components/blog/BlogSidebar2.vue"
   },
+  "ProductBox1": {
+    "description": "Auto imported from components/product-box/ProductBox1.vue"
+  },
+  "ProductBox2": {
+    "description": "Auto imported from components/product-box/ProductBox2.vue"
+  },
+  "ProductBox3": {
+    "description": "Auto imported from components/product-box/ProductBox3.vue"
+  },
+  "ProductBox4": {
+    "description": "Auto imported from components/product-box/ProductBox4.vue"
+  },
+  "ProductBox5": {
+    "description": "Auto imported from components/product-box/ProductBox5.vue"
+  },
   "InstagramArea": {
     "description": "Auto imported from components/instagram/InstagramArea.vue"
   },
@@ -40,20 +55,5 @@
   },
   "WidgetsTimer": {
     "description": "Auto imported from components/widgets/Timer.vue"
-  },
-  "ProductBox1": {
-    "description": "Auto imported from components/product-box/ProductBox1.vue"
-  },
-  "ProductBox2": {
-    "description": "Auto imported from components/product-box/ProductBox2.vue"
-  },
-  "ProductBox3": {
-    "description": "Auto imported from components/product-box/ProductBox3.vue"
-  },
-  "ProductBox4": {
-    "description": "Auto imported from components/product-box/ProductBox4.vue"
-  },
-  "ProductBox5": {
-    "description": "Auto imported from components/product-box/ProductBox5.vue"
   }
 }

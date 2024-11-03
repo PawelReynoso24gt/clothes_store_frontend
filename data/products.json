@@ -328,8 +328,8 @@
         },
         {
             "id": 4,
-            "title": "Camisa de",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Camisa de Rayas",
+            "description": "Camisa con estampado de rayas, tela de algodón y manga larga",
             "type": "fashion",
             "brand": "geox",
             "collection": ["Camisas"],
@@ -1142,11 +1142,11 @@
         },
         {
             "id": 13,
-            "title": "fit-flare dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Playera estampada",
+            "description": "Playera con tela de algodón, con caritas y texto motivador",
             "type": "fashion",
             "brand": "biba",
-            "collection": ["new arrival"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 148,
             "hot": false,
@@ -1155,7 +1155,7 @@
             "new": false,
             "rating": 5,
             "tags": [
-                "xs",
+                "xs",   
                 "s",
                 "m",
                 "gray",
@@ -1169,7 +1169,7 @@
                     "id": 13,
                     "sku": "sku13",
                     "size": "xs",
-                    "color": "gray",
+                    "color": "white",
                     "image_id": 1311
                 },
                 {
@@ -1187,54 +1187,6 @@
                     "size": "xs",
                     "color": "yellow",
                     "image_id": 1313
-                },
-                {
-                    "variant_id": 1304,
-                    "id": 13,
-                    "sku": "sku13l",
-                    "size": "s",
-                    "color": "gray",
-                    "image_id": 1311
-                },
-                {
-                    "variant_id": 1305,
-                    "id": 13,
-                    "sku": "sku13l",
-                    "size": "s",
-                    "color": "black",
-                    "image_id": 1312
-                },
-                {
-                    "variant_id": 1306,
-                    "id": 13,
-                    "sku": "sku13l",
-                    "size": "s",
-                    "color": "yellow",
-                    "image_id": 1313
-                },
-                {
-                    "variant_id": 1307,
-                    "id": 13,
-                    "sku": "sku13l",
-                    "size": "m",
-                    "color": "gray",
-                    "image_id": 1311
-                },
-                {
-                    "variant_id": 1308,
-                    "id": 13,
-                    "sku": "sku13l",
-                    "size": "m",
-                    "color": "black",
-                    "image_id": 1312
-                },
-                {
-                    "variant_id": 1309,
-                    "id": 13,
-                    "sku": "sku13l",
-                    "size": "m",
-                    "color": "yellow",
-                    "image_id": 1313
                 }
             ],
             "images": [
@@ -1242,7 +1194,7 @@
                     "image_id": 1311,
                     "id": 13,
                     "alt": "gray",
-                    "src": "10.png",
+                    "src": "playeraEstampada1.png",
                     "variant_id": [
                         1301,
                         1304,
@@ -1253,7 +1205,7 @@
                     "image_id": 1312,
                     "id": 13,
                     "alt": "black",
-                    "src": "11.png",
+                    "src": "playeraEstampada2.png",
                     "variant_id": [
                         1302,
                         1305,
@@ -1264,7 +1216,7 @@
                     "image_id": 1313,
                     "id": 13,
                     "alt": "yellow",
-                    "src": "1.png",
+                    "src": "playerasEstampada3.png",
                     "variant_id": [
                         1303,
                         1306,
