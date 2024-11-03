@@ -54,8 +54,9 @@ const _434ae1e4 = () => interopDefault(import('..\\pages\\my-account\\wishlist.v
 const _4e865e19 = () => interopDefault(import('..\\pages\\otras-paginas\\jackets.vue' /* webpackChunkName: "pages/otras-paginas/jackets" */))
 const _9d9227e0 = () => interopDefault(import('..\\pages\\otras-paginas\\pants.vue' /* webpackChunkName: "pages/otras-paginas/pants" */))
 const _0a5847a8 = () => interopDefault(import('..\\pages\\otras-paginas\\sueteres.vue' /* webpackChunkName: "pages/otras-paginas/sueteres" */))
-const _0b42f0ae = () => interopDefault(import('..\\pages\\product-single-2\\product-single-2.vue' /* webpackChunkName: "pages/product-single-2/product-single-2" */))
-const _0b26c1ac = () => interopDefault(import('..\\pages\\product-single-2\\product-single-3.vue' /* webpackChunkName: "pages/product-single-2/product-single-3" */))
+const _aa475c92 = () => interopDefault(import('..\\pages\\product\\product-single-2.vue' /* webpackChunkName: "pages/product/product-single-2" */))
+const _aa2b2d90 = () => interopDefault(import('..\\pages\\product\\product-single-3.vue' /* webpackChunkName: "pages/product/product-single-3" */))
+const _aa0efe8e = () => interopDefault(import('..\\pages\\product\\product-single-4.vue' /* webpackChunkName: "pages/product/product-single-4" */))
 const _306b91d2 = () => interopDefault(import('..\\pages\\productosHombres\\camisas.vue' /* webpackChunkName: "pages/productosHombres/camisas" */))
 const _3af5f451 = () => interopDefault(import('..\\pages\\productosHombres\\jackets.vue' /* webpackChunkName: "pages/productosHombres/jackets" */))
 const _39649373 = () => interopDefault(import('..\\pages\\productosHombres\\pantalones.vue' /* webpackChunkName: "pages/productosHombres/pantalones" */))
@@ -74,7 +75,7 @@ const _49a96a92 = () => interopDefault(import('..\\pages\\vendor-dashboard\\prof
 const _6d69b844 = () => interopDefault(import('..\\pages\\vendor-dashboard\\setting.vue' /* webpackChunkName: "pages/vendor-dashboard/setting" */))
 const _7cb00d4f = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 const _0d02e7e5 = () => interopDefault(import('..\\pages\\blog\\_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
-const _a019e3e8 = () => interopDefault(import('..\\pages\\product-single-2\\_id.vue' /* webpackChunkName: "pages/product-single-2/_id" */))
+const _805ff584 = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages/product/_id" */))
 
 const emptyFn = () => {}
 
@@ -288,13 +289,17 @@ export const routerOptions = {
     component: _0a5847a8,
     name: "otras-paginas-sueteres"
   }, {
-    path: "/product-single-2/product-single-2",
-    component: _0b42f0ae,
-    name: "product-single-2-product-single-2"
+    path: "/product/product-single-2",
+    component: _aa475c92,
+    name: "product-product-single-2"
   }, {
-    path: "/product-single-2/product-single-3",
-    component: _0b26c1ac,
-    name: "product-single-2-product-single-3"
+    path: "/product/product-single-3",
+    component: _aa2b2d90,
+    name: "product-product-single-3"
+  }, {
+    path: "/product/product-single-4",
+    component: _aa0efe8e,
+    name: "product-product-single-4"
   }, {
     path: "/productosHombres/camisas",
     component: _306b91d2,
@@ -368,9 +373,9 @@ export const routerOptions = {
     component: _0d02e7e5,
     name: "blog-slug"
   }, {
-    path: "/product-single-2/:id?",
-    component: _a019e3e8,
-    name: "product-single-2-id"
+    path: "/product/:id?",
+    component: _805ff584,
+    name: "product-id"
   }],
 
   fallback: false
