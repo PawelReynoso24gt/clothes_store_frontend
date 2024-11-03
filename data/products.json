@@ -485,10 +485,10 @@
         {
             "id": 6,
             "title": "Sobrecamisa",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Sobrecamisa de tela de algodón, manga larga. Costuras resistentes para cualquier tipo de trabajo.",
             "type": "fashion",
             "brand": "max",
-            "collection": ["Camisa"],
+            "collection": ["Camisas"],
             "category": "Women",
             "price": 121,
             "hot": false,
@@ -560,7 +560,7 @@
                     "image_id": 611,
                     "id": 6,
                     "alt": "olive",
-                    "src": "11.png",
+                    "src": "sobreCamisa1.png",
                     "variant_id": [
                         601,
                         604
@@ -570,7 +570,7 @@
                     "image_id": 612,
                     "id": 6,
                     "alt": "gray",
-                    "src": "12.png",
+                    "src": "sobreCamisaGris.png",
                     "variant_id": [
                         602,
                         605
@@ -580,7 +580,7 @@
                     "image_id": 613,
                     "id": 6,
                     "alt": "red",
-                    "src": "1.png",
+                    "src": "sobreCamisaRoja.png",
                     "variant_id": [
                         603,
                         606

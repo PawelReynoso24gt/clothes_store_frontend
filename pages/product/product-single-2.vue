@@ -22,11 +22,7 @@
                     <div class="product_single_one_img">
                         <swiper class="swiper product-single-2-slider" :options="swiperOption">
                             <swiper-slide>
-<<<<<<< HEAD
-                                <img :src="require('@/assets/img/product-image/1.png')" alt="img" />
-=======
                                 <img :src="require('@/assets/img/product-image/cuadrosAmarilla.jpg')" alt="img" />
->>>>>>> alejandra
                             </swiper-slide>
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/cuadrosBlanco.jpg')" alt="img" />
@@ -45,6 +41,15 @@
                             </swiper-slide>
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/7.png')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/sobreCamisa1.png')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/sobreCamisaGris.png')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/sobreCamisaRoja.png')" alt="img" />
                             </swiper-slide>
       
                             <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
