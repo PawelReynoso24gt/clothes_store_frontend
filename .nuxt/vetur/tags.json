@@ -20,18 +20,6 @@
   "BlogSidebar2": {
     "description": "Auto imported from components/blog/BlogSidebar2.vue"
   },
-  "InstagramArea": {
-    "description": "Auto imported from components/instagram/InstagramArea.vue"
-  },
-  "InstagramAreaElectronics": {
-    "description": "Auto imported from components/instagram/InstagramAreaElectronics.vue"
-  },
-  "InstagramAreaFurniture": {
-    "description": "Auto imported from components/instagram/InstagramAreaFurniture.vue"
-  },
-  "InstagramSliderItem": {
-    "description": "Auto imported from components/instagram/InstagramSliderItem.vue"
-  },
   "ProductBox1": {
     "description": "Auto imported from components/product-box/ProductBox1.vue"
   },
@@ -46,6 +34,18 @@
   },
   "ProductBox5": {
     "description": "Auto imported from components/product-box/ProductBox5.vue"
+  },
+  "InstagramArea": {
+    "description": "Auto imported from components/instagram/InstagramArea.vue"
+  },
+  "InstagramAreaElectronics": {
+    "description": "Auto imported from components/instagram/InstagramAreaElectronics.vue"
+  },
+  "InstagramAreaFurniture": {
+    "description": "Auto imported from components/instagram/InstagramAreaFurniture.vue"
+  },
+  "InstagramSliderItem": {
+    "description": "Auto imported from components/instagram/InstagramSliderItem.vue"
   },
   "WidgetsRelatedProducts": {
     "description": "Auto imported from components/widgets/RelatedProducts.vue"
