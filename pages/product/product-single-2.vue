@@ -22,13 +22,17 @@
                     <div class="product_single_one_img">
                         <swiper class="swiper product-single-2-slider" :options="swiperOption">
                             <swiper-slide>
+<<<<<<< HEAD
                                 <img :src="require('@/assets/img/product-image/1.png')" alt="img" />
+=======
+                                <img :src="require('@/assets/img/product-image/cuadrosAmarilla.jpg')" alt="img" />
+>>>>>>> alejandra
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/2.png')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/cuadrosBlanco.jpg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/3.png')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/cuadrosRosado.jpeg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/4.png')" alt="img" />
