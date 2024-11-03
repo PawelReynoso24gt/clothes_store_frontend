@@ -65,19 +65,19 @@
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/camisa-estampado-red.jpg')"
+                    :src="require('@/assets/img/product-image/playeraEstampada1.png')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/camisa-estampado-black.jpg')"
+                    :src="require('@/assets/img/product-image/playeraEstampada2.png')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/sobreCamisa1.png')"
+                    :src="require('@/assets/img/product-image/playerasEstampada3.png')"
                     alt="img"
                   />
                 </swiper-slide>
@@ -96,24 +96,6 @@
                 <swiper-slide>
                   <img
                     :src="require('@/assets/img/product-image/rayasGreen.jpg')"
-                    alt="img"
-                  />
-                </swiper-slide>
-                <swiper-slide>
-                  <img
-                    :src="require('@/assets/img/product-image/rayasSky.jpg')"
-                    alt="img"
-                  />
-                </swiper-slide>
-                <swiper-slide>
-                  <img
-                    :src="require('@/assets/img/product-image/cortaVerde.jpg')"
-                    alt="img"
-                  />
-                </swiper-slide>
-                <swiper-slide>
-                  <img
-                    :src="require('@/assets/img/product-image/cortaNegra.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
