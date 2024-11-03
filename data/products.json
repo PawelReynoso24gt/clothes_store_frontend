@@ -117,12 +117,12 @@
         },
         {
             "id": 2, 
-            "title": "Camisa color liso",
-            "description": "Camisa manga larga con cuello, diseño liso, Con tela de algodón",
+            "title": "Camisa lisa",
+            "description": "Camisa estructura acabado lavado",
             "type": "fashion",
             "brand": "geox",
-            "collection": ["best sellers"],
-            "category": "Women",
+            "collection": ["Camisas"],
+            "category": "Male",
             "price": 185,
             "hot": false,
             "discount": "40",
@@ -217,7 +217,7 @@
                     "image_id": 211,
                     "id": 2,
                     "alt": "olive",
-                    "src": "3.png",
+                    "src": "camisa-lisa-green.jpg",
                     "variant_id": [
                         201,
                         204,
@@ -228,7 +228,7 @@
                     "image_id": 212,
                     "id": 2,
                     "alt": "navy",
-                    "src": "4.png",
+                    "src": "camisa-lisa-azul.jpg",
                     "variant_id": [
                         202,
                         205,
@@ -239,7 +239,7 @@
                     "image_id": 213,
                     "id": 2,
                     "alt": "pink",
-                    "src": "1.png",
+                    "src": "camisa-lisa-red.jpg",
                     "variant_id": [
                         203,
                         206,
@@ -250,11 +250,11 @@
         },
         {
             "id": 3,
-            "title": "White Black Line Dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Camisa con estampados",
+            "description": "Camiseta print manga corta",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["featured products"],
+            "collection": ["Camisas"],
             "category": "Women",
             "price": 174,
             "hot": false,
@@ -308,7 +308,7 @@
                     "image_id": 311,
                     "id": 3,
                     "alt": "whredite",
-                    "src": "5.png",
+                    "src": "camisa-estampado-red.jpg",
                     "variant_id": [
                         301,
                         303
@@ -318,7 +318,7 @@
                     "image_id": 312,
                     "id": 1,
                     "alt": "red",
-                    "src": "6.png",
+                    "src": "camisa-estampado-black.jpg",
                     "variant_id": [
                         302,
                         304
@@ -485,10 +485,10 @@
         {
             "id": 6,
             "title": "Sobrecamisa",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Sobrecamisa de tela de algodón, manga larga. Costuras resistentes para cualquier tipo de trabajo.",
             "type": "fashion",
             "brand": "max",
-            "collection": ["Camisa"],
+            "collection": ["Camisas"],
             "category": "Women",
             "price": 121,
             "hot": false,
@@ -560,7 +560,7 @@
                     "image_id": 611,
                     "id": 6,
                     "alt": "olive",
-                    "src": "11.png",
+                    "src": "sobreCamisa1.png",
                     "variant_id": [
                         601,
                         604
@@ -570,7 +570,7 @@
                     "image_id": 612,
                     "id": 6,
                     "alt": "gray",
-                    "src": "12.png",
+                    "src": "sobreCamisaGris.png",
                     "variant_id": [
                         602,
                         605
@@ -580,7 +580,7 @@
                     "image_id": 613,
                     "id": 6,
                     "alt": "red",
-                    "src": "1.png",
+                    "src": "sobreCamisaRoja.png",
                     "variant_id": [
                         603,
                         606

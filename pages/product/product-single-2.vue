@@ -31,15 +31,28 @@
                                 <img :src="require('@/assets/img/product-image/cuadrosRosado.jpeg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/4.png')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/camisa-lisa-green.jpg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/5.png')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/camisa-lisa-azul.jpg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/6.png')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/camisa-lisa-red.jpg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/camisa-estampado-red.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/camisa-estampado-black.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/sobreCamisa1.png')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/sobreCamisaGris.png')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/sobreCamisaRoja.png')" alt="img" />
                                 <img :src="require('@/assets/img/product-image/rayasGreen.jpg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>

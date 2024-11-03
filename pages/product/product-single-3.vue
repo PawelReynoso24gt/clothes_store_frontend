@@ -47,24 +47,49 @@
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/4.png')"
+                    :src="require('@/assets/img/product-image/camisa-lisa-green.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/5.png')"
+                    :src="require('@/assets/img/product-image/camisa-lisa-azul.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/6.png')"
+                    :src="require('@/assets/img/product-image/camisa-lisa-red.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
+                    :src="require('@/assets/img/product-image/camisa-estampado-red.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/camisa-estampado-black.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/sobreCamisa1.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/sobreCamisaGris.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/sobreCamisaRoja.png')"
                     :src="require('@/assets/img/product-image/rayasGreen.jpg')"
                     alt="img"
                   />
@@ -87,7 +112,6 @@
                     alt="img"
                   />
                 </swiper-slide>
-
                 <div
                   class="swiper-button-prev swiper-button-white"
                   slot="button-prev"
