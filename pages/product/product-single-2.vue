@@ -54,6 +54,18 @@
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/sobreCamisaRoja.png')" alt="img" />
                             </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/rayasGreen.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/rayasSky.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/cortaVerde.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/cortaNegra.jpg')" alt="img" />
+                            </swiper-slide>
       
                             <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
                             <div class="swiper-button-next swiper-button-white" slot="button-next"></div>

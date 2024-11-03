@@ -386,7 +386,7 @@
                     "image_id": 411,
                     "id": 4,
                     "alt": "green",
-                    "src": "7.png",
+                    "src": "rayasGreen.jpg",
                     "variant_id": [
                         401,
                         402
@@ -396,7 +396,7 @@
                     "image_id": 412,
                     "id": 4,
                     "alt": "skyblue",
-                    "src": "8.png",
+                    "src": "rayasSky.jpg",
                     "variant_id": [
                         403,
                         404
@@ -406,8 +406,8 @@
         },
         {
             "id": 5,
-            "title": "Black T-Shirt For Woman",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Camisa manga corta",
+            "description": "Una buena elección por si quieres lucir con estilo con una camisa de algodón.",
             "type": "fashion",
             "brand": "biba",
             "collection": ["Camisas"],
@@ -464,7 +464,7 @@
                     "image_id": 511,
                     "id": 5,
                     "alt": "green",
-                    "src": "9.png",
+                    "src": "cortaVerde.jpg",
                     "variant_id": [
                         501,
                         503
@@ -474,7 +474,7 @@
                     "image_id": 512,
                     "id": 5,
                     "alt": "black",
-                    "src": "10.png",
+                    "src": "cortaNegra.jpg",
                     "variant_id": [
                         502,
                         504
