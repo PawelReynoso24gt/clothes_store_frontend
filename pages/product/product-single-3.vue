@@ -117,6 +117,12 @@
                     alt="img"
                   />
                 </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playera-polo.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
                 <div
                   class="swiper-button-prev swiper-button-white"
                   slot="button-prev"
