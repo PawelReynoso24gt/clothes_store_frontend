@@ -35,14 +35,11 @@
   "ProductBox5": {
     "description": "Auto imported from components/product-box/ProductBox5.vue"
   },
-  "InstagramArea": {
-    "description": "Auto imported from components/instagram/InstagramArea.vue"
+  "WidgetsRelatedProducts": {
+    "description": "Auto imported from components/widgets/RelatedProducts.vue"
   },
-  "InstagramAreaElectronics": {
-    "description": "Auto imported from components/instagram/InstagramAreaElectronics.vue"
-  },
-  "InstagramAreaFurniture": {
-    "description": "Auto imported from components/instagram/InstagramAreaFurniture.vue"
+  "WidgetsShopSidebar": {
+    "description": "Auto imported from components/widgets/ShopSidebar.vue"
   },
   "InstagramSliderItem": {
     "description": "Auto imported from components/instagram/InstagramSliderItem.vue"

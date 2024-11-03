@@ -1,71 +1,141 @@
 <template>
-  <div>
-    <h2>Lista de Empleados</h2>
+  <div class="contenedor-principal">
+    <h1 class="titulo-centrado">Lista de Empleados</h1>
 
-    <!-- Campo de búsqueda -->
-    <div class="search-container">
-      <input
-        type="number"
-        v-model="searchId"
-        placeholder="Buscar empleado por ID"
-      />
-      <button @click="buscarEmpleado">Buscar</button>
-      <button @click="obtenerEmpleados">Mostrar Todos</button>
+    <!-- Botón para abrir el modal de crear Empleado -->
+    <button @click="mostrarModalCrearEmpleado" class="btn-crear">Crear Empleado</button>
+
+    <!-- Modal para crear Empleado -->
+    <div v-if="mostrarModalCrear" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar" @click="cerrarModalCrear">&times;</span>
+        <h2>Crear Empleado</h2>
+        <form @submit.prevent="crearEmpleado">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" v-model="nuevoEmpleado.nombre" id="nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo:</label>
+            <input type="email" v-model="nuevoEmpleado.correo" id="correo" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" v-model="nuevoEmpleado.telefono" id="telefono" required />
+          </div>
+          <div class="form-group">
+            <label for="usuario">Usuario:</label>
+            <select v-model="nuevoEmpleado.usuario" id="usuario" required>
+              <option v-for="usuario in usuarios" :key="usuario.idUsuario" :value="usuario.usuario">
+                {{ usuario.usuario }}
+              </option>
+            </select>
+          </div>
+          <button type="submit" class="btn-enviar">Crear</button>
+          <button type="button" class="btn-cerrar" @click="cerrarModalCrear">Cancelar</button>
+        </form>
+      </div>
     </div>
 
-    <!-- Formulario para crear un nuevo empleado -->
-    <div class="create-container">
-      <h2>Crear Nuevo Empleado</h2>
-      <form @submit.prevent="crearEmpleado">
-        <input type="text" v-model="nuevoEmpleado.nombre" placeholder="Nombre" required />
-        <input type="email" v-model="nuevoEmpleado.correo" placeholder="Correo" required />
-        <input type="text" v-model="nuevoEmpleado.telefono" placeholder="Teléfono" required />
-        <input type="number" v-model="nuevoEmpleado.idUsuario" placeholder="ID Usuario" required />
-        <button type="submit">Crear Empleado</button>
-      </form>
+    <!-- Modal para actualizar Empleado -->
+    <div v-if="mostrarModalActualizar" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar" @click="cerrarModalActualizar">&times;</span>
+        <h2>Actualizar Empleado</h2>
+        <form @submit.prevent="actualizarEmpleado">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" v-model="empleadoSeleccionado.nombre" id="nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo:</label>
+            <input type="email" v-model="empleadoSeleccionado.correo" id="correo" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" v-model="empleadoSeleccionado.telefono" id="telefono" required />
+          </div>
+          <div class="form-group">
+            <label for="usuario">Usuario:</label>
+            <select v-model="empleadoSeleccionado.usuario.usuario" id="usuario" required>
+              <option v-for="usuario in usuarios" :key="usuario.idUsuario" :value="usuario.usuario">
+                {{ usuario.usuario }}
+              </option>
+            </select>
+          </div>
+          <button type="submit" class="btn-enviar">Actualizar</button>
+          <button type="button" class="btn-cerrar" @click="cerrarModalActualizar">Cancelar</button>
+        </form>
+      </div>
     </div>
 
-    <!-- Formulario para actualizar un empleado -->
-    <div class="update-container" v-if="empleadoSeleccionado">
-      <h2>Actualizar Empleado</h2>
-      <form @submit.prevent="actualizarEmpleado">
-        <input type="text" v-model="empleadoSeleccionado.nombre" placeholder="Nombre" required />
-        <input type="email" v-model="empleadoSeleccionado.correo" placeholder="Correo" required />
-        <input type="text" v-model="empleadoSeleccionado.telefono" placeholder="Teléfono" required />
-        <input type="number" v-model="empleadoSeleccionado.idUsuario" placeholder="ID Usuario" required />
-        <button type="submit">Actualizar Empleado</button>
-      </form>
+    <!-- Tabla de Empleados -->
+    <div class="tabla-contenedor">
+      <table v-if="empleados.length" class="inventarios-table">
+        <thead>
+          <tr>
+            <th>ID Empleado</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Teléfono</th>
+            <th>Usuario</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="empleado in empleados" :key="empleado.idEmpleado">
+            <td>{{ empleado.idEmpleado }}</td>
+            <td>{{ empleado.nombre }}</td>
+            <td>{{ empleado.correo }}</td>
+            <td>{{ empleado.telefono }}</td>
+            <td>{{ empleado.usuario.usuario }}</td>
+            <td>{{ empleado.estado === 1 ? 'Activo' : 'Inactivo' }}</td>
+            <td>
+              <button @click="mostrarModalActualizarEmpleado(empleado)" class="btn-actualizar">Editar</button>
+              <button @click="desactivarEmpleado(empleado)" class="btn-desactivar">Desactivar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p v-else>No hay empleados disponibles.</p>
     </div>
 
-    <!-- Tabla de empleados -->
-    <table v-if="empleados.length" class="empleados-table">
-      <thead>
-        <tr>
-          <th>ID Empleado</th>
-          <th>Nombre</th>
-          <th>Correo</th>
-          <th>Teléfono</th>
-          <th>Usuario</th>
-          <th>Estado</th>
-          <th>Acciones</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="empleado in empleados" :key="empleado.idEmpleado">
-          <td>{{ empleado.idEmpleado }}</td>
-          <td>{{ empleado.nombre }}</td>
-          <td>{{ empleado.correo }}</td>
-          <td>{{ empleado.telefono }}</td>
-          <td>{{ empleado.usuario.usuario }}</td>
-          <td>{{ empleado.estado === 1 ? 'Activo' : 'Inactivo' }}</td>
-          <td>
-            <button @click="cargarEmpleado(empleado)">Editar</button>
-            <button @click="eliminarEmpleado(empleado.idEmpleado)">Eliminar</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p v-else>No hay empleados disponibles.</p>
+    <button @click="abrirModalEmpleadosInactivos" class="btn-ver-inactivos">Ver Empleados Inactivos</button>
+
+    <!-- Modal para ver Empleados Inactivos -->
+    <div v-if="mostrarModalEmpleadosInactivos" class="modal">
+      <div class="modal-contenido modal-grande">
+        <span class="cerrar" @click="cerrarModalEmpleadosInactivos">&times;</span>
+        <h2>Empleados Inactivos</h2>
+        <table v-if="empleadosInactivos.length" class="inventarios-table">
+          <thead>
+            <tr>
+              <th>ID Empleado</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Teléfono</th>
+              <th>Usuario</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="empleado in empleadosInactivos" :key="empleado.idEmpleado">
+              <td>{{ empleado.idEmpleado }}</td>
+              <td>{{ empleado.nombre }}</td>
+              <td>{{ empleado.correo }}</td>
+              <td>{{ empleado.telefono }}</td>
+              <td>{{ empleado.usuario.usuario }}</td>
+              <td>
+                <button @click="activarEmpleado(empleado)" class="btn-activar">Activar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p v-else>No hay empleados inactivos disponibles.</p>
+        <button @click="cerrarModalEmpleadosInactivos" class="btn-cerrar">Cerrar</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -75,195 +145,220 @@ import axios from "axios";
 export default {
   data() {
     return {
-      empleados: [],  // Lista de empleados o resultado de la búsqueda
-      searchId: "",   // ID de búsqueda
-      nuevoEmpleado: { // Datos del nuevo empleado a crear
-        nombre: "",
-        correo: "",
-        telefono: "",
-        idUsuario: ""
-      },
-      empleadoSeleccionado: null, // Datos del empleado que se va a actualizar
+      empleados: [],
+      empleadosInactivos: [],
+      usuarios: [],
+      mostrarModalCrear: false,
+      mostrarModalActualizar: false,
+      mostrarModalEmpleadosInactivos: false,
+      nuevoEmpleado: { nombre: "", correo: "", telefono: "", usuario: "", estado: 1 },
+      empleadoSeleccionado: null,
     };
+  },
+  computed: {
+    empleadosActivos() {
+      return this.empleados.filter((empleado) => empleado.estado === 1);
+    },
   },
   created() {
     this.obtenerEmpleados();
+    this.obtenerUsuarios(); // Obtener lista de usuarios al cargar el componente
   },
   methods: {
-    // Método para obtener todos los empleados
     async obtenerEmpleados() {
-      try {
-        const response = await axios.get("http://localhost:5000/empleados");
-        this.empleados = response.data;
-      } catch (error) {
-        console.error("Error al obtener los empleados:", error);
-      }
+      const response = await axios.get("http://localhost:5000/empleados");
+      this.empleados = response.data;
     },
-    
-    // Método para buscar un empleado por ID
-    async buscarEmpleado() {
-      if (!this.searchId) {
-        alert("Por favor ingresa un ID de empleado.");
-        return;
-      }
-      try {
-        const response = await axios.get(`http://localhost:5000/empleados/${this.searchId}`);
-        this.empleados = response.data ? [response.data] : []; // Muestra el resultado en la tabla
-      } catch (error) {
-        console.error("Error al buscar el empleado:", error);
-        this.empleados = [];
-      }
+    async obtenerUsuarios() {
+      const response = await axios.get("http://localhost:5000/usuarios/all"); // Ruta que devuelve lista de usuarios
+      this.usuarios = response.data;
     },
-    
-    // Método para crear un nuevo empleado
+    async obtenerEmpleadosInactivos() {
+      const response = await axios.get("http://localhost:5000/empleados/inactivos");
+      this.empleadosInactivos = response.data;
+    },
+    mostrarModalCrearEmpleado() {
+      this.mostrarModalCrear = true;
+    },
+    cerrarModalCrear() {
+      this.mostrarModalCrear = false;
+      this.nuevoEmpleado = { nombre: "", correo: "", telefono: "", usuario: "", estado: 1 };
+    },
     async crearEmpleado() {
-      try {
-        const response = await axios.post("http://localhost:5000/empleados/create", {
-          nombre: this.nuevoEmpleado.nombre,
-          correo: this.nuevoEmpleado.correo,
-          telefono: this.nuevoEmpleado.telefono,
-          idUsuario: this.nuevoEmpleado.idUsuario,
-          estado: 1 // Puedes cambiarlo según sea necesario
-        });
-
-        // Agregar el nuevo empleado a la lista y limpiar el formulario
-        this.empleados.push(response.data);
-        this.limpiarFormulario();
-      } catch (error) {
-        console.error("Error al crear el empleado:", error);
-      }
+      await axios.post("http://localhost:5000/empleados/create", this.nuevoEmpleado);
+      this.obtenerEmpleados();
+      this.cerrarModalCrear();
     },
-
-    // Método para cargar los datos del empleado seleccionado en el formulario de actualización
-    cargarEmpleado(empleado) {
-      this.empleadoSeleccionado = { ...empleado }; // Clona el empleado seleccionado
+    mostrarModalActualizarEmpleado(empleado) {
+      this.empleadoSeleccionado = { ...empleado };
+      this.mostrarModalActualizar = true;
     },
-
-    // Método para actualizar un empleado
+    cerrarModalActualizar() {
+      this.mostrarModalActualizar = false;
+      this.empleadoSeleccionado = null;
+    },
     async actualizarEmpleado() {
-      if (!this.empleadoSeleccionado) return; // Si no hay empleado seleccionado, no hace nada
-      try {
-        const response = await axios.put(`http://localhost:5000/empleados/update/${this.empleadoSeleccionado.idEmpleado}`, {
-          nombre: this.empleadoSeleccionado.nombre,
-          correo: this.empleadoSeleccionado.correo,
-          telefono: this.empleadoSeleccionado.telefono,
-          idUsuario: this.empleadoSeleccionado.idUsuario,
-          estado: this.empleadoSeleccionado.estado // Mantener el estado actual
-        });
-
-        // Actualizar el empleado en la lista
-        const index = this.empleados.findIndex(emp => emp.idEmpleado === response.data.idEmpleado);
-        if (index !== -1) {
-          this.empleados.splice(index, 1, response.data); // Actualiza el empleado en la lista
+      await axios.put(
+        `http://localhost:5000/empleados/update/${this.empleadoSeleccionado.idEmpleado}`,
+        {
+          ...this.empleadoSeleccionado,
+          usuario: this.empleadoSeleccionado.usuario.usuario, // Enviar solo el nombre de usuario
         }
-
-        // Limpiar el formulario de actualización
-        this.limpiarFormularioActualizacion();
-      } catch (error) {
-        console.error("Error al actualizar el empleado:", error);
-      }
+      );
+      this.obtenerEmpleados();
+      this.cerrarModalActualizar();
     },
-
-    // Método para eliminar un empleado
-    async eliminarEmpleado(idEmpleado) {
-      const confirmacion = confirm("¿Estás seguro de que deseas eliminar este empleado?");
-      if (!confirmacion) return; // Si el usuario cancela, no hace nada
-      try {
-        await axios.delete(`http://localhost:5000/empleados/delete/${idEmpleado}`);
-        
-        // Eliminar el empleado de la lista
-        this.empleados = this.empleados.filter(emp => emp.idEmpleado !== idEmpleado);
-      } catch (error) {
-        console.error("Error al eliminar el empleado:", error);
-      }
+    async desactivarEmpleado(empleado) {
+      empleado.estado = 0;
+      await axios.put(`http://localhost:5000/empleados/update/${empleado.idEmpleado}`, empleado);
+      this.obtenerEmpleados();
     },
-
-    // Método para limpiar el formulario de creación
-    limpiarFormulario() {
-      this.nuevoEmpleado = {
-        nombre: "",
-        correo: "",
-        telefono: "",
-        idUsuario: ""
-      };
+    abrirModalEmpleadosInactivos() {
+      this.obtenerEmpleadosInactivos();
+      this.mostrarModalEmpleadosInactivos = true;
     },
-
-    // Método para limpiar el formulario de actualización
-    limpiarFormularioActualizacion() {
-      this.empleadoSeleccionado = null; // Resetea el empleado seleccionado
+    cerrarModalEmpleadosInactivos() {
+      this.mostrarModalEmpleadosInactivos = false;
+    },
+    async activarEmpleado(empleado) {
+      empleado.estado = 1;
+      await axios.put(`http://localhost:5000/empleados/update/${empleado.idEmpleado}`, empleado);
+      this.obtenerEmpleados();
     },
   },
 };
 </script>
 
 <style scoped>
-.empleados-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
+/* El mismo estilo aplicado al componente de empleados */
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
-
-.empleados-table th,
-.empleados-table td {
+.titulo-centrado {
+  text-align: center;
+}
+.tabla-contenedor {
+  width: 80%;
   border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.empleados-table th {
-  background-color: #55679C; /* Azul medio */
-  color: #E1D7B7; /* Beige claro */
-  font-weight: bold;
-}
-
-.empleados-table tr:nth-child(even) {
-  background-color: #7C93C3; /* Azul claro */
-}
-
-.empleados-table tr:hover {
-  background-color: #1E2A5E; /* Azul oscuro */
-  color: #E1D7B7; /* Beige claro */
-}
-
-.search-container,
-.create-container,
-.update-container {
-  margin-bottom: 15px;
-  background-color: #E1D7B7; /* Beige claro */
-  padding: 15px;
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 20px;
 }
-
-.create-container h2,
-.update-container h2 {
-  color: #55679C; /* Azul medio */
+.btn-crear,
+.btn-ver-inactivos {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
-
-.search-container input,
-.create-container input,
-.update-container input {
-  padding: 5px;
-  margin-right: 10px;
-  border: 1px solid #55679C; /* Azul medio */
-  border-radius: 4px;
-}
-
-.search-container button,
-.create-container button,
-.update-container button {
+.btn-desactivar {
   padding: 5px 10px;
-  background-color: #1E2A5E; /* Azul oscuro */
-  color: #E1D7B7; /* Beige claro */
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #f44336;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
 }
-
-.search-container button:hover,
-.create-container button:hover,
-.update-container button:hover {
-  background-color: #7C93C3; /* Azul claro */
+.btn-activar {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+}
+.btn-actualizar {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 4px;
+}
+.btn-cerrar {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #777;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-contenido {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.modal-grande {
+  width: 600px;
+}
+.cerrar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.btn-enviar {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.inventarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.inventarios-table th,
+.inventarios-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.inventarios-table th {
+  background-color: #f7f7f7;
+  color: #333;
+  font-weight: bold;
+}
+.inventarios-table td {
+  color: #555;
+}
+.inventarios-table tr:hover {
+  background-color: #ddd;
 }
 </style>

@@ -289,6 +289,34 @@ export const routerOptions = {
     component: _aa2b2d90,
     name: "product-product-single-3"
   }, {
+    path: "/productosHombres/camisas",
+    component: _306b91d2,
+    name: "productosHombres-camisas"
+  }, {
+    path: "/productosHombres/jackets",
+    component: _3af5f451,
+    name: "productosHombres-jackets"
+  }, {
+    path: "/productosHombres/pantalones",
+    component: _39649373,
+    name: "productosHombres-pantalones"
+  }, {
+    path: "/productosHombres/pantalonetas",
+    component: _039eb1b4,
+    name: "productosHombres-pantalonetas"
+  }, {
+    path: "/productosHombres/playeras",
+    component: _66194397,
+    name: "productosHombres-playeras"
+  }, {
+    path: "/productosHombres/sueteres",
+    component: _a8490f20,
+    name: "productosHombres-sueteres"
+  }, {
+    path: "/productosHombres/trajes",
+    component: _474aa64e,
+    name: "productosHombres-trajes"
+  }, {
     path: "/shop/shop-2",
     component: _0c466724,
     name: "shop-shop-2"
