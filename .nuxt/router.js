@@ -4,77 +4,77 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _6f1d38f6 = () => interopDefault(import('..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
-const _0b9ee1e0 = () => interopDefault(import('..\\pages\\about-us.vue' /* webpackChunkName: "pages/about-us" */))
-const _e2909da4 = () => interopDefault(import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
-const _6399eaf0 = () => interopDefault(import('..\\pages\\cart\\index.vue' /* webpackChunkName: "pages/cart/index" */))
-const _558a1705 = () => interopDefault(import('..\\pages\\coming-soon.vue' /* webpackChunkName: "pages/coming-soon" */))
-const _4a924545 = () => interopDefault(import('..\\pages\\contact-us\\index.vue' /* webpackChunkName: "pages/contact-us/index" */))
-const _c2e1a096 = () => interopDefault(import('..\\pages\\electronics.vue' /* webpackChunkName: "pages/electronics" */))
-const _1b0ddbd4 = () => interopDefault(import('..\\pages\\faq.vue' /* webpackChunkName: "pages/faq" */))
-const _08ffe630 = () => interopDefault(import('..\\pages\\furniture.vue' /* webpackChunkName: "pages/furniture" */))
-const _f412f96a = () => interopDefault(import('..\\pages\\grocery.vue' /* webpackChunkName: "pages/grocery" */))
-const _0a102d27 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _5e9bb73a = () => interopDefault(import('..\\pages\\lookbook.vue' /* webpackChunkName: "pages/lookbook" */))
-const _236111f8 = () => interopDefault(import('..\\pages\\my-account\\index.vue' /* webpackChunkName: "pages/my-account/index" */))
-const _c945d736 = () => interopDefault(import('..\\pages\\pharmacy.vue' /* webpackChunkName: "pages/pharmacy" */))
-const _45bef56e = () => interopDefault(import('..\\pages\\privacy-policy.vue' /* webpackChunkName: "pages/privacy-policy" */))
-const _6270f356 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
-const _4411695a = () => interopDefault(import('..\\pages\\shop\\index.vue' /* webpackChunkName: "pages/shop/index" */))
-const _28ecbd3e = () => interopDefault(import('..\\pages\\vendor-dashboard\\index.vue' /* webpackChunkName: "pages/vendor-dashboard/index" */))
-const _5b6dd4ca = () => interopDefault(import('..\\pages\\blog\\blog-2.vue' /* webpackChunkName: "pages/blog/blog-2" */))
-const _5b51a5c8 = () => interopDefault(import('..\\pages\\blog\\blog-3.vue' /* webpackChunkName: "pages/blog/blog-3" */))
-const _b7fdf9d8 = () => interopDefault(import('..\\pages\\blog\\blog-single-2.vue' /* webpackChunkName: "pages/blog/blog-single-2" */))
-const _165b4917 = () => interopDefault(import('..\\pages\\cart\\cart-2.vue' /* webpackChunkName: "pages/cart/cart-2" */))
-const _16696098 = () => interopDefault(import('..\\pages\\cart\\cart-3.vue' /* webpackChunkName: "pages/cart/cart-3" */))
-const _16777819 = () => interopDefault(import('..\\pages\\cart\\cart-4.vue' /* webpackChunkName: "pages/cart/cart-4" */))
-const _204ddd72 = () => interopDefault(import('..\\pages\\cart\\empty-cart.vue' /* webpackChunkName: "pages/cart/empty-cart" */))
-const _9b1efca6 = () => interopDefault(import('..\\pages\\contact-us\\contact-us-2.vue' /* webpackChunkName: "pages/contact-us/contact-us-2" */))
-const _616f85ae = () => interopDefault(import('..\\pages\\crud\\clientes.vue' /* webpackChunkName: "pages/crud/clientes" */))
-const _4e6926cb = () => interopDefault(import('..\\pages\\crud\\cupones.vue' /* webpackChunkName: "pages/crud/cupones" */))
-const _33e32a0a = () => interopDefault(import('..\\pages\\crud\\descuentos.vue' /* webpackChunkName: "pages/crud/descuentos" */))
-const _cae44570 = () => interopDefault(import('..\\pages\\crud\\empleados.vue' /* webpackChunkName: "pages/crud/empleados" */))
-const _3a2c24e1 = () => interopDefault(import('..\\pages\\crud\\inventario.vue' /* webpackChunkName: "pages/crud/inventario" */))
-const _dab15ca0 = () => interopDefault(import('..\\pages\\crud\\ocasiones.vue' /* webpackChunkName: "pages/crud/ocasiones" */))
-const _2be421d3 = () => interopDefault(import('..\\pages\\crud\\productos.vue' /* webpackChunkName: "pages/crud/productos" */))
-const _0e10f706 = () => interopDefault(import('..\\pages\\crud\\roles.vue' /* webpackChunkName: "pages/crud/roles" */))
-const _4a0de00f = () => interopDefault(import('..\\pages\\crud\\tallas.vue' /* webpackChunkName: "pages/crud/tallas" */))
-const _f32f3e88 = () => interopDefault(import('..\\pages\\crud\\temporadas.vue' /* webpackChunkName: "pages/crud/temporadas" */))
-const _0dd21f16 = () => interopDefault(import('..\\pages\\crud\\usuarios.vue' /* webpackChunkName: "pages/crud/usuarios" */))
-const _051c5054 = () => interopDefault(import('..\\pages\\my-account\\account-details.vue' /* webpackChunkName: "pages/my-account/account-details" */))
-const _085bf3db = () => interopDefault(import('..\\pages\\my-account\\account-info-edit.vue' /* webpackChunkName: "pages/my-account/account-info-edit" */))
-const _afc1f658 = () => interopDefault(import('..\\pages\\my-account\\addresses.vue' /* webpackChunkName: "pages/my-account/addresses" */))
-const _025182a8 = () => interopDefault(import('..\\pages\\my-account\\checkout-1.vue' /* webpackChunkName: "pages/my-account/checkout-1" */))
-const _025f9a29 = () => interopDefault(import('..\\pages\\my-account\\checkout-2.vue' /* webpackChunkName: "pages/my-account/checkout-2" */))
-const _6e9a8b17 = () => interopDefault(import('..\\pages\\my-account\\compare.vue' /* webpackChunkName: "pages/my-account/compare" */))
-const _8ed9f4c6 = () => interopDefault(import('..\\pages\\my-account\\downloads.vue' /* webpackChunkName: "pages/my-account/downloads" */))
-const _2c277ad8 = () => interopDefault(import('..\\pages\\my-account\\order-tracking.vue' /* webpackChunkName: "pages/my-account/order-tracking" */))
-const _404f4cba = () => interopDefault(import('..\\pages\\my-account\\orders.vue' /* webpackChunkName: "pages/my-account/orders" */))
-const _4f032b03 = () => interopDefault(import('..\\pages\\my-account\\wishlist.vue' /* webpackChunkName: "pages/my-account/wishlist" */))
-const _4d50db78 = () => interopDefault(import('..\\pages\\otras-paginas\\jackets.vue' /* webpackChunkName: "pages/otras-paginas/jackets" */))
-const _862195a2 = () => interopDefault(import('..\\pages\\otras-paginas\\pants.vue' /* webpackChunkName: "pages/otras-paginas/pants" */))
-const _364513ae = () => interopDefault(import('..\\pages\\otras-paginas\\sueteres.vue' /* webpackChunkName: "pages/otras-paginas/sueteres" */))
-const _0e603810 = () => interopDefault(import('..\\pages\\product\\product-single-2.vue' /* webpackChunkName: "pages/product/product-single-2" */))
-const _0e44090e = () => interopDefault(import('..\\pages\\product\\product-single-3.vue' /* webpackChunkName: "pages/product/product-single-3" */))
-const _35bdc958 = () => interopDefault(import('..\\pages\\productosHombres\\camisas.vue' /* webpackChunkName: "pages/productosHombres/camisas" */))
-const _ee2cf2dc = () => interopDefault(import('..\\pages\\productosHombres\\jackets.vue' /* webpackChunkName: "pages/productosHombres/jackets" */))
-const _f5e564dc = () => interopDefault(import('..\\pages\\productosHombres\\pantalones.vue' /* webpackChunkName: "pages/productosHombres/pantalones" */))
-const _02935585 = () => interopDefault(import('..\\pages\\productosHombres\\pantalonetas.vue' /* webpackChunkName: "pages/productosHombres/pantalonetas" */))
-const _52d00d14 = () => interopDefault(import('..\\pages\\productosHombres\\playeras.vue' /* webpackChunkName: "pages/productosHombres/playeras" */))
-const _1c5a2e4f = () => interopDefault(import('..\\pages\\productosHombres\\sueteres.vue' /* webpackChunkName: "pages/productosHombres/sueteres" */))
-const _527b4e78 = () => interopDefault(import('..\\pages\\productosHombres\\trajes.vue' /* webpackChunkName: "pages/productosHombres/trajes" */))
-const _e7e5817a = () => interopDefault(import('..\\pages\\shop\\shop-2.vue' /* webpackChunkName: "pages/shop/shop-2" */))
-const _e7c95278 = () => interopDefault(import('..\\pages\\shop\\shop-3.vue' /* webpackChunkName: "pages/shop/shop-3" */))
-const _e7ad2376 = () => interopDefault(import('..\\pages\\shop\\shop-4.vue' /* webpackChunkName: "pages/shop/shop-4" */))
-const _e790f474 = () => interopDefault(import('..\\pages\\shop\\shop-5.vue' /* webpackChunkName: "pages/shop/shop-5" */))
-const _2d3e3a92 = () => interopDefault(import('..\\pages\\vendor-dashboard\\add-product.vue' /* webpackChunkName: "pages/vendor-dashboard/add-product" */))
-const _045461dd = () => interopDefault(import('..\\pages\\vendor-dashboard\\order.vue' /* webpackChunkName: "pages/vendor-dashboard/order" */))
-const _74c1e584 = () => interopDefault(import('..\\pages\\vendor-dashboard\\product.vue' /* webpackChunkName: "pages/vendor-dashboard/product" */))
-const _291edcf8 = () => interopDefault(import('..\\pages\\vendor-dashboard\\profile.vue' /* webpackChunkName: "pages/vendor-dashboard/profile" */))
-const _173eb61f = () => interopDefault(import('..\\pages\\vendor-dashboard\\setting.vue' /* webpackChunkName: "pages/vendor-dashboard/setting" */))
-const _40688a10 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _e5fde034 = () => interopDefault(import('..\\pages\\blog\\_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
-const _3f96dd5d = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages/product/_id" */))
+const _559a7ff5 = () => interopDefault(import('..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
+const _7f9a611e = () => interopDefault(import('..\\pages\\about-us.vue' /* webpackChunkName: "pages/about-us" */))
+const _0eb9892d = () => interopDefault(import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
+const _38c87a22 = () => interopDefault(import('..\\pages\\cart\\index.vue' /* webpackChunkName: "pages/cart/index" */))
+const _54e821f8 = () => interopDefault(import('..\\pages\\coming-soon.vue' /* webpackChunkName: "pages/coming-soon" */))
+const _12ebe204 = () => interopDefault(import('..\\pages\\contact-us\\index.vue' /* webpackChunkName: "pages/contact-us/index" */))
+const _1e9107b4 = () => interopDefault(import('..\\pages\\electronics.vue' /* webpackChunkName: "pages/electronics" */))
+const _018b22d3 = () => interopDefault(import('..\\pages\\faq.vue' /* webpackChunkName: "pages/faq" */))
+const _0345b1ef = () => interopDefault(import('..\\pages\\furniture.vue' /* webpackChunkName: "pages/furniture" */))
+const _632b9a6c = () => interopDefault(import('..\\pages\\grocery.vue' /* webpackChunkName: "pages/grocery" */))
+const _4657b066 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _249df79b = () => interopDefault(import('..\\pages\\lookbook.vue' /* webpackChunkName: "pages/lookbook" */))
+const _92add87a = () => interopDefault(import('..\\pages\\my-account\\index.vue' /* webpackChunkName: "pages/my-account/index" */))
+const _615f54c6 = () => interopDefault(import('..\\pages\\pharmacy.vue' /* webpackChunkName: "pages/pharmacy" */))
+const _33af38ea = () => interopDefault(import('..\\pages\\privacy-policy.vue' /* webpackChunkName: "pages/privacy-policy" */))
+const _d66c7294 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _77d97d4e = () => interopDefault(import('..\\pages\\shop\\index.vue' /* webpackChunkName: "pages/shop/index" */))
+const _110472e0 = () => interopDefault(import('..\\pages\\vendor-dashboard\\index.vue' /* webpackChunkName: "pages/vendor-dashboard/index" */))
+const _52823d7c = () => interopDefault(import('..\\pages\\blog\\blog-2.vue' /* webpackChunkName: "pages/blog/blog-2" */))
+const _529054fd = () => interopDefault(import('..\\pages\\blog\\blog-3.vue' /* webpackChunkName: "pages/blog/blog-3" */))
+const _873327da = () => interopDefault(import('..\\pages\\blog\\blog-single-2.vue' /* webpackChunkName: "pages/blog/blog-single-2" */))
+const _d2d71e10 = () => interopDefault(import('..\\pages\\cart\\cart-2.vue' /* webpackChunkName: "pages/cart/cart-2" */))
+const _d2baef0e = () => interopDefault(import('..\\pages\\cart\\cart-3.vue' /* webpackChunkName: "pages/cart/cart-3" */))
+const _d29ec00c = () => interopDefault(import('..\\pages\\cart\\cart-4.vue' /* webpackChunkName: "pages/cart/cart-4" */))
+const _0dfe2cd3 = () => interopDefault(import('..\\pages\\cart\\empty-cart.vue' /* webpackChunkName: "pages/cart/empty-cart" */))
+const _3c4fe00e = () => interopDefault(import('..\\pages\\contact-us\\contact-us-2.vue' /* webpackChunkName: "pages/contact-us/contact-us-2" */))
+const _25d6f0ca = () => interopDefault(import('..\\pages\\crud\\clientes.vue' /* webpackChunkName: "pages/crud/clientes" */))
+const _555609ec = () => interopDefault(import('..\\pages\\crud\\cupones.vue' /* webpackChunkName: "pages/crud/cupones" */))
+const _58828b48 = () => interopDefault(import('..\\pages\\crud\\descuentos.vue' /* webpackChunkName: "pages/crud/descuentos" */))
+const _15d59dc7 = () => interopDefault(import('..\\pages\\crud\\empleados.vue' /* webpackChunkName: "pages/crud/empleados" */))
+const _27dc7442 = () => interopDefault(import('..\\pages\\crud\\inventario.vue' /* webpackChunkName: "pages/crud/inventario" */))
+const _0def122f = () => interopDefault(import('..\\pages\\crud\\ocasiones.vue' /* webpackChunkName: "pages/crud/ocasiones" */))
+const _b1a83b5c = () => interopDefault(import('..\\pages\\crud\\productos.vue' /* webpackChunkName: "pages/crud/productos" */))
+const _78f95c7c = () => interopDefault(import('..\\pages\\crud\\roles.vue' /* webpackChunkName: "pages/crud/roles" */))
+const _6b71f020 = () => interopDefault(import('..\\pages\\crud\\tallas.vue' /* webpackChunkName: "pages/crud/tallas" */))
+const _7418b01d = () => interopDefault(import('..\\pages\\crud\\temporadas.vue' /* webpackChunkName: "pages/crud/temporadas" */))
+const _4fa5a416 = () => interopDefault(import('..\\pages\\crud\\usuarios.vue' /* webpackChunkName: "pages/crud/usuarios" */))
+const _65c44a53 = () => interopDefault(import('..\\pages\\my-account\\account-details.vue' /* webpackChunkName: "pages/my-account/account-details" */))
+const _42252bcc = () => interopDefault(import('..\\pages\\my-account\\account-info-edit.vue' /* webpackChunkName: "pages/my-account/account-info-edit" */))
+const _3cce2a13 = () => interopDefault(import('..\\pages\\my-account\\addresses.vue' /* webpackChunkName: "pages/my-account/addresses" */))
+const _03870549 = () => interopDefault(import('..\\pages\\my-account\\checkout-1.vue' /* webpackChunkName: "pages/my-account/checkout-1" */))
+const _03951cca = () => interopDefault(import('..\\pages\\my-account\\checkout-2.vue' /* webpackChunkName: "pages/my-account/checkout-2" */))
+const _f20017d4 = () => interopDefault(import('..\\pages\\my-account\\compare.vue' /* webpackChunkName: "pages/my-account/compare" */))
+const _4d422adc = () => interopDefault(import('..\\pages\\my-account\\downloads.vue' /* webpackChunkName: "pages/my-account/downloads" */))
+const _796d8cb5 = () => interopDefault(import('..\\pages\\my-account\\order-tracking.vue' /* webpackChunkName: "pages/my-account/order-tracking" */))
+const _22b254c4 = () => interopDefault(import('..\\pages\\my-account\\orders.vue' /* webpackChunkName: "pages/my-account/orders" */))
+const _434ae1e4 = () => interopDefault(import('..\\pages\\my-account\\wishlist.vue' /* webpackChunkName: "pages/my-account/wishlist" */))
+const _4e865e19 = () => interopDefault(import('..\\pages\\otras-paginas\\jackets.vue' /* webpackChunkName: "pages/otras-paginas/jackets" */))
+const _9d9227e0 = () => interopDefault(import('..\\pages\\otras-paginas\\pants.vue' /* webpackChunkName: "pages/otras-paginas/pants" */))
+const _0a5847a8 = () => interopDefault(import('..\\pages\\otras-paginas\\sueteres.vue' /* webpackChunkName: "pages/otras-paginas/sueteres" */))
+const _aa475c92 = () => interopDefault(import('..\\pages\\product\\product-single-2.vue' /* webpackChunkName: "pages/product/product-single-2" */))
+const _aa2b2d90 = () => interopDefault(import('..\\pages\\product\\product-single-3.vue' /* webpackChunkName: "pages/product/product-single-3" */))
+const _306b91d2 = () => interopDefault(import('..\\pages\\productosHombres\\camisas.vue' /* webpackChunkName: "pages/productosHombres/camisas" */))
+const _3af5f451 = () => interopDefault(import('..\\pages\\productosHombres\\jackets.vue' /* webpackChunkName: "pages/productosHombres/jackets" */))
+const _39649373 = () => interopDefault(import('..\\pages\\productosHombres\\pantalones.vue' /* webpackChunkName: "pages/productosHombres/pantalones" */))
+const _039eb1b4 = () => interopDefault(import('..\\pages\\productosHombres\\pantalonetas.vue' /* webpackChunkName: "pages/productosHombres/pantalonetas" */))
+const _66194397 = () => interopDefault(import('..\\pages\\productosHombres\\playeras.vue' /* webpackChunkName: "pages/productosHombres/playeras" */))
+const _a8490f20 = () => interopDefault(import('..\\pages\\productosHombres\\sueteres.vue' /* webpackChunkName: "pages/productosHombres/sueteres" */))
+const _474aa64e = () => interopDefault(import('..\\pages\\productosHombres\\trajes.vue' /* webpackChunkName: "pages/productosHombres/trajes" */))
+const _0c466724 = () => interopDefault(import('..\\pages\\shop\\shop-2.vue' /* webpackChunkName: "pages/shop/shop-2" */))
+const _0c547ea5 = () => interopDefault(import('..\\pages\\shop\\shop-3.vue' /* webpackChunkName: "pages/shop/shop-3" */))
+const _0c629626 = () => interopDefault(import('..\\pages\\shop\\shop-4.vue' /* webpackChunkName: "pages/shop/shop-4" */))
+const _0c70ada7 = () => interopDefault(import('..\\pages\\shop\\shop-5.vue' /* webpackChunkName: "pages/shop/shop-5" */))
+const _03cfb0d1 = () => interopDefault(import('..\\pages\\vendor-dashboard\\add-product.vue' /* webpackChunkName: "pages/vendor-dashboard/add-product" */))
+const _29cf335c = () => interopDefault(import('..\\pages\\vendor-dashboard\\order.vue' /* webpackChunkName: "pages/vendor-dashboard/order" */))
+const _77ab7afd = () => interopDefault(import('..\\pages\\vendor-dashboard\\product.vue' /* webpackChunkName: "pages/vendor-dashboard/product" */))
+const _49a96a92 = () => interopDefault(import('..\\pages\\vendor-dashboard\\profile.vue' /* webpackChunkName: "pages/vendor-dashboard/profile" */))
+const _6d69b844 = () => interopDefault(import('..\\pages\\vendor-dashboard\\setting.vue' /* webpackChunkName: "pages/vendor-dashboard/setting" */))
+const _7cb00d4f = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _0d02e7e5 = () => interopDefault(import('..\\pages\\blog\\_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
+const _805ff584 = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages/product/_id" */))
 
 const emptyFn = () => {}
 
@@ -89,287 +89,287 @@ export const routerOptions = {
 
   routes: [{
     path: "/404",
-    component: _6f1d38f6,
+    component: _559a7ff5,
     name: "404"
   }, {
     path: "/about-us",
-    component: _0b9ee1e0,
+    component: _7f9a611e,
     name: "about-us"
   }, {
     path: "/blog",
-    component: _e2909da4,
+    component: _0eb9892d,
     name: "blog"
   }, {
     path: "/cart",
-    component: _6399eaf0,
+    component: _38c87a22,
     name: "cart"
   }, {
     path: "/coming-soon",
-    component: _558a1705,
+    component: _54e821f8,
     name: "coming-soon"
   }, {
     path: "/contact-us",
-    component: _4a924545,
+    component: _12ebe204,
     name: "contact-us"
   }, {
     path: "/electronics",
-    component: _c2e1a096,
+    component: _1e9107b4,
     name: "electronics"
   }, {
     path: "/faq",
-    component: _1b0ddbd4,
+    component: _018b22d3,
     name: "faq"
   }, {
     path: "/furniture",
-    component: _08ffe630,
+    component: _0345b1ef,
     name: "furniture"
   }, {
     path: "/grocery",
-    component: _f412f96a,
+    component: _632b9a6c,
     name: "grocery"
   }, {
     path: "/login",
-    component: _0a102d27,
+    component: _4657b066,
     name: "login"
   }, {
     path: "/lookbook",
-    component: _5e9bb73a,
+    component: _249df79b,
     name: "lookbook"
   }, {
     path: "/my-account",
-    component: _236111f8,
+    component: _92add87a,
     name: "my-account"
   }, {
     path: "/pharmacy",
-    component: _c945d736,
+    component: _615f54c6,
     name: "pharmacy"
   }, {
     path: "/privacy-policy",
-    component: _45bef56e,
+    component: _33af38ea,
     name: "privacy-policy"
   }, {
     path: "/register",
-    component: _6270f356,
+    component: _d66c7294,
     name: "register"
   }, {
     path: "/shop",
-    component: _4411695a,
+    component: _77d97d4e,
     name: "shop"
   }, {
     path: "/vendor-dashboard",
-    component: _28ecbd3e,
+    component: _110472e0,
     name: "vendor-dashboard"
   }, {
     path: "/blog/blog-2",
-    component: _5b6dd4ca,
+    component: _52823d7c,
     name: "blog-blog-2"
   }, {
     path: "/blog/blog-3",
-    component: _5b51a5c8,
+    component: _529054fd,
     name: "blog-blog-3"
   }, {
     path: "/blog/blog-single-2",
-    component: _b7fdf9d8,
+    component: _873327da,
     name: "blog-blog-single-2"
   }, {
     path: "/cart/cart-2",
-    component: _165b4917,
+    component: _d2d71e10,
     name: "cart-cart-2"
   }, {
     path: "/cart/cart-3",
-    component: _16696098,
+    component: _d2baef0e,
     name: "cart-cart-3"
   }, {
     path: "/cart/cart-4",
-    component: _16777819,
+    component: _d29ec00c,
     name: "cart-cart-4"
   }, {
     path: "/cart/empty-cart",
-    component: _204ddd72,
+    component: _0dfe2cd3,
     name: "cart-empty-cart"
   }, {
     path: "/contact-us/contact-us-2",
-    component: _9b1efca6,
+    component: _3c4fe00e,
     name: "contact-us-contact-us-2"
   }, {
     path: "/crud/clientes",
-    component: _616f85ae,
+    component: _25d6f0ca,
     name: "crud-clientes"
   }, {
     path: "/crud/cupones",
-    component: _4e6926cb,
+    component: _555609ec,
     name: "crud-cupones"
   }, {
     path: "/crud/descuentos",
-    component: _33e32a0a,
+    component: _58828b48,
     name: "crud-descuentos"
   }, {
     path: "/crud/empleados",
-    component: _cae44570,
+    component: _15d59dc7,
     name: "crud-empleados"
   }, {
     path: "/crud/inventario",
-    component: _3a2c24e1,
+    component: _27dc7442,
     name: "crud-inventario"
   }, {
     path: "/crud/ocasiones",
-    component: _dab15ca0,
+    component: _0def122f,
     name: "crud-ocasiones"
   }, {
     path: "/crud/productos",
-    component: _2be421d3,
+    component: _b1a83b5c,
     name: "crud-productos"
   }, {
     path: "/crud/roles",
-    component: _0e10f706,
+    component: _78f95c7c,
     name: "crud-roles"
   }, {
     path: "/crud/tallas",
-    component: _4a0de00f,
+    component: _6b71f020,
     name: "crud-tallas"
   }, {
     path: "/crud/temporadas",
-    component: _f32f3e88,
+    component: _7418b01d,
     name: "crud-temporadas"
   }, {
     path: "/crud/usuarios",
-    component: _0dd21f16,
+    component: _4fa5a416,
     name: "crud-usuarios"
   }, {
     path: "/my-account/account-details",
-    component: _051c5054,
+    component: _65c44a53,
     name: "my-account-account-details"
   }, {
     path: "/my-account/account-info-edit",
-    component: _085bf3db,
+    component: _42252bcc,
     name: "my-account-account-info-edit"
   }, {
     path: "/my-account/addresses",
-    component: _afc1f658,
+    component: _3cce2a13,
     name: "my-account-addresses"
   }, {
     path: "/my-account/checkout-1",
-    component: _025182a8,
+    component: _03870549,
     name: "my-account-checkout-1"
   }, {
     path: "/my-account/checkout-2",
-    component: _025f9a29,
+    component: _03951cca,
     name: "my-account-checkout-2"
   }, {
     path: "/my-account/compare",
-    component: _6e9a8b17,
+    component: _f20017d4,
     name: "my-account-compare"
   }, {
     path: "/my-account/downloads",
-    component: _8ed9f4c6,
+    component: _4d422adc,
     name: "my-account-downloads"
   }, {
     path: "/my-account/order-tracking",
-    component: _2c277ad8,
+    component: _796d8cb5,
     name: "my-account-order-tracking"
   }, {
     path: "/my-account/orders",
-    component: _404f4cba,
+    component: _22b254c4,
     name: "my-account-orders"
   }, {
     path: "/my-account/wishlist",
-    component: _4f032b03,
+    component: _434ae1e4,
     name: "my-account-wishlist"
   }, {
     path: "/otras-paginas/jackets",
-    component: _4d50db78,
+    component: _4e865e19,
     name: "otras-paginas-jackets"
   }, {
     path: "/otras-paginas/pants",
-    component: _862195a2,
+    component: _9d9227e0,
     name: "otras-paginas-pants"
   }, {
     path: "/otras-paginas/sueteres",
-    component: _364513ae,
+    component: _0a5847a8,
     name: "otras-paginas-sueteres"
   }, {
     path: "/product/product-single-2",
-    component: _0e603810,
+    component: _aa475c92,
     name: "product-product-single-2"
   }, {
     path: "/product/product-single-3",
-    component: _0e44090e,
+    component: _aa2b2d90,
     name: "product-product-single-3"
   }, {
     path: "/productosHombres/camisas",
-    component: _35bdc958,
+    component: _306b91d2,
     name: "productosHombres-camisas"
   }, {
     path: "/productosHombres/jackets",
-    component: _ee2cf2dc,
+    component: _3af5f451,
     name: "productosHombres-jackets"
   }, {
     path: "/productosHombres/pantalones",
-    component: _f5e564dc,
+    component: _39649373,
     name: "productosHombres-pantalones"
   }, {
     path: "/productosHombres/pantalonetas",
-    component: _02935585,
+    component: _039eb1b4,
     name: "productosHombres-pantalonetas"
   }, {
     path: "/productosHombres/playeras",
-    component: _52d00d14,
+    component: _66194397,
     name: "productosHombres-playeras"
   }, {
     path: "/productosHombres/sueteres",
-    component: _1c5a2e4f,
+    component: _a8490f20,
     name: "productosHombres-sueteres"
   }, {
     path: "/productosHombres/trajes",
-    component: _527b4e78,
+    component: _474aa64e,
     name: "productosHombres-trajes"
   }, {
     path: "/shop/shop-2",
-    component: _e7e5817a,
+    component: _0c466724,
     name: "shop-shop-2"
   }, {
     path: "/shop/shop-3",
-    component: _e7c95278,
+    component: _0c547ea5,
     name: "shop-shop-3"
   }, {
     path: "/shop/shop-4",
-    component: _e7ad2376,
+    component: _0c629626,
     name: "shop-shop-4"
   }, {
     path: "/shop/shop-5",
-    component: _e790f474,
+    component: _0c70ada7,
     name: "shop-shop-5"
   }, {
     path: "/vendor-dashboard/add-product",
-    component: _2d3e3a92,
+    component: _03cfb0d1,
     name: "vendor-dashboard-add-product"
   }, {
     path: "/vendor-dashboard/order",
-    component: _045461dd,
+    component: _29cf335c,
     name: "vendor-dashboard-order"
   }, {
     path: "/vendor-dashboard/product",
-    component: _74c1e584,
+    component: _77ab7afd,
     name: "vendor-dashboard-product"
   }, {
     path: "/vendor-dashboard/profile",
-    component: _291edcf8,
+    component: _49a96a92,
     name: "vendor-dashboard-profile"
   }, {
     path: "/vendor-dashboard/setting",
-    component: _173eb61f,
+    component: _6d69b844,
     name: "vendor-dashboard-setting"
   }, {
     path: "/",
-    component: _40688a10,
+    component: _7cb00d4f,
     name: "index"
   }, {
     path: "/blog/:slug",
-    component: _e5fde034,
+    component: _0d02e7e5,
     name: "blog-slug"
   }, {
     path: "/product/:id?",
-    component: _3f96dd5d,
+    component: _805ff584,
     name: "product-id"
   }],
 
