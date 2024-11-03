@@ -66,6 +66,12 @@
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/cortaNegra.jpg')" alt="img" />
                             </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/baggy-1.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/baggy-2.jpg')" alt="img" />
+                            </swiper-slide>
       
                             <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
                             <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
