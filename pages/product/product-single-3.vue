@@ -105,6 +105,36 @@
                     alt="img"
                   />
                 </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playera-polo-2.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/basica-1.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/basica-1.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/camisa-rayas-1.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/camisa-rayas-2.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
                 <div
                   class="swiper-button-prev swiper-button-white"
                   slot="button-prev"

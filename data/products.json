@@ -332,7 +332,7 @@
             "description": "Camisa con estampado de rayas, tela de algodón y manga larga",
             "type": "fashion",
             "brand": "geox",
-            "collection": ["camisas"],
+            "collection": ["Camisas"],
             "category": "Women",
             "price": 98,
             "hot": true,
@@ -410,7 +410,7 @@
             "description": "Una buena elección por si quieres lucir con estilo con una camisa de algodón.",
             "type": "fashion",
             "brand": "biba",
-            "collection": ["camisas"],
+            "collection": ["Camisas"],
             "category": "Women",
             "price": 230,
             "sale": true,
@@ -591,7 +591,7 @@
         {
             "id": 7,
             "title": "Playera tipo Polo",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Camiseta fútbol STWD boxy Sicilia.",
             "type": "fashion",
             "brand": "biba",
             "collection": ["Playeras"],
@@ -616,7 +616,7 @@
                     "id": 7,
                     "sku": "sku7",
                     "size": "s",
-                    "color": "pink",
+                    "color": "blue",
                     "image_id": 711
                 },
                 {
@@ -632,16 +632,8 @@
                     "id": 7,
                     "sku": "sku7s",
                     "size": "s",
-                    "color": "black",
+                    "color": "beige",
                     "image_id": 713
-                },
-                {
-                    "variant_id": 704,
-                    "id": 7,
-                    "sku": "sku7l",
-                    "size": "m",
-                    "color": "pink",
-                    "image_id": 711
                 },
                 {
                     "variant_id": 705,
@@ -650,14 +642,6 @@
                     "size": "m",
                     "color": "blue",
                     "image_id": 712
-                },
-                {
-                    "variant_id": 706,
-                    "id": 7,
-                    "sku": "sku7l",
-                    "size": "m",
-                    "color": "black",
-                    "image_id": 713
                 }
             ],
             "images": [
@@ -675,31 +659,21 @@
                     "image_id": 712,
                     "id": 7,
                     "alt": "blue",
-                    "src": "14.png",
+                    "src": "playera-polo-2.jpg",
                     "variant_id": [
                         702,
                         705
-                    ]
-                },
-                {
-                    "image_id": 713,
-                    "id": 7,
-                    "alt": "black",
-                    "src": "1.png",
-                    "variant_id": [
-                        703,
-                        706
                     ]
                 }
             ]
         },
         {
             "id": 8,
-            "title": "v-neck dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Playeras basicas",
+            "description": "Camiseta cropped manga corta.",
             "type": "fashion",
             "brand": "geox",
-            "collection": ["new arrival"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 315,
             "sale": true,
@@ -720,7 +694,7 @@
                     "id": 8,
                     "sku": "sku8",
                     "size": "s",
-                    "color": "yellow",
+                    "color": "black",
                     "image_id": 811
                 },
                 {
@@ -736,7 +710,7 @@
                     "id": 8,
                     "sku": "sku8s",
                     "size": "m",
-                    "color": "yellow",
+                    "color": "white",
                     "image_id": 811
                 },
                 {
@@ -753,7 +727,7 @@
                     "image_id": 811,
                     "id": 8,
                     "alt": "yellow",
-                    "src": "15.png",
+                    "src": "basica-1.jpg",
                     "variant_id": [
                         801,
                         804
@@ -763,7 +737,7 @@
                     "image_id": 812,
                     "id": 8,
                     "alt": "black",
-                    "src": "1.png",
+                    "src": "basica-2.jpg",
                     "variant_id": [
                         802,
                         805
@@ -773,11 +747,11 @@
         },
         {
             "id": 9,
-            "title": "Blue Dress For Woman",
+            "title": "Playera con Rayas",
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "fashion",
             "brand": "geox",
-            "collection": ["featured products"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 115,
             "hot": false,
@@ -815,7 +789,7 @@
                     "id": 9,
                     "sku": "sku9s",
                     "size": "m",
-                    "color": "maroon",
+                    "color": "white",
                     "image_id": 912
                 },
                 {
@@ -823,7 +797,7 @@
                     "id": 9,
                     "sku": "sku9l",
                     "size": "l",
-                    "color": "maroon",
+                    "color": "white",
                     "image_id": 912
                 }
             ],
@@ -832,7 +806,7 @@
                     "image_id": 911,
                     "id": 9,
                     "alt": "black",
-                    "src": "2.png",
+                    "src": "camisa-rayas-2.jpg",
                     "variant_id": [
                         901,
                         902
@@ -842,7 +816,7 @@
                     "image_id": 912,
                     "id": 9,
                     "alt": "maroon",
-                    "src": "3.png",
+                    "src": "camisa-rayas-1.jpg",
                     "variant_id": [
                         903,
                         904
