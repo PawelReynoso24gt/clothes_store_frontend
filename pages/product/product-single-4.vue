@@ -52,16 +52,16 @@
                                 <img :src="require('@/assets/img/product-image/sobreCamisaGris.png')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/sobreCamisaRoja.png')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/pantalonRecto2.png')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/rayasGreen.jpg')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/pantalonRecto1.png')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/rayasSky.jpg')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/estampado1.png')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/cortaVerde.jpg')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/estampado2.png')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/PantalonRoto.png')" alt="img" />

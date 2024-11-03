@@ -1649,11 +1649,11 @@
         },
         {
             "id": 20,
-            "title": "skater top",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalon estampado",
+            "description": "",
             "type": "fashion",
             "brand": "biba",
-            "collection": ["featured products"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 140,
             "hot": false,
@@ -1664,8 +1664,8 @@
             "tags": [
                 "s",
                 "m",
-                "yellow",
-                "pink",
+                "gray",
+                "blue",
                 "biba"
             ],
             "variants": [
@@ -1674,23 +1674,7 @@
                     "id": 20,
                     "sku": "sku20",
                     "size": "s",
-                    "color": "yellow",
-                    "image_id": 2011
-                },
-                {
-                    "variant_id": 2002,
-                    "id": 20,
-                    "sku": "skul20",
-                    "size": "s",
-                    "color": "pink",
-                    "image_id": 2012
-                },
-                {
-                    "variant_id": 2004,
-                    "id": 20,
-                    "sku": "sku20l",
-                    "size": "m",
-                    "color": "yellow",
+                    "color": "gray",
                     "image_id": 2011
                 },
                 {
@@ -1698,7 +1682,7 @@
                     "id": 20,
                     "sku": "sku20l",
                     "size": "m",
-                    "color": "pink",
+                    "color": "blue",
                     "image_id": 2012
                 }
             ],
@@ -1706,8 +1690,8 @@
                 {
                     "image_id": 2011,
                     "id": 20,
-                    "alt": "yellow",
-                    "src": "7.png",
+                    "alt": "gray",
+                    "src": "estampado1.png",
                     "variant_id": [
                         2001,
                         2003
@@ -1716,8 +1700,8 @@
                 {
                     "image_id": 2012,
                     "id": 20,
-                    "alt": "pink",
-                    "src": "8.png",
+                    "alt": "blue",
+                    "src": "estampado2.png",
                     "variant_id": [
                         2002,
                         2004
@@ -1727,11 +1711,11 @@
         },
         {
             "id": 21,
-            "title": "skater dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalón Recto",
+            "description": "Pantalón corte recto, de lona, corto",
             "type": "fashion",
             "brand": "geox",
-            "collection": ["best sellers"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 230,
             "sale": true,
@@ -1762,22 +1746,6 @@
                     "size": "s",
                     "color": "gray",
                     "image_id": 2112
-                },
-                {
-                    "variant_id": 2103,
-                    "id": 21,
-                    "sku": "sku21l",
-                    "size": "m",
-                    "color": "blue",
-                    "image_id": 2111
-                },
-                {
-                    "variant_id": 2104,
-                    "id": 21,
-                    "sku": "sku21l",
-                    "size": "m",
-                    "color": "gray",
-                    "image_id": 2112
                 }
             ],
             "images": [
@@ -1785,7 +1753,7 @@
                     "image_id": 2111,
                     "id": 21,
                     "alt": "blue",
-                    "src": "9.png",
+                    "src": "pantalonRecto1.png",
                     "variant_id": [
                         2101,
                         2103
@@ -1795,7 +1763,7 @@
                     "image_id": 2112,
                     "id": 21,
                     "alt": "gray",
-                    "src": "10.png",
+                    "src": "pantalonRecto2.png",
                     "variant_id": [
                         2102,
                         2104
