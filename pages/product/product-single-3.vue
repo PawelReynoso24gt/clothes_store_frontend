@@ -83,19 +83,31 @@
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/sobreCamisaGris.png')"
+                    :src="require('@/assets/img/product-image/oversizePink.png')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/sobreCamisaRoja.png')"
+                    :src="require('@/assets/img/product-image/oversizeGray.png')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/rayasGreen.jpg')"
+                    :src="require('@/assets/img/product-image/oversizeYellow.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playeraKWhite.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playeraKGray.png')"
                     alt="img"
                   />
                 </swiper-slide>
