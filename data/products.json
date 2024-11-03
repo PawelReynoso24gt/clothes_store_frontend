@@ -1605,10 +1605,10 @@
         {
             "id": 19,
             "title": "Pantalón roto",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Pantalon de lona roto, color azul",
             "type": "fashion",
             "brand": "max",
-            "collection": ["new arrival"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 210,
             "hot": false,
@@ -1626,36 +1626,12 @@
             ],
             "variants": [
                 {
-                    "variant_id": 1901,
-                    "id": 19,
-                    "sku": "sku19",
-                    "size": "s",
-                    "color": "blue",
-                    "image_id": 1911
-                },
-                {
-                    "variant_id": 1902,
-                    "id": 19,
-                    "sku": "skul19",
-                    "size": "s",
-                    "color": "gray",
-                    "image_id": 1912
-                },
-                {
                     "variant_id": 1904,
                     "id": 19,
                     "sku": "sku19l",
                     "size": "m",
                     "color": "blue",
                     "image_id": 1911
-                },
-                {
-                    "variant_id": 1905,
-                    "id": 19,
-                    "sku": "sku19l",
-                    "size": "m",
-                    "color": "gray",
-                    "image_id": 1912
                 }
             ],
             "images": [
@@ -1663,20 +1639,10 @@
                     "image_id": 1911,
                     "id": 19,
                     "alt": "blue",
-                    "src": "5.png",
+                    "src": "PantalonRoto.png",
                     "variant_id": [
                         1901,
                         1903
-                    ]
-                },
-                {
-                    "image_id": 1912,
-                    "id": 19,
-                    "alt": "gray",
-                    "src": "6.png",
-                    "variant_id": [
-                        1902,
-                        1904
                     ]
                 }
             ]

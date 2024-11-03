@@ -64,7 +64,7 @@
                                 <img :src="require('@/assets/img/product-image/cortaVerde.jpg')" alt="img" />
                             </swiper-slide>
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/cortaNegra.jpg')" alt="img" />
+                                <img :src="require('@/assets/img/product-image/PantalonRoto.png')" alt="img" />
                             </swiper-slide>
       
                             <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
@@ -354,7 +354,7 @@ import RelatedProducts from '~/components/widgets/RelatedProducts'
 export default {
     name: 'product-single-2',
     components: {
-        ProductBox1,
+        ProductBox3,
         InstagramArea,
         RelatedProducts
     },
