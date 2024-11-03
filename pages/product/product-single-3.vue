@@ -90,6 +90,11 @@
                 <swiper-slide>
                   <img
                     :src="require('@/assets/img/product-image/sobreCamisaRoja.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
                     :src="require('@/assets/img/product-image/rayasGreen.jpg')"
                     alt="img"
                   />
