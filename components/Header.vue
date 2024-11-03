@@ -43,7 +43,7 @@
                             <!-- Hombres -->
                             <li class="mega-menu-item">
                               <a href="#" class="mega-menu-item-title"
-                                >HOMBRES</a
+                                >UNISEX</a
                               >
                               <ul class="mega-menu-sub">
                                 <li>
@@ -72,99 +72,13 @@
                                   >
                                 </li>
                                 <li>
-                                  <nuxt-link to="/productosHombres/trajes"
-                                    >Trajes</nuxt-link
-                                  >
-                                </li>
-                                <li>
                                   <nuxt-link to="/productosHombres/jackets"
                                     >Jackets</nuxt-link
                                   >
                                 </li>
-                              </ul>
-                            </li>
-                            <!-- Mujeres -->
-                            <li class="mega-menu-item">
-                              <a href="#" class="mega-menu-item-title"
-                                >MUJERES</a
-                              >
-                              <ul class="mega-menu-sub">
                                 <li>
-                                  <nuxt-link to="/cart/"
-                                    >Blusas</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/cart-2"
-                                    >Shorts
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/cart-3"
-                                    >Pantalones
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/cart-4"
-                                    >Tops
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/empty-cart"
-                                    >Faldas</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/checkout-1"
-                                    >Vestidos</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/checkout-2"
-                                    >Trajes</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/wishlist"
-                                    >Sueteres</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/order-tracking"
-                                    >Jackets</nuxt-link
-                                  >
-                                </li>
-                              </ul>
-                            </li>
-                            <!-- unisex-->
-                            <li class="mega-menu-item">
-                              <a href="#" class="mega-menu-item-title"
-                                >UNISEX</a
-                              >
-                              <ul class="mega-menu-sub">
-                                <li>
-                                  <nuxt-link to="/cart/"
-                                    >Camisas</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/cart-2"
-                                    >Playeras
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/otras-paginas/pants"
-                                    >Pants
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/otras-paginas/sueteres"
-                                    >Sueteres
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/otras-paginas/jackets"
-                                    >Jackets</nuxt-link
+                                  <nuxt-link to="/productosHombres/trajes"
+                                    >Pants</nuxt-link
                                   >
                                 </li>
                               </ul>
