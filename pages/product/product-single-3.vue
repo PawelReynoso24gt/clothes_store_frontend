@@ -65,7 +65,25 @@
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/7.png')"
+                    :src="require('@/assets/img/product-image/rayasGreen.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/rayasSky.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/cortaVerde.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/cortaNegra.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
