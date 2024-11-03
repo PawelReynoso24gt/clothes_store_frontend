@@ -1343,11 +1343,11 @@
         },
         {
             "id": 16,
-            "title": "pink tunic dress",
+            "title": "Pantalones baggy",
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["featured products"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 199,
             "hot": false,
@@ -1370,7 +1370,7 @@
                     "id": 16,
                     "sku": "sku16",
                     "size": "xs",
-                    "color": "pink",
+                    "color": "gray",
                     "image_id": 1611
                 },
                 {
@@ -1378,23 +1378,15 @@
                     "id": 16,
                     "sku": "skul16",
                     "size": "xs",
-                    "color": "black",
+                    "color": "white",
                     "image_id": 1612
-                },
-                {
-                    "variant_id": 1603,
-                    "id": 16,
-                    "sku": "sku16s",
-                    "size": "xs",
-                    "color": "blue",
-                    "image_id": 1613
                 },
                 {
                     "variant_id": 1604,
                     "id": 16,
                     "sku": "sku16l",
                     "size": "m",
-                    "color": "pink",
+                    "color": "gray",
                     "image_id": 1611
                 },
                 {
@@ -1402,16 +1394,8 @@
                     "id": 16,
                     "sku": "sku16l",
                     "size": "m",
-                    "color": "black",
+                    "color": "white",
                     "image_id": 1612
-                },
-                {
-                    "variant_id": 1606,
-                    "id": 16,
-                    "sku": "sku16l",
-                    "size": "m",
-                    "color": "blue",
-                    "image_id": 1613
                 }
             ],
             "images": [
@@ -1419,7 +1403,7 @@
                     "image_id": 1611,
                     "id": 16,
                     "alt": "pink",
-                    "src": "1.png",
+                    "src": "baggy-1.jpg",
                     "variant_id": [
                         1601,
                         1604
@@ -1429,7 +1413,7 @@
                     "image_id": 1612,
                     "id": 16,
                     "alt": "black",
-                    "src": "2.png",
+                    "src": "baggy-2.jpg",
                     "variant_id": [
                         1602,
                         1605
@@ -1449,11 +1433,11 @@
         },
         {
             "id": 17,
-            "title": "midi dress",
+            "title": "Pantalones Cargo",
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["new arrival"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 400,
             "sale": true,
@@ -1474,7 +1458,7 @@
                     "id": 17,
                     "sku": "sku17",
                     "size": "m",
-                    "color": "pink",
+                    "color": "beige",
                     "image_id": 1711
                 },
                 {
@@ -1482,16 +1466,8 @@
                     "id": 17,
                     "sku": "skul17",
                     "size": "m",
-                    "color": "maroon",
+                    "color": "gray",
                     "image_id": 1712
-                },
-                {
-                    "variant_id": 1703,
-                    "id": 17,
-                    "sku": "sku17s",
-                    "size": "m",
-                    "color": "red",
-                    "image_id": 1713
                 }
             ],
             "images": [
@@ -1499,7 +1475,7 @@
                     "image_id": 1711,
                     "id": 17,
                     "alt": "pink",
-                    "src": "1.png",
+                    "src": "cargo-1.jpg",
                     "variant_id": [
                         1701
                     ]
@@ -1508,29 +1484,20 @@
                     "image_id": 1712,
                     "id": 17,
                     "alt": "maroon",
-                    "src": "2.png",
+                    "src": "cargo-2.jpg",
                     "variant_id": [
                         1702
-                    ]
-                },
-                {
-                    "image_id": 1713,
-                    "id": 17,
-                    "alt": "red",
-                    "src": "1.png",
-                    "variant_id": [
-                        1703
                     ]
                 }
             ]
         },
         {
             "id": 18,
-            "title": "tulip dress",
+            "title": "Pantalones Skater",
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "fashion",
             "brand": "biba",
-            "collection": ["new arrival"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 145,
             "hot": false,
@@ -1551,7 +1518,7 @@
                     "id": 18,
                     "sku": "sku18",
                     "size": "xs",
-                    "color": "black",
+                    "color": "skyblue",
                     "image_id": 1811
                 },
                 {
@@ -1559,23 +1526,7 @@
                     "id": 18,
                     "sku": "skul18",
                     "size": "xs",
-                    "color": "orange",
-                    "image_id": 1812
-                },
-                {
-                    "variant_id": 1804,
-                    "id": 18,
-                    "sku": "sku18l",
-                    "size": "m",
-                    "color": "black",
-                    "image_id": 1811
-                },
-                {
-                    "variant_id": 1805,
-                    "id": 18,
-                    "sku": "sku18l",
-                    "size": "m",
-                    "color": "orange",
+                    "color": "brown",
                     "image_id": 1812
                 }
             ],
@@ -1584,7 +1535,7 @@
                     "image_id": 1811,
                     "id": 18,
                     "alt": "black",
-                    "src": "3.png",
+                    "src": "skater-1.jpg",
                     "variant_id": [
                         1801,
                         1803
@@ -1594,7 +1545,7 @@
                     "image_id": 1812,
                     "id": 18,
                     "alt": "orange",
-                    "src": "4.png",
+                    "src": "skater-2.jpg",
                     "variant_id": [
                         1802,
                         1804
