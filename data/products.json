@@ -1644,6 +1644,16 @@
                         1901,
                         1903
                     ]
+                },
+                {
+                    "image_id": 1911,
+                    "id": 19,
+                    "alt": "blue",
+                    "src": "PantalonRoto.png",
+                    "variant_id": [
+                        1901,
+                        1903
+                    ]
                 }
             ]
         },
