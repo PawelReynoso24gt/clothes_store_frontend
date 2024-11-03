@@ -113,6 +113,48 @@
                 </swiper-slide>
                 <swiper-slide>
                   <img
+                    :src="require('@/assets/img/product-image/sinMangasNegro.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/sinMangasRosa.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/cuelloRedondoRojo.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/cuelloRedondoNegro.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/vred.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/vpink.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/vblack.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
                     :src="require('@/assets/img/product-image/playera-polo.jpg')"
                     alt="img"
                   />
