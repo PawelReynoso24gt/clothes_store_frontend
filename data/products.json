@@ -484,11 +484,11 @@
         },
         {
             "id": 6,
-            "title": "Blue Dress For Woman",
+            "title": "Sobrecamisa",
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "fashion",
             "brand": "max",
-            "collection": ["best sellers"],
+            "collection": ["Camisa"],
             "category": "Women",
             "price": 121,
             "hot": false,
