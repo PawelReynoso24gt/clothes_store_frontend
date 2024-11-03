@@ -76,13 +76,13 @@
   
   <script>
   import { mapState } from 'vuex'
-  import ProductBox2 from '~/components/product-box/ProductBox2'
+  import ProductBox3 from '~/components/product-box/ProductBox3'
   import InstagramArea from '~/components/instagram/InstagramArea'
   
   export default {
       name: 'shop-list-view',
       components: {
-          ProductBox2,
+          ProductBox3,
           InstagramArea
       },
       data() {
