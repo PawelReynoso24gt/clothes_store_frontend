@@ -1201,11 +1201,11 @@
         },
         {
             "id": 14,
-            "title": "mini dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Playera Oversize",
+            "description": "Playera Oversize, tela de  algodón con manga corta",
             "type": "fashion",
             "brand": "max",
-            "collection": ["featured products"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 285,
             "sale": true,
@@ -1245,30 +1245,6 @@
                     "size": "xs",
                     "color": "yellow",
                     "image_id": 1413
-                },
-                {
-                    "variant_id": 1404,
-                    "id": 14,
-                    "sku": "sku14l",
-                    "size": "s",
-                    "color": "pink",
-                    "image_id": 1411
-                },
-                {
-                    "variant_id": 1405,
-                    "id": 14,
-                    "sku": "sku14l",
-                    "size": "s",
-                    "color": "gray",
-                    "image_id": 1412
-                },
-                {
-                    "variant_id": 1406,
-                    "id": 14,
-                    "sku": "sku14l",
-                    "size": "s",
-                    "color": "yellow",
-                    "image_id": 1413
                 }
             ],
             "images": [
@@ -1276,7 +1252,7 @@
                     "image_id": 1411,
                     "id": 14,
                     "alt": "pink",
-                    "src": "12.png",
+                    "src": "oversizePink.png",
                     "variant_id": [
                         1401,
                         1404
@@ -1286,7 +1262,7 @@
                     "image_id": 1412,
                     "id": 14,
                     "alt": "gray",
-                    "src": "13.png",
+                    "src": "oversizeGray.png",
                     "variant_id": [
                         1402,
                         1405
@@ -1296,7 +1272,7 @@
                     "image_id": 1413,
                     "id": 14,
                     "alt": "yellow",
-                    "src": "1.png",
+                    "src": "oversizeYellow.png",
                     "variant_id": [
                         1403,
                         1406
@@ -1306,11 +1282,11 @@
         },
         {
             "id": 15,
-            "title": "jumpsuit",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Playera Skater",
+            "description": "Playera Oversize sin mangas, tela de algodón",
             "type": "fashion",
             "brand": "geox",
-            "collection": ["best sellers"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 375,
             "sale": true,
@@ -1321,9 +1297,8 @@
             "tags": [
                 "xs",
                 "l",
-                "blue",
-                "skyblue",
-                "geox"
+                "white",
+                "gray"
             ],
             "variants": [
                 {
@@ -1331,7 +1306,7 @@
                     "id": 15,
                     "sku": "sku15",
                     "size": "xs",
-                    "color": "blue",
+                    "color": "white",
                     "image_id": 1511
                 },
                 {
@@ -1339,32 +1314,16 @@
                     "id": 15,
                     "sku": "skul15",
                     "size": "xs",
-                    "color": "skyblue",
+                    "color": "gray",
                     "image_id": 1512
-                },
-                {
-                    "variant_id": 1503,
-                    "id": 15,
-                    "sku": "sku15s",
-                    "size": "l",
-                    "color": "blue",
-                    "image_id": 1511
-                },
-                {
-                    "variant_id": 1504,
-                    "id": 15,
-                    "sku": "sku15l",
-                    "size": "l",
-                    "color": "skyblue",
-                    "image_id": 1512
-                }
+                }   
             ],
             "images": [
                 {
                     "image_id": 1511,
                     "id": 15,
                     "alt": "blue",
-                    "src": "14.png",
+                    "src": "playeraKWhite.png",
                     "variant_id": [
                         1501,
                         1503
@@ -1373,8 +1332,8 @@
                 {
                     "image_id": 1512,
                     "id": 15,
-                    "alt": "skyblue",
-                    "src": "15.png",
+                    "alt": "gray",
+                    "src": "playeraKGray.png",
                     "variant_id": [
                         1502,
                         1504
