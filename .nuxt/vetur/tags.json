@@ -20,14 +20,17 @@
   "BlogSidebar2": {
     "description": "Auto imported from components/blog/BlogSidebar2.vue"
   },
-  "WidgetsRelatedProducts": {
-    "description": "Auto imported from components/widgets/RelatedProducts.vue"
+  "InstagramArea": {
+    "description": "Auto imported from components/instagram/InstagramArea.vue"
   },
-  "WidgetsShopSidebar": {
-    "description": "Auto imported from components/widgets/ShopSidebar.vue"
+  "InstagramAreaElectronics": {
+    "description": "Auto imported from components/instagram/InstagramAreaElectronics.vue"
   },
-  "WidgetsTimer": {
-    "description": "Auto imported from components/widgets/Timer.vue"
+  "InstagramAreaFurniture": {
+    "description": "Auto imported from components/instagram/InstagramAreaFurniture.vue"
+  },
+  "InstagramSliderItem": {
+    "description": "Auto imported from components/instagram/InstagramSliderItem.vue"
   },
   "ProductBox1": {
     "description": "Auto imported from components/product-box/ProductBox1.vue"
@@ -44,16 +47,13 @@
   "ProductBox5": {
     "description": "Auto imported from components/product-box/ProductBox5.vue"
   },
-  "InstagramArea": {
-    "description": "Auto imported from components/instagram/InstagramArea.vue"
+  "WidgetsRelatedProducts": {
+    "description": "Auto imported from components/widgets/RelatedProducts.vue"
   },
-  "InstagramAreaElectronics": {
-    "description": "Auto imported from components/instagram/InstagramAreaElectronics.vue"
+  "WidgetsShopSidebar": {
+    "description": "Auto imported from components/widgets/ShopSidebar.vue"
   },
-  "InstagramAreaFurniture": {
-    "description": "Auto imported from components/instagram/InstagramAreaFurniture.vue"
-  },
-  "InstagramSliderItem": {
-    "description": "Auto imported from components/instagram/InstagramSliderItem.vue"
+  "WidgetsTimer": {
+    "description": "Auto imported from components/widgets/Timer.vue"
   }
 }
