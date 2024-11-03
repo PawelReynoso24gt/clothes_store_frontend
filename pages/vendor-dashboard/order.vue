@@ -1,25 +1,10 @@
 <template>
     <div>
-        <!-- Banner Area -->
-        <section id="common_banner_one">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="common_banner_text">
-                            <h2>{{this.title}}</h2>
-                            <b-breadcrumb :items="breadcrumbItems" class="bg-transparent"></b-breadcrumb>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- My Account-Area -->
         <section id="vendor_area" class="ptb-100">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-3 col-lg-3">
-                        <!-- Nav tabs -->
                         <div class="dashboard_tab_button">
                             <b-navbar-nav>
                                 <b-nav-item to="/vendor-dashboard/"><i class="fas fa-tachometer-alt"></i>Dashboard</b-nav-item>
@@ -37,59 +22,32 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="vendor_order_boxed">
-                                            <h4>All Order</h4>
+                                            <h4>Envíos</h4>
                                             <div class="table-responsive">
                                                 <table class="table pending_table">
                                                     <thead class="thead-light">
                                                         <tr>
-                                                        <th scope="col">Order Id</th>
-                                                        <th scope="col">Product Details</th>
-                                                        <th scope="col">Status</th>
-                                                        <th scope="col">Price</th>
-                                                        </tr>
+                                                            <th scope="col">Envío Id</th>
+                                                            <th scope="col">Cliente</th>
+                                                            <th scope="col">Fecha envío</th>
+                                                            <th scope="col">Estado</th>
+                                                            <th scope="col">Total</th>
+                                                            <th scope="col">Detalles</th>
+                                                        </tr> 
                                                     </thead>
                                                     <tbody>
-                                                        <tr>
-                                                        <td scope="row">#21515</td>
-                                                        <td>Neck Velvet Dress</td>
-                                                        <td>Confrimed</td>
-                                                        <td>$234</td>
-                                                        </tr>
-                                                        <tr>
-                                                        <td scope="row">#78153</td>
-                                                        <td>Belted Trench Coat</td>
-                                                        <td>Shipped</td>
-                                                        <td>$150</td>
-                                                        </tr>
-                                                        <tr>
-                                                        <td scope="row">#51512</td>
-                                                        <td>Man Print Tee</td>
-                                                        <td>Pending</td>
-                                                        <td>$754</td>
-                                                        </tr>
-                                                        <tr>
-                                                        <td scope="row">#78153	</td>
-                                                        <td>Belted Trench Coat</td>
-                                                        <td>Shipped</td>
-                                                        <td>$204</td>
-                                                        </tr>
-                                                        <tr>
-                                                        <td scope="row">#78153</td>
-                                                        <td>Belted Trench Coat</td>
-                                                        <td>Shipped</td>
-                                                        <td>$894</td>
-                                                        </tr>
-                                                        <tr>
-                                                        <td scope="row">#51512		</td>
-                                                        <td>Man Print Tee</td>
-                                                        <td>Pending</td>
-                                                        <td>$234</td>
+                                                        <tr v-for="envio in envios" :key="envio.idEnvio">
+                                                            <td>{{ envio.idEnvio }}</td>
+                                                            <td>{{ envio.venta.cliente.nombre }}</td>
+                                                            <td>{{ envio.fechaEnvio }}</td>
+                                                            <td>{{ envio.estado === 1 ? 'Enviado' : 'Devuelto' }}</td>
+                                                            <td>{{ envio.venta.total }}</td>
+                                                            <td>
+                                                                <button @click="verDetalles(envio.idEnvio)" class="btn btn-info">Detalles</button>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
-                                            </div>
-                                            <div class="btn_right_table">
-                                                <nuxt-link to="/vendor-dashboard/add-product" class="theme-btn-one bg-black btn_sm">Add Product</nuxt-link>
                                             </div>
                                         </div>
                                     </div>
@@ -100,46 +58,104 @@
                 </div>
             </div>
         </section>
+
+        <!-- Modal para mostrar detalles de los productos -->
+        <div v-if="showModal" class="modal" @click.self="cerrarModal">
+            <div class="modal-contenido">
+                <span class="cerrar" @click="cerrarModal">&times;</span>
+                <h2>Detalles del Envío</h2>
+                <h4>Productos del Envío</h4>
+                <div v-for="producto in productos" :key="producto.nombre">
+                    <p><strong>Producto:</strong> {{ producto.nombre }}</p>
+                    <p><strong>Descripción:</strong> {{ producto.descripcion }}</p>
+                    <p><strong>Precio:</strong> {{ producto.precio }}</p>
+                    <p><strong>Cantidad:</strong> {{ producto.cantidad }}</p>
+                    <p><strong>Subtotal:</strong> {{ producto.subtotal }}</p>
+                    <hr />
+                </div>
+                <button class="btn btn-secondary" @click="cerrarModal">Cerrar</button>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
     name: 'VendorDashboard',
     data() {
         return {
-            title: 'Vendor',
-
-            // Breadcrumb Items Data
-            breadcrumbItems: [
-                {
-                    text: 'Home',
-                    to: '/'
-                },
-                {
-                    text: 'Vendor',
-                }
-            ],
-
-        }
+            envios: [],
+            showModal: false,
+            productos: [], // Datos para almacenar los productos del envío
+        };
     },
     mounted() {
-        // For scroll page top for every Route 
-        window.scrollTo(0, 0)
-    },
-    // Page head() Title, description for SEO 
-    head() {
-      return {
-        title: this.title,
-        meta: [
-          {
-            hid: 'description',
-            name: 'description',
-            content: 'Vendor Dashboard - AndShop Ecommerce Vue js, Nuxt js Template'
-          }
-        ]
-      }
-    }
+        // Fetch envíos from the API when the component is mounted
+        axios.get('http://localhost:5000/envios')
+            .then(response => {
+                this.envios = response.data;
+            })
+            .catch(error => {
+                console.error("Error fetching the envíos:", error);
+            });
 
+        // Scroll page top for every route
+        window.scrollTo(0, 0);
+    },
+    methods: {
+        // Función para obtener los detalles del envío
+        verDetalles(idEnvio) {
+            axios.get(`http://localhost:5000/envios/${idEnvio}/productos`)
+                .then(response => {
+                    this.productos = response.data.productos;
+                    this.showModal = true; // Mostrar el modal con los productos
+                })
+                .catch(error => {
+                    console.error(`Error fetching productos for envio ${idEnvio}:`, error);
+                });
+        },
+        cerrarModal() {
+            this.showModal = false; // Cerrar el modal
+            this.productos = []; // Limpiar los productos al cerrar el modal
+        }
+    }
 }
 </script>
+
+<style scoped>
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    z-index: 1000; /* Asegúrate de que el modal esté por encima del contenido */
+}
+
+.modal-contenido {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* Ajusta el tamaño del modal */
+    max-width: 500px; /* Tamaño máximo del modal */
+    position: relative;
+}
+
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+}
+</style>

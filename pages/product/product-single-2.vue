@@ -22,7 +22,7 @@
                     <div class="product_single_one_img">
                         <swiper class="swiper product-single-2-slider" :options="swiperOption">
                             <swiper-slide>
-                                <img :src="require('@/assets/img/product-image/1.png')" alt="img" />
+                                <img :src="`http://localhost:5000/uploads/1730580852537.jpg`" alt="Foto" style="width: 50px; height: 50px;" />
                             </swiper-slide>
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/2.png')" alt="img" />
