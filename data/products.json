@@ -852,11 +852,11 @@
         },
         {
             "id": 10,
-            "title": "Black T-Shirt For Woman",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Playera sin mangas",
+            "description": "Playera sin mangas, tela  de algodón, cuello redondo.",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["featured products"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 175,
             "hot": false,
@@ -910,7 +910,7 @@
                     "image_id": 1011,
                     "id": 10,
                     "alt": "black",
-                    "src": "4.png",
+                    "src": "sinMangasNegro.jpg",
                     "variant_id": [
                         1001,
                         1002
@@ -920,7 +920,7 @@
                     "image_id": 1012,
                     "id": 10,
                     "alt": "pink",
-                    "src": "5.png",
+                    "src": "sinMangasRosa.jpg",
                     "variant_id": [
                         1003,
                         1004
@@ -930,11 +930,11 @@
         },
         {
             "id": 11,
-            "title": "maxi dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Playera cuello redondo",
+            "description": "Playera de cuello redondo, tela de algodón",
             "type": "fashion",
             "brand": "biba",
-            "collection": ["new arrival"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 266,
             "hot": false,
@@ -989,7 +989,7 @@
                     "image_id": 1111,
                     "id": 11,
                     "alt": "red",
-                    "src": "6.png",
+                    "src": "cuelloRedondoRojo.jpg",
                     "variant_id": [
                         1101,
                         1102
@@ -999,7 +999,7 @@
                     "image_id": 1112,
                     "id": 11,
                     "alt": "black",
-                    "src": "7.png",
+                    "src": "cuelloRedondoNegro.jpg",
                     "variant_id": [
                         1103,
                         1104
@@ -1009,11 +1009,11 @@
         },
         {
             "id": 12,
-            "title": "boho tops",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Playera cuello V",
+            "description": "",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["best sellers", "on sale"],
+            "collection": ["Playeras"],
             "category": "Women",
             "price": 129,
             "hot": false,
@@ -1109,7 +1109,7 @@
                     "image_id": 1211,
                     "id": 12,
                     "alt": "red",
-                    "src": "8.png",
+                    "src": "vred.jpg",
                     "variant_id": [
                         1201,
                         1204,
@@ -1120,7 +1120,7 @@
                     "image_id": 1212,
                     "id": 12,
                     "alt": "pink",
-                    "src": "9.png",
+                    "src": "vpink.jpg",
                     "variant_id": [
                         1202,
                         1205,
@@ -1131,7 +1131,7 @@
                     "image_id": 1213,
                     "id": 12,
                     "alt": "black",
-                    "src": "1.png",
+                    "src": "vblack.jpg",
                     "variant_id": [
                         1203,
                         1206,
