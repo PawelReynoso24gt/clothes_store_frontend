@@ -413,6 +413,55 @@
     "_name": "_474aa64e"
   },
   {
+    "name": "productosHombres-camisas",
+    "path": "/productosHombres/camisas",
+    "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\camisas.vue",
+    "chunkName": "pages/productosHombres/camisas",
+    "_name": "_841c92d2"
+  },
+  {
+    "name": "productosHombres-jackets",
+    "path": "/productosHombres/jackets",
+    "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\jackets.vue",
+    "chunkName": "pages/productosHombres/jackets",
+    "_name": "_111d73d1"
+  },
+  {
+    "name": "productosHombres-pantalones",
+    "path": "/productosHombres/pantalones",
+    "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\pantalones.vue",
+    "chunkName": "pages/productosHombres/pantalones",
+    "_name": "_d05a381a"
+  },
+  {
+    "name": "productosHombres-pantalonetas",
+    "path": "/productosHombres/pantalonetas",
+    "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\pantalonetas.vue",
+    "chunkName": "pages/productosHombres/pantalonetas",
+    "_name": "_7a4cd7a6"
+  },
+  {
+    "name": "productosHombres-playeras",
+    "path": "/productosHombres/playeras",
+    "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\playeras.vue",
+    "chunkName": "pages/productosHombres/playeras",
+    "_name": "_54e1b417"
+  },
+  {
+    "name": "productosHombres-sueteres",
+    "path": "/productosHombres/sueteres",
+    "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\sueteres.vue",
+    "chunkName": "pages/productosHombres/sueteres",
+    "_name": "_cab82e20"
+  },
+  {
+    "name": "productosHombres-trajes",
+    "path": "/productosHombres/trajes",
+    "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\trajes.vue",
+    "chunkName": "pages/productosHombres/trajes",
+    "_name": "_28f5854e"
+  },
+  {
     "name": "shop-shop-2",
     "path": "/shop/shop-2",
     "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\shop\\\\shop-2.vue",
