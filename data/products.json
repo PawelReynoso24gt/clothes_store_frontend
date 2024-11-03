@@ -1839,11 +1839,11 @@
         },
         {
             "id": 22,
-            "title": "bodycon dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalones de vestir",
+            "description": "Pantalones casuales de vestir de corte slim y pierna recta.",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["best sellers"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 180,
             "hot": false,
@@ -1914,7 +1914,7 @@
                     "image_id": 2211,
                     "id": 22,
                     "alt": "yellow",
-                    "src": "11.png",
+                    "src": "vestirAmarillo.jpg",
                     "variant_id": [
                         2201,
                         2204
@@ -1924,7 +1924,7 @@
                     "image_id": 2212,
                     "id": 22,
                     "alt": "black",
-                    "src": "12.png",
+                    "src": "vestirNegro.jpg",
                     "variant_id": [
                         2202,
                         2205
@@ -1934,7 +1934,7 @@
                     "image_id": 2213,
                     "id": 22,
                     "alt": "green",
-                    "src": "1.png",
+                    "src": "vestirVerde.jpg",
                     "variant_id": [
                         2203,
                         2206
@@ -1944,11 +1944,11 @@
         },
         {
             "id": 23,
-            "title": "off shoulder dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalones de pescador",
+            "description": "Pantalones de tela de algodón, estilo pescador",
             "type": "fashion",
             "brand": "Next",
-            "collection": ["best sellers"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 240,
             "hot": false,
@@ -1964,14 +1964,6 @@
                 "max"
             ],
             "variants": [
-                {
-                    "variant_id": 2301,
-                    "id": 23,
-                    "sku": "sku23",
-                    "size": "m",
-                    "color": "pink",
-                    "image_id": 2311
-                },
                 {
                     "variant_id": 2302,
                     "id": 23,
@@ -1991,19 +1983,10 @@
             ],
             "images": [
                 {
-                    "image_id": 2311,
-                    "id": 23,
-                    "alt": "pink",
-                    "src": "13.png",
-                    "variant_id": [
-                        2301
-                    ]
-                },
-                {
                     "image_id": 2312,
                     "id": 23,
                     "alt": "black",
-                    "src": "14.png",
+                    "src": "pescadorNegro.jpg",
                     "variant_id": [
                         2302
                     ]
@@ -2012,7 +1995,7 @@
                     "image_id": 2313,
                     "id": 23,
                     "alt": "gray",
-                    "src": "1.png",
+                    "src": "pescadorGris.jpg",
                     "variant_id": [
                         2303
                     ]
@@ -2021,11 +2004,11 @@
         },
         {
             "id": 24,
-            "title": "black short dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalones Skinny",
+            "description": "Pantalones de estilo skinny, con corte ajustado y comodidad para el día a día.",
             "type": "fashion",
             "brand": "Next",
-            "collection": ["featured products"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 160,
             "hot": false,
@@ -2056,14 +2039,6 @@
                     "size": "s",
                     "color": "white",
                     "image_id": 2412
-                },
-                {
-                    "variant_id": 2403,
-                    "id": 24,
-                    "sku": "sku24s",
-                    "size": "s",
-                    "color": "pink",
-                    "image_id": 2413
                 }
             ],
             "images": [
@@ -2071,7 +2046,7 @@
                     "image_id": 2411,
                     "id": 24,
                     "alt": "black",
-                    "src": "15.png",
+                    "src": "skinnyNegro.jpg",
                     "variant_id": [
                         2401
                     ]
@@ -2080,18 +2055,9 @@
                     "image_id": 2412,
                     "id": 24,
                     "alt": "white",
-                    "src": "1.png",
+                    "src": "skinnyBlanco.jpg",
                     "variant_id": [
                         2402
-                    ]
-                },
-                {
-                    "image_id": 2413,
-                    "id": 24,
-                    "alt": "pink",
-                    "src": "1.png",
-                    "variant_id": [
-                        2403
                     ]
                 }
             ]
