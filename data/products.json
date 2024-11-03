@@ -2,12 +2,12 @@
     "data": [
         {
             "id": 1,
-            "title": "Camisa Azul de cuadros",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Camisa cuadros",
+            "description": "Camisa manga larga con cuello, diseño de cuadros y botones. Con tela de algodón",
             "type": "fashion",
             "brand": "nike",
             "collection": ["new arrival"],
-            "category": "Women",
+            "category": "Male",
             "price": 145,
             "hot": true,
             "discount": "40",
@@ -23,6 +23,7 @@
                 "pink",
                 "nike"
             ],
+            
             "variants": [
                 {
                     "variant_id": 101,
@@ -86,7 +87,7 @@
                     "image_id": 111,
                     "id": 1,
                     "alt": "yellow",
-                    "src": "1.png",
+                    "src": "cuadrosAmarilla.jpg",
                     "variant_id": [
                         101,
                         104
@@ -96,7 +97,7 @@
                     "image_id": 112,
                     "id": 1,
                     "alt": "white",
-                    "src": "2.png",
+                    "src": "cuadrosBlanco.jpg",
                     "variant_id": [
                         102,
                         105
@@ -106,7 +107,7 @@
                     "image_id": 113,
                     "id": 1,
                     "alt": "pink",
-                    "src": "3.png",
+                    "src": "cuadrosRosado.jpeg",
                     "variant_id": [
                         103,
                         106
@@ -116,8 +117,8 @@
         },
         {
             "id": 2,
-            "title": "T-Shirt Form Girls",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Camisa color liso",
+            "description": "Camisa manga larga con cuello, diseño liso, Con tela de algodón",
             "type": "fashion",
             "brand": "geox",
             "collection": ["best sellers"],

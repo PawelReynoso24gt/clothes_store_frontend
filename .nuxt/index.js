@@ -212,12 +212,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_7dc05240 === 'function') {
-    await nuxt_plugin_plugin_7dc05240(app.context, inject)
+  if (typeof nuxt_plugin_plugin_1138c398 === 'function') {
+    await nuxt_plugin_plugin_1138c398(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_3c8a1cdc === 'function') {
-    await nuxt_plugin_bootstrapvue_3c8a1cdc(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_3ddc622c === 'function') {
+    await nuxt_plugin_bootstrapvue_3ddc622c(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_plugin_03b7832e === 'function') {
