@@ -5,7 +5,6 @@
     <!-- CRUD de Temporadas -->
     <button @click="mostrarModalCrear" class="btn-crear">Crear Temporada</button>
     
-
     <!-- Modal para crear Temporada -->
     <div v-if="mostrarModal" class="modal">
       <div class="modal-contenido">
@@ -420,7 +419,7 @@ export default {
       } catch (error) {
         console.error("Error al desactivar el detalle de temporada:", error);
       }
-    },
+    },//comentario
     mostrarModalInactivos() {
       this.mostrarModalDetalleTemporadasInactivos = true;
     },
