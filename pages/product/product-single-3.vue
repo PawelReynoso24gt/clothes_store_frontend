@@ -29,19 +29,19 @@
               >
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/1.png')"
+                    :src="require('@/assets/img/product-image/cuadrosAmarilla.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/2.png')"
+                    :src="require('@/assets/img/product-image/cuadrosBlanco.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/3.png')"
+                    :src="require('@/assets/img/product-image/cuadrosRosado.jpeg')"
                     alt="img"
                   />
                 </swiper-slide>
@@ -499,7 +499,7 @@ export default {
   data() {
     return {
       title: this.$route.params.slug,
-
+      product: {},
       // Product details Popup slider
       swiperOption: {
         slidesPerView: 1,

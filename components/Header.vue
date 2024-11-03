@@ -22,7 +22,7 @@
                 <div class="header-logo">
                   <div class="logo">
                     <nuxt-link to="/"
-                      ><img :src="require('@/assets/img/logo.png')" alt="logo"
+                      ><img :src="require('@/assets/img/logoIngP.png')" alt="logo"
                     /></nuxt-link>
                   </div>
                 </div>
@@ -43,128 +43,42 @@
                             <!-- Hombres -->
                             <li class="mega-menu-item">
                               <a href="#" class="mega-menu-item-title"
-                                >HOMBRES</a
-                              >
-                              <ul class="mega-menu-sub">
-                                <li>
-                                  <nuxt-link to="/shop"
-                                    >Camisas</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/shop/shop-2"
-                                    >Playeras</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/shop/shop-3"
-                                    >Pantalones</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/shop/shop-4"
-                                    >Sueteres</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/shop/shop-5"
-                                    >Pantalonetas</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/product/1"
-                                    >Trajes</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/product/product-single-3"
-                                    >Jackets</nuxt-link
-                                  >
-                                </li>
-                              </ul>
-                            </li>
-                            <!-- Mujeres -->
-                            <li class="mega-menu-item">
-                              <a href="#" class="mega-menu-item-title"
-                                >MUJERES</a
-                              >
-                              <ul class="mega-menu-sub">
-                                <li>
-                                  <nuxt-link to="/cart/"
-                                    >Blusas</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/cart-2"
-                                    >Shorts
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/cart-3"
-                                    >Pantalones
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/cart-4"
-                                    >Tops
-                                  </nuxt-link>
-                                </li>
-                                <li>
-                                  <nuxt-link to="/cart/empty-cart"
-                                    >Faldas</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/checkout-1"
-                                    >Vestidos</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/checkout-2"
-                                    >Trajes</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/wishlist"
-                                    >Sueteres</nuxt-link
-                                  >
-                                </li>
-                                <li>
-                                  <nuxt-link to="/my-account/order-tracking"
-                                    >Jackets</nuxt-link
-                                  >
-                                </li>
-                              </ul>
-                            </li>
-                            <!-- unisex-->
-                            <li class="mega-menu-item">
-                              <a href="#" class="mega-menu-item-title"
                                 >UNISEX</a
                               >
                               <ul class="mega-menu-sub">
                                 <li>
-                                  <nuxt-link to="/cart/"
+                                  <nuxt-link to="/productosHombres/camisas"
                                     >Camisas</nuxt-link
                                   >
                                 </li>
                                 <li>
-                                  <nuxt-link to="/cart/cart-2"
-                                    >Playeras
-                                  </nuxt-link>
+                                  <nuxt-link to="/productosHombres/playeras"
+                                    >Playeras</nuxt-link
+                                  >
                                 </li>
                                 <li>
-                                  <nuxt-link to="/otras-paginas/pants"
-                                    >Pants
-                                  </nuxt-link>
+                                  <nuxt-link to="/productosHombres/pantalones"
+                                    >Pantalones</nuxt-link
+                                  >
                                 </li>
                                 <li>
-                                  <nuxt-link to="/otras-paginas/sueteres"
-                                    >Sueteres
-                                  </nuxt-link>
+                                  <nuxt-link to="/productosHombres/sueteres"
+                                    >Sueteres</nuxt-link
+                                  >
                                 </li>
                                 <li>
-                                  <nuxt-link to="/otras-paginas/jackets"
+                                  <nuxt-link to="/productosHombres/pantalonetas"
+                                    >Pantalonetas</nuxt-link
+                                  >
+                                </li>
+                                <li>
+                                  <nuxt-link to="/productosHombres/jackets"
                                     >Jackets</nuxt-link
+                                  >
+                                </li>
+                                <li>
+                                  <nuxt-link to="/productosHombres/trajes"
+                                    >Pants</nuxt-link
                                   >
                                 </li>
                               </ul>
@@ -750,31 +664,31 @@ export default {
               title: "Shop Layout",
               child: [
                 {
-                  href: "/shop",
+                  href: "/productosHombres/camisas",
                   title: "Camisas",
                 },
                 {
-                  href: "/shop/shop-2",
+                  href: "/productosHombres/playeras",
                   title: "Playeras",
                 },
                 {
-                  href: "/shop/shop-3",
+                  href: "/productosHombres/pantalone",
                   title: "Pantalones",
                 },
                 {
-                  href: "/shop/shop-4",
+                  href: "/productosHombres/sueteres",
                   title: "Sueteres",
                 },
                 {
-                  href: "/shop/shop-5",
+                  href: "/productosHombres/pantalonetas",
                   title: "Pantalonetas",
                 },
                 {
-                  href: "/product/1",
+                  href: "/productosHombres/trajes",
                   title: "Trajes",
                 },
                 {
-                  href: "/product/product-single-3",
+                  href: "/productosHombres/jackets",
                   title: "Jackets",
                 },
               ],
