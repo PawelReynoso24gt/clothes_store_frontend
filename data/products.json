@@ -6,7 +6,7 @@
             "description": "Camisa manga larga con cuello, diseño de cuadros y botones. Con tela de algodón",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["new arrival"],
+            "collection": ["Camisas"],
             "category": "Male",
             "price": 145,
             "hot": true,
@@ -116,7 +116,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 2, 
             "title": "Camisa color liso",
             "description": "Camisa manga larga con cuello, diseño liso, Con tela de algodón",
             "type": "fashion",
@@ -244,16 +244,6 @@
                         203,
                         206,
                         209
-                    ]
-                },
-                {
-                    "image_id": 214,
-                    "id": 2,
-                    "alt": "pink",
-                    "src": "1.png",
-                    "variant_id": [
-                        201,
-                        204
                     ]
                 }
             ]
