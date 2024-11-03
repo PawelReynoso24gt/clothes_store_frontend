@@ -22,7 +22,7 @@
                 <div class="header-logo">
                   <div class="logo">
                     <nuxt-link to="/"
-                      ><img :src="require('@/assets/img/logo.png')" alt="logo"
+                      ><img :src="require('@/assets/img/logoIngP.png')" alt="logo"
                     /></nuxt-link>
                   </div>
                 </div>

@@ -238,10 +238,13 @@ ul li {
 }
 
 #common_banner_one {
-  background-image: url('../img/common/common_bg.png');
-  padding: 90px 0;
+  background-image: url('../img/headerRopa.png');
+  padding: 230px 0;
   background-repeat: no-repeat;
+  background-position: center -100px; /* Centra la imagen horizontalmente */
+  background-size: cover; /* Asegura que la imagen cubra todo el espacio disponible */
 }
+
 
 .common_banner_text {
   text-align: center;
@@ -654,7 +657,7 @@ button {
 }
 
 .header-logo {
-  width: 18%;
+  width: 15%;
 }
 
 .header-logo .logo img {
