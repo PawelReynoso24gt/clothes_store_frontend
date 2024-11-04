@@ -58,25 +58,25 @@
                                   <img :src="require('@/assets/img/product-image/pantaloneta12.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/estampado1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta13.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/estampado2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta14.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/PantalonRoto.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta15.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/baggy-1.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta16.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/baggy-2.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta17.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/cargo-1.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta18.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/cargo-2.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta19.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
                                   <img :src="require('@/assets/img/product-image/skater-1.jpg')" alt="img" />
