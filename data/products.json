@@ -2147,7 +2147,7 @@
         {
             "id": 28,
             "title": "Sudadera con Gorro",
-            "description": "",
+            "description": "Sudadera con Gorro, tela gruesa, costuras firmes",
             "type": "fashion",
             "brand": "Nike",
             "collection": ["Sueteres"],
@@ -2205,11 +2205,11 @@
         },
         {
             "id": 29,
-            "title": "choker neck top",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Rompevientos",
+            "description": "De tela impermiable y costuras fuertes.",
             "type": "fashion",
             "brand": "Next",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 155,
             "hot": false,
@@ -2219,8 +2219,8 @@
             "rating": 5,
             "tags": [
                 "m",
+                "black",
                 "gray",
-                "green",
                 "nike"
             ],
             "variants": [
@@ -2229,7 +2229,7 @@
                     "id": 29,
                     "sku": "sku29",
                     "size": "m",
-                    "color": "gray",
+                    "color": "black",
                     "image_id": 2911
                 },
                 {
@@ -2237,7 +2237,7 @@
                     "id": 29,
                     "sku": "skul29",
                     "size": "m",
-                    "color": "green",
+                    "color": "gray",
                     "image_id": 2912
                 }
             ],
@@ -2245,8 +2245,8 @@
                 {
                     "image_id": 2911,
                     "id": 29,
-                    "alt": "gray",
-                    "src": "10.png",
+                    "alt": "black",
+                    "src": "rompeVientos1.png",
                     "variant_id": [
                         2901
                     ]
@@ -2254,8 +2254,8 @@
                 {
                     "image_id": 2912,
                     "id": 29,
-                    "alt": "green",
-                    "src": "11.png",
+                    "alt": "gray",
+                    "src": "rompeVientos2.png",
                     "variant_id": [
                         2902
                     ]
@@ -2264,11 +2264,11 @@
         },
         {
             "id": 30,
-            "title": "rolled sleeve top",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sueter de lana",
+            "description": "",
             "type": "fashion",
             "brand": "Next",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 289,
             "sale": true,
@@ -2278,8 +2278,8 @@
             "rating": 5,
             "tags": [
                 "m",
-                "pink",
-                "red",
+                "white",
+                "green",
                 "geox"
             ],
             "variants": [
@@ -2288,7 +2288,7 @@
                     "id": 30,
                     "sku": "sku30",
                     "size": "m",
-                    "color": "pink",
+                    "color": "white",
                     "image_id": 3011
                 },
                 {
@@ -2296,7 +2296,7 @@
                     "id": 30,
                     "sku": "skul30",
                     "size": "m",
-                    "color": "red",
+                    "color": "green",
                     "image_id": 3012
                 }
             ],
@@ -2304,8 +2304,8 @@
                 {
                     "image_id": 3011,
                     "id": 30,
-                    "alt": "pink",
-                    "src": "12.png",
+                    "alt": "white",
+                    "src": "sueterLana1.png",
                     "variant_id": [
                         3001
                     ]
@@ -2313,8 +2313,8 @@
                 {
                     "image_id": 3012,
                     "id": 30,
-                    "alt": "red",
-                    "src": "13.png",
+                    "alt": "green",
+                    "src": "sueterLana2.png",
                     "variant_id": [
                         3002
                     ]
@@ -2323,11 +2323,11 @@
         },
         {
             "id": 31,
-            "title": "pink babysuit",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Cardigan",
+            "description": "",
             "type": "electronics",
             "brand": "babyhug",
-            "collection": ["best sellers", "new arrival"],
+            "collection": ["Sueteres"],
             "category": "kids",
             "price": 75,
             "hot": false,
@@ -2347,7 +2347,7 @@
                     "id": 31,
                     "sku": "sku31",
                     "size": "m",
-                    "color": "pink",
+                    "color": "beige",
                     "image_id": 3111
                 },
                 {
@@ -2355,7 +2355,7 @@
                     "id": 31,
                     "sku": "skul31",
                     "size": "m",
-                    "color": "red",
+                    "color": "black",
                     "image_id": 3112
                 }
             ],
@@ -2363,8 +2363,8 @@
                 {
                     "image_id": 3111,
                     "id": 31,
-                    "alt": "pink",
-                    "src": "28.png",
+                    "alt": "beige",
+                    "src": "cardigan1.png",
                     "variant_id": [
                         3101
                     ]
@@ -2372,8 +2372,8 @@
                 {
                     "image_id": 3112,
                     "id": 31,
-                    "alt": "red",
-                    "src": "29.png",
+                    "alt": "black",
+                    "src": "cardigan2.png",
                     "variant_id": [
                         3102
                     ]
