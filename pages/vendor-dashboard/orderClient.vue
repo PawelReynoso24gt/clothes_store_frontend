@@ -61,7 +61,7 @@
         </section>
 
         <!-- Modal para mostrar detalles de los productos -->
-        <div v-if="showModal" class="modal" @click.self="cerrarModal">
+                <div v-if="showModal" class="modal" @click.self="cerrarModal">
             <div class="modal-contenido">
                 <span class="cerrar" @click="cerrarModal">&times;</span>
                 <h2>Detalles del Envío</h2>
@@ -75,6 +75,7 @@
                     <hr />
                 </div>
                 <button class="btn btn-secondary" @click="cerrarModal">Cerrar</button>
+                <button class="btn btn-primary" @click="devolverProducto">Devolver</button>
             </div>
         </div>
     </div>
@@ -120,10 +121,21 @@ export default {
         cerrarModal() {
             this.showModal = false; // Cerrar el modal
             this.productos = []; // Limpiar los productos al cerrar el modal
+        },
+        // Función para manejar la devolución de productos
+        devolverProducto() {
+            const confirmDevolver = confirm("¿Está seguro que desea devolver este envío?");
+            if (confirmDevolver) {
+                // Aquí puedes agregar la lógica de devolución cuando estés listo.
+                console.log("Devolución confirmada. (Pendiente de implementar)");
+            } else {
+                console.log("Devolución cancelada.");
+            }
         }
     }
 }
 </script>
+
 
 <style scoped>
 .modal {

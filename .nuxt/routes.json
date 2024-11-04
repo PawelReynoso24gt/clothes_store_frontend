@@ -4,7 +4,7 @@
     "path": "/404",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\404.vue",
     "chunkName": "pages/404",
-    "_name": "_559a7ff5"
+    "_name": "_afa8a888"
   },
   {
     "name": "about-us",
@@ -364,6 +364,55 @@
     "_name": "_4c0775bf"
   },
   {
+    "name": "productosHombres-camisas",
+    "path": "/productosHombres/camisas",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\camisas.vue",
+    "chunkName": "pages/productosHombres/camisas",
+    "_name": "_ee3178c4"
+  },
+  {
+    "name": "productosHombres-jackets",
+    "path": "/productosHombres/jackets",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\jackets.vue",
+    "chunkName": "pages/productosHombres/jackets",
+    "_name": "_47d9fe50"
+  },
+  {
+    "name": "productosHombres-pantalones",
+    "path": "/productosHombres/pantalones",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\pantalones.vue",
+    "chunkName": "pages/productosHombres/pantalones",
+    "_name": "_2cd9658c"
+  },
+  {
+    "name": "productosHombres-pantalonetas",
+    "path": "/productosHombres/pantalonetas",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\pantalonetas.vue",
+    "chunkName": "pages/productosHombres/pantalonetas",
+    "_name": "_308d5202"
+  },
+  {
+    "name": "productosHombres-playeras",
+    "path": "/productosHombres/playeras",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\playeras.vue",
+    "chunkName": "pages/productosHombres/playeras",
+    "_name": "_2ec47020"
+  },
+  {
+    "name": "productosHombres-sueteres",
+    "path": "/productosHombres/sueteres",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\sueteres.vue",
+    "chunkName": "pages/productosHombres/sueteres",
+    "_name": "_2e5ffcc9"
+  },
+  {
+    "name": "productosHombres-trajes",
+    "path": "/productosHombres/trajes",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\trajes.vue",
+    "chunkName": "pages/productosHombres/trajes",
+    "_name": "_f293191c"
+  },
+  {
     "name": "shop-shop-2",
     "path": "/shop/shop-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\shop\\\\shop-2.vue",
@@ -404,6 +453,13 @@
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\order.vue",
     "chunkName": "pages/vendor-dashboard/order",
     "_name": "_0603b5a3"
+  },
+  {
+    "name": "vendor-dashboard-orderClient",
+    "path": "/vendor-dashboard/orderClient",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\orderClient.vue",
+    "chunkName": "pages/vendor-dashboard/orderClient",
+    "_name": "_5d8c1864"
   },
   {
     "name": "vendor-dashboard-product",
