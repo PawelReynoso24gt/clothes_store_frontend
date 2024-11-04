@@ -2744,8 +2744,8 @@
         },
         {
             "id": 37,
-            "title": "flash drum sticks",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Short de lona",
+            "description": "Short de lona oversize, con bolsas  .",
             "type": "electronics",
             "brand": "toffyhouse",
             "collection": ["Pantalonetas"],
@@ -2758,7 +2758,7 @@
             "rating": 4,
             "tags": [
                 "toffyhouse",
-                "darkturquoise",
+                "blue",
                 "coral"
             ],
             "variants": [
@@ -2767,7 +2767,7 @@
                     "id": 37,
                     "sku": "sku37",
                     "size": "m",
-                    "color": "darkturquoise",
+                    "color": "blue",
                     "image_id": 3711
                 },
                 {
@@ -2775,7 +2775,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "m",
-                    "color": "coral",
+                    "color": "blue",
                     "image_id": 3712
                 },
                 {
@@ -2783,7 +2783,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "darkturquoise",
+                    "color": "blue",
                     "image_id": 3711
                 },
                 {
@@ -2791,7 +2791,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "coral",
+                    "color": "blue",
                     "image_id": 3712
                 }
             ],
@@ -2799,8 +2799,8 @@
                 {
                     "image_id": 3711,
                     "id": 37,
-                    "alt": "darkturquoise",
-                    "src": "34.png",
+                    "alt": "blue",
+                    "src": "pantaloneta13.png",
                     "variant_id": [
                         3701,
                         3703
@@ -2809,8 +2809,8 @@
                 {
                     "image_id": 3712,
                     "id": 37,
-                    "alt": "coral",
-                    "src": "35.png",
+                    "alt": "blue",
+                    "src": "pantaloneta14.png",
                     "variant_id": [
                         3702,
                         3704
@@ -2820,11 +2820,11 @@
         },
         {
             "id": 38,
-            "title": "Fidget Spinner",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta de rayas",
+            "description": "Pantaloneta de tela con estampado de rayas",
             "type": "electronics",
             "brand": "Barbie",
-            "collection": ["on sale", "new arrival", "featured products"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 290,
             "sale": true,
@@ -2833,17 +2833,17 @@
             "new": true,
             "rating": 5,
             "tags": [
-                "Barbie",
-                "coral",
+                "blue",
+                "black",
                 "yellowgreen"
             ],
             "variants": [
                 {
                     "variant_id": 3701,
                     "id": 37,
-                    "sku": "sku37",
+                    "sku": "blue",
                     "size": "m",
-                    "color": "coral",
+                    "color": "black",
                     "image_id": 3711
                 },
                 {
@@ -2851,7 +2851,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "m",
-                    "color": "yellowgreen",
+                    "color": "black",
                     "image_id": 3712
                 },
                 {
@@ -2859,7 +2859,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "coral",
+                    "color": "blue",
                     "image_id": 3711
                 },
                 {
@@ -2867,7 +2867,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "yellowgreen",
+                    "color": "black",
                     "image_id": 3712
                 }
             ],
@@ -2875,8 +2875,8 @@
                 {
                     "image_id": 3711,
                     "id": 37,
-                    "alt": "coral",
-                    "src": "35.png",
+                    "alt": "blue",
+                    "src": "pantaloneta15.png",
                     "variant_id": [
                         3701,
                         3703
@@ -2885,8 +2885,8 @@
                 {
                     "image_id": 3712,
                     "id": 37,
-                    "alt": "yellowgreen",
-                    "src": "36.png",
+                    "alt": "black",
+                    "src": "pantaloneta16.png",
                     "variant_id": [
                         3702,
                         3704
@@ -2896,8 +2896,8 @@
         },
         {
             "id": 39,
-            "title": "motor bike",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta de estrella",
+            "description": "Pantaloneta de lona con estampado de estrella",
             "type": "electronics",
             "brand": "toffyhouse",
             "collection": ["Pantalonetas"],
@@ -2911,9 +2911,9 @@
             "tags": [
                 "toffyhouse",
                 "new",
+                "blue",
                 "pink",
-                "green",
-                "skyblue"
+                "gray"
             ],
             "variants": [
                 {
@@ -2921,7 +2921,7 @@
                     "id": 39,
                     "sku": "sku39",
                     "size": "m",
-                    "color": "pink",
+                    "color": "blue",
                     "image_id": 3911
                 },
                 {
@@ -2929,7 +2929,7 @@
                     "id": 39,
                     "sku": "skumg39",
                     "size": "m",
-                    "color": "green",
+                    "color": "pink",
                     "image_id": 3912
                 },
                 {
@@ -2937,31 +2937,7 @@
                     "id": 39,
                     "sku": "skums39",
                     "size": "m",
-                    "color": "skyblue",
-                    "image_id": 3913
-                },
-                {
-                    "variant_id": 3904,
-                    "id": 39,
-                    "sku": "skusp39",
-                    "size": "s",
-                    "color": "pink",
-                    "image_id": 3911
-                },
-                {
-                    "variant_id": 3905,
-                    "id": 39,
-                    "sku": "skusg39",
-                    "size": "s",
-                    "color": "green",
-                    "image_id": 3912
-                },
-                {
-                    "variant_id": 3906,
-                    "id": 39,
-                    "sku": "skusb39",
-                    "size": "s",
-                    "color": "skyblue",
+                    "color": "gray",
                     "image_id": 3913
                 }
             ],
@@ -2969,8 +2945,8 @@
                 {
                     "image_id": 3911,
                     "id": 39,
-                    "alt": "pink",
-                    "src": "36.png",
+                    "alt": "blue",
+                    "src": "pantaloneta17.png",
                     "variant_id": [
                         3901,
                         3904
@@ -2979,8 +2955,8 @@
                 {
                     "image_id": 3912,
                     "id": 39,
-                    "alt": "green",
-                    "src": "37.png",
+                    "alt": "pink",
+                    "src": "pantaloneta18.png",
                     "variant_id": [
                         3902,
                         3905
@@ -2989,8 +2965,8 @@
                 {
                     "image_id": 3913,
                     "id": 39,
-                    "alt": "skyblue",
-                    "src": "28.png",
+                    "alt": "gray",
+                    "src": "pantaloneta19.png",
                     "variant_id": [
                         3903,
                         3906
