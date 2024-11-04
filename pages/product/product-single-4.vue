@@ -84,7 +84,27 @@
                             <swiper-slide>
                                 <img :src="require('@/assets/img/product-image/skater-2.jpg')" alt="img" />
                             </swiper-slide>
-      
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/vestirAmarillo.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/vestirNegro.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/vestirVerde.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/pescadorGris.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/pescadorNegro.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/skinnyBlanco.jpg')" alt="img" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img :src="require('@/assets/img/product-image/skinnyNegro.jpg')" alt="img" />
+                            </swiper-slide>
                             <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
                             <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
 

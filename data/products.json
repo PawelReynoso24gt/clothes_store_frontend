@@ -1595,6 +1595,16 @@
                         1901,
                         1903
                     ]
+                },
+                {
+                    "image_id": 1911,
+                    "id": 19,
+                    "alt": "blue",
+                    "src": "PantalonRoto.png",
+                    "variant_id": [
+                        1901,
+                        1903
+                    ]
                 }
             ]
         },
@@ -1724,11 +1734,11 @@
         },
         {
             "id": 22,
-            "title": "bodycon dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalones de vestir",
+            "description": "Pantalones casuales de vestir de corte slim y pierna recta.",
             "type": "fashion",
             "brand": "nike",
-            "collection": ["best sellers"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 180,
             "hot": false,
@@ -1799,7 +1809,7 @@
                     "image_id": 2211,
                     "id": 22,
                     "alt": "yellow",
-                    "src": "11.png",
+                    "src": "vestirAmarillo.jpg",
                     "variant_id": [
                         2201,
                         2204
@@ -1809,7 +1819,7 @@
                     "image_id": 2212,
                     "id": 22,
                     "alt": "black",
-                    "src": "12.png",
+                    "src": "vestirNegro.jpg",
                     "variant_id": [
                         2202,
                         2205
@@ -1819,7 +1829,7 @@
                     "image_id": 2213,
                     "id": 22,
                     "alt": "green",
-                    "src": "1.png",
+                    "src": "vestirVerde.jpg",
                     "variant_id": [
                         2203,
                         2206
@@ -1829,11 +1839,11 @@
         },
         {
             "id": 23,
-            "title": "off shoulder dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalones de pescador",
+            "description": "Pantalones de tela de algodón, estilo pescador",
             "type": "fashion",
             "brand": "Next",
-            "collection": ["best sellers"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 240,
             "hot": false,
@@ -1849,14 +1859,6 @@
                 "max"
             ],
             "variants": [
-                {
-                    "variant_id": 2301,
-                    "id": 23,
-                    "sku": "sku23",
-                    "size": "m",
-                    "color": "pink",
-                    "image_id": 2311
-                },
                 {
                     "variant_id": 2302,
                     "id": 23,
@@ -1876,19 +1878,10 @@
             ],
             "images": [
                 {
-                    "image_id": 2311,
-                    "id": 23,
-                    "alt": "pink",
-                    "src": "13.png",
-                    "variant_id": [
-                        2301
-                    ]
-                },
-                {
                     "image_id": 2312,
                     "id": 23,
                     "alt": "black",
-                    "src": "14.png",
+                    "src": "pescadorNegro.jpg",
                     "variant_id": [
                         2302
                     ]
@@ -1897,7 +1890,7 @@
                     "image_id": 2313,
                     "id": 23,
                     "alt": "gray",
-                    "src": "1.png",
+                    "src": "pescadorGris.jpg",
                     "variant_id": [
                         2303
                     ]
@@ -1906,11 +1899,11 @@
         },
         {
             "id": 24,
-            "title": "black short dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantalones Skinny",
+            "description": "Pantalones de estilo skinny, con corte ajustado y comodidad para el día a día.",
             "type": "fashion",
             "brand": "Next",
-            "collection": ["featured products"],
+            "collection": ["Pantalones"],
             "category": "Women",
             "price": 160,
             "hot": false,
@@ -1941,14 +1934,6 @@
                     "size": "s",
                     "color": "white",
                     "image_id": 2412
-                },
-                {
-                    "variant_id": 2403,
-                    "id": 24,
-                    "sku": "sku24s",
-                    "size": "s",
-                    "color": "pink",
-                    "image_id": 2413
                 }
             ],
             "images": [
@@ -1956,7 +1941,7 @@
                     "image_id": 2411,
                     "id": 24,
                     "alt": "black",
-                    "src": "15.png",
+                    "src": "skinnyNegro.jpg",
                     "variant_id": [
                         2401
                     ]
@@ -1965,29 +1950,20 @@
                     "image_id": 2412,
                     "id": 24,
                     "alt": "white",
-                    "src": "1.png",
+                    "src": "skinnyBlanco.jpg",
                     "variant_id": [
                         2402
-                    ]
-                },
-                {
-                    "image_id": 2413,
-                    "id": 24,
-                    "alt": "pink",
-                    "src": "1.png",
-                    "variant_id": [
-                        2403
                     ]
                 }
             ]
         },
         {
             "id": 25,
-            "title": "knee length dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sueter Liso",
+            "description": "Sudadera gruesa de algodón, de color liso",
             "type": "fashion",
             "brand": "adidas",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 260,
             "sale": true,
@@ -2018,22 +1994,6 @@
                     "size": "s",
                     "color": "blue",
                     "image_id": 2512
-                },
-                {
-                    "variant_id": 2503,
-                    "id": 25,
-                    "sku": "sku25l",
-                    "size": "m",
-                    "color": "pink",
-                    "image_id": 2511
-                },
-                {
-                    "variant_id": 2504,
-                    "id": 25,
-                    "sku": "sku25l",
-                    "size": "m",
-                    "color": "blue",
-                    "image_id": 2512
                 }
             ],
             "images": [
@@ -2041,7 +2001,7 @@
                     "image_id": 2511,
                     "id": 25,
                     "alt": "pink",
-                    "src": "2.png",
+                    "src": "sudaderaLisa1.png",
                     "variant_id": [
                         2501,
                         2503
@@ -2051,7 +2011,7 @@
                     "image_id": 2512,
                     "id": 25,
                     "alt": "blue",
-                    "src": "3.png",
+                    "src": "sudaderaLisa2.png",
                     "variant_id": [
                         2502,
                         2504
@@ -2061,11 +2021,11 @@
         },
         {
             "id": 26,
-            "title": "flutter dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sudadera Estampada",
+            "description": "Sudaderas con estampados varios, tela gruesa.",
             "type": "fashion",
             "brand": "river island",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 330,
             "sale": true,
@@ -2097,22 +2057,6 @@
                     "size": "xs",
                     "color": "gray",
                     "image_id": 2612
-                },
-                {
-                    "variant_id": 2603,
-                    "id": 26,
-                    "sku": "sku26l",
-                    "size": "m",
-                    "color": "black",
-                    "image_id": 2611
-                },
-                {
-                    "variant_id": 2604,
-                    "id": 26,
-                    "sku": "sku26l",
-                    "size": "m",
-                    "color": "gray",
-                    "image_id": 2612
                 }
             ],
             "images": [
@@ -2120,7 +2064,7 @@
                     "image_id": 2611,
                     "id": 26,
                     "alt": "black",
-                    "src": "4.png",
+                    "src": "sudaderaEstampado.png",
                     "variant_id": [
                         2601,
                         2603
@@ -2130,7 +2074,7 @@
                     "image_id": 2612,
                     "id": 26,
                     "alt": "gray",
-                    "src": "5.png",
+                    "src": "sudaderaEstampada1.png",
                     "variant_id": [
                         2602,
                         2604
@@ -2140,11 +2084,11 @@
         },
         {
             "id": 27,
-            "title": "choker neck dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sudadera sin gorro",
+            "description": "Sudadera de forro con peluche, lisa y tela grusa, sin gorro",
             "type": "fashion",
             "brand": "river island",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 410,
             "sale": true,
@@ -2155,8 +2099,8 @@
             "tags": [
                 "xs",
                 "m",
-                "skyblue",
-                "yellow",
+                "gray",
+                "purple",
                 "max"
             ],
             "variants": [
@@ -2165,7 +2109,7 @@
                     "id": 27,
                     "sku": "sku27",
                     "size": "xs",
-                    "color": "skyblue",
+                    "color": "gray",
                     "image_id": 2711
                 },
                 {
@@ -2173,23 +2117,7 @@
                     "id": 27,
                     "sku": "skul27",
                     "size": "xs",
-                    "color": "yellow",
-                    "image_id": 2712
-                },
-                {
-                    "variant_id": 2703,
-                    "id": 27,
-                    "sku": "sku27l",
-                    "size": "m",
-                    "color": "skyblue",
-                    "image_id": 2711
-                },
-                {
-                    "variant_id": 2704,
-                    "id": 27,
-                    "sku": "sku27l",
-                    "size": "m",
-                    "color": "yellow",
+                    "color": "purple",
                     "image_id": 2712
                 }
             ],
@@ -2197,8 +2125,8 @@
                 {
                     "image_id": 2711,
                     "id": 27,
-                    "alt": "skyblue",
-                    "src": "6.png",
+                    "alt": "gray",
+                    "src": "sudaderaSinGorro.png",
                     "variant_id": [
                         2701,
                         2703
@@ -2207,8 +2135,8 @@
                 {
                     "image_id": 2712,
                     "id": 27,
-                    "alt": "yellow",
-                    "src": "7.png",
+                    "alt": "purple",
+                    "src": "sudaderaSinGorro2.png",
                     "variant_id": [
                         2702,
                         2704
@@ -2218,11 +2146,11 @@
         },
         {
             "id": 28,
-            "title": "layered dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sudadera con Gorro",
+            "description": "",
             "type": "fashion",
             "brand": "Nike",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 75,
             "hot": false,
@@ -2234,8 +2162,7 @@
                 "new",
                 "xs",
                 "maroon",
-                "pink",
-                "geox"
+                "beige"
             ],
             "variants": [
                 {
@@ -2251,7 +2178,7 @@
                     "id": 28,
                     "sku": "skul28",
                     "size": "xs",
-                    "color": "pink",
+                    "color": "beige",
                     "image_id": 2812
                 }
             ],
@@ -2260,7 +2187,7 @@
                     "image_id": 2811,
                     "id": 28,
                     "alt": "maroon",
-                    "src": "8.png",
+                    "src": "sudaderaConGorro1.png",
                     "variant_id": [
                         2801
                     ]
@@ -2268,8 +2195,8 @@
                 {
                     "image_id": 2812,
                     "id": 28,
-                    "alt": "pink",
-                    "src": "9.png",
+                    "alt": "beige",
+                    "src": "sudaderoConGorra2.png",
                     "variant_id": [
                         2802
                     ]
@@ -2874,8 +2801,8 @@
         },
         {
             "id": 37,
-            "title": "flash drum sticks",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Short de lona",
+            "description": "Short de lona oversize, con bolsas  .",
             "type": "electronics",
             "brand": "toffyhouse",
             "collection": ["on sale" , "new arrival"],
@@ -2888,7 +2815,7 @@
             "rating": 4,
             "tags": [
                 "toffyhouse",
-                "darkturquoise",
+                "blue",
                 "coral"
             ],
             "variants": [
@@ -2897,7 +2824,7 @@
                     "id": 37,
                     "sku": "sku37",
                     "size": "m",
-                    "color": "darkturquoise",
+                    "color": "blue",
                     "image_id": 3711
                 },
                 {
@@ -2905,7 +2832,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "m",
-                    "color": "coral",
+                    "color": "blue",
                     "image_id": 3712
                 },
                 {
@@ -2913,7 +2840,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "darkturquoise",
+                    "color": "blue",
                     "image_id": 3711
                 },
                 {
@@ -2921,7 +2848,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "coral",
+                    "color": "blue",
                     "image_id": 3712
                 }
             ],
@@ -2929,8 +2856,8 @@
                 {
                     "image_id": 3711,
                     "id": 37,
-                    "alt": "darkturquoise",
-                    "src": "34.png",
+                    "alt": "blue",
+                    "src": "pantaloneta13.png",
                     "variant_id": [
                         3701,
                         3703
@@ -2939,8 +2866,8 @@
                 {
                     "image_id": 3712,
                     "id": 37,
-                    "alt": "coral",
-                    "src": "35.png",
+                    "alt": "blue",
+                    "src": "pantaloneta14.png",
                     "variant_id": [
                         3702,
                         3704
@@ -2950,11 +2877,11 @@
         },
         {
             "id": 38,
-            "title": "Fidget Spinner",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta de rayas",
+            "description": "Pantaloneta de tela con estampado de rayas",
             "type": "electronics",
             "brand": "Barbie",
-            "collection": ["on sale", "new arrival", "featured products"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 290,
             "sale": true,
@@ -2963,17 +2890,17 @@
             "new": true,
             "rating": 5,
             "tags": [
-                "Barbie",
-                "coral",
+                "blue",
+                "black",
                 "yellowgreen"
             ],
             "variants": [
                 {
                     "variant_id": 3701,
                     "id": 37,
-                    "sku": "sku37",
+                    "sku": "blue",
                     "size": "m",
-                    "color": "coral",
+                    "color": "black",
                     "image_id": 3711
                 },
                 {
@@ -2981,7 +2908,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "m",
-                    "color": "yellowgreen",
+                    "color": "black",
                     "image_id": 3712
                 },
                 {
@@ -2989,7 +2916,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "coral",
+                    "color": "blue",
                     "image_id": 3711
                 },
                 {
@@ -2997,7 +2924,7 @@
                     "id": 37,
                     "sku": "skul37",
                     "size": "l",
-                    "color": "yellowgreen",
+                    "color": "black",
                     "image_id": 3712
                 }
             ],
@@ -3005,8 +2932,8 @@
                 {
                     "image_id": 3711,
                     "id": 37,
-                    "alt": "coral",
-                    "src": "35.png",
+                    "alt": "blue",
+                    "src": "pantaloneta15.png",
                     "variant_id": [
                         3701,
                         3703
@@ -3015,8 +2942,8 @@
                 {
                     "image_id": 3712,
                     "id": 37,
-                    "alt": "yellowgreen",
-                    "src": "36.png",
+                    "alt": "black",
+                    "src": "pantaloneta16.png",
                     "variant_id": [
                         3702,
                         3704
@@ -3026,8 +2953,8 @@
         },
         {
             "id": 39,
-            "title": "motor bike",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta de estrella",
+            "description": "Pantaloneta de lona con estampado de estrella",
             "type": "electronics",
             "brand": "toffyhouse",
             "collection": ["best sellers", "on sale"],
@@ -3041,9 +2968,9 @@
             "tags": [
                 "toffyhouse",
                 "new",
+                "blue",
                 "pink",
-                "green",
-                "skyblue"
+                "gray"
             ],
             "variants": [
                 {
@@ -3051,7 +2978,7 @@
                     "id": 39,
                     "sku": "sku39",
                     "size": "m",
-                    "color": "pink",
+                    "color": "blue",
                     "image_id": 3911
                 },
                 {
@@ -3059,7 +2986,7 @@
                     "id": 39,
                     "sku": "skumg39",
                     "size": "m",
-                    "color": "green",
+                    "color": "pink",
                     "image_id": 3912
                 },
                 {
@@ -3067,31 +2994,7 @@
                     "id": 39,
                     "sku": "skums39",
                     "size": "m",
-                    "color": "skyblue",
-                    "image_id": 3913
-                },
-                {
-                    "variant_id": 3904,
-                    "id": 39,
-                    "sku": "skusp39",
-                    "size": "s",
-                    "color": "pink",
-                    "image_id": 3911
-                },
-                {
-                    "variant_id": 3905,
-                    "id": 39,
-                    "sku": "skusg39",
-                    "size": "s",
-                    "color": "green",
-                    "image_id": 3912
-                },
-                {
-                    "variant_id": 3906,
-                    "id": 39,
-                    "sku": "skusb39",
-                    "size": "s",
-                    "color": "skyblue",
+                    "color": "gray",
                     "image_id": 3913
                 }
             ],
@@ -3099,8 +3002,8 @@
                 {
                     "image_id": 3911,
                     "id": 39,
-                    "alt": "pink",
-                    "src": "36.png",
+                    "alt": "blue",
+                    "src": "pantaloneta17.png",
                     "variant_id": [
                         3901,
                         3904
@@ -3109,8 +3012,8 @@
                 {
                     "image_id": 3912,
                     "id": 39,
-                    "alt": "green",
-                    "src": "37.png",
+                    "alt": "pink",
+                    "src": "pantaloneta18.png",
                     "variant_id": [
                         3902,
                         3905
@@ -3119,8 +3022,8 @@
                 {
                     "image_id": 3913,
                     "id": 39,
-                    "alt": "skyblue",
-                    "src": "28.png",
+                    "alt": "gray",
+                    "src": "pantaloneta19.png",
                     "variant_id": [
                         3903,
                         3906
@@ -4381,20 +4284,20 @@
         },
         {
             "id": 54,
-            "title": "shoes 12",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants Ajustado",
+            "description": "Pants ajustado para realizar ejercicio.",
             "type": "shoes",
             "brand": "nike",
-            "collection": ["featured products"],
-            "category": "shoes",
+            "collection": ["Pants"],
+            "category": "Pants",
             "price": 245,
             "sale": true,
             "discount": "21",
             "stock": 1,
             "new": true,
             "tags": [
-                "antiquewhite",
-                "maroon",
+                "skyblue",
+                "purple",
                 "nike",
                 "new"
             ],
@@ -4404,7 +4307,7 @@
                     "id": 54,
                     "sku": "sku54",
                     "size": "36",
-                    "color": "antiquewhite",
+                    "color": "skyblue",
                     "image_id": 5411
                 },
                 {
@@ -4412,7 +4315,7 @@
                     "id": 54,
                     "sku": "skumg54",
                     "size": "36",
-                    "color": "maroon",
+                    "color": "purple",
                     "image_id": 5412
                 },
                 {
@@ -4420,7 +4323,7 @@
                     "id": 54,
                     "sku": "skums54",
                     "size": "36",
-                    "color": "antiquewhite",
+                    "color": "skyblue",
                     "image_id": 5411
                 },
                 {
@@ -4428,7 +4331,7 @@
                     "id": 54,
                     "sku": "skusp54",
                     "size": "37",
-                    "color": "maroon",
+                    "color": "purple",
                     "image_id": 5412
                 }
             ],
@@ -4436,8 +4339,8 @@
                 {
                     "image_id": 5411,
                     "id": 54,
-                    "alt": "antiquewhite",
-                    "src": "1.png",
+                    "alt": "skyblue",
+                    "src": "PantsAjustadosCeleste.png",
                     "variant_id": [
                         5401,
                         5403
@@ -4446,8 +4349,8 @@
                 {
                     "image_id": 5412,
                     "id": 54,
-                    "alt": "maroon",
-                    "src": "1.png",
+                    "alt": "purple",
+                    "src": "PantsAjustadosMorado.png",
                     "variant_id": [
                         5402,
                         5404
@@ -4457,20 +4360,20 @@
         },
         {
             "id": 55,
-            "title": "shoes 13",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants Holgados",
+            "description": "Pants Holgados cÃ³modos para vestir.",
             "type": "shoes",
             "brand": "puma",
-            "collection": ["on sale"],
-            "category": "shoes",
+            "collection": ["Pants"],
+            "category": "Pants",
             "price": 400,
             "sale": true,
             "discount": "20",
             "stock": 5,
             "new": true,
             "tags": [
-                "peru",
-                "rosybrown",
+                "gray",
+                "white",
                 "puma",
                 "37"
             ],
@@ -4480,7 +4383,7 @@
                     "id": 55,
                     "sku": "sku55",
                     "size": "36",
-                    "color": "peru",
+                    "color": "gray",
                     "image_id": 5511
                 },
                 {
@@ -4488,7 +4391,7 @@
                     "id": 55,
                     "sku": "skumg55",
                     "size": "36",
-                    "color": "rosybrown",
+                    "color": "white",
                     "image_id": 5512
                 },
                 {
@@ -4496,7 +4399,7 @@
                     "id": 55,
                     "sku": "skums55",
                     "size": "36",
-                    "color": "peru",
+                    "color": "gray",
                     "image_id": 5511
                 },
                 {
@@ -4504,7 +4407,7 @@
                     "id": 55,
                     "sku": "skusp55",
                     "size": "37",
-                    "color": "rosybrown",
+                    "color": "white",
                     "image_id": 5512
                 }
             ],
@@ -4512,8 +4415,8 @@
                 {
                     "image_id": 5511,
                     "id": 55,
-                    "alt": "peru",
-                    "src": "1.png",
+                    "alt": "gray",
+                    "src": "PantsBlancoHolgado.png",
                     "variant_id": [
                         5501,
                         5503
@@ -4522,8 +4425,8 @@
                 {
                     "image_id": 5512,
                     "id": 55,
-                    "alt": "rosybrown",
-                    "src": "1.png",
+                    "alt": "white",
+                    "src": "PantsGrisHolgado.png",
                     "variant_id": [
                         5502,
                         5504
@@ -4533,11 +4436,11 @@
         },
         {
             "id": 56,
-            "title": "shoes 14",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants Estampado",
+            "description": "Pants estampado Unisex.",
             "type": "shoes",
             "brand": "nike",
-            "collection": ["on sale"],
+            "collection": ["Pants"],
             "category": "shoes",
             "price": 482,
             "sale": true,
@@ -4545,8 +4448,8 @@
             "stock": 4,
             "new": true,
             "tags": [
+                "white",
                 "black",
-                "tan",
                 "nike",
                 "new",
                 "38"
@@ -4557,7 +4460,7 @@
                     "id": 56,
                     "sku": "sku56",
                     "size": "38",
-                    "color": "black",
+                    "color": "white",
                     "image_id": 5611
                 },
                 {
@@ -4565,7 +4468,7 @@
                     "id": 56,
                     "sku": "skumg56",
                     "size": "38",
-                    "color": "tan",
+                    "color": "black",
                     "image_id": 5612
                 },
                 {
@@ -4573,7 +4476,7 @@
                     "id": 56,
                     "sku": "skums56",
                     "size": "40",
-                    "color": "black",
+                    "color": "white",
                     "image_id": 5611
                 },
                 {
@@ -4581,7 +4484,7 @@
                     "id": 56,
                     "sku": "skusp56",
                     "size": "40",
-                    "color": "tan",
+                    "color": "black",
                     "image_id": 5612
                 }
             ],
@@ -4589,8 +4492,8 @@
                 {
                     "image_id": 5611,
                     "id": 56,
-                    "alt": "black",
-                    "src": "1.png",
+                    "alt": "white",
+                    "src": "PantsBlancoRosa.png",
                     "variant_id": [
                         5601,
                         5603
@@ -4599,8 +4502,8 @@
                 {
                     "image_id": 5612,
                     "id": 56,
-                    "alt": "tan",
-                    "src": "1.png",
+                    "alt": "black",
+                    "src": "PantsEstampadoNegro.png",
                     "variant_id": [
                         5602,
                         5604
@@ -4610,11 +4513,11 @@
         },
         {
             "id": 57,
-            "title": "shoes 15",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants Cargo",
+            "description": "Pants tipo cargo.",
             "type": "shoes",
             "brand": "adidas",
-            "collection": ["on sale"],
+            "collection": ["Pants"],
             "category": "shoes",
             "price": 375,
             "sale": true,
@@ -4623,7 +4526,7 @@
             "new": true,
             "tags": [
                 "brown",
-                "black",
+                "gray",
                 "adidas",
                 "new"
             ],
@@ -4633,7 +4536,7 @@
                     "id": 57,
                     "sku": "sku57",
                     "size": "38",
-                    "color": "brown",
+                    "color": "gray",
                     "image_id": 5711
                 },
                 {
@@ -4641,7 +4544,7 @@
                     "id": 57,
                     "sku": "skumg57",
                     "size": "38",
-                    "color": "black",
+                    "color": "brown",
                     "image_id": 5712
                 },
                 {
@@ -4649,7 +4552,7 @@
                     "id": 57,
                     "sku": "skums57",
                     "size": "39",
-                    "color": "brown",
+                    "color": "gray",
                     "image_id": 5711
                 },
                 {
@@ -4657,7 +4560,7 @@
                     "id": 57,
                     "sku": "skusp57",
                     "size": "39",
-                    "color": "black",
+                    "color": "brown",
                     "image_id": 5712
                 }
             ],
@@ -4665,8 +4568,8 @@
                 {
                     "image_id": 5711,
                     "id": 57,
-                    "alt": "black",
-                    "src": "1.png",
+                    "alt": "brown",
+                    "src": "PantsCargoGris.png",
                     "variant_id": [
                         5701,
                         5703
@@ -4675,8 +4578,8 @@
                 {
                     "image_id": 5712,
                     "id": 57,
-                    "alt": "tan",
-                    "src": "1.png",
+                    "alt": "gray",
+                    "src": "PantsCargoCafe.png",
                     "variant_id": [
                         5702,
                         5704
@@ -4686,11 +4589,11 @@
         },
         {
             "id": 58,
-            "title": "shoes 16",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants de cuero",
+            "description": "Pants holgados de cuero.",
             "type": "shoes",
             "brand": "puma",
-            "collection": ["on sale", "new arrival"],
+            "collection": ["Pants"],
             "category": "shoes",
             "price": 190,
             "hot": false,
@@ -4699,7 +4602,7 @@
             "new": true,
             "tags": [
                 "new",
-                "rosybrown",
+                "gray",
                 "black",
                 "puma"
             ],
@@ -4709,7 +4612,7 @@
                     "id": 58,
                     "sku": "sku58",
                     "size": "38",
-                    "color": "rosybrown",
+                    "color": "gray",
                     "image_id": 5811
                 },
                 {
@@ -4725,7 +4628,7 @@
                     "id": 58,
                     "sku": "skums58",
                     "size": "39",
-                    "color": "rosybrown",
+                    "color": "gray",
                     "image_id": 5811
                 },
                 {
@@ -4741,8 +4644,8 @@
                 {
                     "image_id": 5811,
                     "id": 58,
-                    "alt": "rosybrown",
-                    "src": "1.png",
+                    "alt": "gray",
+                    "src": "PantsCueroTornasol.png",
                     "variant_id": [
                         5801,
                         5803
@@ -4752,7 +4655,7 @@
                     "image_id": 5812,
                     "id": 58,
                     "alt": "black",
-                    "src": "1.png",
+                    "src": "PantsCueroNegro.png",
                     "variant_id": [
                         5802,
                         5804
@@ -4761,12 +4664,12 @@
             ]
         },
         {
-            "id": 59,
-            "title": "shoes 17",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+          "id": 59,
+            "title": "Pants de ejercicio",
+            "description": "Pants casuales para hacer ejercicio",
             "type": "shoes",
             "brand": "puma",
-            "collection": ["on sale"],
+            "collection": ["Pants"],
             "category": "shoes",
             "price": 399,
             "hot": false,
@@ -4775,8 +4678,8 @@
             "new": true,
             "tags": [
                 "new",
-                "lightsteelblue",
-                "gray",
+                "blue",
+                "beige",
                 "puma"
             ],
             "variants": [
@@ -4785,7 +4688,7 @@
                     "id": 59,
                     "sku": "sku59",
                     "size": "38",
-                    "color": "lightsteelblue",
+                    "color": "blue",
                     "image_id": 5911
                 },
                 {
@@ -4793,7 +4696,7 @@
                     "id": 59,
                     "sku": "skumg59",
                     "size": "38",
-                    "color": "gray",
+                    "color": "beige",
                     "image_id": 5912
                 },
                 {
@@ -4801,7 +4704,7 @@
                     "id": 59,
                     "sku": "skums59",
                     "size": "39",
-                    "color": "lightsteelblue",
+                    "color": "blue",
                     "image_id": 5911
                 },
                 {
@@ -4809,7 +4712,7 @@
                     "id": 59,
                     "sku": "skusp59",
                     "size": "39",
-                    "color": "gray",
+                    "color": "beige",
                     "image_id": 5912
                 }
             ],
@@ -4817,8 +4720,8 @@
                 {
                     "image_id": 5911,
                     "id": 59,
-                    "alt": "lightsteelblue",
-                    "src": "1.png",
+                    "alt": "blue",
+                    "src": "PantsEjercicioAzul.png",
                     "variant_id": [
                         5901,
                         5903
@@ -4827,8 +4730,8 @@
                 {
                     "image_id": 5912,
                     "id": 59,
-                    "alt": "gray",
-                    "src": "1.png",
+                    "alt": "beige",
+                    "src": "PantsEjercicioBeige.png",
                     "variant_id": [
                         5902,
                         5904
@@ -4838,11 +4741,11 @@
         },
         {
             "id": 60,
-            "title": "shoes 18",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants Emo",
+            "description": "Pants estilo emo, con corte recto.",
             "type": "shoes",
             "brand": "decathlon",
-            "collection": ["on sale"],
+            "collection": ["Pants"],
             "category": "shoes",
             "price": 270,
             "hot": false,
@@ -4851,9 +4754,9 @@
             "new": true,
             "tags": [
                 "new",
-                "rosybrown",
-                "gray",
+                "skyblue",
                 "black",
+                "white",
                 "decathlon",
                 "38"
             ],
@@ -4863,7 +4766,7 @@
                     "id": 60,
                     "sku": "sku60",
                     "size": "38",
-                    "color": "rosybrown",
+                    "color": "skyblue",
                     "image_id": 6011
                 },
                 {
@@ -4871,7 +4774,7 @@
                     "id": 60,
                     "sku": "skumg60",
                     "size": "38",
-                    "color": "gray",
+                    "color": "black",
                     "image_id": 6012
                 },
                 {
@@ -4879,7 +4782,7 @@
                     "id": 60,
                     "sku": "skums60",
                     "size": "39",
-                    "color": "black",
+                    "color": "white",
                     "image_id": 6011
                 }
             ],
@@ -4887,8 +4790,8 @@
                 {
                     "image_id": 6011,
                     "id": 60,
-                    "alt": "rosybrown",
-                    "src": "1.png",
+                    "alt": "skyblue",
+                    "src": "PantsEmoCeleste.png",
                     "variant_id": [
                         6001,
                         6003
@@ -4897,8 +4800,8 @@
                 {
                     "image_id": 6012,
                     "id": 60,
-                    "alt": "gray",
-                    "src": "1.png",
+                    "alt": "black",
+                    "src": "PantsEmoNegro.png",
                     "variant_id": [
                         6002,
                         6004
@@ -4907,8 +4810,8 @@
                 {
                     "image_id": 6012,
                     "id": 60,
-                    "alt": "black",
-                    "src": "1.png",
+                    "alt": "white",
+                    "src": "PantsEmoBlanco.png",
                     "variant_id": [
                         6002,
                         6004
@@ -4918,11 +4821,11 @@
         },
         {
             "id": 61,
-            "title": "bag 1",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants estampado emo",
+            "description": "Pants estilo emo estampado.",
             "type": "bags",
             "brand": "ck",
-            "collection": ["new arrival"],
+            "collection": ["Pants"],
             "category": "bags",
             "price": 360,
             "hot": false,
@@ -4931,8 +4834,8 @@
             "new": true,
             "tags": [
                 "new",
-                "black",
-                "cadetblue",
+                "gray",
+                "brown",
                 "ck"
             ],
             "variants": [
@@ -4940,14 +4843,14 @@
                     "variant_id": 6101,
                     "id": 61,
                     "sku": "sku61",
-                    "color": "black",
+                    "color": "gray",
                     "image_id": 6111
                 },
                 {
                     "variant_id": 6102,
                     "id": 61,
                     "sku": "skumg61",
-                    "color": "cadetblue",
+                    "color": "brown",
                     "image_id": 6112
                 }
             ],
@@ -4955,8 +4858,8 @@
                 {
                     "image_id": 6111,
                     "id": 61,
-                    "alt": "black",
-                    "src": "4.png",
+                    "alt": "gray",
+                    "src": "PantsEstampadosGris.png",
                     "variant_id": [
                         6101
                     ]
@@ -4964,8 +4867,8 @@
                 {
                     "image_id": 6112,
                     "id": 61,
-                    "alt": "cadetblue",
-                    "src": "4.png",
+                    "alt": "brown",
+                    "src": "PantsEstampadoCafe.png",
                     "variant_id": [
                         6102
                     ]
@@ -4974,11 +4877,11 @@
         },
         {
             "id": 62,
-            "title": "bag 2",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants de pareja",
+            "description": "Pants casuales de pareja holgados.",
             "type": "bags",
             "brand": "caprese",
-            "collection": ["trending product", "best sellers"],
+            "collection": ["Pants"],
             "category": "bags",
             "price": 445,
             "sale": true,
@@ -4986,9 +4889,9 @@
             "stock": 15,
             "new": true,
             "tags": [
-                "gainsboro",
-                "cadetblue",
-                "darksalmon",
+                "white",
+                "pink",
+                "beige",
                 "caprese"
             ],
             "variants": [
@@ -4996,21 +4899,21 @@
                     "variant_id": 6201,
                     "id": 62,
                     "sku": "sku62",
-                    "color": "gainsboro",
+                    "color": "white",
                     "image_id": 6211
                 },
                 {
                     "variant_id": 6202,
                     "id": 62,
                     "sku": "skumg62",
-                    "color": "cadetblue",
+                    "color": "pink",
                     "image_id": 6212
                 },
                 {
                     "variant_id": 6202,
                     "id": 62,
                     "sku": "skumg62",
-                    "color": "darksalmon",
+                    "color": "beige",
                     "image_id": 6213
                 }
             ],
@@ -5018,8 +4921,8 @@
                 {
                     "image_id": 6211,
                     "id": 62,
-                    "alt": "gainsboro",
-                    "src": "4.png",
+                    "alt": "white",
+                    "src": "PantsParejaBlanco.png",
                     "variant_id": [
                         6201
                     ]
@@ -5027,8 +4930,8 @@
                 {
                     "image_id": 6212,
                     "id": 62,
-                    "alt": "cadetblue",
-                    "src": "4.png",
+                    "alt": "pink",
+                    "src": "PantsParejaRosa.png",
                     "variant_id": [
                         6202
                     ]
@@ -5036,8 +4939,8 @@
                 {
                     "image_id": 6213,
                     "id": 62,
-                    "alt": "darksalmon",
-                    "src": "4.png",
+                    "alt": "beige",
+                    "src": "PantsParejaBeige.png",
                     "variant_id": [
                         6203
                     ]
@@ -5046,11 +4949,11 @@
         },
         {
             "id": 63,
-            "title": "bag 3",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants estilo jogger",
+            "description": "Pants casuales estilo jogger.",
             "type": "bags",
             "brand": "caprese",
-            "collection": ["new arrival"],
+            "collection": ["Pants"],
             "category": "bags",
             "price": 360,
             "sale": true,
@@ -5058,8 +4961,8 @@
             "stock": 0,
             "new": true,
             "tags": [
-                "darkslategrey",
-                "lightpink",
+                "red",
+                "white",
                 "caprese",
                 "new"
             ],
@@ -5068,14 +4971,14 @@
                     "variant_id": 6301,
                     "id": 63,
                     "sku": "sku63",
-                    "color": "darkslategrey",
+                    "color": "red",
                     "image_id": 6311
                 },
                 {
                     "variant_id": 6302,
                     "id": 63,
                     "sku": "skumg63",
-                    "color": "lightpink",
+                    "color": "white",
                     "image_id": 6312
                 }
             ],
@@ -5083,8 +4986,8 @@
                 {
                     "image_id": 6311,
                     "id": 63,
-                    "alt": "darkslategrey",
-                    "src": "4.png",
+                    "alt": "red",
+                    "src": "PantsRojo.jpg",
                     "variant_id": [
                         6301
                     ]
@@ -5092,8 +4995,8 @@
                 {
                     "image_id": 6312,
                     "id": 63,
-                    "alt": "lightpink",
-                    "src": "4.png",
+                    "alt": "white",
+                    "src": "PantsBlancoRosa.png",
                     "variant_id": [
                         6302
                     ]
@@ -5102,11 +5005,11 @@
         },
         {
             "id": 64,
-            "title": "bag 4",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants de rayas",
+            "description": "Pants de pijama de rayas.",
             "type": "bags",
             "brand": "geox",
-            "collection": ["new arrival"],
+            "collection": ["Pants"],
             "category": "bags",
             "price": 410,
             "sale": true,
@@ -5114,9 +5017,9 @@
             "stock": 5,
             "new": true,
             "tags": [
-                "cadetblue",
-                "black",
-                "chocolate",
+                "blue",
+                "skyblue",
+                "green",
                 "geox"
             ],
             "variants": [
@@ -5124,21 +5027,21 @@
                     "variant_id": 6401,
                     "id": 64,
                     "sku": "sku64",
-                    "color": "cadetblue",
+                    "color": "blue",
                     "image_id": 6411
                 },
                 {
                     "variant_id": 6402,
                     "id": 64,
                     "sku": "skumg64",
-                    "color": "black",
+                    "color": "skyblue",
                     "image_id": 6412
                 },
                 {
                     "variant_id": 6403,
                     "id": 64,
                     "sku": "skumg64",
-                    "color": "chocolate",
+                    "color": "green",
                     "image_id": 6413
                 }
             ],
@@ -5146,8 +5049,8 @@
                 {
                     "image_id": 6411,
                     "id": 64,
-                    "alt": "cadetblue",
-                    "src": "4.png",
+                    "alt": "blue",
+                    "src": "PantsRayasAzules.png",
                     "variant_id": [
                         6401
                     ]
@@ -5155,8 +5058,8 @@
                 {
                     "image_id": 6412,
                     "id": 64,
-                    "alt": "black",
-                    "src": "4.png",
+                    "alt": "skyblue",
+                    "src": "PantsRayasHolgado.png",
                     "variant_id": [
                         6402
                     ]
@@ -5164,8 +5067,8 @@
                 {
                     "image_id": 6413,
                     "id": 64,
-                    "alt": "chocolate",
-                    "src": "4.png",
+                    "alt": "green",
+                    "src": "PantsRayasVerde.png",
                     "variant_id": [
                         6403
                     ]
