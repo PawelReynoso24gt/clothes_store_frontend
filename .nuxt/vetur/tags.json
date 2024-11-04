@@ -32,6 +32,15 @@
   "InstagramSliderItem": {
     "description": "Auto imported from components/instagram/InstagramSliderItem.vue"
   },
+  "WidgetsRelatedProducts": {
+    "description": "Auto imported from components/widgets/RelatedProducts.vue"
+  },
+  "WidgetsShopSidebar": {
+    "description": "Auto imported from components/widgets/ShopSidebar.vue"
+  },
+  "WidgetsTimer": {
+    "description": "Auto imported from components/widgets/Timer.vue"
+  },
   "ProductBox1": {
     "description": "Auto imported from components/product-box/ProductBox1.vue"
   },
@@ -47,13 +56,13 @@
   "ProductBox5": {
     "description": "Auto imported from components/product-box/ProductBox5.vue"
   },
-  "WidgetsRelatedProducts": {
-    "description": "Auto imported from components/widgets/RelatedProducts.vue"
+  "ProductBox6": {
+    "description": "Auto imported from components/product-box/ProductBox6.vue"
   },
-  "WidgetsShopSidebar": {
-    "description": "Auto imported from components/widgets/ShopSidebar.vue"
+  "ProductBox7": {
+    "description": "Auto imported from components/product-box/ProductBox7.vue"
   },
-  "WidgetsTimer": {
-    "description": "Auto imported from components/widgets/Timer.vue"
+  "ProductBox8": {
+    "description": "Auto imported from components/product-box/ProductBox8.vue"
   }
 }
