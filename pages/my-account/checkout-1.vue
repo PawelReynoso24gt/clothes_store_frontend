@@ -22,7 +22,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="checkout-area-bg bg-white">
                             <div class="check-heading">
-                                <h3>Billing Information</h3>
+                                <h3>Información de Pago</h3>
                             </div>
                             <div class="check-out-form">
                                 <div class="row">
@@ -164,118 +164,179 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="order_review bg-white">
-                            <div class="check-heading">
-                                <h3>Payment</h3>
-                            </div>
-                            <div class="payment_method">
-                                <div class="payment_option">
-                                    <div class="custome-radio">
-                                        <input class="form-check-input" required="" type="radio" name="payment_option"
-                                            id="exampleRadios3" value="option3" checked="">
-                                        <label class="form-check-label" for="exampleRadios3">Direct Bank Transfer</label>
-                                        <p data-method="option3" class="payment-text">There are many variations of passages
-                                            of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                    </div>
-                                    <div class="custome-radio">
-                                        <input class="form-check-input" type="radio" name="payment_option"
-                                            id="exampleRadios4" value="option4">
-                                        <label class="form-check-label" for="exampleRadios4">Check Payment</label>
-                                        <p data-method="option4" class="payment-text">Please send your cheque to Store Name,
-                                            Store Street, Store Town, Store State / County, Store Postcode.</p>
-                                    </div>
-                                    <div class="custome-radio">
-                                        <input class="form-check-input" type="radio" name="payment_option"
-                                            id="exampleRadios5" value="option5">
-                                        <label class="form-check-label" for="exampleRadios5">Paypal</label>
-                                        <p data-method="option5" class="payment-text">Pay via PayPal; you can pay with your
-                                            credit card if you don't have a PayPal account.</p>
-                                    </div>
-                                </div>
-                            </div><button class="theme-btn-one btn-black-overlay btn_sm">Place Order</button>
-                        </div>
                     </div>
                 </div>
             </form>
         </div>
     </section>
-
-  </div>
+    <!-- Pago -->
+     <section class="payment" style="font-size: 20px;">
+        <div class="order_review bg-white">
+            <div class="check-heading">
+                <h2>Forma de pago</h2>
+            </div>
+            <div class="payment_method">
+                <div class="payment_option">
+                    <p style="font-size: 20px;"><b>Ingrese y llene los campos que serán usados para el pago</b></p>
+                    <br>
+                    <div class="form-group-pago">
+                        <label for="transferencia">Pago con Transferencia Bancaria</label>
+                        <input type="number" v-model="pago.transferencia" id="transferencia" class="form-control" placeholder="Monto de transferencia bancaria" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="banco">Banco de Transferencia</label>
+                        <input type="text" v-model="pago.banco" id="banco" class="form-control" placeholder="Nombre del banco" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="correlativo">Correlativo de Transferencia</label>
+                        <input type="text" v-model="pago.correlativo" id="correlativo" class="form-control" placeholder="Número de correlativo" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="tarjetaCredito">Pago con Tarjeta de Crédito</label>
+                        <input type="number" v-model="pago.tarjetaCredito" id="tarjetaCredito" class="form-control" placeholder="Monto de pago con tarjeta de crédito" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="numeroCredito">Número de Tarjeta de Crédito</label>
+                        <input type="text" v-model="pago.numeroCredito" id="numeroCredito" class="form-control" placeholder="Número de tarjeta de crédito" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="tarjetaDebito">Pago con Tarjeta de Débito</label>
+                        <input type="number" v-model="pago.tarjetaDebito" id="tarjetaDebito" class="form-control" placeholder="Monto de pago con tarjeta de débito" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="numeroDebito">Número de Tarjeta de Débito</label>
+                        <input type="text" v-model="pago.numeroDebito" id="numeroDebito" class="form-control" placeholder="Número de tarjeta de débito" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="efectivo">Pago con Efectivo</label>
+                        <input type="number" v-model="pago.efectivo" id="efectivo" class="form-control" placeholder="Monto en efectivo" />
+                    </div>
+                    <div class="form-group-pago">
+                        <label for="paypal">PayPal</label>
+                        <input type="number" v-model="pago.paypal" id="paypal" class="form-control" placeholder="Monto de pago con PayPal" />
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="theme-btn-one btn-black-overlay btn_sm">Place Order</button> -->
+            <button @click="hacerCompra" class="buttonPay">Completar Orden</button>
+        </div>
+    </section>
+</div>
 </template>
 
 <script>
+import axios from "axios";
 import { required, email } from "vuelidate/lib/validators";
+
 export default {
-    name: 'checkout-1',
+  name: "checkout-1",
 
-    data() {
-        return {
-            title: 'Checkout',
-            // Breadcrumb Items Data
-            breadcrumbItems: [
-                {
-                    text: 'Home',
-                    to: '/'
-                },
-                {
-                    text: 'Checkout',
-                    to: '/my-account/checkout'
-                }
-            ],
-            // Form Validation
-            user: {
-                fname: "",
-                lname: "",
-                email: "",
-                companyname: "",
-                countryname: "",
-                zip: "",
-                faddress: "",
-                messages: "",
-                city: "", 
-            },
-            submitted: false
+  data() {
+    return {
+      title: "Checkout",
+      breadcrumbItems: [
+        { text: "Home", to: "/" },
+        { text: "Checkout", to: "/my-account/checkout" }
+      ],
+      user: {
+        fname: "",
+        lname: "",
+        email: "",
+        companyname: "",
+        countryname: "",
+        zip: "",
+        faddress: "",
+        messages: "",
+        city: ""
+      },
+      submitted: false,
+      pago: {
+        transferencia: 0.0,
+        banco: "",
+        correlativo: "",
+        tarjetaCredito: 0.0,
+        numeroCredito: "",
+        tarjetaDebito: 0.0,
+        numeroDebito: "",
+        efectivo: 0.0,
+        paypal: 0.0
+      }
+    };
+  },
+  validations: {
+    user: {
+      fname: { required },
+      lname: { required },
+      companyname: { required },
+      email: { required, email }
+    }
+  },
+  methods: {
+    handleSubmit(e) {
+      this.submitted = true;
 
-        }
-    },
-    validations: {
-        user: {
-            fname: { required },
-            lname: { required },
-            companyname: { required },
-            email: { required, email },
-        }
-    },
-    mounted() {
-        // For scroll page top for every Route 
-        window.scrollTo(0, 0)
-    },
-    methods: {
-        handleSubmit(e) {
-            this.submitted = true;
-
-            // stop here if form is invalid
-            this.$v.$touch();
-            if (this.$v.$invalid) {
-                return;
-            }
-            alert("Order placed Successfully! Thank you for shopping with us.");
-        }
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+        return;
+      }
+      alert("Order placed Successfully! Thank you for shopping with us.");
     },
 
-    // Page head() Title, description for SEO 
-    head() {
-      return {
-        title: this.title,
-        meta: [
-          {
-            hid: 'description',
-            name: 'description',
-            content: 'Checkout page - AndShop Ecommerce Vue js, Nuxt js Template'
-          }
-        ]
+    async hacerCompra() {
+      try {
+        const response = await axios.post("http://localhost:5000/pagos/create", this.pago);
+        alert("Compra realizada exitosamente!");
+        console.log("Respuesta del servidor:", response.data);
+
+        // Reiniciar los campos de pago después de la compra
+        this.pago = {
+          transferencia: 0.0,
+          banco: "",
+          correlativo: "",
+          tarjetaCredito: 0.0,
+          numeroCredito: "",
+          tarjetaDebito: 0.0,
+          numeroDebito: "",
+          efectivo: 0.0,
+          paypal: 0.0
+        };
+      } catch (error) {
+        console.error("Error al realizar la compra:", error);
+        alert("Hubo un error al procesar el pago.");
       }
     }
+  },
 
-}
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Checkout page - AndShop Ecommerce Vue js, Nuxt js Template"
+        }
+      ]
+    };
+  }
+};
 </script>
+
+// CSS 
+<style scoped>
+    .form-group-pago {
+        margin-right: 1000px;
+        margin-bottom: 20px;
+    }
+
+    .form-group-pago input{
+        font-size: 20px;
+    }
+
+    .buttonPay {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+    }
+</style>
