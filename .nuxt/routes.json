@@ -366,6 +366,13 @@
     "chunkName": "pages/productosHombres/pantalonetas"
   },
   {
+    "name": "productosHombres-pants",
+    "path": "/productosHombres/pants",
+    "component": "C:\\\\Users\\\\angel\\\\OneDrive\\\\Escritorio\\\\8voSemestre\\\\IngenieriaDelCambio\\\\ProyectoFinalIG\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\pants.vue",
+    "chunkName": "pages/productosHombres/pants",
+    "_name": "_9af29f70"
+  },
+  {
     "name": "productosHombres-playeras",
     "path": "/productosHombres/playeras",
     "component": "C:\\\\Users\\\\pawel\\\\Documents\\\\8th semester\\\\Change Engineering\\\\clothes store\\\\frontend_clothestore\\\\andshop-vue\\\\pages\\\\productosHombres\\\\playeras.vue",
