@@ -2382,11 +2382,11 @@
         },
         {
             "id": 32,
-            "title": "Skykidz Phone",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta larga",
+            "description": "Pantaloneta larga, de lona con costuras fuertes. De cintura baja",
             "type": "electronics",
             "brand": "babyoye",
-            "collection": ["best sellers", "featured products", "new arrival"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 145,
             "hot": false,
@@ -2395,8 +2395,8 @@
             "new": true,
             "rating": 5,
             "tags": [
-                "babyoye",
-                "lawngreen",
+                "gray",
+                "blue",
                 "red"
             ],
             "variants": [
@@ -2405,7 +2405,7 @@
                     "id": 32,
                     "sku": "sku32",
                     "size": "m",
-                    "color": "lawngreen",
+                    "color": "gray",
                     "image_id": 3211
                 },
                 {
@@ -2413,23 +2413,7 @@
                     "id": 32,
                     "sku": "skul32",
                     "size": "m",
-                    "color": "red",
-                    "image_id": 3212
-                },
-                {
-                    "variant_id": 3203,
-                    "id": 32,
-                    "sku": "skul32",
-                    "size": "l",
-                    "color": "lawngreen",
-                    "image_id": 3211
-                },
-                {
-                    "variant_id": 3204,
-                    "id": 32,
-                    "sku": "skul32",
-                    "size": "l",
-                    "color": "red",
+                    "color": "blue",
                     "image_id": 3212
                 }
             ],
@@ -2437,8 +2421,8 @@
                 {
                     "image_id": 3211,
                     "id": 32,
-                    "alt": "lawngreen",
-                    "src": "29.png",
+                    "alt": "gray",
+                    "src": "pantaloneta1.png",
                     "variant_id": [
                         3201
                     ]
@@ -2446,8 +2430,8 @@
                 {
                     "image_id": 3212,
                     "id": 32,
-                    "alt": "red",
-                    "src": "30.png",
+                    "alt": "blue",
+                    "src": "pantaloneta2.png",
                     "variant_id": [
                         3202
                     ]
@@ -2456,11 +2440,11 @@
         },
         {
             "id": 33,
-            "title": "Tomy Cowboy",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta impermiable",
+            "description": "Pantaloneta con tela impermiable, costuras fuertes",
             "type": "electronics",
             "brand": "babyoye",
-            "collection": ["on sale", "featured products", "best sellers", "new arrival"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 200,
             "sale": true,
@@ -2471,7 +2455,7 @@
             "tags": [
                 "new",
                 "babyoye",
-                "yellow",
+                "black",
                 "green",
                 "skyblue"
             ],
@@ -2481,7 +2465,7 @@
                     "id": 33,
                     "sku": "sku33",
                     "size": "m",
-                    "color": "yellow",
+                    "color": "black",
                     "image_id": 3311
                 },
                 {
@@ -2497,7 +2481,7 @@
                     "id": 33,
                     "sku": "skul33",
                     "size": "m",
-                    "color": "skyblue",
+                    "color": "black",
                     "image_id": 3313
                 },
                 {
@@ -2521,7 +2505,7 @@
                     "id": 33,
                     "sku": "skul33",
                     "size": "l",
-                    "color": "skyblue",
+                    "color": "black",
                     "image_id": 3313
                 }
             ],
@@ -2530,7 +2514,7 @@
                     "image_id": 3311,
                     "id": 33,
                     "alt": "yellow",
-                    "src": "30.png",
+                    "src": "pantaloneta3.png",
                     "variant_id": [
                         3301,
                         3304
@@ -2540,7 +2524,7 @@
                     "image_id": 3312,
                     "id": 33,
                     "alt": "green",
-                    "src": "31.png",
+                    "src": "pantaloneta4.png",
                     "variant_id": [
                         3302,
                         3305
@@ -2549,8 +2533,8 @@
                 {
                     "image_id": 3313,
                     "id": 33,
-                    "alt": "skyblue",
-                    "src": "32.png",
+                    "alt": "black",
+                    "src": "pantaloneta5.png",
                     "variant_id": [
                         3303,
                         3306
@@ -2560,11 +2544,11 @@
         },
         {
             "id": 34,
-            "title": "Dumbo Soft Toy",
+            "title": "Pantaloneta de tela",
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "electronics",
             "brand": "mark&mia",
-            "collection": ["best sellers", "new arrival", "featured products"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 160,
             "sale": true,
@@ -2584,7 +2568,7 @@
                     "id": 34,
                     "sku": "sku34",
                     "size": "m",
-                    "color": "crimson",
+                    "color": "white",
                     "image_id": 3411
                 },
                 {
@@ -2592,7 +2576,7 @@
                     "id": 34,
                     "sku": "skul34",
                     "size": "m",
-                    "color": "yellow",
+                    "color": "black",
                     "image_id": 3412
                 },
                 {
@@ -2600,31 +2584,7 @@
                     "id": 34,
                     "sku": "skul34",
                     "size": "m",
-                    "color": "skyblue",
-                    "image_id": 3413
-                },
-                {
-                    "variant_id": 3404,
-                    "id": 34,
-                    "sku": "skul34",
-                    "size": "l",
-                    "color": "crimson",
-                    "image_id": 3411
-                },
-                {
-                    "variant_id": 3405,
-                    "id": 34,
-                    "sku": "skul34",
-                    "size": "l",
-                    "color": "yellow",
-                    "image_id": 3412
-                },
-                {
-                    "variant_id": 3406,
-                    "id": 34,
-                    "sku": "skul34",
-                    "size": "l",
-                    "color": "skyblue",
+                    "color": "gray",
                     "image_id": 3413
                 }
             ],
@@ -2632,8 +2592,8 @@
                 {
                     "image_id": 3411,
                     "id": 34,
-                    "alt": "crimson",
-                    "src": "31.png",
+                    "alt": "black",
+                    "src": "pantaloneta6.png",
                     "variant_id": [
                         3401,
                         3404
@@ -2642,8 +2602,8 @@
                 {
                     "image_id": 3412,
                     "id": 34,
-                    "alt": "yellow",
-                    "src": "32.png",
+                    "alt": "white",
+                    "src": "pantaloneta7.png",
                     "variant_id": [
                         3402,
                         3405
@@ -2652,8 +2612,8 @@
                 {
                     "image_id": 3413,
                     "id": 34,
-                    "alt": "skyblue",
-                    "src": "33.png",
+                    "alt": "gray",
+                    "src": "pantaloneta8.png",
                     "variant_id": [
                         3403,
                         3406
@@ -2663,11 +2623,11 @@
         },
         {
             "id": 35,
-            "title": "kitty red",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta jogger",
+            "description": "",
             "type": "electronics",
             "brand": "toffyhouse",
-            "collection": ["on sale", "new arrival", "featured products", "best sellers"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 300,
             "sale": true,
@@ -2677,9 +2637,9 @@
             "rating": 5,
             "tags": [
                 "new",
-                "toffyhouse",
+                "green",
                 "blue",
-                "hotpink"
+                "black"
             ],
             "variants": [
                 {
@@ -2687,40 +2647,24 @@
                     "id": 35,
                     "sku": "sku35",
                     "size": "m",
-                    "color": "blue",
+                    "color": "green",
                     "image_id": 3511
-                },
-                {
-                    "variant_id": 3502,
-                    "id": 35,
-                    "sku": "skul35",
-                    "size": "m",
-                    "color": "hotpink",
-                    "image_id": 3512
                 },
                 {
                     "variant_id": 3503,
                     "id": 35,
                     "sku": "skul35",
                     "size": "l",
-                    "color": "blue",
+                    "color": "black",
                     "image_id": 3511
-                },
-                {
-                    "variant_id": 3504,
-                    "id": 35,
-                    "sku": "skul35",
-                    "size": "l",
-                    "color": "hotpink",
-                    "image_id": 3512
                 }
             ],
             "images": [
                 {
                     "image_id": 3511,
                     "id": 35,
-                    "alt": "blue",
-                    "src": "32.png",
+                    "alt": "green",
+                    "src": "pantaloneta9.png",
                     "variant_id": [
                         3501,
                         3503
@@ -2729,8 +2673,8 @@
                 {
                     "image_id": 3512,
                     "id": 35,
-                    "alt": "hotpink",
-                    "src": "33.png",
+                    "alt": "black",
+                    "src": "pantaloneta10.png",
                     "variant_id": [
                         3502,
                         3504
@@ -2744,7 +2688,7 @@
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "electronics",
             "brand": "cucumber",
-            "collection": ["on sale", "featured products", "new arrival"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 170,
             "hot": false,
@@ -2805,7 +2749,7 @@
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "electronics",
             "brand": "toffyhouse",
-            "collection": ["on sale" , "new arrival"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 180,
             "sale": true,
@@ -2957,7 +2901,7 @@
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "electronics",
             "brand": "toffyhouse",
-            "collection": ["best sellers", "on sale"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 300,
             "sale": true,
@@ -3061,7 +3005,7 @@
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "electronics",
             "brand": "babyoye",
-            "collection": ["on sale"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 155,
             "hot": false,
@@ -3137,7 +3081,7 @@
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "electronics",
             "brand": "Barbie",
-            "collection": ["best sellers", "on sale"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 70,
             "sale": true,
@@ -3241,7 +3185,7 @@
             "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
             "type": "electronics",
             "brand": "cucumber",
-            "collection": ["best sellers"],
+            "collection": ["Pantalonetas"],
             "category": "kids",
             "price": 275,
             "hot": false,
