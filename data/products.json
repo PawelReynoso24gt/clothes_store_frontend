@@ -2976,8 +2976,8 @@
         },
         {
             "id": 40,
-            "title": "Truck Wind Toy",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta cargo",
+            "description": "Pantaloneta con varios bolsillos",
             "type": "electronics",
             "brand": "babyoye",
             "collection": ["Pantalonetas"],
@@ -2990,7 +2990,7 @@
             "rating": 5,
             "tags": [
                 "babyoye",
-                "hotpink",
+                "black",
                 "skyblue"
             ],
             "variants": [
@@ -2999,7 +2999,7 @@
                     "id": 40,
                     "sku": "sku40",
                     "size": "m",
-                    "color": "hotpink",
+                    "color": "black",
                     "image_id": 4011
                 },
                 {
@@ -3015,7 +3015,7 @@
                     "id": 40,
                     "sku": "skums40",
                     "size": "s",
-                    "color": "hotpink",
+                    "color": "black",
                     "image_id": 4011
                 },
                 {
@@ -3031,8 +3031,8 @@
                 {
                     "image_id": 4011,
                     "id": 40,
-                    "alt": "hotpink",
-                    "src": "37.png",
+                    "alt": "black",
+                    "src": "pantalonetaCargoB.jpg",
                     "variant_id": [
                         4001,
                         4003
@@ -3042,7 +3042,7 @@
                     "image_id": 4012,
                     "id": 40,
                     "alt": "skyblue",
-                    "src": "29.png",
+                    "src": "pantalonetaCargoSK.jpg",
                     "variant_id": [
                         4002,
                         4004
@@ -3052,8 +3052,8 @@
         },
         {
             "id": 41,
-            "title": "Stacking Ring",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Conjunto de shorts",
+            "description": "Conjunto de shorts de diferentes colores",
             "type": "electronics",
             "brand": "Barbie",
             "collection": ["Pantalonetas"],
@@ -3067,9 +3067,9 @@
             "tags": [
                 "Barbie",
                 "new",
-                "coral",
-                "purple",
-                "yellow"
+                "gray",
+                "black",
+                "blue"
             ],
             "variants": [
                 {
@@ -3077,7 +3077,7 @@
                     "id": 41,
                     "sku": "sku41",
                     "size": "m",
-                    "color": "coral",
+                    "color": "gray",
                     "image_id": 4111
                 },
                 {
@@ -3085,7 +3085,7 @@
                     "id": 41,
                     "sku": "skumg41",
                     "size": "m",
-                    "color": "purple",
+                    "color": "black",
                     "image_id": 4112
                 },
                 {
@@ -3093,7 +3093,7 @@
                     "id": 41,
                     "sku": "skums41",
                     "size": "m",
-                    "color": "yellow",
+                    "color": "blue",
                     "image_id": 4113
                 },
                 {
@@ -3101,7 +3101,7 @@
                     "id": 41,
                     "sku": "skusp41",
                     "size": "s",
-                    "color": "coral",
+                    "color": "gray",
                     "image_id": 4111
                 },
                 {
@@ -3109,7 +3109,7 @@
                     "id": 41,
                     "sku": "skusg41",
                     "size": "s",
-                    "color": "purple",
+                    "color": "black",
                     "image_id": 4112
                 },
                 {
@@ -3117,7 +3117,7 @@
                     "id": 41,
                     "sku": "skusb41",
                     "size": "s",
-                    "color": "yellow",
+                    "color": "blue",
                     "image_id": 4113
                 }
             ],
@@ -3125,8 +3125,8 @@
                 {
                     "image_id": 4111,
                     "id": 41,
-                    "alt": "coral",
-                    "src": "28.png",
+                    "alt": "gray",
+                    "src": "pantalonetasC1.jpg",
                     "variant_id": [
                         4101,
                         4104
@@ -3135,8 +3135,8 @@
                 {
                     "image_id": 4112,
                     "id": 41,
-                    "alt": "purple",
-                    "src": "29.png",
+                    "alt": "black",
+                    "src": "pantalonetasC2.jpg",
                     "variant_id": [
                         4102,
                         4105
@@ -3145,8 +3145,8 @@
                 {
                     "image_id": 4113,
                     "id": 41,
-                    "alt": "yellow",
-                    "src": "30.png",
+                    "alt": "blue",
+                    "src": "pantalonetasC3.jpg",
                     "variant_id": [
                         4103,
                         4106
@@ -3156,8 +3156,8 @@
         },
         {
             "id": 42,
-            "title": "Stacking Ring",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pantaloneta Acolchada",
+            "description": "Pantaloneta con acolchado para comodidad",
             "type": "electronics",
             "brand": "cucumber",
             "collection": ["Pantalonetas"],
@@ -3171,9 +3171,9 @@
             "tags": [
                 "new",
                 "cucumber",
-                "hotpink",
-                "lawngreen",
-                "maroon"
+                "white",
+                "green",
+                "pink"
             ],
             "variants": [
                 {
@@ -3181,7 +3181,7 @@
                     "id": 42,
                     "sku": "sku42",
                     "size": "m",
-                    "color": "hotpink",
+                    "color": "white",
                     "image_id": 4211
                 },
                 {
@@ -3189,7 +3189,7 @@
                     "id": 42,
                     "sku": "skumg42",
                     "size": "m",
-                    "color": "lawngreen",
+                    "color": "green",
                     "image_id": 4212
                 },
                 {
@@ -3197,7 +3197,7 @@
                     "id": 42,
                     "sku": "skums42",
                     "size": "m",
-                    "color": "maroon",
+                    "color": "pink",
                     "image_id": 4213
                 },
                 {
@@ -3205,7 +3205,7 @@
                     "id": 42,
                     "sku": "skusp42",
                     "size": "s",
-                    "color": "hotpink",
+                    "color": "white",
                     "image_id": 4211
                 },
                 {
@@ -3213,7 +3213,7 @@
                     "id": 42,
                     "sku": "skusg42",
                     "size": "s",
-                    "color": "lawngreen",
+                    "color": "green",
                     "image_id": 4212
                 },
                 {
@@ -3221,7 +3221,7 @@
                     "id": 42,
                     "sku": "skusb42",
                     "size": "s",
-                    "color": "maroon",
+                    "color": "pink",
                     "image_id": 4213
                 }
             ],
@@ -3229,8 +3229,8 @@
                 {
                     "image_id": 4211,
                     "id": 42,
-                    "alt": "hotpink",
-                    "src": "29.png",
+                    "alt": "white",
+                    "src": "pantalonetaAlcochadaW.jpg",
                     "variant_id": [
                         4201,
                         4204
@@ -3239,8 +3239,8 @@
                 {
                     "image_id": 4212,
                     "id": 42,
-                    "alt": "lawngreen",
-                    "src": "30.png",
+                    "alt": "green",
+                    "src": "pantalonetaAlcochadaG.jpg",
                     "variant_id": [
                         4202,
                         4205
@@ -3249,8 +3249,8 @@
                 {
                     "image_id": 4213,
                     "id": 42,
-                    "alt": "maroon",
-                    "src": "31.png",
+                    "alt": "pink",
+                    "src": "pantalonetaAlcochadaP.jpg",
                     "variant_id": [
                         4203,
                         4206
