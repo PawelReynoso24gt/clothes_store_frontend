@@ -77,7 +77,7 @@
                                   >
                                 </li>
                                 <li>
-                                  <nuxt-link to="/productosHombres/trajes"
+                                  <nuxt-link to="/productosHombres/pants"
                                     >Pants</nuxt-link
                                   >
                                 </li>

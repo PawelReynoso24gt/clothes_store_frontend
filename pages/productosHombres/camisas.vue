@@ -19,11 +19,6 @@
                   <div class="col-lg-6 col-md-12">
                       <div class="product_filter">
                           <div class="customs_selects">
-                            <select name="product" class="customs_sel_box" @change="filterByCollection">
-                                <option value="">All</option>
-                                <option value="Camisas">Camisas</option>
-                                <!-- Agrega más opciones según las colecciones de tu JSON -->
-                            </select>
                           </div>
                       </div>
                   </div>
@@ -123,7 +118,9 @@
       })
       },
       mounted() {
-        this.filteredProducts = this.productslist;
+            this.filteredProducts = this.productslist.filter(product => 
+            product.collection.includes("Camisas")
+        );
           this.getPaginate()
           this.updatePaginate(1)
           

@@ -364,6 +364,41 @@
     "_name": "_4c0775bf"
   },
   {
+    "name": "product-product-single-4",
+    "path": "/product/product-single-4",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\product\\\\product-single-4.vue",
+    "chunkName": "pages/product/product-single-4",
+    "_name": "_4c158d40"
+  },
+  {
+    "name": "product-product-single-5",
+    "path": "/product/product-single-5",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\product\\\\product-single-5.vue",
+    "chunkName": "pages/product/product-single-5",
+    "_name": "_4c23a4c1"
+  },
+  {
+    "name": "product-product-single-6",
+    "path": "/product/product-single-6",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\product\\\\product-single-6.vue",
+    "chunkName": "pages/product/product-single-6",
+    "_name": "_4c31bc42"
+  },
+  {
+    "name": "product-product-single-7",
+    "path": "/product/product-single-7",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\product\\\\product-single-7.vue",
+    "chunkName": "pages/product/product-single-7",
+    "_name": "_4c3fd3c3"
+  },
+  {
+    "name": "product-product-single-8",
+    "path": "/product/product-single-8",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\product\\\\product-single-8.vue",
+    "chunkName": "pages/product/product-single-8",
+    "_name": "_4c4deb44"
+  },
+  {
     "name": "productosHombres-camisas",
     "path": "/productosHombres/camisas",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\camisas.vue",
@@ -390,6 +425,13 @@
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\pantalonetas.vue",
     "chunkName": "pages/productosHombres/pantalonetas",
     "_name": "_308d5202"
+  },
+  {
+    "name": "productosHombres-pants",
+    "path": "/productosHombres/pants",
+    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\productosHombres\\\\pants.vue",
+    "chunkName": "pages/productosHombres/pants",
+    "_name": "_e2899ae2"
   },
   {
     "name": "productosHombres-playeras",
@@ -453,13 +495,6 @@
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\order.vue",
     "chunkName": "pages/vendor-dashboard/order",
     "_name": "_0603b5a3"
-  },
-  {
-    "name": "vendor-dashboard-orderClient",
-    "path": "/vendor-dashboard/orderClient",
-    "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\Universidad\\\\Octavo Semestre\\\\Ingeniería del cambio\\\\TiendaDeRopa\\\\clothes_store_frontend\\\\pages\\\\vendor-dashboard\\\\orderClient.vue",
-    "chunkName": "pages/vendor-dashboard/orderClient",
-    "_name": "_5d8c1864"
   },
   {
     "name": "vendor-dashboard-product",

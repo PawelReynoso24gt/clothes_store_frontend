@@ -47,29 +47,148 @@
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/4.png')"
+                    :src="require('@/assets/img/product-image/camisa-lisa-green.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/5.png')"
+                    :src="require('@/assets/img/product-image/camisa-lisa-azul.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/6.png')"
+                    :src="require('@/assets/img/product-image/camisa-lisa-red.jpg')"
                     alt="img"
                   />
                 </swiper-slide>
                 <swiper-slide>
                   <img
-                    :src="require('@/assets/img/product-image/7.png')"
+                    :src="require('@/assets/img/product-image/playeraEstampada1.png')"
                     alt="img"
                   />
                 </swiper-slide>
-
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playeraEstampada2.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playerasEstampada3.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/oversizePink.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/oversizeGray.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/oversizeYellow.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playeraKWhite.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playeraKGray.png')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/sinMangasNegro.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/sinMangasRosa.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/cuelloRedondoRojo.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/cuelloRedondoNegro.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/vred.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/vpink.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/vblack.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playera-polo.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/playera-polo-2.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/basica-1.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/basica-1.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/camisa-rayas-1.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img
+                    :src="require('@/assets/img/product-image/camisa-rayas-2.jpg')"
+                    alt="img"
+                  />
+                </swiper-slide>
                 <div
                   class="swiper-button-prev swiper-button-white"
                   slot="button-prev"
