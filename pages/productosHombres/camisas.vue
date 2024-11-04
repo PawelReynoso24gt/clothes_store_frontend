@@ -19,75 +19,17 @@
                   <div class="col-lg-6 col-md-12">
                       <div class="product_filter">
                           <div class="customs_selects">
-                              <select name="product" class="customs_sel_box" @change="randomProduct">
-                                  <option value="Filter">Filter</option>
-                                  <option value="most_popular">Most Popular</option>
-                                  <option value="best_seller">Best Seller</option>
-                                  <option value="tranding">Tranding</option>
-                                  <option value="featured">Featured</option>
-                              </select>
+                            <select name="product" class="customs_sel_box" @change="filterByCollection">
+                                <option value="">All</option>
+                                <option value="Camisas">Camisas</option>
+                                <!-- Agrega más opciones según las colecciones de tu JSON -->
+                            </select>
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-6 col-md-12">
-                      <div class="product_shot">
-                          <div class="product_shot_title">
-                              <p>Sort By:</p>
-                          </div>
-                          <div class="customs_selects">
-                              <select name="product" class="customs_sel_box" @change="randomProduct">
-                                  <option value="popularity">Sort by Popularity</option>
-                                  <option value="new">Sort by new</option>
-                                  <option value="low">Price: low to high</option>
-                                  <option value="high">Price: high to low</option>
-                              </select>
-                          </div>
-                          <div class="product_shot_view">
-                              <ul>
-                                  <li><nuxt-link to="/shop/shop-3" class="active"><i class="fas fa-list"></i></nuxt-link></li>
-                                  <li><nuxt-link to="/shop/shop-2"><i class="fas fa-th-large"></i></nuxt-link></li>
-                                  <li><nuxt-link to="/shop"><i class="fas fa-th"></i></nuxt-link></li>
-                              </ul>
-                          </div>
-                      </div>
+                  <div v-for="(product, index) in filteredProducts" :key="index">
+                        <ProductBox2 :product="product" />
                   </div>
-              </div>
-              <div class="row">
-                  <div class="col-lg-12 col-md-6 col-sm-6 col-12" v-for="(product,index) in shuffleproducts" :key="index" v-show="setPaginate(index)">
-                      <ProductBox2 :product="product" :index="index" @showalert="alert" @alertseconds="alert" />
-                  </div>
-  
-                  <!-- pagination start -->
-                  <div class="col-lg-12">   
-                      <div class="product-pagination mb-0" v-if="shuffleproducts.length > this.paginate">
-                          <nav aria-label="Page navigation">
-                              <ul class="pagination">
-                                  <li class="page-item">
-                                  <a class="page-link" href="javascript:void(0)"  @click="updatePaginate(current-1)">
-                                      <span aria-hidden="true">
-                                      <i class="fa fa-chevron-left" style="font-size:10px;" aria-hidden="true"></i>
-                                      </span>
-                                  </a>
-                                  </li>
-                                  <li class="page-item" v-for="(page_index, index) in this.pages" :key="index" :class="{'active': page_index == current}">
-                                  <a
-                                      class="page-link"
-                                      href="javascrip:void(0)"
-                                      @click.prevent="updatePaginate(page_index)"
-                                  >{{ page_index }}</a>
-                                  </li>
-                                  <li class="page-item">
-                                  <a class="page-link" href="javascript:void(0)" @click="updatePaginate(current+1)">
-                                      <span aria-hidden="true">
-                                      <i class="fa fa-chevron-right" style="font-size:10px;" aria-hidden="true"></i>
-                                      </span>
-                                  </a>
-                                  </li>
-                              </ul>
-                          </nav>
-                      </div>
-                  </div>
-                  <!-- pagination end -->
               </div>
           </div>
       </section>
@@ -171,15 +113,17 @@
               paginateRange: 3,
               pages: [],
               paginates: '',
-  
+              filteredProducts: [],
           }
       },
       computed: {
           ...mapState({
+            productslist: state => state.products.productslist, 
               shuffleproducts: state => state.products.shuffleproducts
       })
       },
       mounted() {
+        this.filteredProducts = this.productslist;
           this.getPaginate()
           this.updatePaginate(1)
           
@@ -187,6 +131,20 @@
           window.scrollTo(0, 0)
       },
       methods: {
+        filterByCollection(event) {
+                const selectedCollection = event.target.value;
+                if (selectedCollection) {
+                    // Filtra los productos que incluyan la colección seleccionada
+                    this.filteredProducts = this.productslist.filter(product => 
+                        product.collection.includes(selectedCollection)
+                    );
+                } else {
+                    // Si no hay una colección seleccionada, muestra todos los productos
+                    this.filteredProducts = this.productslist;
+                }
+                this.getPaginate();
+                this.updatePaginate(1);
+            },
           // Product added Alert / notificaion 
           alert(item) {
               this.dismissCountDown = item
