@@ -76,13 +76,13 @@
   
   <script>
   import { mapState } from 'vuex'
-  import ProductBox3 from '~/components/product-box/ProductBox3'
+  import ProductBox8 from '~/components/product-box/ProductBox8'
   import InstagramArea from '~/components/instagram/InstagramArea'
   
   export default {
       name: 'shop-list-view',
       components: {
-          ProductBox3,
+          ProductBox8,
           InstagramArea
       },
       data() {
@@ -119,7 +119,7 @@
       },
       mounted() {
             this.filteredProducts = this.productslist.filter(product => 
-            product.collection.includes("Pantalonetas")
+            product.collection.includes("Pants")
         );
           this.getPaginate()
           this.updatePaginate(1)
