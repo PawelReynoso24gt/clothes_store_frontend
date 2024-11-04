@@ -22,22 +22,22 @@
                       <div class="product_single_one_img">
                           <swiper class="swiper product-single-2-slider" :options="swiperOption">
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaLisa1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/PantsAjustadosCeleste.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaLisa2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/PantsAjustadosMorado.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaEstampada1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/PantsBlancoHolgado.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaEstampado.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/PantsGrisHolgado.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaSinGorro.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/PantsBlancoRosa.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaSinGorro2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/PantsEstampadoNegro.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
                                   <img :src="require('@/assets/img/product-image/sudaderaConGorro1.png')" alt="img" />
