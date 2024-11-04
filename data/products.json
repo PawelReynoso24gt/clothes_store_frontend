@@ -1595,6 +1595,16 @@
                         1901,
                         1903
                     ]
+                },
+                {
+                    "image_id": 1911,
+                    "id": 19,
+                    "alt": "blue",
+                    "src": "PantalonRoto.png",
+                    "variant_id": [
+                        1901,
+                        1903
+                    ]
                 }
             ]
         },
@@ -1949,11 +1959,11 @@
         },
         {
             "id": 25,
-            "title": "knee length dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sueter Liso",
+            "description": "Sudadera gruesa de algodón, de color liso",
             "type": "fashion",
             "brand": "adidas",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 260,
             "sale": true,
@@ -1984,22 +1994,6 @@
                     "size": "s",
                     "color": "blue",
                     "image_id": 2512
-                },
-                {
-                    "variant_id": 2503,
-                    "id": 25,
-                    "sku": "sku25l",
-                    "size": "m",
-                    "color": "pink",
-                    "image_id": 2511
-                },
-                {
-                    "variant_id": 2504,
-                    "id": 25,
-                    "sku": "sku25l",
-                    "size": "m",
-                    "color": "blue",
-                    "image_id": 2512
                 }
             ],
             "images": [
@@ -2007,7 +2001,7 @@
                     "image_id": 2511,
                     "id": 25,
                     "alt": "pink",
-                    "src": "2.png",
+                    "src": "sudaderaLisa1.png",
                     "variant_id": [
                         2501,
                         2503
@@ -2017,7 +2011,7 @@
                     "image_id": 2512,
                     "id": 25,
                     "alt": "blue",
-                    "src": "3.png",
+                    "src": "sudaderaLisa2.png",
                     "variant_id": [
                         2502,
                         2504
@@ -2027,11 +2021,11 @@
         },
         {
             "id": 26,
-            "title": "flutter dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sudadera Estampada",
+            "description": "Sudaderas con estampados varios, tela gruesa.",
             "type": "fashion",
             "brand": "river island",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 330,
             "sale": true,
@@ -2063,22 +2057,6 @@
                     "size": "xs",
                     "color": "gray",
                     "image_id": 2612
-                },
-                {
-                    "variant_id": 2603,
-                    "id": 26,
-                    "sku": "sku26l",
-                    "size": "m",
-                    "color": "black",
-                    "image_id": 2611
-                },
-                {
-                    "variant_id": 2604,
-                    "id": 26,
-                    "sku": "sku26l",
-                    "size": "m",
-                    "color": "gray",
-                    "image_id": 2612
                 }
             ],
             "images": [
@@ -2086,7 +2064,7 @@
                     "image_id": 2611,
                     "id": 26,
                     "alt": "black",
-                    "src": "4.png",
+                    "src": "sudaderaEstampado.png",
                     "variant_id": [
                         2601,
                         2603
@@ -2096,7 +2074,7 @@
                     "image_id": 2612,
                     "id": 26,
                     "alt": "gray",
-                    "src": "5.png",
+                    "src": "sudaderaEstampada1.png",
                     "variant_id": [
                         2602,
                         2604
@@ -2106,11 +2084,11 @@
         },
         {
             "id": 27,
-            "title": "choker neck dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sudadera sin gorro",
+            "description": "Sudadera de forro con peluche, lisa y tela grusa, sin gorro",
             "type": "fashion",
             "brand": "river island",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 410,
             "sale": true,
@@ -2121,8 +2099,8 @@
             "tags": [
                 "xs",
                 "m",
-                "skyblue",
-                "yellow",
+                "gray",
+                "purple",
                 "max"
             ],
             "variants": [
@@ -2131,7 +2109,7 @@
                     "id": 27,
                     "sku": "sku27",
                     "size": "xs",
-                    "color": "skyblue",
+                    "color": "gray",
                     "image_id": 2711
                 },
                 {
@@ -2139,23 +2117,7 @@
                     "id": 27,
                     "sku": "skul27",
                     "size": "xs",
-                    "color": "yellow",
-                    "image_id": 2712
-                },
-                {
-                    "variant_id": 2703,
-                    "id": 27,
-                    "sku": "sku27l",
-                    "size": "m",
-                    "color": "skyblue",
-                    "image_id": 2711
-                },
-                {
-                    "variant_id": 2704,
-                    "id": 27,
-                    "sku": "sku27l",
-                    "size": "m",
-                    "color": "yellow",
+                    "color": "purple",
                     "image_id": 2712
                 }
             ],
@@ -2163,8 +2125,8 @@
                 {
                     "image_id": 2711,
                     "id": 27,
-                    "alt": "skyblue",
-                    "src": "6.png",
+                    "alt": "gray",
+                    "src": "sudaderaSinGorro.png",
                     "variant_id": [
                         2701,
                         2703
@@ -2173,8 +2135,8 @@
                 {
                     "image_id": 2712,
                     "id": 27,
-                    "alt": "yellow",
-                    "src": "7.png",
+                    "alt": "purple",
+                    "src": "sudaderaSinGorro2.png",
                     "variant_id": [
                         2702,
                         2704
@@ -2184,11 +2146,11 @@
         },
         {
             "id": 28,
-            "title": "layered dress",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Sudadera con Gorro",
+            "description": "",
             "type": "fashion",
             "brand": "Nike",
-            "collection": ["on sale"],
+            "collection": ["Sueteres"],
             "category": "Women",
             "price": 75,
             "hot": false,
@@ -2200,8 +2162,7 @@
                 "new",
                 "xs",
                 "maroon",
-                "pink",
-                "geox"
+                "beige"
             ],
             "variants": [
                 {
@@ -2217,7 +2178,7 @@
                     "id": 28,
                     "sku": "skul28",
                     "size": "xs",
-                    "color": "pink",
+                    "color": "beige",
                     "image_id": 2812
                 }
             ],
@@ -2226,7 +2187,7 @@
                     "image_id": 2811,
                     "id": 28,
                     "alt": "maroon",
-                    "src": "8.png",
+                    "src": "sudaderaConGorro1.png",
                     "variant_id": [
                         2801
                     ]
@@ -2234,8 +2195,8 @@
                 {
                     "image_id": 2812,
                     "id": 28,
-                    "alt": "pink",
-                    "src": "9.png",
+                    "alt": "beige",
+                    "src": "sudaderoConGorra2.png",
                     "variant_id": [
                         2802
                     ]
