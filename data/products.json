@@ -4308,20 +4308,20 @@
         },
         {
             "id": 54,
-            "title": "shoes 12",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "title": "Pants Ajustado",
+            "description": "Pants ajustado para realizar ejercicio.",
             "type": "shoes",
             "brand": "nike",
             "collection": ["featured products"],
-            "category": "shoes",
+            "category": "Pants",
             "price": 245,
             "sale": true,
             "discount": "21",
             "stock": 1,
             "new": true,
             "tags": [
-                "antiquewhite",
-                "maroon",
+                "skyblue",
+                "purple",
                 "nike",
                 "new"
             ],
@@ -4331,7 +4331,7 @@
                     "id": 54,
                     "sku": "sku54",
                     "size": "36",
-                    "color": "antiquewhite",
+                    "color": "skyblue",
                     "image_id": 5411
                 },
                 {
@@ -4339,7 +4339,7 @@
                     "id": 54,
                     "sku": "skumg54",
                     "size": "36",
-                    "color": "maroon",
+                    "color": "purple",
                     "image_id": 5412
                 },
                 {
@@ -4347,7 +4347,7 @@
                     "id": 54,
                     "sku": "skums54",
                     "size": "36",
-                    "color": "antiquewhite",
+                    "color": "skyblue",
                     "image_id": 5411
                 },
                 {
@@ -4355,7 +4355,7 @@
                     "id": 54,
                     "sku": "skusp54",
                     "size": "37",
-                    "color": "maroon",
+                    "color": "purple",
                     "image_id": 5412
                 }
             ],
@@ -4363,8 +4363,8 @@
                 {
                     "image_id": 5411,
                     "id": 54,
-                    "alt": "antiquewhite",
-                    "src": "1.png",
+                    "alt": "skyblue",
+                    "src": "PantsAjustadosCeleste.png",
                     "variant_id": [
                         5401,
                         5403
@@ -4373,8 +4373,8 @@
                 {
                     "image_id": 5412,
                     "id": 54,
-                    "alt": "maroon",
-                    "src": "1.png",
+                    "alt": "purple",
+                    "src": "PantsAjustadosMorado.png",
                     "variant_id": [
                         5402,
                         5404
