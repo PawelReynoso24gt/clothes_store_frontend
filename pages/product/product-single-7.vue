@@ -22,88 +22,70 @@
                       <div class="product_single_one_img">
                           <swiper class="swiper product-single-2-slider" :options="swiperOption">
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaLisa1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/jacketRojo.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaLisa2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/jacketNegro.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaEstampada1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/lonaAzul.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaEstampado.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/lonaNegro.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaSinGorro.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/blazerNegro.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaSinGorro2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/blazerRojo.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaConGorro1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/blazerAqua.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderoConGorra2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/bomberNavy.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sobreCamisa1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/bomberRed.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sobreCamisaGris.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/bomberBlack.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/pantalonRecto2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/jacketLanaW.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/pantalonRecto1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/jacketLanaN.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/estampado1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/acolchadoW.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
                                   <img :src="require('@/assets/img/product-image/estampado2.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/PantalonRoto.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/acolchadoW.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/baggy-1.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/acolchadoSK.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/baggy-2.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/motoBrown.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/cargo-1.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/motoBlack.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/cargo-2.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/puntoW.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skater-1.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/puntoBG.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skater-2.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/imperB.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/vestirAmarillo.jpg')" alt="img" />
-                              </swiper-slide>
-                              <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/vestirNegro.jpg')" alt="img" />
-                              </swiper-slide>
-                              <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/vestirVerde.jpg')" alt="img" />
-                              </swiper-slide>
-                              <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/pescadorGris.jpg')" alt="img" />
-                              </swiper-slide>
-                              <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/pescadorNegro.jpg')" alt="img" />
-                              </swiper-slide>
-                              <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skinnyBlanco.jpg')" alt="img" />
-                              </swiper-slide>
-                              <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skinnyNegro.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/imperNV.jpg')" alt="img" />
                               </swiper-slide>
                               <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
                               <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
