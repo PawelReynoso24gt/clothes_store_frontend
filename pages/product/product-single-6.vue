@@ -22,34 +22,34 @@
                       <div class="product_single_one_img">
                           <swiper class="swiper product-single-2-slider" :options="swiperOption">
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaLisa1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta1.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaLisa2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta2.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaEstampada1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta3.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaEstampado.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta4.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaSinGorro.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta5.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaSinGorro2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta6.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderaConGorro1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta7.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sudaderoConGorra2.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta8.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sobreCamisa1.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta9.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/sobreCamisaGris.png')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantaloneta10.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
                                   <img :src="require('@/assets/img/product-image/pantalonRecto2.png')" alt="img" />

@@ -65,6 +65,7 @@ const _ee3178c4 = () => interopDefault(import('..\\pages\\productosHombres\\cami
 const _47d9fe50 = () => interopDefault(import('..\\pages\\productosHombres\\jackets.vue' /* webpackChunkName: "pages/productosHombres/jackets" */))
 const _2cd9658c = () => interopDefault(import('..\\pages\\productosHombres\\pantalones.vue' /* webpackChunkName: "pages/productosHombres/pantalones" */))
 const _308d5202 = () => interopDefault(import('..\\pages\\productosHombres\\pantalonetas.vue' /* webpackChunkName: "pages/productosHombres/pantalonetas" */))
+const _e2899ae2 = () => interopDefault(import('..\\pages\\productosHombres\\pants.vue' /* webpackChunkName: "pages/productosHombres/pants" */))
 const _2ec47020 = () => interopDefault(import('..\\pages\\productosHombres\\playeras.vue' /* webpackChunkName: "pages/productosHombres/playeras" */))
 const _2e5ffcc9 = () => interopDefault(import('..\\pages\\productosHombres\\sueteres.vue' /* webpackChunkName: "pages/productosHombres/sueteres" */))
 const _f293191c = () => interopDefault(import('..\\pages\\productosHombres\\trajes.vue' /* webpackChunkName: "pages/productosHombres/trajes" */))
@@ -336,6 +337,10 @@ export const routerOptions = {
     path: "/productosHombres/pantalonetas",
     component: _308d5202,
     name: "productosHombres-pantalonetas"
+  }, {
+    path: "/productosHombres/pants",
+    component: _e2899ae2,
+    name: "productosHombres-pants"
   }, {
     path: "/productosHombres/playeras",
     component: _2ec47020,
