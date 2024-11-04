@@ -91,209 +91,261 @@ export const routerOptions = {
   routes: [{
     path: "/404",
     component: _1b32c116,
+    component: _1b32c116,
     name: "404"
   }, {
     path: "/about-us",
+    component: _038e5ff1,
     component: _038e5ff1,
     name: "about-us"
   }, {
     path: "/blog",
     component: _e9a3aea6,
+    component: _e9a3aea6,
     name: "blog"
   }, {
     path: "/cart",
+    component: _6010626f,
     component: _6010626f,
     name: "cart"
   }, {
     path: "/coming-soon",
     component: _52008e84,
+    component: _52008e84,
     name: "coming-soon"
   }, {
     path: "/contact-us",
+    component: _4b6a3cf8,
     component: _4b6a3cf8,
     name: "contact-us"
   }, {
     path: "/electronics",
     component: _c9f4b198,
+    component: _c9f4b198,
     name: "electronics"
   }, {
     path: "/faq",
+    component: _c3517b5a,
     component: _c3517b5a,
     name: "faq"
   }, {
     path: "/furniture",
     component: _2b5c316f,
+    component: _2b5c316f,
     name: "furniture"
   }, {
     path: "/grocery",
+    component: _3dcadb6c,
     component: _3dcadb6c,
     name: "grocery"
   }, {
     path: "/login",
     component: _3ecc2034,
+    component: _3ecc2034,
     name: "login"
   }, {
     path: "/lookbook",
+    component: _67f9881b,
     component: _67f9881b,
     name: "lookbook"
   }, {
     path: "/my-account",
     component: _7e081343,
+    component: _7e081343,
     name: "my-account"
   }, {
     path: "/pharmacy",
+    component: _b68a3574,
     component: _b68a3574,
     name: "pharmacy"
   }, {
     path: "/privacy-policy",
     component: _3b3c696a,
+    component: _3b3c696a,
     name: "privacy-policy"
   }, {
     path: "/register",
+    component: _4fb55194,
     component: _4fb55194,
     name: "register"
   }, {
     path: "/shop",
     component: _4087e0d9,
+    component: _4087e0d9,
     name: "shop"
   }, {
     path: "/vendor-dashboard",
+    component: _2205d260,
     component: _2205d260,
     name: "vendor-dashboard"
   }, {
     path: "/blog/blog-2",
     component: _64a18dfc,
+    component: _64a18dfc,
     name: "blog-blog-2"
   }, {
     path: "/blog/blog-3",
+    component: _64afa57d,
     component: _64afa57d,
     name: "blog-blog-3"
   }, {
     path: "/blog/blog-single-2",
     component: _28038b93,
+    component: _28038b93,
     name: "blog-blog-single-2"
   }, {
     path: "/cart/cart-2",
+    component: _ae987d10,
     component: _ae987d10,
     name: "cart-cart-2"
   }, {
     path: "/cart/cart-3",
     component: _ae7c4e0e,
+    component: _ae7c4e0e,
     name: "cart-cart-3"
   }, {
     path: "/cart/cart-4",
+    component: _ae601f0c,
     component: _ae601f0c,
     name: "cart-cart-4"
   }, {
     path: "/cart/empty-cart",
     component: _67013d53,
+    component: _67013d53,
     name: "cart-empty-cart"
   }, {
     path: "/contact-us/contact-us-2",
+    component: _4b7a708e,
     component: _4b7a708e,
     name: "contact-us-contact-us-2"
   }, {
     path: "/crud/clientes",
     component: _2d64214a,
+    component: _2d64214a,
     name: "crud-clientes"
   }, {
     path: "/crud/cupones",
+    component: _071fba8a,
     component: _071fba8a,
     name: "crud-cupones"
   }, {
     path: "/crud/descuentos",
     component: _2cc1cadc,
+    component: _2cc1cadc,
     name: "crud-descuentos"
   }, {
     path: "/crud/empleados",
+    component: _00230572,
     component: _00230572,
     name: "crud-empleados"
   }, {
     path: "/crud/inventario",
     component: _fe40f67c,
+    component: _fe40f67c,
     name: "crud-inventario"
   }, {
     path: "/crud/ocasiones",
+    component: _0ff01ca2,
     component: _0ff01ca2,
     name: "crud-ocasiones"
   }, {
     path: "/crud/productos",
     component: _dd767c5c,
+    component: _dd767c5c,
     name: "crud-productos"
   }, {
     path: "/crud/roles",
+    component: _15240808,
     component: _15240808,
     name: "crud-roles"
   }, {
     path: "/crud/tallas",
     component: _47334f20,
+    component: _47334f20,
     name: "crud-tallas"
   }, {
     path: "/crud/temporadas",
+    component: _65c87ec6,
     component: _65c87ec6,
     name: "crud-temporadas"
   }, {
     path: "/crud/usuarios",
     component: _5732d496,
+    component: _5732d496,
     name: "crud-usuarios"
   }, {
     path: "/my-account/account-details",
+    component: _5009e9d3,
     component: _5009e9d3,
     name: "my-account-account-details"
   }, {
     path: "/my-account/account-info-edit",
     component: _4e49299a,
+    component: _4e49299a,
     name: "my-account-account-info-edit"
   }, {
     path: "/my-account/addresses",
+    component: _35a16993,
     component: _35a16993,
     name: "my-account-addresses"
   }, {
     path: "/my-account/checkout-1",
     component: _251bb5c9,
+    component: _251bb5c9,
     name: "my-account-checkout-1"
   }, {
     path: "/my-account/checkout-2",
+    component: _2529cd4a,
     component: _2529cd4a,
     name: "my-account-checkout-2"
   }, {
     path: "/my-account/compare",
     component: _1ac5d8d4,
+    component: _1ac5d8d4,
     name: "my-account-compare"
   }, {
     path: "/my-account/downloads",
+    component: _46156a5c,
     component: _46156a5c,
     name: "my-account-downloads"
   }, {
     path: "/my-account/order-tracking",
     component: _6835fd35,
+    component: _6835fd35,
     name: "my-account-order-tracking"
   }, {
     path: "/my-account/orders",
+    component: _47334544,
     component: _47334544,
     name: "my-account-orders"
   }, {
     path: "/my-account/wishlist",
     component: _4b51b264,
+    component: _4b51b264,
     name: "my-account-wishlist"
   }, {
     path: "/otras-paginas/jackets",
+    component: _701b0e99,
     component: _701b0e99,
     name: "otras-paginas-jackets"
   }, {
     path: "/otras-paginas/pants",
     component: _8d8486e0,
+    component: _8d8486e0,
     name: "otras-paginas-pants"
   }, {
     path: "/otras-paginas/sueteres",
+    component: _1b59a728,
     component: _1b59a728,
     name: "otras-paginas-sueteres"
   }, {
     path: "/product/product-single-2",
     component: _fdf85d92,
+    component: _fdf85d92,
     name: "product-product-single-2"
   }, {
     path: "/product/product-single-3",
+    component: _fddc2e90,
     component: _fddc2e90,
     name: "product-product-single-3"
   }, {
@@ -327,25 +379,31 @@ export const routerOptions = {
   }, {
     path: "/shop/shop-2",
     component: _1e65b7a4,
+    component: _1e65b7a4,
     name: "shop-shop-2"
   }, {
     path: "/shop/shop-3",
+    component: _1e73cf25,
     component: _1e73cf25,
     name: "shop-shop-3"
   }, {
     path: "/shop/shop-4",
     component: _1e81e6a6,
+    component: _1e81e6a6,
     name: "shop-shop-4"
   }, {
     path: "/shop/shop-5",
+    component: _1e8ffe27,
     component: _1e8ffe27,
     name: "shop-shop-5"
   }, {
     path: "/vendor-dashboard/add-product",
     component: _732b7051,
+    component: _732b7051,
     name: "vendor-dashboard-add-product"
   }, {
     path: "/vendor-dashboard/order",
+    component: _3ad092dc,
     component: _3ad092dc,
     name: "vendor-dashboard-order"
   }, {
@@ -355,25 +413,31 @@ export const routerOptions = {
   }, {
     path: "/vendor-dashboard/product",
     component: _4dd2fa7d,
+    component: _4dd2fa7d,
     name: "vendor-dashboard-product"
   }, {
     path: "/vendor-dashboard/profile",
+    component: _9d5a6b92,
     component: _9d5a6b92,
     name: "vendor-dashboard-profile"
   }, {
     path: "/vendor-dashboard/setting",
     component: _c11ab944,
+    component: _c11ab944,
     name: "vendor-dashboard-setting"
   }, {
     path: "/",
+    component: _16f24ccf,
     component: _16f24ccf,
     name: "index"
   }, {
     path: "/blog/:slug",
     component: _ed10f136,
+    component: _ed10f136,
     name: "blog-slug"
   }, {
     path: "/product/:id?",
+    component: _5c215484,
     component: _5c215484,
     name: "product-id"
   }],
