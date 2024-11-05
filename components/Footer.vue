@@ -6,9 +6,9 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="footer_left_side">
-                        <nuxt-link to="/"><img :src="require('@/assets/img/logo.png')" alt="logo" /></nuxt-link>
+                        <nuxt-link to="/"><img :src="require('@/assets/img/logoIngP.png')" alt="logo" style="width: 200px; height: auto;" /></nuxt-link>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati culpa assumenda voluptas placeat amet consectetur adipisicing elit. Obcaecati culpa assumenda voluptas placeat.
+                            Ropa para cualquier topo de experiencia, costuras fuertes con diseños ingeniosos.
                         </p>
                         <div class="footer_left_side_icon">
                             <ul>
@@ -36,46 +36,42 @@
                         <h3>INFORMATION</h3>
                         <ul>
                             <li><nuxt-link to="/">Home</nuxt-link></li>
-                            <li><nuxt-link to="/about-us">About Us</nuxt-link></li>
                             <li><nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link></li>
                             <li><nuxt-link to="/faq">Frequently Questions</nuxt-link></li>
-                            <li><nuxt-link to="/my-account/order-tracking">Order Tracking</nuxt-link></li>
-                            <li><nuxt-link to="/my-account/compare">Compare</nuxt-link></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-12 col-12">
                     <div class="footer_one_widget">
-                        <h3>Your Account</h3>
-                        <ul>
-                            <li><nuxt-link to="/cart/">Cart View One</nuxt-link></li>
-                            <li><nuxt-link to="/cart/cart-2">Cart View Two </nuxt-link></li>
-                            <li><nuxt-link to="/cart/empty-cart">Empty Cart</nuxt-link></li>
-                            <li><nuxt-link to="/my-account/checkout-1">Checkout View One</nuxt-link></li>
-                            <li><nuxt-link to="/my-account/checkout-2">Checkout View Two</nuxt-link></li>
-                            <li><nuxt-link to="/my-account/wishlist">Wishlist</nuxt-link></li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12">
                     <div class="footer_one_widget">
-                        <h3>NEWSLETTER</h3>
-                        <div id="mc_embed_signup" class="subscribe-form">
-                            <form @submit.prevent="handleSubmit">
-                                <div class="mc-form">
-                                    <input class="form-control" type="email" v-model="user.email" id="email" name="email" placeholder="Your Mail*" :class="{ 'is-invalid': submitted && $v.user.email.$error }" />
-                                    <div v-if="submitted && $v.user.email.$error" class="invalid-feedback">
-                                        <span v-if="!$v.user.email.required">Email is required</span>
-                                        <span v-if="!$v.user.email.email">Email is invalid</span>
-                                    </div>
-                                    <div class="clear">
-                                        <button class="theme-btn-one btn_md" name="subscribe">
-                                            <i class="icon-cursor"></i> Send Mail
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+                    <h3>Correo</h3>
+                    <div id="mc_embed_signup" class="subscribe-form">
+                        <form @submit.prevent="handleSubmit">
+                        <div class="mc-form">
+                            <input 
+                            class="form-control" 
+                            type="email" 
+                            v-model="user.email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Your Mail*" 
+                            :class="{ 'is-invalid': submitted && $v.user.email.$error }" 
+                            />
+                            <div v-if="submitted && $v.user.email.$error" class="invalid-feedback">
+                            <span v-if="!$v.user.email.required">Email is required</span>
+                            <span v-if="!$v.user.email.email">Email is invalid</span>
+                            </div>
+                            <div class="clear">
+                            <button class="theme-btn-one btn_md" name="subscribe">
+                                <i class="icon-cursor"></i> Send Mail
+                            </button>
+                            </div>
                         </div>
+                        </form>
+                    </div>
                     </div>
                 </div>
             </div>

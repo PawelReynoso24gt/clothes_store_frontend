@@ -14,6 +14,7 @@
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
+    "emailjs-com": "^3.2.0",
     "nuxt": "^2.15.3",
     "swiper": "^5.4.5",
     "vue-apexcharts": "^1.6.1",

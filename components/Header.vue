@@ -90,7 +90,7 @@
                                   <img
                                     class="menu-banner-img"
                                     :src="
-                                      require('@/assets/img/common/nav_banner.png')
+                                      require('@/assets/img/common/imagen5.png')
                                     "
                                     alt="img"
                                   />

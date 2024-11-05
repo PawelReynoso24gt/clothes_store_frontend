@@ -30,7 +30,7 @@
       </section>
   
       <!-- Instagram Arae -->
-      <InstagramArea />
+     
   
       <!-- Add to cart Alert / Notification  -->
       <b-alert

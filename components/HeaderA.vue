@@ -90,7 +90,7 @@
                                     <img
                                       class="menu-banner-img"
                                       :src="
-                                        require('@/assets/img/common/nav_banner.png')
+                                        require('@/assets/img/common/imagen5.png')
                                       "
                                       alt="img"
                                     />
@@ -261,10 +261,7 @@
                       </a>
                     </li>
                     <li>
-                      <a v-b-toggle.offcanvas-add-cart class="offcanvas-toggle">
-                        <i class="fas fa-shopping-bag"></i>
-                        <span class="item-count">{{ cart.length }}</span>
-                      </a>
+
                     </li>
                     <li>
                       <a
@@ -344,10 +341,7 @@
                     </a>
                   </li>
                   <li>
-                    <a v-b-toggle.offcanvas-add-cart class="offcanvas-toggle">
-                      <i class="fas fa-shopping-bag"></i>
-                      <span class="item-count">{{ cart.length }}</span>
-                    </a>
+
                   </li>
                   <li>
                     <a
@@ -408,7 +402,6 @@
   
           <ul class="user-link">
             <li><nuxt-link to="/my-account/wishlist">Wishlist</nuxt-link></li>
-            <li><nuxt-link to="/cart/">Cart</nuxt-link></li>
             <li><nuxt-link to="/my-account/checkout-1">Checkout</nuxt-link></li>
           </ul>
         </div>
@@ -417,94 +410,7 @@
       <!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
   
       <!-- Start Offcanvas Addcart Section -->
-      <b-sidebar
-        id="offcanvas-add-cart"
-        class="offcanvas-add-cart-section"
-        backdrop
-        right
-      >
-        <div class="offcanvas-add-cart-wrapper">
-          <h4 class="offcanvas-title">Shopping Cart</h4>
-          <div v-if="cart.length">
-            <ul class="offcanvas-cart">
-              <li
-                class="offcanvas-cart-item-single"
-                v-for="(item, index) in cart"
-                :key="index"
-              >
-                <div class="offcanvas-cart-item-block">
-                  <nuxt-link
-                    :to="{ path: '/product/' + item.id }"
-                    class="offcanvas-cart-item-image-link"
-                  >
-                    <img
-                      :src="getImageUrl(item.images[0].src)"
-                      alt="img"
-                      class="offcanvas-cart-image"
-                    />
-                  </nuxt-link>
-                  <div class="offcanvas-cart-item-content">
-                    <nuxt-link
-                      :to="{ path: '/product/' + item.id }"
-                      class="offcanvas-cart-item-link"
-                      >{{ item.title }}</nuxt-link
-                    >
-                    <div class="offcanvas-cart-item-details">
-                      <span class="offcanvas-cart-item-details-quantity"
-                        >{{ item.quantity }} x</span
-                      >
-                      <span
-                        v-if="item.discount"
-                        class="offcanvas-cart-item-details-price"
-                        >${{ discountedPrice(item) }}</span
-                      >
-                      <span v-else class="offcanvas-cart-item-details-price"
-                        >${{ item.price }}</span
-                      >
-                    </div>
-                  </div>
-                </div>
-                <div class="offcanvas-cart-item-delete text-right">
-                  <button
-                    @click="removeCartItem(item)"
-                    class="offcanvas-cart-item-delete bg-transparent remove-btn"
-                  >
-                    <i class="far fa-trash-alt"></i>
-                  </button>
-                </div>
-              </li>
-            </ul>
-  
-            <div class="offcanvas-cart-total-price">
-              <span class="offcanvas-cart-total-price-text">Subtotal:</span>
-              <span class="offcanvas-cart-total-price-value"
-                >${{ cartTotal }}</span
-              >
-            </div>
-  
-            <ul class="offcanvas-cart-action-button">
-              <li>
-                <nuxt-link
-                  to="/cart"
-                  class="theme-btn-one btn-black-overlay btn_md"
-                  >View Cart</nuxt-link
-                >
-              </li>
-              <!--<li>
-                <nuxt-link
-                  to="/my-account/checkout-1"
-                  class="theme-btn-one btn-black-overlay btn_md"
-                  >Checkout</nuxt-link
-                >
-              </li>-->
-            </ul>
-          </div>
-  
-          <ul v-else class="offcanvas-cart">
-            <li>Your cart is empty!</li>
-          </ul>
-        </div>
-      </b-sidebar>
+
       <!-- End  Offcanvas Addcart Section -->
   
       <!-- Start Offcanvas Wishlist Sidebar Section -->

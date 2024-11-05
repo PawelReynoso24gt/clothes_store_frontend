@@ -1,115 +1,102 @@
 <template>
-  <div>
-        <!-- Banner Area -->
-        <section id="common_banner_one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="common_banner_text">
-                            <h2>{{this.title}}</h2>
-                            <b-breadcrumb :items="breadcrumbItems" class="bg-transparent"></b-breadcrumb>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy-Area -->
-        <section id="privacy-policy_area" class="ptb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="privacy_content">
-                        <h2>What personal data we collect and why we collect it</h2>
-                        <div class="privacy_policy_text">
-                            <h3>Comments</h3>
-                            <p>When visitors leave comments on the site we collect the data shown in the comments form, 
-                                and also the visitor’s IP address and browser user agent string to help spam detection.</p>
-                            <p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The service privacy policy is available. After approval of your comment,
-                                your profile picture is visible to the public in the context of your comment.</p>
-                        </div>
-                        <div class="privacy_policy_text">
-                            <h3>Media</h3>
-                            <p>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p>
-                        </div>
-                        <div class="privacy_policy_text">
-                            <h3>Cookies</h3>
-                            <p>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details 
-                                again when you leave another comment. These cookies will last for one year.</p>
-                            <p>If you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is
-                                discarded when you close your browser.</p>
-                            <p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. 
-                                If you log out of your account, the login cookies will be removed.</p>
-                            <p>If you edit or publish an article, an additional cookie will be saved in your browser. 
-                                This cookie includes no personal data and simply indicates the post ID of the article you just edited.
-                                It expires after 1 day.</p>
-                        </div>
-                        <div class="privacy_policy_text">
-                            <h3>Embedded content from other websites</h3>
-                            <p>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other
-                                websites behaves in the exact same way as if the visitor has visited the other website.</p>
-                            <p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking
-                                your interaction with the embedded content if you have an account and are logged in to that website.</p>
-                        </div>
-                        <div class="privacy_policy_text">
-                            <h3>How long we retain your data</h3>
-                            <p>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and 
-                                approve any follow-up comments automatically instead of holding them in a moderation queue.</p>
-                            <p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). 
-                                Website administrators can also see and edit that information.</p>
-                        </div>
-                        <div class="privacy_policy_text">
-                            <h3>What rights you have over your data</h3>
-                            <p>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. 
-                                This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-  </div>
-</template>
-
-<script>
-export default {
-    name: 'privacy-policy',
-    
-    data() {
-        return {
-
-            title: 'Privacy Policy',
-
-            // Breadcrumb Items Data
-            breadcrumbItems: [
-                {
-                    text: 'Home',
-                    to: '/'
-                },
-                {
-                    text: 'Privacy Policy'
-                }
-            ],
-
-        }
-    },
-    mounted() {
-        // For scroll page top for every Route 
-        window.scrollTo(0, 0)
-    },
-
-    // Page head() Title, description for SEO 
-    head() {
-      return {
-        title: this.title,
-        meta: [
-          {
-            hid: 'description',
-            name: 'description',
-            content: 'Privacy Policy page - AndShop Ecommerce Vue js, Nuxt js Template'
+    <div>
+          <!-- Banner Area -->
+          <section id="common_banner_one">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="common_banner_text">
+                              <h2>{{this.title}}</h2>
+                              <b-breadcrumb :items="breadcrumbItems" class="bg-transparent"></b-breadcrumb>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+  
+          <!-- Privacy-Area -->
+          <section id="privacy-policy_area" class="ptb-100">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="privacy_content">
+                          <h2>Política de Privacidad</h2>
+                          <div class="privacy_policy_text">
+                              <h3>Recopilación de Datos</h3>
+                              <p>Recopilamos la información que proporcionas voluntariamente al registrarte, realizar compras o interactuar con nuestro sitio. Esta información incluye, pero no se limita a, tu nombre, dirección de correo electrónico, y detalles de pago.</p>
+                          </div>
+                          <div class="privacy_policy_text">
+                              <h3>Finalidad de los Datos</h3>
+                              <p>Utilizamos tus datos personales para procesar tus pedidos, gestionar tu cuenta y mejorar tu experiencia de usuario. También podríamos usar tu información para enviarte ofertas y promociones que creemos que serán de tu interés como estudiante.</p>
+                          </div>
+                          <div class="privacy_policy_text">
+                              <h3>Cookies</h3>
+                              <p>Usamos cookies para recordar tus preferencias y brindarte una mejor experiencia en nuestra tienda. Las cookies nos ayudan a entender tus intereses y optimizar la navegación en el sitio. Puedes desactivar las cookies en tu navegador, aunque esto puede afectar la funcionalidad de algunas partes de nuestra tienda.</p>
+                          </div>
+                          <div class="privacy_policy_text">
+                              <h3>Contenido Integrado de Otros Sitios Web</h3>
+                              <p>Nuestro sitio puede incluir contenido de otras plataformas, como videos de moda o imágenes inspiracionales de redes sociales. Estos sitios pueden recopilar datos sobre ti, usar cookies o incorporar seguimiento adicional para analizar tu interacción con el contenido.</p>
+                          </div>
+                          <div class="privacy_policy_text">
+                              <h3>Conservación de Datos</h3>
+                              <p>Retenemos tus datos personales mientras mantengas una cuenta activa en nuestro sitio. Los datos de compra se retendrán para cumplir con nuestras obligaciones legales y de contabilidad. Puedes solicitar la eliminación de tus datos en cualquier momento, excepto en casos donde la ley nos obligue a mantener ciertos registros.</p>
+                          </div>
+                          <div class="privacy_policy_text">
+                              <h3>Tus Derechos</h3>
+                              <p>Tienes derecho a acceder, modificar o eliminar tu información personal. Si deseas ejercer estos derechos, puedes contactarnos y te asistiremos en el proceso. También puedes desactivar las comunicaciones de marketing en cualquier momento.</p>
+                          </div>
+                          <div class="privacy_policy_text">
+                              <h3>Actualizaciones a esta Política</h3>
+                              <p>Podríamos actualizar nuestra política de privacidad ocasionalmente para reflejar cambios en nuestras prácticas o en la ley. Te notificaremos sobre estos cambios a través de nuestro sitio o por correo electrónico.</p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+      name: 'privacy-policy',
+      
+      data() {
+          return {
+  
+              title: 'Política de Privacidad',
+  
+              // Breadcrumb Items Data
+              breadcrumbItems: [
+                  {
+                      text: 'Inicio',
+                      to: '/'
+                  },
+                  {
+                      text: 'Política de Privacidad'
+                  }
+              ],
+  
           }
-        ]
+      },
+      mounted() {
+          // Desplaza la página al inicio en cada carga de ruta 
+          window.scrollTo(0, 0)
+      },
+  
+      // Page head() Title, description for SEO 
+      head() {
+        return {
+          title: this.title,
+          meta: [
+            {
+              hid: 'description',
+              name: 'description',
+              content: 'Página de Política de Privacidad - Tienda de Ropa para Estudiantes'
+            }
+          ]
+        }
       }
-    }
-}
-</script>
+  }
+  </script>
+  
