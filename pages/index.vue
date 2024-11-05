@@ -26,7 +26,7 @@
           <div class="col-lg-6">
             <div class="hero_img">
               <img
-                :src="require('@/assets/img/common/man.png')"
+                :src="require('@/assets/img/common/bomberNavy.jpg')"
                 alt="img"
                 class="slideInRight"
                 style="animation-duration: 3s; animation-delay: 0.3s"
@@ -43,7 +43,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="product_variation_one_boxed img-zoom-hover">
-              <img :src="require('@/assets/img/offer/woman.png')" alt="img" />
+              <img :src="require('@/assets/img/offer/playeraEstampada1.png')" alt="img" />
               <div class="product_var_one_text">
                 <h4 class="color_one">Outerwear</h4>
                 <h2>New</h2>
@@ -56,7 +56,7 @@
               </div>
             </div>
             <div class="product_variation_one_boxed img-zoom-hover">
-              <img :src="require('@/assets/img/offer/woman1.png')" alt="img" />
+              <img :src="require('@/assets/img/offer/sudaderaLisa1.png')" alt="img" />
               <div class="product_var_one_text">
                 <h4 class="color_one">Summer</h4>
                 <h2>Hot</h2>
@@ -69,7 +69,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="product_variation_one_boxed img-zoom-hover">
-              <img :src="require('@/assets/img/offer/bag.png')" alt="img" />
+              <img :src="require('@/assets/img/offer/ropa1.jpg')" alt="img" />
               <div class="product_var_one_text_center">
                 <h2 class="color_one">10% Offer</h2>
                 <h4>No Selected Models</h4>
@@ -83,7 +83,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="product_variation_one_boxed img-zoom-hover">
-              <img :src="require('@/assets/img/offer/woman4.png')" alt="img" />
+              <img :src="require('@/assets/img/offer/ropa2.jpg')" alt="img" />
               <div class="product_var_one_text">
                 <h2>New</h2>
                 <h4 class="color_one">Arrivals</h4>
@@ -95,7 +95,7 @@
               </div>
             </div>
             <div class="product_variation_one_boxed img-zoom-hover">
-              <img :src="require('@/assets/img/offer/kids.png')" alt="img" />
+              <img :src="require('@/assets/img/offer/ropa3.jpg')" alt="img" />
               <div class="product_var_one_text">
                 <h2>Hot</h2>
                 <h4 class="color_one">Offer</h4>
