@@ -92,7 +92,7 @@
                 </div>
                 <div class="cart_subtotal">
                   <p>Envío</p>  
-                  <p class="cart_amount"><span>Tarifa:</span> Q40.00</p>
+                  <p class="cart_amount"><span>Tarifa:</span> $40.00</p>
                 </div>
                 <div class="cart_subtotal">
                   <p>Total</p>
