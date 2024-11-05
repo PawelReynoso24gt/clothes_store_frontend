@@ -36,7 +36,7 @@
                     <ul>
                       <!-- aqui estaba el home-->
                       <li class="has-dropdown has-megaitem">
-                        <a href="#">Shop <i class="fa fa-angle-down"></i></a>
+                        <a href="#">COMPRAR <i class="fa fa-angle-down"></i></a>
                         <!-- Mega Menu -->
                         <div class="mega-menu">
                           <ul class="mega-menu-inner">
@@ -103,7 +103,7 @@
 
                       <!--paginas-->
                       <li class="has-dropdown">
-                        <a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                        <a href="#">Mi perfil <i class="fa fa-angle-down"></i></a>
                         <!-- Sub Menu -->
                         <ul class="sub-menu">
                           <li>
@@ -113,12 +113,7 @@
                           </li>
                           <li>
                             <nuxt-link to="/privacy-policy"
-                              >Privacy Policy</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/contact-us"
-                              >Contact Us One</nuxt-link
+                              >Politicas de privacidad</nuxt-link
                             >
                           </li>
                            <li>
@@ -127,19 +122,13 @@
                               >
                             </li>
                           <li>
-                            <nuxt-link to="/coming-soon">Coming Soon</nuxt-link>
-                          </li>
-                          <li>
                             <nuxt-link to="/my-account">My Account</nuxt-link>
                           </li>
                           <li><nuxt-link to="/login">Login</nuxt-link></li>
                         </ul>
                       </li>
                       <li>
-                        <nuxt-link to="/about-us">About Us</nuxt-link>
-                      </li>
-                      <li>
-                        <nuxt-link to="/login">Login</nuxt-link>
+                        <nuxt-link to="/login">ENTRAR</nuxt-link>
                       </li>
                     </ul>
                   </nav>
@@ -743,10 +732,6 @@ export default {
               },
           
           ],
-        },
-        {
-          href: "/about-us",
-          title: "About Us",
         },
         //cruds
         {
