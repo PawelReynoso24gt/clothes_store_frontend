@@ -24,7 +24,8 @@
                             <b-navbar-nav>
                                 <b-nav-item to="/vendor-dashboard/"><i class="fas fa-tachometer-alt"></i>Dashboard</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/product"><i class="fas fa-shopping-cart"></i>Product</b-nav-item>
-                                <b-nav-item to="/vendor-dashboard/order"><i class="fas fa-shopping-bag"></i>Order</b-nav-item>
+                                <b-nav-item to="/vendor-dashboard/order"><i class="fas fa-shopping-bag"></i>Envío</b-nav-item>
+                                <b-nav-item to="/vendor-dashboard/orderClient"><i class="fas fa-shopping-bag"></i>Envío CLiente</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/profile"><i class="far fa-id-badge"></i>Profile</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/add-product"><i class="fas fa-cart-plus"></i>Add Product</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/setting"><i class="fas fa-user-cog"></i>Setting</b-nav-item>

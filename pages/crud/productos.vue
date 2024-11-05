@@ -18,15 +18,7 @@
         <form @submit.prevent="handleSubmit">
           <div class="form-group">
             <label for="nombre">Nombre</label>
-            <input
-              type="text"
-              v-model="producto.nombre"
-              id="nombre"
-              name="nombre"
-              class="form-control"
-              placeholder="Nombre *"
-              required
-            />
+            <input type="text" v-model="producto.nombre" id="nombre" class="form-control" placeholder="Nombre *" required />
           </div>
           <div class="form-group">
             <label for="genero">Género</label>
@@ -39,52 +31,23 @@
           </div>
           <div class="form-group">
             <label for="color">Color</label>
-            <input
-              type="text"
-              v-model="producto.color"
-              id="color"
-              name="color"
-              class="form-control"
-              placeholder="Color *"
-              required
-            />
+            <input type="text" v-model="producto.color" id="color" class="form-control" placeholder="Color *" required />
           </div>
           <div class="form-group">
             <label for="descripcion">Descripción</label>
-            <input
-              type="text"
-              v-model="producto.descripcion"
-              id="descripcion"
-              name="descripcion"
-              class="form-control"
-              placeholder="Descripción *"
-              required
-            />
+            <input type="text" v-model="producto.descripcion" id="descripcion" class="form-control" placeholder="Descripción *" required />
           </div>
           <div class="form-group">
             <label for="foto">Seleccionar Foto</label>
-            <input
-              type="file"
-              @change="onFileChange"
-              id="foto"
-              name="foto"
-              class="form-control"
-              accept="image/*"
-              required
-            />
+            <input type="file" @change="onFileChange" id="foto" class="form-control" accept="image/*" :required="!modoEdicion" />
           </div>
           <div class="form-group">
             <label for="precio">Precio</label>
-            <input
-              type="number"
-              step="0.01"
-              v-model="producto.precio"
-              id="precio"
-              name="precio"
-              class="form-control"
-              placeholder="Precio *"
-              required
-            />
+            <input type="number" step="0.01" v-model="producto.precio" id="precio" class="form-control" placeholder="Precio *" required />
+          </div>
+          <div class="form-group">
+            <label for="cantidad">Cantidad de Inventario</label>
+            <input type="number" v-model="producto.cantidad" id="cantidad" class="form-control" placeholder="Cantidad *" required />
           </div>
           <button type="submit" class="btn-enviar">{{ modoEdicion ? 'Actualizar' : 'Crear' }}</button>
           <button type="button" class="btn-cerrar" @click="cerrarModal">Cancelar</button>
@@ -92,7 +55,7 @@
       </div>
     </div>
 
-    <!-- Tablas de productos -->
+    <!-- Tabla de productos -->
     <section id="productos_table">
       <div class="container">
         <h3 class="text-center mb-4">Lista de Productos Activos</h3>
@@ -106,6 +69,7 @@
               <th>Descripción</th>
               <th>Foto</th>
               <th>Precio</th>
+              <th>Cantidad</th>
               <th>Acciones</th>
             </tr>
           </thead>
@@ -116,10 +80,9 @@
               <td>{{ producto.genero }}</td>
               <td>{{ producto.color }}</td>
               <td>{{ producto.descripcion }}</td>
-              <td>
-                <img :src="`http://localhost:5000/uploads/${producto.foto}`" alt="Foto" style="width: 50px; height: 50px;" />
-              </td>
+              <td><img :src="`http://localhost:5000/uploads/${producto.foto}`" alt="Foto" style="width: 50px; height: 50px;" /></td>
               <td>{{ producto.precio }}</td>
+              <td>{{ producto.inventarios ? producto.inventarios.cantidad : 'Sin inventario' }}</td>
               <td>
                 <button @click="editarProducto(producto)">Editar</button>
                 <button @click="confirmarCambioEstado(producto.idProducto, 0)">Desactivar</button>
@@ -127,7 +90,6 @@
             </tr>
           </tbody>
         </table>
-
         <h3 class="text-center mb-4">Lista de Productos Inactivos</h3>
         <table class="table">
           <thead>
@@ -149,9 +111,7 @@
               <td>{{ producto.genero }}</td>
               <td>{{ producto.color }}</td>
               <td>{{ producto.descripcion }}</td>
-              <td>
-                <img :src="`http://localhost:5000/uploads/${producto.foto}`" alt="Foto" style="width: 50px; height: 50px;" />
-              </td>
+              <td><img :src="`http://localhost:5000/uploads/${producto.foto}`" alt="Foto" style="width: 50px; height: 50px;" /></td>
               <td>{{ producto.precio }}</td>
               <td>
                 <button @click="editarProducto(producto)">Editar</button>
@@ -179,6 +139,7 @@ export default {
         estado: 1,
         foto: null,
         precio: null,
+        cantidad: null
       },
       productos: [],
       modoEdicion: false,
@@ -208,15 +169,22 @@ export default {
     },
     mostrarModalCrear() {
       this.resetForm();
-      this.mostrarModal = true; // Abrir el modal para crear producto
+      this.mostrarModal = true;
     },
     cerrarModal() {
-      this.mostrarModal = false; // Cerrar el modal
+      this.mostrarModal = false;
     },
     async obtenerProductos() {
       try {
         const response = await axios.get('http://localhost:5000/productos');
         this.productos = response.data;
+
+        for (let producto of this.productos) {
+          if (!producto.inventarios || producto.inventarios.cantidad === 0) {
+            producto.estado = 0;
+            await axios.put(`http://localhost:5000/productos/update/${producto.idProducto}`, { estado: 0 });
+          }
+        }
       } catch (error) {
         console.error('Error al obtener los productos:', error);
       }
@@ -234,9 +202,9 @@ export default {
         formData.append(key, this.producto[key]);
       });
       try {
-        await axios.post('http://localhost:5000/productos/create', formData);
-        this.obtenerProductos(); // Recargar la lista de productos
-        this.cerrarModal(); // Cerrar el modal
+        await axios.post('http://localhost:5000/productos/inventario', formData);
+        this.obtenerProductos();
+        this.cerrarModal();
       } catch (error) {
         console.error('Error al crear el producto:', error);
       }
@@ -246,26 +214,53 @@ export default {
       Object.keys(this.producto).forEach(key => {
         formData.append(key, this.producto[key]);
       });
+
       try {
-        await axios.put(`http://localhost:5000/productos/update/${this.productoIdEdicion}`, formData);
-        this.obtenerProductos(); // Recargar la lista de productos
-        this.cerrarModal(); // Cerrar el modal
+        // Actualizar el producto
+        await axios.put(`http://localhost:5000/productos/${this.productoIdEdicion}/inventario`, formData);
+
+        // Verificar si el inventario ya existe para el producto
+        const producto = this.productos.find(p => p.idProducto === this.productoIdEdicion);
+        if (producto.inventarios) {
+          // Si el inventario existe, actualizar la cantidad
+          await axios.put(`http://localhost:5000/inventarios/update/${producto.inventarios.idInventario}`, {
+            cantidad: this.producto.cantidad
+          });
+        } else {
+          // Si no existe inventario, crear uno nuevo con la cantidad ingresada
+          await axios.post('http://localhost:5000/inventarios/create', {
+            fechaIngreso: new Date(),
+            cantidad: this.producto.cantidad,
+            estado: 1,
+            idProducto: this.productoIdEdicion
+          });
+        }
+
+        this.obtenerProductos();
+        this.cerrarModal();
       } catch (error) {
-        console.error('Error al actualizar el producto:', error);
+        console.error('Error al actualizar el producto o inventario:', error);
       }
     },
     editarProducto(producto) {
-      this.producto = { ...producto }; // Cargar los datos del producto en el formulario
-      this.modoEdicion = true; // Cambiar a modo edición
-      this.productoIdEdicion = producto.idProducto; // Guardar el ID del producto que se está editando
-      this.mostrarModal = true; // Abrir el modal
+      this.producto = { ...producto, cantidad: producto.inventarios ? producto.inventarios.cantidad : null };
+      this.modoEdicion = true;
+      this.productoIdEdicion = producto.idProducto;
+      this.mostrarModal = true;
     },
     async confirmarCambioEstado(idProducto, nuevoEstado) {
+      const producto = this.productos.find(p => p.idProducto === idProducto);
+
+      if (nuevoEstado === 1 && (!producto.inventarios || producto.inventarios.cantidad === 0)) {
+        alert("El producto no puede ser activado porque no hay stock");
+        return;
+      }
+
       const mensaje = nuevoEstado === 1 ? 'activar' : 'desactivar';
       if (confirm(`¿Estás seguro de que deseas ${mensaje} este producto?`)) {
         try {
           await axios.put(`http://localhost:5000/productos/update/${idProducto}`, { estado: nuevoEstado });
-          this.obtenerProductos(); // Recargar la lista de productos
+          this.obtenerProductos();
         } catch (error) {
           console.error('Error al cambiar el estado del producto:', error);
         }
@@ -280,6 +275,7 @@ export default {
         estado: 1,
         foto: null,
         precio: null,
+        cantidad: null
       };
       this.modoEdicion = false;
       this.productoIdEdicion = null;
@@ -287,6 +283,8 @@ export default {
   },
 };
 </script>
+
+
 
 <style scoped>
 .modal {
