@@ -137,7 +137,12 @@
                           <ul class="sub-menu">
                             <li>
                               <nuxt-link to="/faq"
-                                >Frequently Questions</nuxt-link
+                                >Preguntas frecuentes</nuxt-link
+                              >
+                            </li>
+                            <li>
+                              <nuxt-link to="/faqAdmin"
+                                >Preguntas frecuentes Admin</nuxt-link
                               >
                             </li>
                             <li>
@@ -160,7 +165,7 @@
                               <nuxt-link to="/coming-soon">Coming Soon</nuxt-link>
                             </li>
                             <li>
-                              <nuxt-link to="/vendor-dashboard/"
+                              <nuxt-link to="/vendor-dashboard/orderClientA"
                                 >Vendor</nuxt-link
                               >
                             </li>
@@ -172,6 +177,9 @@
                         </li>
                         <li>
                           <nuxt-link to="/about-us">About Us</nuxt-link>
+                        </li>
+                        <li>
+                          <nuxt-link to="/login">Login</nuxt-link>
                         </li>
                         <!-- cruds  -->
                         <li class="has-dropdown">
@@ -828,11 +836,7 @@
               {
                 href: "/my-account",
                 title: "My Account",
-              },
-              {
-                href: "/login",
-                title: "Login",
-              },
+              }
             
             ],
           },
