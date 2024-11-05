@@ -482,13 +482,13 @@
                 >View Cart</nuxt-link
               >
             </li>
-            <li>
+            <!--<li>
               <nuxt-link
                 to="/my-account/checkout-1"
                 class="theme-btn-one btn-black-overlay btn_md"
                 >Checkout</nuxt-link
               >
-            </li>
+            </li>-->
           </ul>
         </div>
 
