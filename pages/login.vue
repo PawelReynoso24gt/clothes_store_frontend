@@ -20,20 +20,20 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
                     <div class="account_form">
-                        <h3>Login</h3>
+                        <h3>Inicio de Sesión</h3>
                         <form @submit.prevent="handleSubmit">
                             <div class="default-form-box">
-                                <label>Username or email <span>*</span></label>
+                                <label>USUARIO<span>*</span></label>
                                 <input type="text" v-model="user.username" id="username" name="username" class="form-control" :class="{ 'is-invalid': submitted && $v.user.username.$error }" />
-                                <div v-if="submitted && !$v.user.username.required" class="invalid-feedback">Username or Email is required</div>
+                                <div v-if="submitted && !$v.user.username.required" class="invalid-feedback">El esuario es requerido</div>
                             </div>
 
                             <div class="default-form-box">
-                                <label for="password">Password</label>
+                                <label for="password">CONTRASEÑA</label>
                                 <input type="password" v-model="user.password" id="password" name="password" class="form-control" :class="{ 'is-invalid': submitted && $v.user.password.$error }" />
                                 <div v-if="submitted && $v.user.password.$error" class="invalid-feedback">
-                                    <span v-if="!$v.user.password.required">Password is required</span>
-                                    <span v-if="!$v.user.password.minLength">Password must be at least 6 characters</span>
+                                    <span v-if="!$v.user.password.required">La contraseña es requerida</span>
+                                    <span v-if="!$v.user.password.minLength">La contraseña debe ser de mínimo 6 carácteres</span>
                                 </div>
                             </div>
                                 
@@ -41,14 +41,14 @@
                                 <button class="theme-btn-one btn-black-overlay btn_md">login</button>
                             </div>
                             
-                            <div class="remember_area">
+                            <!-- <div class="remember_area">
                                 <label class="checkbox-default">
                                     <input type="checkbox">
                                     <span>Remember me</span>
                                 </label>
-                            </div>
+                            </div> -->
 
-                            <nuxt-link to="/register">Create Your Account?</nuxt-link>
+                            <nuxt-link to="/register">Crear una cuenta?</nuxt-link>
                         </form>
                     </div>
                 </div>
