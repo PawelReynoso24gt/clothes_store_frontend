@@ -284,8 +284,25 @@ export default {
       console.log("Datos que se enviarán al servidor:", JSON.stringify(ventaData, null, 2));
 
       const response = await axios.post("http://localhost:5000/ventas/createVenta", ventaData);
-      alert("Compra realizada exitosamente!");
+
       console.log("Respuesta del servidor:", response.data);
+
+      const idVenta = response.data.venta.idVenta;
+
+
+    const fechaEnvio = fechaVenta;
+    const fechaRecepcion = new Date(new Date(fechaVenta).setDate(new Date(fechaVenta).getDate() + 3)).toISOString().split('T')[0];
+
+    const envioData = {
+      fechaEnvio,
+      fechaRecepcion,
+      idVenta
+    };
+
+    console.log("Datos de envío a enviar:", JSON.stringify(envioData, null, 2));
+    await axios.post("http://localhost:5000/envios/create", envioData);
+
+    alert("Compra y envío realizados exitosamente!");
 
       // Reiniciar el carrito y campos de pago después de la compra
       // Limpiar el carrito después de realizar la compra
