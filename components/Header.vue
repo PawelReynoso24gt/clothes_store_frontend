@@ -137,7 +137,12 @@
                         <ul class="sub-menu">
                           <li>
                             <nuxt-link to="/faq"
-                              >Frequently Questions</nuxt-link
+                              >Preguntas frecuentes</nuxt-link
+                            >
+                          </li>
+                          <li>
+                            <nuxt-link to="/faqAdmin"
+                              >Preguntas frecuentes Admin</nuxt-link
                             >
                           </li>
                           <li>

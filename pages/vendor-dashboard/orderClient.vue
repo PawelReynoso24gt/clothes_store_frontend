@@ -9,8 +9,7 @@
                             <b-navbar-nav>
                                 <b-nav-item to="/vendor-dashboard/"><i class="fas fa-tachometer-alt"></i>Dashboard</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/product"><i class="fas fa-shopping-cart"></i>Product</b-nav-item>
-                                <b-nav-item to="/vendor-dashboard/order"><i class="fas fa-shopping-bag"></i>Envío</b-nav-item>
-                                <b-nav-item to="/vendor-dashboard/orderClient"><i class="fas fa-shopping-bag"></i>Envío CLiente</b-nav-item>
+                                <b-nav-item to="/vendor-dashboard/order"><i class="fas fa-shopping-bag"></i>Order</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/profile"><i class="far fa-id-badge"></i>Profile</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/add-product"><i class="fas fa-cart-plus"></i>Add Product</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/setting"><i class="fas fa-user-cog"></i>Setting</b-nav-item>
@@ -34,10 +33,11 @@
                                                             <th scope="col">Estado</th>
                                                             <th scope="col">Total</th>
                                                             <th scope="col">Detalles</th>
+                                                            <th scope="col">Acción</th>
                                                         </tr> 
                                                     </thead>
                                                     <tbody>
-                                                        <tr v-for="envio in envios" :key="envio.idEnvio">
+                                                        <tr v-for="envio in envios" :key="envio.idEnvio" v-if="envio.estado === 1">
                                                             <td>{{ envio.idEnvio }}</td>
                                                             <td>{{ envio.venta.cliente.nombre }}</td>
                                                             <td>{{ envio.fechaEnvio }}</td>
@@ -46,6 +46,34 @@
                                                             <td>
                                                                 <button @click="verDetalles(envio.idEnvio)" class="btn btn-info">Detalles</button>
                                                             </td>
+                                                            <td>
+                                                                <button @click="devolverEnvio(envio)" class="btn btn-warning">Devolver</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="vendor_order_boxed mt-4">
+                                            <h4>Devoluciones</h4>
+                                            <div class="table-responsive">
+                                                <table class="table pending_table">
+                                                    <thead class="thead-light">
+                                                        <tr>
+                                                            <th scope="col">Envío Id</th>
+                                                            <th scope="col">Cliente</th>
+                                                            <th scope="col">Fecha envío</th>
+                                                            <th scope="col">Estado</th>
+                                                            <th scope="col">Total</th>
+                                                        </tr> 
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr v-for="envio in envios" :key="envio.idEnvio" v-if="envio.estado === 0">
+                                                            <td>{{ envio.idEnvio }}</td>
+                                                            <td>{{ envio.venta.cliente.nombre }}</td>
+                                                            <td>{{ envio.fechaEnvio }}</td>
+                                                            <td>{{ envio.estado === 0 ? 'Devuelto' : 'Enviado' }}</td>
+                                                            <td>{{ envio.venta.total }}</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -120,6 +148,30 @@ export default {
         cerrarModal() {
             this.showModal = false; // Cerrar el modal
             this.productos = []; // Limpiar los productos al cerrar el modal
+        },
+        devolverEnvio(envio) {
+            // Obtener la fecha actual en formato YYYY-MM-DD
+            const fechaDevolucion = new Date().toISOString().split('T')[0];
+
+            // Crear el payload para la solicitud de devolución
+            const payload = {
+                fechaDevolucion: fechaDevolucion,
+                descripcion: 'El cliente no quedó satisfecho con los productos, devolución solicitada desde el frontend.',
+                idVenta: envio.venta.idVenta
+            };
+
+            // Realizar la solicitud POST para crear la devolución
+            axios.post('http://localhost:5000/devolucionCascada/create', payload)
+                .then(response => {
+                    console.log('Devolución creada exitosamente:', response.data);
+                    // Actualizar el estado del envío en la vista
+                    this.envios = this.envios.map(e =>
+                        e.idEnvio === envio.idEnvio ? { ...e, estado: 0 } : e
+                    );
+                })
+                .catch(error => {
+                    console.error('Error al crear la devolución:', error);
+                });
         }
     }
 }

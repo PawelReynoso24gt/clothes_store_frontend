@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Camisa cuadros",
-            "description": "Camisa manga larga con cuello, diseño de cuadros y botones. Con tela de algodón",
+            "description": "Camisa manga larga con cuello, diseño de cuadros y botones. Con tela de algodón.",
             "type": "fashion",
             "brand": "nike",
             "collection": ["Camisas"],
@@ -118,7 +118,7 @@
         {
             "id": 2, 
             "title": "Camisa lisa",
-            "description": "Camisa estructura acabado lavado",
+            "description": "Camisa estructura acabado lavado.",
             "type": "fashion",
             "brand": "geox",
             "collection": ["Camisas"],
@@ -251,7 +251,7 @@
         {
             "id": 3,
             "title": "Camisa con estampados",
-            "description": "Camiseta print manga corta",
+            "description": "Camiseta print manga corta.",
             "type": "fashion",
             "brand": "nike",
             "collection": ["Camisas"],
@@ -329,7 +329,7 @@
         {
             "id": 4,
             "title": "Camisa de Rayas",
-            "description": "Camisa con estampado de rayas, tela de algodón y manga larga",
+            "description": "Camisa con estampado de rayas, tela de algodón y manga larga.",
             "type": "fashion",
             "brand": "geox",
             "collection": ["Camisas"],
@@ -669,7 +669,7 @@
         },
         {
             "id": 8,
-            "title": "Playeras basicas",
+            "title": "Playeras básicas",
             "description": "Camiseta cropped manga corta.",
             "type": "fashion",
             "brand": "geox",
@@ -748,7 +748,7 @@
         {
             "id": 9,
             "title": "Playera con Rayas",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Playera con rayas gruesas horizontales, tela de algodón.",
             "type": "fashion",
             "brand": "geox",
             "collection": ["Playeras"],
@@ -905,7 +905,7 @@
         {
             "id": 11,
             "title": "Playera cuello redondo",
-            "description": "Playera de cuello redondo, tela de algodón",
+            "description": "Playera de cuello redondo, tela de algodón.",
             "type": "fashion",
             "brand": "biba",
             "collection": ["Playeras"],
@@ -984,7 +984,7 @@
         {
             "id": 12,
             "title": "Playera cuello V",
-            "description": "",
+            "description": "Playera de cuello en V, tela de algodón.",
             "type": "fashion",
             "brand": "nike",
             "collection": ["Playeras"],
@@ -1117,7 +1117,7 @@
         {
             "id": 13,
             "title": "Playera estampada",
-            "description": "Playera con tela de algodón, con caritas y texto motivador",
+            "description": "Playera con tela de algodón, con caritas y texto motivador.",
             "type": "fashion",
             "brand": "biba",
             "collection": ["Playeras"],
@@ -1202,7 +1202,7 @@
         {
             "id": 14,
             "title": "Playera Oversize",
-            "description": "Playera Oversize, tela de  algodón con manga corta",
+            "description": "Playera Oversize, tela de  algodón con manga medio larga.",
             "type": "fashion",
             "brand": "max",
             "collection": ["Playeras"],
@@ -1283,7 +1283,7 @@
         {
             "id": 15,
             "title": "Playera Skater",
-            "description": "Playera Oversize sin mangas, tela de algodón",
+            "description": "Playera skater, tela de algodón.",
             "type": "fashion",
             "brand": "geox",
             "collection": ["Playeras"],
@@ -1344,7 +1344,7 @@
         {
             "id": 16,
             "title": "Pantalones baggy",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Pantalones baggy, ideales y cómodos para cualquier ocasión.",
             "type": "fashion",
             "brand": "nike",
             "collection": ["Pantalones"],
@@ -1434,7 +1434,7 @@
         {
             "id": 17,
             "title": "Pantalones Cargo",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Pantalones de cargo, con bolsillos laterales.",
             "type": "fashion",
             "brand": "nike",
             "collection": ["Pantalones"],
@@ -1494,7 +1494,7 @@
         {
             "id": 18,
             "title": "Pantalones Skater",
-            "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+            "description": "Pantalones de skater de lona.",
             "type": "fashion",
             "brand": "biba",
             "collection": ["Pantalones"],
@@ -1610,8 +1610,8 @@
         },
         {
             "id": 20,
-            "title": "Pantalon estampado",
-            "description": "",
+            "title": "Pantalón estampado",
+            "description": "Pantalón estampado de distintos diseños.",
             "type": "fashion",
             "brand": "biba",
             "collection": ["Pantalones"],
@@ -1840,7 +1840,7 @@
         {
             "id": 23,
             "title": "Pantalones de pescador",
-            "description": "Pantalones de tela de algodón, estilo pescador",
+            "description": "Pantalones de tela de algodón, estilo pescador.",
             "type": "fashion",
             "brand": "Next",
             "collection": ["Pantalones"],
@@ -1959,8 +1959,8 @@
         },
         {
             "id": 25,
-            "title": "Sueter Liso",
-            "description": "Sudadera gruesa de algodón, de color liso",
+            "title": "Suéter Liso",
+            "description": "Sudadera gruesa de algodón, de color liso.",
             "type": "fashion",
             "brand": "adidas",
             "collection": ["Sueteres"],
@@ -2085,7 +2085,7 @@
         {
             "id": 27,
             "title": "Sudadera sin gorro",
-            "description": "Sudadera de forro con peluche, lisa y tela grusa, sin gorro",
+            "description": "Sudadera de forro con peluche, lisa y tela gruesa, sin gorro.",
             "type": "fashion",
             "brand": "river island",
             "collection": ["Sueteres"],
@@ -2147,7 +2147,7 @@
         {
             "id": 28,
             "title": "Sudadera con Gorro",
-            "description": "",
+            "description": "Sudadera de forro con peluche, lisa y tela gruesa, con gorro.",
             "type": "fashion",
             "brand": "Nike",
             "collection": ["Sueteres"],
@@ -2383,7 +2383,7 @@
         {
             "id": 32,
             "title": "Pantaloneta larga",
-            "description": "Pantaloneta larga, de lona con costuras fuertes. De cintura baja",
+            "description": "Pantaloneta larga, de lona con costuras fuertes. De cintura baja.",
             "type": "electronics",
             "brand": "babyoye",
             "collection": ["Pantalonetas"],
@@ -2440,8 +2440,8 @@
         },
         {
             "id": 33,
-            "title": "Pantaloneta impermiable",
-            "description": "Pantaloneta con tela impermiable, costuras fuertes",
+            "title": "Pantaloneta impermeable",
+            "description": "Pantaloneta con tela impermeable, costuras fuertes.",
             "type": "electronics",
             "brand": "babyoye",
             "collection": ["Pantalonetas"],
@@ -2545,7 +2545,7 @@
         {
             "id": 34,
             "title": "Pantaloneta de tela",
-            "description": "Pantaloneta de tela, diferentes colores con costura fuerte",
+            "description": "Pantaloneta de tela, diferentes colores con costura fuerte.",
             "type": "electronics",
             "brand": "mark&mia",
             "collection": ["Pantalonetas"],
@@ -2624,7 +2624,7 @@
         {
             "id": 35,
             "title": "Pantaloneta jogger",
-            "description": "Pantaloneta con varias bolsas, tela impermiable",
+            "description": "Pantaloneta con varias bolsas, tela medio gruesa.",
             "type": "electronics",
             "brand": "toffyhouse",
             "collection": ["Pantalonetas"],
@@ -2685,7 +2685,7 @@
         {
             "id": 36,
             "title": "Conjunto Pantaloneta",
-            "description": "Playera estampada y short de tela de algodÃ³n",
+            "description": "Playera estampada y short de tela de algodón.",
             "type": "electronics",
             "brand": "cucumber",
             "collection": ["Pantalonetas"],
@@ -2745,7 +2745,7 @@
         {
             "id": 37,
             "title": "Short de lona",
-            "description": "Short de lona oversize, con bolsas  .",
+            "description": "Short de lona oversize, con bolsas.",
             "type": "electronics",
             "brand": "toffyhouse",
             "collection": ["Pantalonetas"],
@@ -2821,7 +2821,7 @@
         {
             "id": 38,
             "title": "Pantaloneta de rayas",
-            "description": "Pantaloneta de tela con estampado de rayas",
+            "description": "Pantaloneta de tela con estampado de rayas.",
             "type": "electronics",
             "brand": "Barbie",
             "collection": ["Pantalonetas"],
@@ -2897,7 +2897,7 @@
         {
             "id": 39,
             "title": "Pantaloneta de estrella",
-            "description": "Pantaloneta de lona con estampado de estrella",
+            "description": "Pantaloneta de lona con estampado de estrella.",
             "type": "electronics",
             "brand": "toffyhouse",
             "collection": ["Pantalonetas"],
@@ -3053,7 +3053,7 @@
         {
             "id": 41,
             "title": "Conjunto de shorts",
-            "description": "Conjunto de shorts de diferentes colores",
+            "description": "Conjunto de shorts de diferentes colores.",
             "type": "electronics",
             "brand": "Barbie",
             "collection": ["Pantalonetas"],
@@ -3261,7 +3261,7 @@
         {
             "id": 43,
             "title": "Jacket de Cuero",
-            "description": "Jacket de cuero con cierre de cremallera y bolsillos laterales",
+            "description": "Jacket de cuero con cierre de cremallera y bolsillos laterales.",
             "type": "shoes",
             "brand": "decathlon",
             "collection": ["Jackets"],
@@ -4073,7 +4073,7 @@
         },
         {
             "id": 52,
-            "title": "Jacket Impermiable",
+            "title": "Jacket Impermeable",
             "description": "Perfecta para los días de lluvia, con materiales que repelen el agua.",
             "type": "shoes",
             "brand": "adidas",
@@ -4304,7 +4304,7 @@
         {
             "id": 55,
             "title": "Pants Holgados",
-            "description": "Pants Holgados cÃ³modos para vestir.",
+            "description": "Pants Holgados cómodos para vestir.",
             "type": "shoes",
             "brand": "puma",
             "collection": ["Pants"],
