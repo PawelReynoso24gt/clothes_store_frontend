@@ -5,6 +5,9 @@
   "Header": {
     "description": "Auto imported from components/Header.vue"
   },
+  "HeaderA": {
+    "description": "Auto imported from components/HeaderA.vue"
+  },
   "BlogItem1": {
     "description": "Auto imported from components/blog/BlogItem1.vue"
   },
@@ -32,15 +35,6 @@
   "InstagramSliderItem": {
     "description": "Auto imported from components/instagram/InstagramSliderItem.vue"
   },
-  "WidgetsRelatedProducts": {
-    "description": "Auto imported from components/widgets/RelatedProducts.vue"
-  },
-  "WidgetsShopSidebar": {
-    "description": "Auto imported from components/widgets/ShopSidebar.vue"
-  },
-  "WidgetsTimer": {
-    "description": "Auto imported from components/widgets/Timer.vue"
-  },
   "ProductBox1": {
     "description": "Auto imported from components/product-box/ProductBox1.vue"
   },
@@ -64,5 +58,14 @@
   },
   "ProductBox8": {
     "description": "Auto imported from components/product-box/ProductBox8.vue"
+  },
+  "WidgetsRelatedProducts": {
+    "description": "Auto imported from components/widgets/RelatedProducts.vue"
+  },
+  "WidgetsShopSidebar": {
+    "description": "Auto imported from components/widgets/ShopSidebar.vue"
+  },
+  "WidgetsTimer": {
+    "description": "Auto imported from components/widgets/Timer.vue"
   }
 }
