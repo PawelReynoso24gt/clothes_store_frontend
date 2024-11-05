@@ -5,6 +5,9 @@
   "Header": {
     "description": "Auto imported from components/Header.vue"
   },
+  "HeaderA": {
+    "description": "Auto imported from components/HeaderA.vue"
+  },
   "BlogItem1": {
     "description": "Auto imported from components/blog/BlogItem1.vue"
   },

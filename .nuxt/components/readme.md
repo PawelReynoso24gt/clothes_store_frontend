@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<Footer>` | `<footer>` (components/Footer.vue)
 - `<Header>` | `<header>` (components/Header.vue)
+- `<HeaderA>` | `<header-a>` (components/HeaderA.vue)
 - `<BlogItem1>` | `<blog-item1>` (components/blog/BlogItem1.vue)
 - `<BlogItem2>` | `<blog-item2>` (components/blog/BlogItem2.vue)
 - `<BlogItem3>` | `<blog-item3>` (components/blog/BlogItem3.vue)

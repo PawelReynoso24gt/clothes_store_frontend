@@ -36,7 +36,7 @@
                     <ul>
                       <!-- aqui estaba el home-->
                       <li class="has-dropdown has-megaitem">
-                        <a href="#">Shop <i class="fa fa-angle-down"></i></a>
+                        <a href="#">COMPRAR <i class="fa fa-angle-down"></i></a>
                         <!-- Mega Menu -->
                         <div class="mega-menu">
                           <ul class="mega-menu-inner">
@@ -90,7 +90,7 @@
                                   <img
                                     class="menu-banner-img"
                                     :src="
-                                      require('@/assets/img/common/nav_banner.png')
+                                      require('@/assets/img/common/imagen5.png')
                                     "
                                     alt="img"
                                   />
@@ -100,39 +100,10 @@
                           </ul>
                         </div>
                       </li>
-                      <!-- descuentos-->
-                      <li class="has-dropdown">
-                        <a href="#">DESCUENTOS <i class="fa fa-angle-down"></i></a>
-                        <!-- Sub Menu -->
-                        <ul class="sub-menu">
-                          <li>
-                            <nuxt-link to="/blog">Blog Grid View One</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/blog/blog-2"
-                              >Blog Grid View Two</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/blog/blog-3"
-                              >Blog List View</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/blog/blog-single"
-                              >Blog Single View One
-                            </nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/blog/blog-single-2"
-                              >Blog Single View TWo</nuxt-link
-                            >
-                          </li>
-                        </ul>
-                      </li>
+
                       <!--paginas-->
                       <li class="has-dropdown">
-                        <a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                        <a href="#">Mi perfil <i class="fa fa-angle-down"></i></a>
                         <!-- Sub Menu -->
                         <ul class="sub-menu">
                           <li>
@@ -141,34 +112,15 @@
                             >
                           </li>
                           <li>
-                            <nuxt-link to="/faqAdmin"
-                              >Preguntas frecuentes Admin</nuxt-link
-                            >
-                          </li>
-                          <li>
                             <nuxt-link to="/privacy-policy"
-                              >Privacy Policy</nuxt-link
+                              >Politicas de privacidad</nuxt-link
                             >
                           </li>
-                          <li><nuxt-link to="/404">404 Page</nuxt-link></li>
-                          <li>
-                            <nuxt-link to="/contact-us"
-                              >Contact Us One</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/contact-us/contact-us-2"
-                              >Contact Us Two</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/coming-soon">Coming Soon</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/vendor-dashboard/"
-                              >Vendor</nuxt-link
-                            >
-                          </li>
+                           <li>
+                              <nuxt-link to="/vendor-dashboard/"
+                                >Vendor</nuxt-link
+                              >
+                            </li>
                           <li>
                             <nuxt-link to="/my-account">My Account</nuxt-link>
                           </li>
@@ -176,67 +128,7 @@
                         </ul>
                       </li>
                       <li>
-                        <nuxt-link to="/about-us">About Us</nuxt-link>
-                      </li>
-                      <!-- cruds  -->
-                      <li class="has-dropdown">
-                        <a href="#">CRUD <i class="fa fa-angle-down"></i></a>
-                        <!-- Sub Menu -->
-                        <ul class="sub-menu">
-                          <li>
-                            <nuxt-link to="/crud/roles">Roles</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/usuarios"
-                              >Usuarios</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/clientes"
-                              >Clientes</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/empleados"
-                              >Empleados
-                            </nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/productos"
-                              >Productos</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/inventario"
-                              >Inventario</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/cupones"
-                              >Cupones</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/descuentos"
-                              >Descuentos</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/tallas"
-                              >Tallas</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/temporadas"
-                              >Temporadas</nuxt-link
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="/crud/ocasiones"
-                              >Ocasiones</nuxt-link
-                            >
-                          </li>
-                        </ul>
+                        <nuxt-link to="/login">ENTRAR</nuxt-link>
                       </li>
                     </ul>
                   </nav>
@@ -834,16 +726,12 @@ export default {
               href: "/my-account",
               title: "My Account",
             },
-            {
-              href: "/login",
-              title: "Login",
-            },
+              {
+                href: "/vendor-dashboard",
+                title: "Vendor",
+              },
           
           ],
-        },
-        {
-          href: "/about-us",
-          title: "About Us",
         },
         //cruds
         {

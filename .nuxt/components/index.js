@@ -1,5 +1,6 @@
 export { default as Footer } from '../..\\components\\Footer.vue'
 export { default as Header } from '../..\\components\\Header.vue'
+export { default as HeaderA } from '../..\\components\\HeaderA.vue'
 export { default as BlogItem1 } from '../..\\components\\blog\\BlogItem1.vue'
 export { default as BlogItem2 } from '../..\\components\\blog\\BlogItem2.vue'
 export { default as BlogItem3 } from '../..\\components\\blog\\BlogItem3.vue'
