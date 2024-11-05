@@ -20,6 +20,10 @@ export { default as ProductBox8 } from '../..\\components\\product-box\\ProductB
 export { default as WidgetsRelatedProducts } from '../..\\components\\widgets\\RelatedProducts.vue'
 export { default as WidgetsShopSidebar } from '../..\\components\\widgets\\ShopSidebar.vue'
 export { default as WidgetsTimer } from '../..\\components\\widgets\\Timer.vue'
+export { default as InstagramArea } from '../..\\components\\instagram\\InstagramArea.vue'
+export { default as InstagramAreaElectronics } from '../..\\components\\instagram\\InstagramAreaElectronics.vue'
+export { default as InstagramAreaFurniture } from '../..\\components\\instagram\\InstagramAreaFurniture.vue'
+export { default as InstagramSliderItem } from '../..\\components\\instagram\\InstagramSliderItem.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
