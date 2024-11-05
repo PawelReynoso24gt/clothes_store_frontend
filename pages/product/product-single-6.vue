@@ -79,31 +79,28 @@
                                   <img :src="require('@/assets/img/product-image/pantaloneta19.png')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skater-1.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetaCargoB.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skater-2.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetaCargoSK.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/vestirAmarillo.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetasC1.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/vestirNegro.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetasC2.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/vestirVerde.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetasC3.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/pescadorGris.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetaAlcochadaW.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/pescadorNegro.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetaAlcochadaG.jpg')" alt="img" />
                               </swiper-slide>
                               <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skinnyBlanco.jpg')" alt="img" />
-                              </swiper-slide>
-                              <swiper-slide>
-                                  <img :src="require('@/assets/img/product-image/skinnyNegro.jpg')" alt="img" />
+                                  <img :src="require('@/assets/img/product-image/pantalonetaAlcochadaP.jpg')" alt="img" />
                               </swiper-slide>
                               <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
                               <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
