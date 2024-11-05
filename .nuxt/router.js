@@ -12,6 +12,7 @@ const _18ebb16f = () => interopDefault(import('..\\pages\\coming-soon.vue' /* we
 const _afa62fa2 = () => interopDefault(import('..\\pages\\contact-us\\index.vue' /* webpackChunkName: "pages/contact-us/index" */))
 const _61f0ca1f = () => interopDefault(import('..\\pages\\electronics.vue' /* webpackChunkName: "pages/electronics" */))
 const _01fd803e = () => interopDefault(import('..\\pages\\faq.vue' /* webpackChunkName: "pages/faq" */))
+const _b9773f3e = () => interopDefault(import('..\\pages\\faqAdmin.vue' /* webpackChunkName: "pages/faqAdmin" */))
 const _25f9131a = () => interopDefault(import('..\\pages\\furniture.vue' /* webpackChunkName: "pages/furniture" */))
 const _6a49e2b5 = () => interopDefault(import('..\\pages\\grocery.vue' /* webpackChunkName: "pages/grocery" */))
 const _18af41de = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
@@ -126,6 +127,10 @@ export const routerOptions = {
     path: "/faq",
     component: _01fd803e,
     name: "faq"
+  }, {
+    path: "/faqAdmin",
+    component: _b9773f3e,
+    name: "faqAdmin"
   }, {
     path: "/furniture",
     component: _25f9131a,

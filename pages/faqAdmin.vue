@@ -26,27 +26,38 @@
                     <h5 class="mb-0">{{ pregunta.pregunta }}</h5>
                   </div>
                   <div class="faq-answer">
-                    <p>{{ pregunta.respuesta }}</p>
+                    <p v-if="pregunta.respuesta && pregunta.respuesta !== '0'">{{ pregunta.respuesta }}</p>
+                    <button
+                      v-else
+                      class="btn btn-agregar-respuesta"
+                      @click="abrirModalRespuesta(pregunta)"
+                    >
+                      Agregar Respuesta
+                    </button>
                   </div>
                 </div>
   
-                <!-- Input para nueva pregunta -->
-                <div class="input-group mt-5">
-                  <input
-                    type="text"
-                    v-model="nuevaPregunta"
-                    placeholder="Escribe tu pregunta..."
-                    class="form-control pregunta-input"
-                  />
-                  <button @click="enviarPregunta" class="btn btn-enviar">
-                    Enviar
-                  </button>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+  
+      <!-- Modal para agregar respuesta -->
+      <div v-if="showModal" class="modal" @click.self="cerrarModal">
+        <div class="modal-content">
+          <span class="close" @click="cerrarModal">&times;</span>
+          <h4>Agregar Respuesta</h4>
+          <p>Escribe la respuesta para la pregunta:</p>
+          <textarea
+            v-model="respuestaTexto"
+            class="form-control"
+            placeholder="Escribe tu respuesta aquí..."
+            rows="4"
+          ></textarea>
+          <button @click="agregarRespuesta" class="btn btn-confirmar">Confirmar</button>
+        </div>
+      </div>
     </div>
   </template>
   
@@ -64,6 +75,9 @@
         ],
         preguntasFrecuentes: [],
         nuevaPregunta: '', // Modelo para nueva pregunta
+        showModal: false, // Control del modal de respuesta
+        respuestaTexto: '', // Texto de la respuesta en el modal
+        preguntaSeleccionada: null, // Almacena la pregunta a la que se le está agregando respuesta
       };
     },
     mounted() {
@@ -71,17 +85,11 @@
       this.obtenerPreguntasFrecuentes(); // Obtener preguntas al montar el componente
     },
     methods: {
-      // Obtener preguntas frecuentes con frecuencia > 5 y respuesta válida
+      // Obtener preguntas frecuentes
       async obtenerPreguntasFrecuentes() {
         try {
           const response = await axios.get('http://localhost:5000/logpreguntas');
-          // Filtrar preguntas que tengan frecuencia > 5 y respuesta válida
-          this.preguntasFrecuentes = response.data.filter(
-            (pregunta) =>
-              pregunta.frecuencia > 3 &&
-              pregunta.respuesta &&
-              pregunta.respuesta !== '0'
-          );
+          this.preguntasFrecuentes = response.data;
         } catch (error) {
           console.error('Error al obtener las preguntas frecuentes:', error);
         }
@@ -104,6 +112,35 @@
         } catch (error) {
           console.error('Error al enviar la pregunta:', error);
           alert('Hubo un error al enviar tu pregunta. Por favor, inténtalo de nuevo.');
+        }
+      },
+      // Abrir modal para agregar respuesta
+      abrirModalRespuesta(pregunta) {
+        this.preguntaSeleccionada = pregunta; // Almacenar la pregunta seleccionada
+        this.respuestaTexto = ''; // Limpiar el campo de respuesta
+        this.showModal = true; // Mostrar el modal
+      },
+      // Cerrar el modal
+      cerrarModal() {
+        this.showModal = false;
+      },
+      // Agregar respuesta a la pregunta seleccionada
+      async agregarRespuesta() {
+        if (this.respuestaTexto.trim() === '') {
+          alert('Por favor, escribe una respuesta.');
+          return;
+        }
+  
+        try {
+          await axios.put(`http://localhost:5000/logpreguntas/update/${this.preguntaSeleccionada.idPregunta}`, {
+            respuesta: this.respuestaTexto,
+          });
+          alert('Respuesta agregada correctamente.');
+          this.showModal = false; // Cerrar el modal
+          this.obtenerPreguntasFrecuentes(); // Actualizar preguntas frecuentes
+        } catch (error) {
+          console.error('Error al agregar la respuesta:', error);
+          alert('Hubo un error al agregar la respuesta. Por favor, inténtalo de nuevo.');
         }
       },
     },
@@ -149,6 +186,21 @@
     color: #555;
   }
   
+  .btn-agregar-respuesta {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-agregar-respuesta:hover {
+    background-color: #e0a800;
+  }
+  
   .input-group {
     display: flex;
     justify-content: center;
@@ -175,6 +227,54 @@
   
   .btn-enviar:hover {
     background-color: #0056b3;
+  }
+  
+  /* Estilos para el modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .btn-confirmar {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-confirmar:hover {
+    background-color: #218838;
   }
   </style>
   
