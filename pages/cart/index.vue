@@ -83,20 +83,16 @@
           </div>
 
           <div class="col-lg-6 col-md-6">
-            <div class="coupon_code right" data-aos="fade-up" data-aos-delay="400">
+            <div class="coupon_code right">
               <h3>Total de carrito</h3>
               <div class="coupon_inner">
                 <div class="cart_subtotal">
-                  <p>Subtotal</p>
-                  <p class="cart_amount">${{ cartTotal }}</p>
+                  <p>Subtotal (con descuento):</p>
+                  <p class="cart_amount">${{ subtotalConDescuento }}</p>
                 </div>
                 <div class="cart_subtotal">
-                  <p>Envío</p>  
-                  <p class="cart_amount"><span>Tarifa:</span> $40.00</p>
-                </div>
-                <div class="cart_subtotal">
-                  <p>Total</p>
-                  <p class="cart_amount">${{ cartTotal + 40 }}</p>
+                  <p>Total (con envío):</p>
+                  <p class="cart_amount">${{ totalConEnvio }}</p>
                 </div>
               </div>
             </div>
@@ -165,7 +161,6 @@ import axios from "axios";
 
 export default {
   name: "cart",
-
   data() {
     return {
       title: "Cart",
@@ -184,187 +179,194 @@ export default {
         efectivo: 0.0,
         paypal: 0.0,
       },
-      cuponCodigo: "", // Para almacenar el código del cupón
-      descuentos: [], // Para almacenar los descuentos obtenidos del backend
-      descuentoSeleccionado: null, // Para almacenar el descuento seleccionado
+      cuponCodigo: "",
+      descuentos: [],
+      descuentoSeleccionado: null,
+      cuponAplicado: null,
     };
   },
-
   computed: {
+    subtotalConDescuento() {
+      let subtotal = this.cartTotal || 0;
+
+      if (this.descuentoSeleccionado) {
+        subtotal -= subtotal * parseFloat(this.descuentoSeleccionado.descuento) / 100;
+      }
+
+      if (this.cuponAplicado) {
+        subtotal -= subtotal * parseFloat(this.cuponAplicado.descuento) / 100;
+      }
+
+      return parseFloat(subtotal.toFixed(2));
+    },
+    totalConEnvio() {
+  const total = parseFloat((this.subtotalConDescuento + 40).toFixed(2));
+  console.log("Total con envío calculado:", total); // Debug
+  return total;
+},
     ...mapGetters({
       cart: "cart/cartItems",
       cartTotal: "cart/cartTotalAmount",
     }),
   },
-
-  mounted() {
-    this.obtenerDescuentos(); // Llama al método al montar el componente
-  },
-
   methods: {
     getImageUrl(path) {
-      return require("@/assets/img/product-image/" + path);
-    },
-
-    discountedPrice(product) {
-      const price = product.price - (product.price * product.discount) / 100;
-      return price;
-    },
-
-    removeCartItem(index) {
-      this.$store.dispatch("cart/removeCartItem", index);
+      return require(`@/assets/img/product-image/${path}`);
     },
 
     async hacerCompra() {
 
-    // Convertir los valores de pago a números para asegurarnos de que la suma sea correcta
-  const totalPago = parseFloat(this.pago.transferencia) + 
-                    parseFloat(this.pago.tarjetaCredito) + 
-                    parseFloat(this.pago.tarjetaDebito) + 
-                    parseFloat(this.pago.efectivo) + 
-                    parseFloat(this.pago.paypal);
+// Convertir los valores de pago a números para asegurarnos de que la suma sea correcta
+const totalPago = parseFloat(this.pago.transferencia) + 
+                parseFloat(this.pago.tarjetaCredito) + 
+                parseFloat(this.pago.tarjetaDebito) + 
+                parseFloat(this.pago.efectivo) + 
+                parseFloat(this.pago.paypal);
 
-    const totalConEnvio = this.cartTotal + 40; // Total incluyendo envío
-    // Log de la suma total
-  console.log("Total de pagos:", totalPago);
-  console.log("Total a pagar (con envío):", totalConEnvio);
+// Log de la suma total
+console.log("Total de pagos:", totalPago);
+console.log("Total a pagar (con envío):", this.totalConEnvio);
 
-    // Verificar si la suma de los pagos es igual al total
-    if (totalPago !== totalConEnvio) {
-      alert("La suma de los métodos de pago debe ser igual al total de la compra.");
-      return;
-    }
+// Verificar si la suma de los pagos es igual al total
+if (totalPago !== this.totalConEnvio) {
+  alert("La suma de los métodos de pago debe ser igual al total de la compra.");
+  return;
+}
 
-    // Guardar los datos de pago con lógica para campos vacíos
-    const pagoData = {
-      transferencia: this.pago.transferencia || 0.0,
-      banco: this.pago.banco || "Ninguno",
-      correlativo: this.pago.correlativo || "-",
-      tarjetaCredito: this.pago.tarjetaCredito || 0.0,
-      numeroCredito: this.pago.numeroCredito || "-",
-      tarjetaDebito: this.pago.tarjetaDebito || 0.0,
-      numeroDebito: this.pago.numeroDebito || "-",
-      efectivo: this.pago.efectivo || 0.0,
-      paypal: this.pago.paypal || 0.0
-    };
+// Guardar los datos de pago con lógica para campos vacíos
+const pagoData = {
+  transferencia: this.pago.transferencia || 0.0,
+  banco: this.pago.banco || "Ninguno",
+  correlativo: this.pago.correlativo || "-",
+  tarjetaCredito: this.pago.tarjetaCredito || 0.0,
+  numeroCredito: this.pago.numeroCredito || "-",
+  tarjetaDebito: this.pago.tarjetaDebito || 0.0,
+  numeroDebito: this.pago.numeroDebito || "-",
+  efectivo: this.pago.efectivo || 0.0,
+  paypal: this.pago.paypal || 0.0
+};
 
+try {
+  const pagoResponse = await axios.post("http://localhost:5000/pagos/create", pagoData);
+  const idPago = pagoResponse.data.idPago; // Obtener el ID del pago creado
+
+  // Comprobar el ID del cupón
+  let idCupon = null; // Inicializar idCupon como null
+  if (this.cuponCodigo) {
     try {
-      const pagoResponse = await axios.post("http://localhost:5000/pagos/create", pagoData);
-      const idPago = pagoResponse.data.idPago; // Obtener el ID del pago creado
-
-      // Comprobar el ID del cupón
-      let idCupon = null; // Inicializar idCupon como null
-      if (this.cuponCodigo) {
-        try {
-          const cuponResponse = await axios.get(`http://localhost:5000/cupones/${this.cuponCodigo}`);
-          idCupon = cuponResponse.data.idCupon; // Asumimos que la respuesta incluye el idCupon
-        } catch (error) {
-          console.error("Error al validar el cupón:", error);
-          alert("El cupón ingresado no es válido.");
-        }
-      }
-
-      // Construir el objeto para la venta
-      const productos = this.cart.map(item => ({
-        idInventario: item.idInventario, // Extraer el idInventario del producto
-        cantidad: item.quantity // Extraer la cantidad del carrito
-      }));
-
-      const fechaVenta = new Date().toISOString().split('T')[0]; // Formato 'YYYY-MM-DD'
-
-      const ventaData = {
-        fechaVenta,
-        idCliente: 1, // Asegúrate de obtener este ID de forma dinámica según tu lógica de usuario
-        idPago, // Usar el ID del pago creado
-        idDescuento: this.descuentoSeleccionado ? this.descuentoSeleccionado.idDescuento : null,
-        idCupon, // Asignar el idCupon obtenido
-        productos
-      };
-
-      console.log("Datos que se enviarán al servidor:", JSON.stringify(ventaData, null, 2));
-
-      const response = await axios.post("http://localhost:5000/ventas/createVenta", ventaData);
-
-      console.log("Respuesta del servidor:", response.data);
-
-      const idVenta = response.data.venta.idVenta;
-
-
-    const fechaEnvio = fechaVenta;
-    const fechaRecepcion = new Date(new Date(fechaVenta).setDate(new Date(fechaVenta).getDate() + 3)).toISOString().split('T')[0];
-
-    const envioData = {
-      fechaEnvio,
-      fechaRecepcion,
-      idVenta
-    };
-
-    console.log("Datos de envío a enviar:", JSON.stringify(envioData, null, 2));
-    await axios.post("http://localhost:5000/envios/create", envioData);
-
-    alert("Compra y envío realizados exitosamente!");
-
-      // Reiniciar el carrito y campos de pago después de la compra
-      // Limpiar el carrito después de realizar la compra
-      for (let i = this.cart.length - 1; i >= 0; i--) {
-        this.removeCartItem(i);
-      }
-      this.pago = {
-        transferencia: 0.0,
-        banco: "",
-        correlativo: "",
-        tarjetaCredito: 0.0,
-        numeroCredito: "",
-        tarjetaDebito: 0.0,
-        numeroDebito: "",
-        efectivo: 0.0,
-        paypal: 0.0,
-      };
-      this.cuponCodigo = "";
-      this.descuentoSeleccionado = null;
+      const cuponResponse = await axios.get(`http://localhost:5000/cupones/${this.cuponCodigo}`);
+      idCupon = cuponResponse.data.idCupon; // Asumimos que la respuesta incluye el idCupon
     } catch (error) {
-      console.error("Error al realizar la compra:", error);
-      alert("Hubo un error al procesar el pago.");
+      console.error("Error al validar el cupón:", error);
+      alert("El cupón ingresado no es válido.");
     }
-  },
+  }
+
+  // Construir el objeto para la venta
+  const productos = this.cart.map(item => ({
+    idInventario: item.idInventario, // Extraer el idInventario del producto
+    cantidad: item.quantity // Extraer la cantidad del carrito
+  }));
+
+  const fechaVenta = new Date().toISOString().split('T')[0]; // Formato 'YYYY-MM-DD'
+
+  const ventaData = {
+    fechaVenta,
+    idCliente: 1, // Asegúrate de obtener este ID de forma dinámica según tu lógica de usuario
+    idPago, // Usar el ID del pago creado
+    idDescuento: this.descuentoSeleccionado ? this.descuentoSeleccionado.idDescuento : null,
+    idCupon, // Asignar el idCupon obtenido
+    productos
+  };
+
+  console.log("Datos que se enviarán al servidor:", JSON.stringify(ventaData, null, 2));
+
+  const response = await axios.post("http://localhost:5000/ventas/createVenta", ventaData);
+
+  console.log("Respuesta del servidor:", response.data);
+
+  const idVenta = response.data.venta.idVenta;
 
 
+const fechaEnvio = fechaVenta;
+const fechaRecepcion = new Date(new Date(fechaVenta).setDate(new Date(fechaVenta).getDate() + 3)).toISOString().split('T')[0];
+
+const envioData = {
+  fechaEnvio,
+  fechaRecepcion,
+  idVenta
+};
+
+console.log("Datos de envío a enviar:", JSON.stringify(envioData, null, 2));
+await axios.post("http://localhost:5000/envios/create", envioData);
+
+alert("Compra y envío realizados exitosamente!");
+
+  // Reiniciar el carrito y campos de pago después de la compra
+  // Limpiar el carrito después de realizar la compra
+  for (let i = this.cart.length - 1; i >= 0; i--) {
+    this.removeCartItem(i);
+  }
+  this.pago = {
+    transferencia: 0.0,
+    banco: "",
+    correlativo: "",
+    tarjetaCredito: 0.0,
+    numeroCredito: "",
+    tarjetaDebito: 0.0,
+    numeroDebito: "",
+    efectivo: 0.0,
+    paypal: 0.0,
+  };
+  this.cuponCodigo = "";
+  this.descuentoSeleccionado = null;
+} catch (error) {
+  console.error("Error al realizar la compra:", error);
+  alert("Hubo un error al procesar el pago.");
+}
+},
+
+
+    discountedPrice(product) {
+      const price = product.price - (product.price * product.discount) / 100;
+      return price.toFixed(2);
+    },
     async validarCupon() {
-      const codigoCupon = this.cuponCodigo; // Asegúrate de tener un data property para el código del cupón.
+      if (!this.cuponCodigo) return;
+
       try {
-        const response = await axios.get(`http://localhost:5000/cupones/${codigoCupon}`); // Ajusta la URL según sea necesario.
-        if (response.data) {
-          alert("Cupón válido! Descuento: " + response.data.descuento + "%");
-        } else {
-          alert("Cupón no válido.");
-        }
+        const response = await axios.get(`http://localhost:5000/cupones/${this.cuponCodigo}`);
+        this.cuponAplicado = response.data;
+        alert(`Cupón aplicado con éxito: ${this.cuponAplicado.descripcion}`);
       } catch (error) {
-        if (error.response && error.response.status === 404) {
-          alert("Cupón no encontrado.");
-        } else {
-          alert("Hubo un error al validar el cupón.");
-        }
+        alert("Cupón no válido.");
+        this.cuponAplicado = null;
       }
     },
-
     async obtenerDescuentos() {
       try {
-        const response = await axios.get('http://localhost:5000/descuentos/activos'); // Ajusta la URL si es necesario
-        this.descuentos = response.data; // Almacena los descuentos en el estado
+        const response = await axios.get("http://localhost:5000/descuentos/activos");
+        this.descuentos = response.data;
       } catch (error) {
         console.error("Error al obtener descuentos:", error);
         alert("Hubo un error al cargar los descuentos.");
       }
     },
-
+    removeCartItem(index) {
+      this.$store.dispatch("cart/removeCartItem", index);
+    },
     mostrarDescuentoAplicado() {
       if (this.descuentoSeleccionado) {
-        alert(`Descuento a aplicar: ${this.descuentoSeleccionado.descuento}%`);
+        alert(`Descuento seleccionado: ${this.descuentoSeleccionado.descripcion}`);
       }
     },
   },
+  mounted() {
+    this.obtenerDescuentos();
+  },
 };
 </script>
+
 
 <style scoped>
 .form-group-pago {
