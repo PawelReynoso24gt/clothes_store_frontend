@@ -29,7 +29,7 @@ export default {
       // Determinar el header según el rol guardado en localStorage
       const role = localStorage.getItem("role");
       console.log("Role obtenido del localStorage:", role);
-      if (role && parseInt(role) === 4) { // Si el rol es 4 (administrador)
+      if (Number(role) === 6) { 
         this.selectedHeader = HeaderA;
       } else {
         this.selectedHeader = Header;

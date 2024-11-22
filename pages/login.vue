@@ -57,6 +57,7 @@
   
   export default {
     name: 'Login',
+    layout: "login",
     data() {
       return {
         title: 'Login',

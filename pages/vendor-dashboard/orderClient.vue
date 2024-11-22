@@ -32,11 +32,13 @@
                                                         </tr> 
                                                     </thead>
                                                     <tbody>
-                                                        <tr v-for="envio in envios" :key="envio.idEnvio" v-if="envio.estado === 1">
+                                                        <tr v-for="envio in envios" :key="envio.idEnvio" v-if="envio.estado === 1 || envio.estado === 2 || envio.estado === 3">
                                                             <td>{{ envio.idEnvio }}</td>
                                                             <td>{{ envio.venta.cliente.nombre }}</td>
                                                             <td>{{ envio.fechaEnvio }}</td>
-                                                            <td>{{ envio.estado === 1 ? 'Enviado' : 'Devuelto' }}</td>
+                                                            <td>{{
+                                                                    { 1: 'Enviado', 2: 'En proceso', 3: 'Recibido' }[envio.estado] || 'Devuelto'
+                                                                }}</td>
                                                             <td>{{ envio.venta.total }}</td>
                                                             <td>
                                                                 <button @click="verDetalles(envio.idEnvio)" class="btn btn-info">Detalles</button>

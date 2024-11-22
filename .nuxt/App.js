@@ -14,8 +14,9 @@ import '..\\assets\\app.css'
 
 import _6f6c098b from '..\\layouts\\default.vue'
 import _38988548 from '..\\layouts\\headless-layout.vue'
+import _77a66d33 from '..\\layouts\\login.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_headless-layout": sanitizeComponent(_38988548) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_headless-layout": sanitizeComponent(_38988548),"_login": sanitizeComponent(_77a66d33) }
 
 export default {
   render (h, props) {
