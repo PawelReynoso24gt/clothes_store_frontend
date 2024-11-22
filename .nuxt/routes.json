@@ -3,516 +3,602 @@
     "name": "404",
     "path": "/404",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\404.vue",
-    "chunkName": "pages/404"
+    "chunkName": "pages/404",
+    "_name": "_29224d41"
   },
   {
     "name": "about-us",
     "path": "/about-us",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\about-us.vue",
-    "chunkName": "pages/about-us"
+    "chunkName": "pages/about-us",
+    "_name": "_5c3371a5"
   },
   {
     "name": "blog",
     "path": "/blog",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\blog\\\\index.vue",
-    "chunkName": "pages/blog/index"
+    "chunkName": "pages/blog/index",
+    "_name": "_3c754a79"
   },
   {
     "name": "cart",
     "path": "/cart",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\cart\\\\index.vue",
-    "chunkName": "pages/cart/index"
+    "chunkName": "pages/cart/index",
+    "_name": "_1157843b"
   },
   {
     "name": "coming-soon",
     "path": "/coming-soon",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\coming-soon.vue",
-    "chunkName": "pages/coming-soon"
+    "chunkName": "pages/coming-soon",
+    "_name": "_0347b050"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\contact-us\\\\index.vue",
-    "chunkName": "pages/contact-us/index"
+    "chunkName": "pages/contact-us/index",
+    "_name": "_0f6c7a50"
   },
   {
     "name": "electronics",
     "path": "/electronics",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\electronics.vue",
-    "chunkName": "pages/electronics"
+    "chunkName": "pages/electronics",
+    "_name": "_4c4cc900"
   },
   {
     "name": "faq",
     "path": "/faq",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\faq.vue",
-    "chunkName": "pages/faq"
+    "chunkName": "pages/faq",
+    "_name": "_55da1fc2"
   },
   {
     "name": "faqAdmin",
     "path": "/faqAdmin",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\faqAdmin.vue",
-    "chunkName": "pages/faqAdmin"
+    "chunkName": "pages/faqAdmin",
+    "_name": "_5f2eb520"
   },
   {
     "name": "furniture",
     "path": "/furniture",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\furniture.vue",
-    "chunkName": "pages/furniture"
+    "chunkName": "pages/furniture",
+    "_name": "_314d538a"
   },
   {
     "name": "grocery",
     "path": "/grocery",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\grocery.vue",
-    "chunkName": "pages/grocery"
+    "chunkName": "pages/grocery",
+    "_name": "_591b0bd4"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_57215ab2"
   },
   {
     "name": "lookbook",
     "path": "/lookbook",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\lookbook.vue",
-    "chunkName": "pages/lookbook"
+    "chunkName": "pages/lookbook",
+    "_name": "_7ec2cc62"
   },
   {
     "name": "my-account",
     "path": "/my-account",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\index.vue",
-    "chunkName": "pages/my-account/index"
+    "chunkName": "pages/my-account/index",
+    "_name": "_99aca7e2"
   },
   {
     "name": "pharmacy",
     "path": "/pharmacy",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\pharmacy.vue",
-    "chunkName": "pages/pharmacy"
+    "chunkName": "pages/pharmacy",
+    "_name": "_0540120c"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\privacy-policy.vue",
-    "chunkName": "pages/privacy-policy"
+    "chunkName": "pages/privacy-policy",
+    "_name": "_3ff2641e"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "chunkName": "pages/register",
+    "_name": "_30ca68ea"
   },
   {
     "name": "shop",
     "path": "/shop",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\shop\\\\index.vue",
-    "chunkName": "pages/shop/index"
+    "chunkName": "pages/shop/index",
+    "_name": "_1c61fab6"
   },
   {
     "name": "vendor-dashboard",
     "path": "/vendor-dashboard",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboard\\\\index.vue",
-    "chunkName": "pages/vendor-dashboard/index"
+    "chunkName": "pages/vendor-dashboard/index",
+    "_name": "_150ca22c"
   },
   {
     "name": "vendor-dashboardA",
     "path": "/vendor-dashboardA",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboardA\\\\index.vue",
-    "chunkName": "pages/vendor-dashboardA/index"
+    "chunkName": "pages/vendor-dashboardA/index",
+    "_name": "_2d25d107"
   },
   {
     "name": "blog-blog-2",
     "path": "/blog/blog-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\blog\\\\blog-2.vue",
-    "chunkName": "pages/blog/blog-2"
+    "chunkName": "pages/blog/blog-2",
+    "_name": "_4782b4a0"
   },
   {
     "name": "blog-blog-3",
     "path": "/blog/blog-3",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\blog\\\\blog-3.vue",
-    "chunkName": "pages/blog/blog-3"
+    "chunkName": "pages/blog/blog-3",
+    "_name": "_4766859e"
   },
   {
     "name": "blog-blog-single-2",
     "path": "/blog/blog-single-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\blog\\\\blog-single-2.vue",
-    "chunkName": "pages/blog/blog-single-2"
+    "chunkName": "pages/blog/blog-single-2",
+    "_name": "_c9bbbd42"
   },
   {
     "name": "cart-cart-2",
     "path": "/cart/cart-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\cart\\\\cart-2.vue",
-    "chunkName": "pages/cart/cart-2"
+    "chunkName": "pages/cart/cart-2",
+    "_name": "_2050d92c"
   },
   {
     "name": "cart-cart-3",
     "path": "/cart/cart-3",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\cart\\\\cart-3.vue",
-    "chunkName": "pages/cart/cart-3"
+    "chunkName": "pages/cart/cart-3",
+    "_name": "_205ef0ad"
   },
   {
     "name": "cart-cart-4",
     "path": "/cart/cart-4",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\cart\\\\cart-4.vue",
-    "chunkName": "pages/cart/cart-4"
+    "chunkName": "pages/cart/cart-4",
+    "_name": "_206d082e"
   },
   {
     "name": "cart-empty-cart",
     "path": "/cart/empty-cart",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\cart\\\\empty-cart.vue",
-    "chunkName": "pages/cart/empty-cart"
+    "chunkName": "pages/cart/empty-cart",
+    "_name": "_16235b07"
   },
   {
     "name": "contact-us-contact-us-2",
     "path": "/contact-us/contact-us-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\contact-us\\\\contact-us-2.vue",
-    "chunkName": "pages/contact-us/contact-us-2"
+    "chunkName": "pages/contact-us/contact-us-2",
+    "_name": "_8d64cb7c"
   },
   {
     "name": "crud-clientes",
     "path": "/crud/clientes",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\clientes.vue",
-    "chunkName": "pages/crud/clientes"
+    "chunkName": "pages/crud/clientes",
+    "_name": "_321a1bfe"
   },
   {
     "name": "crud-cupones",
     "path": "/crud/cupones",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\cupones.vue",
-    "chunkName": "pages/crud/cupones"
+    "chunkName": "pages/crud/cupones",
+    "_name": "_f9b4cd54"
   },
   {
     "name": "crud-descuentos",
     "path": "/crud/descuentos",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\descuentos.vue",
-    "chunkName": "pages/crud/descuentos"
+    "chunkName": "pages/crud/descuentos",
+    "_name": "_48382ee0"
   },
   {
     "name": "crud-empleados",
     "path": "/crud/empleados",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\empleados.vue",
-    "chunkName": "pages/crud/empleados"
+    "chunkName": "pages/crud/empleados",
+    "_name": "_dc104dda"
   },
   {
     "name": "crud-inventario",
     "path": "/crud/inventario",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\inventario.vue",
-    "chunkName": "pages/crud/inventario"
+    "chunkName": "pages/crud/inventario",
+    "_name": "_3001a276"
   },
   {
     "name": "crud-ocasiones",
     "path": "/crud/ocasiones",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\ocasiones.vue",
-    "chunkName": "pages/crud/ocasiones"
+    "chunkName": "pages/crud/ocasiones",
+    "_name": "_ebdd650a"
   },
   {
     "name": "crud-productos",
     "path": "/crud/productos",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\productos.vue",
-    "chunkName": "pages/crud/productos"
+    "chunkName": "pages/crud/productos",
+    "_name": "_234e1d9e"
   },
   {
     "name": "crud-roles",
     "path": "/crud/roles",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\roles.vue",
-    "chunkName": "pages/crud/roles"
+    "chunkName": "pages/crud/roles",
+    "_name": "_b295c470"
   },
   {
     "name": "crud-tallas",
     "path": "/crud/tallas",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\tallas.vue",
-    "chunkName": "pages/crud/tallas"
+    "chunkName": "pages/crud/tallas",
+    "_name": "_54037024"
   },
   {
     "name": "crud-temporadas",
     "path": "/crud/temporadas",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\temporadas.vue",
-    "chunkName": "pages/crud/temporadas"
+    "chunkName": "pages/crud/temporadas",
+    "_name": "_7c3dde51"
   },
   {
     "name": "crud-usuarios",
     "path": "/crud/usuarios",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\crud\\\\usuarios.vue",
-    "chunkName": "pages/crud/usuarios"
+    "chunkName": "pages/crud/usuarios",
+    "_name": "_5be8cf4a"
   },
   {
     "name": "my-account-account-details",
     "path": "/my-account/account-details",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\account-details.vue",
-    "chunkName": "pages/my-account/account-details"
+    "chunkName": "pages/my-account/account-details",
+    "_name": "_7f6818c2"
   },
   {
     "name": "my-account-account-info-edit",
     "path": "/my-account/account-info-edit",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\account-info-edit.vue",
-    "chunkName": "pages/my-account/account-info-edit"
+    "chunkName": "pages/my-account/account-info-edit",
+    "_name": "_93a01f34"
   },
   {
     "name": "my-account-addresses",
     "path": "/my-account/addresses",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\addresses.vue",
-    "chunkName": "pages/my-account/addresses"
+    "chunkName": "pages/my-account/addresses",
+    "_name": "_5b71bc5f"
   },
   {
     "name": "my-account-checkout-1",
     "path": "/my-account/checkout-1",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\checkout-1.vue",
-    "chunkName": "pages/my-account/checkout-1"
+    "chunkName": "pages/my-account/checkout-1",
+    "_name": "_8d548706"
   },
   {
     "name": "my-account-checkout-2",
     "path": "/my-account/checkout-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\checkout-2.vue",
-    "chunkName": "pages/my-account/checkout-2"
+    "chunkName": "pages/my-account/checkout-2",
+    "_name": "_8d385804"
   },
   {
     "name": "my-account-compare",
     "path": "/my-account/compare",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\compare.vue",
-    "chunkName": "pages/my-account/compare"
+    "chunkName": "pages/my-account/compare",
+    "_name": "_65bba962"
   },
   {
     "name": "my-account-downloads",
     "path": "/my-account/downloads",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\downloads.vue",
-    "chunkName": "pages/my-account/downloads"
+    "chunkName": "pages/my-account/downloads",
+    "_name": "_6be5bd28"
   },
   {
     "name": "my-account-order-tracking",
     "path": "/my-account/order-tracking",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\order-tracking.vue",
-    "chunkName": "pages/my-account/order-tracking"
+    "chunkName": "pages/my-account/order-tracking",
+    "_name": "_a434ec2e"
   },
   {
     "name": "my-account-orders",
     "path": "/my-account/orders",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\orders.vue",
-    "chunkName": "pages/my-account/orders"
+    "chunkName": "pages/my-account/orders",
+    "_name": "_93767410"
   },
   {
     "name": "my-account-wishlist",
     "path": "/my-account/wishlist",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\my-account\\\\wishlist.vue",
-    "chunkName": "pages/my-account/wishlist"
+    "chunkName": "pages/my-account/wishlist",
+    "_name": "_3c05d618"
   },
   {
     "name": "otras-paginas-jackets",
     "path": "/otras-paginas/jackets",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\otras-paginas\\\\jackets.vue",
-    "chunkName": "pages/otras-paginas/jackets"
+    "chunkName": "pages/otras-paginas/jackets",
+    "_name": "_0455154d"
   },
   {
     "name": "otras-paginas-pants",
     "path": "/otras-paginas/pants",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\otras-paginas\\\\pants.vue",
-    "chunkName": "pages/otras-paginas/pants"
+    "chunkName": "pages/otras-paginas/pants",
+    "_name": "_ac1c3f78"
   },
   {
     "name": "otras-paginas-sueteres",
     "path": "/otras-paginas/sueteres",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\otras-paginas\\\\sueteres.vue",
-    "chunkName": "pages/otras-paginas/sueteres"
+    "chunkName": "pages/otras-paginas/sueteres",
+    "_name": "_0e6076f4"
   },
   {
     "name": "product-product-single-2",
     "path": "/product/product-single-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\product-single-2.vue",
-    "chunkName": "pages/product/product-single-2"
+    "chunkName": "pages/product/product-single-2",
+    "_name": "_64d443fa"
   },
   {
     "name": "product-product-single-3",
     "path": "/product/product-single-3",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\product-single-3.vue",
-    "chunkName": "pages/product/product-single-3"
+    "chunkName": "pages/product/product-single-3",
+    "_name": "_64b814f8"
   },
   {
     "name": "product-product-single-4",
     "path": "/product/product-single-4",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\product-single-4.vue",
-    "chunkName": "pages/product/product-single-4"
+    "chunkName": "pages/product/product-single-4",
+    "_name": "_649be5f6"
   },
   {
     "name": "product-product-single-5",
     "path": "/product/product-single-5",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\product-single-5.vue",
-    "chunkName": "pages/product/product-single-5"
+    "chunkName": "pages/product/product-single-5",
+    "_name": "_647fb6f4"
   },
   {
     "name": "product-product-single-6",
     "path": "/product/product-single-6",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\product-single-6.vue",
-    "chunkName": "pages/product/product-single-6"
+    "chunkName": "pages/product/product-single-6",
+    "_name": "_646387f2"
   },
   {
     "name": "product-product-single-7",
     "path": "/product/product-single-7",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\product-single-7.vue",
-    "chunkName": "pages/product/product-single-7"
+    "chunkName": "pages/product/product-single-7",
+    "_name": "_644758f0"
   },
   {
     "name": "product-product-single-8",
     "path": "/product/product-single-8",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\product-single-8.vue",
-    "chunkName": "pages/product/product-single-8"
+    "chunkName": "pages/product/product-single-8",
+    "_name": "_642b29ee"
   },
   {
     "name": "productosHombres-camisas",
     "path": "/productosHombres/camisas",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\camisas.vue",
-    "chunkName": "pages/productosHombres/camisas"
+    "chunkName": "pages/productosHombres/camisas",
+    "_name": "_0a83c363"
   },
   {
     "name": "productosHombres-jackets",
     "path": "/productosHombres/jackets",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\jackets.vue",
-    "chunkName": "pages/productosHombres/jackets"
+    "chunkName": "pages/productosHombres/jackets",
+    "_name": "_5daf809d"
   },
   {
     "name": "productosHombres-pantalones",
     "path": "/productosHombres/pantalones",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\pantalones.vue",
-    "chunkName": "pages/productosHombres/pantalones"
+    "chunkName": "pages/productosHombres/pantalones",
+    "_name": "_2fd213a7"
   },
   {
     "name": "productosHombres-pantalonetas",
     "path": "/productosHombres/pantalonetas",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\pantalonetas.vue",
-    "chunkName": "pages/productosHombres/pantalonetas"
+    "chunkName": "pages/productosHombres/pantalonetas",
+    "_name": "_0f3eea5a"
   },
   {
     "name": "productosHombres-pants",
     "path": "/productosHombres/pants",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\pants.vue",
-    "chunkName": "pages/productosHombres/pants"
+    "chunkName": "pages/productosHombres/pants",
+    "_name": "_92e240d8"
   },
   {
     "name": "productosHombres-playeras",
     "path": "/productosHombres/playeras",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\playeras.vue",
-    "chunkName": "pages/productosHombres/playeras"
+    "chunkName": "pages/productosHombres/playeras",
+    "_name": "_cadd7e6a"
   },
   {
     "name": "productosHombres-sueteres",
     "path": "/productosHombres/sueteres",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\sueteres.vue",
-    "chunkName": "pages/productosHombres/sueteres"
+    "chunkName": "pages/productosHombres/sueteres",
+    "_name": "_3f5914b8"
   },
   {
     "name": "productosHombres-trajes",
     "path": "/productosHombres/trajes",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\productosHombres\\\\trajes.vue",
-    "chunkName": "pages/productosHombres/trajes"
+    "chunkName": "pages/productosHombres/trajes",
+    "_name": "_5958670d"
   },
   {
     "name": "shop-shop-2",
     "path": "/shop/shop-2",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\shop\\\\shop-2.vue",
-    "chunkName": "pages/shop/shop-2"
+    "chunkName": "pages/shop/shop-2",
+    "_name": "_d3fa6150"
   },
   {
     "name": "shop-shop-3",
     "path": "/shop/shop-3",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\shop\\\\shop-3.vue",
-    "chunkName": "pages/shop/shop-3"
+    "chunkName": "pages/shop/shop-3",
+    "_name": "_d3de324e"
   },
   {
     "name": "shop-shop-4",
     "path": "/shop/shop-4",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\shop\\\\shop-4.vue",
-    "chunkName": "pages/shop/shop-4"
+    "chunkName": "pages/shop/shop-4",
+    "_name": "_d3c2034c"
   },
   {
     "name": "shop-shop-5",
     "path": "/shop/shop-5",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\shop\\\\shop-5.vue",
-    "chunkName": "pages/shop/shop-5"
+    "chunkName": "pages/shop/shop-5",
+    "_name": "_d3a5d44a"
   },
   {
     "name": "vendor-dashboard-add-product",
     "path": "/vendor-dashboard/add-product",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboard\\\\add-product.vue",
-    "chunkName": "pages/vendor-dashboard/add-product"
+    "chunkName": "pages/vendor-dashboard/add-product",
+    "_name": "_49db91c6"
   },
   {
     "name": "vendor-dashboard-order",
     "path": "/vendor-dashboard/order",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboard\\\\order.vue",
-    "chunkName": "pages/vendor-dashboard/order"
+    "chunkName": "pages/vendor-dashboard/order",
+    "_name": "_2dd762a8"
   },
   {
     "name": "vendor-dashboard-orderClient",
     "path": "/vendor-dashboard/orderClient",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboard\\\\orderClient.vue",
-    "chunkName": "pages/vendor-dashboard/orderClient"
+    "chunkName": "pages/vendor-dashboard/orderClient",
+    "_name": "_2d570913"
   },
   {
     "name": "vendor-dashboard-product",
     "path": "/vendor-dashboard/product",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboard\\\\product.vue",
-    "chunkName": "pages/vendor-dashboard/product"
+    "chunkName": "pages/vendor-dashboard/product",
+    "_name": "_cb35f16e"
   },
   {
     "name": "vendor-dashboard-profile",
     "path": "/vendor-dashboard/profile",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboard\\\\profile.vue",
-    "chunkName": "pages/vendor-dashboard/profile"
+    "chunkName": "pages/vendor-dashboard/profile",
+    "_name": "_043651fa"
   },
   {
     "name": "vendor-dashboard-setting",
     "path": "/vendor-dashboard/setting",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboard\\\\setting.vue",
-    "chunkName": "pages/vendor-dashboard/setting"
+    "chunkName": "pages/vendor-dashboard/setting",
+    "_name": "_27f69fac"
   },
   {
     "name": "vendor-dashboardA-add-product",
     "path": "/vendor-dashboardA/add-product",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboardA\\\\add-product.vue",
-    "chunkName": "pages/vendor-dashboardA/add-product"
+    "chunkName": "pages/vendor-dashboardA/add-product",
+    "_name": "_5c0595b8"
   },
   {
     "name": "vendor-dashboardA-order",
     "path": "/vendor-dashboardA/order",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboardA\\\\order.vue",
-    "chunkName": "pages/vendor-dashboardA/order"
+    "chunkName": "pages/vendor-dashboardA/order",
+    "_name": "_45f09183"
   },
   {
     "name": "vendor-dashboardA-orderClient",
     "path": "/vendor-dashboardA/orderClient",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboardA\\\\orderClient.vue",
-    "chunkName": "pages/vendor-dashboardA/orderClient"
+    "chunkName": "pages/vendor-dashboardA/orderClient",
+    "_name": "_a36b30a4"
   },
   {
     "name": "vendor-dashboardA-product",
     "path": "/vendor-dashboardA/product",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboardA\\\\product.vue",
-    "chunkName": "pages/vendor-dashboardA/product"
+    "chunkName": "pages/vendor-dashboardA/product",
+    "_name": "_10edeb64"
   },
   {
     "name": "vendor-dashboardA-profile",
     "path": "/vendor-dashboardA/profile",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboardA\\\\profile.vue",
-    "chunkName": "pages/vendor-dashboardA/profile"
+    "chunkName": "pages/vendor-dashboardA/profile",
+    "_name": "_746dbb1e"
   },
   {
     "name": "vendor-dashboardA-setting",
     "path": "/vendor-dashboardA/setting",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\vendor-dashboardA\\\\setting.vue",
-    "chunkName": "pages/vendor-dashboardA/setting"
+    "chunkName": "pages/vendor-dashboardA/setting",
+    "_name": "_628d9445"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_e50c90ca"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\blog\\\\_slug.vue",
-    "chunkName": "pages/blog/_slug"
+    "chunkName": "pages/blog/_slug",
+    "_name": "_3abea931"
   },
   {
     "name": "product-id",
     "path": "/product/:id?",
     "component": "C:\\\\Users\\\\Alejandra\\\\OneDrive - umes.edu.gt\\\\Escritorio\\\\clothes_store_frontend-1\\\\pages\\\\product\\\\_id.vue",
-    "chunkName": "pages/product/_id"
+    "chunkName": "pages/product/_id",
+    "_name": "_498c6d72"
   }
 ]

@@ -1,4 +1,8 @@
 export default {
+
+  router: {
+    middleware: ["auth"], // Middleware global para todas las rutas
+  },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 

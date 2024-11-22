@@ -36,7 +36,7 @@
                       <ul>
                         <!-- aqui estaba el home-->
                         <li class="has-dropdown has-megaitem">
-                          <a href="#">Shop <i class="fa fa-angle-down"></i></a>
+                          <a href="#">Productos <i class="fa fa-angle-down"></i></a>
                           <!-- Mega Menu -->
                           <div class="mega-menu">
                             <ul class="mega-menu-inner">
@@ -100,90 +100,27 @@
                             </ul>
                           </div>
                         </li>
-                        <!-- descuentos-->
-                        <li class="has-dropdown">
-                          <a href="#">DESCUENTOS <i class="fa fa-angle-down"></i></a>
-                          <!-- Sub Menu -->
-                          <ul class="sub-menu">
-                            <li>
-                              <nuxt-link to="/blog">Blog Grid View One</nuxt-link>
-                            </li>
-                            <li>
-                              <nuxt-link to="/blog/blog-2"
-                                >Blog Grid View Two</nuxt-link
-                              >
-                            </li>
-                            <li>
-                              <nuxt-link to="/blog/blog-3"
-                                >Blog List View</nuxt-link
-                              >
-                            </li>
-                            <li>
-                              <nuxt-link to="/blog/blog-single"
-                                >Blog Single View One
-                              </nuxt-link>
-                            </li>
-                            <li>
-                              <nuxt-link to="/blog/blog-single-2"
-                                >Blog Single View TWo</nuxt-link
-                              >
-                            </li>
-                          </ul>
-                        </li>
                         <!--paginas-->
                         <li class="has-dropdown">
-                          <a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                          <a href="#">Páginas clientes <i class="fa fa-angle-down"></i></a>
                           <!-- Sub Menu -->
                           <ul class="sub-menu">
-                            <li>
-                              <nuxt-link to="/faq"
-                                >Preguntas frecuentes</nuxt-link
-                              >
-                            </li>
                             <li>
                               <nuxt-link to="/faqAdmin"
                                 >Preguntas frecuentes Admin</nuxt-link
                               >
                             </li>
                             <li>
-                              <nuxt-link to="/privacy-policy"
-                                >Privacy Policy</nuxt-link
+                              <nuxt-link to="/vendor-dashboard/order"
+                                >Envíos y devoluciones</nuxt-link
                               >
                             </li>
-                            <li><nuxt-link to="/404">404 Page</nuxt-link></li>
-                            <li>
-                              <nuxt-link to="/contact-us"
-                                >Contact Us One</nuxt-link
-                              >
-                            </li>
-                            <li>
-                              <nuxt-link to="/contact-us/contact-us-2"
-                                >Contact Us Two</nuxt-link
-                              >
-                            </li>
-                            <li>
-                              <nuxt-link to="/coming-soon">Coming Soon</nuxt-link>
-                            </li>
-                            <li>
-                              <nuxt-link to="/vendor-dashboard/orderClientA"
-                                >Vendor</nuxt-link
-                              >
-                            </li>
-                            <li>
-                              <nuxt-link to="/my-account">My Account</nuxt-link>
-                            </li>
-                            <li><nuxt-link to="/login">Login</nuxt-link></li>
                           </ul>
                         </li>
-                        <li>
-                          <nuxt-link to="/about-us">About Us</nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="/login">Login</nuxt-link>
-                        </li>
+
                         <!-- cruds  -->
                         <li class="has-dropdown">
-                          <a href="#">CRUD <i class="fa fa-angle-down"></i></a>
+                          <a href="#">Gestiones <i class="fa fa-angle-down"></i></a>
                           <!-- Sub Menu -->
                           <ul class="sub-menu">
                             <li>
@@ -240,6 +177,9 @@
                               >
                             </li>
                           </ul>
+                        </li>
+                        <li>
+                          <nuxt-link to="/404">Cerrar Sesion</nuxt-link>
                         </li>
                       </ul>
                     </nav>

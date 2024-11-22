@@ -36,7 +36,7 @@
                     <ul>
                       <!-- aqui estaba el home-->
                       <li class="has-dropdown has-megaitem">
-                        <a href="#">COMPRAR <i class="fa fa-angle-down"></i></a>
+                        <a href="#">PRODUCTOS <i class="fa fa-angle-down"></i></a>
                         <!-- Mega Menu -->
                         <div class="mega-menu">
                           <ul class="mega-menu-inner">
@@ -112,23 +112,19 @@
                             >
                           </li>
                           <li>
+                              <nuxt-link to="/vendor-dashboard/orderClient"
+                                >Envíos y devoluciones</nuxt-link
+                              >
+                            </li>
+                            <li>
                             <nuxt-link to="/privacy-policy"
                               >Politicas de privacidad</nuxt-link
                             >
                           </li>
-                           <li>
-                              <nuxt-link to="/vendor-dashboard/"
-                                >Vendor</nuxt-link
-                              >
-                            </li>
-                          <li>
-                            <nuxt-link to="/my-account">My Account</nuxt-link>
-                          </li>
-                          <li><nuxt-link to="/login">Login</nuxt-link></li>
                         </ul>
                       </li>
                       <li>
-                        <nuxt-link to="/login">ENTRAR</nuxt-link>
+                        <nuxt-link to="/404">Cerrar Sesión</nuxt-link>
                       </li>
                     </ul>
                   </nav>
